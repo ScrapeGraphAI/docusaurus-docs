@@ -5,7 +5,7 @@
   "source": "@site/docs/authors/authors_markdown.md",
   "sourceDirName": "authors",
   "slug": "/authors/authors_markdown",
-  "permalink": "/docs/authors/authors_markdown",
+  "permalink": "/Scrapegraph-ai-documentation/docs/authors/authors_markdown",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/authors/authors_markdown.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "activation",
-    "permalink": "/docs/activation-api-keys/activation"
+    "permalink": "/Scrapegraph-ai-documentation/docs/activation-api-keys/activation"
   },
   "next": {
     "title": "contributing_markdown",
-    "permalink": "/docs/contributing/contributing_markdown"
+    "permalink": "/Scrapegraph-ai-documentation/docs/contributing/contributing_markdown"
   }
 }

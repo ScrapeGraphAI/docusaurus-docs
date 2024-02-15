@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "Tutorial Scrapegraph-ai",
-        "href": "/docs/intro",
+        "href": "/Scrapegraph-ai-documentation/docs/intro",
         "docId": "intro",
         "unlisted": false
       },
@@ -25,12 +25,12 @@
           {
             "type": "link",
             "label": "activation",
-            "href": "/docs/activation-api-keys/activation",
+            "href": "/Scrapegraph-ai-documentation/docs/activation-api-keys/activation",
             "docId": "activation-api-keys/activation",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/how-to-activate-keys"
+        "href": "/Scrapegraph-ai-documentation/docs/category/how-to-activate-keys"
       },
       {
         "type": "category",
@@ -41,7 +41,7 @@
           {
             "type": "link",
             "label": "authors_markdown",
-            "href": "/docs/authors/authors_markdown",
+            "href": "/Scrapegraph-ai-documentation/docs/authors/authors_markdown",
             "docId": "authors/authors_markdown",
             "unlisted": false
           }
@@ -56,7 +56,7 @@
           {
             "type": "link",
             "label": "contributing_markdown",
-            "href": "/docs/contributing/contributing_markdown",
+            "href": "/Scrapegraph-ai-documentation/docs/contributing/contributing_markdown",
             "docId": "contributing/contributing_markdown",
             "unlisted": false
           }

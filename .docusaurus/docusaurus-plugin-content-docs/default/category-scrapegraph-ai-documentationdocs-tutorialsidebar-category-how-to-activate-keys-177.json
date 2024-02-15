@@ -1,0 +1,16 @@
+{
+  "title": "How to activate keys",
+  "description": "How to activate keys for openai",
+  "slug": "/category/how-to-activate-keys",
+  "permalink": "/Scrapegraph-ai-documentation/docs/category/how-to-activate-keys",
+  "navigation": {
+    "previous": {
+      "title": "Tutorial Scrapegraph-ai",
+      "permalink": "/Scrapegraph-ai-documentation/docs/intro"
+    },
+    "next": {
+      "title": "activation",
+      "permalink": "/Scrapegraph-ai-documentation/docs/activation-api-keys/activation"
+    }
+  }
+}

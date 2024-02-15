@@ -1,0 +1,283 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "552": [
+      552
+    ],
+    "760": [
+      176,
+      204,
+      752,
+      760
+    ],
+    "17896441": [
+      176,
+      760,
+      752
+    ],
+    "main": [
+      176,
+      296,
+      590
+    ],
+    "runtime~main": [
+      176,
+      590,
+      296
+    ],
+    "037c105f": [
+      432
+    ],
+    "0e384e19": [
+      328
+    ],
+    "14eb3368": [
+      176,
+      576
+    ],
+    "1f391b9e": [
+      176,
+      760,
+      204
+    ],
+    "393be207": [
+      652
+    ],
+    "5e95c892": [
+      304
+    ],
+    "79675e1e": [
+      724
+    ],
+    "889729a7": [
+      796
+    ],
+    "935f2afb": [
+      696
+    ],
+    "9ad21558": [
+      44
+    ],
+    "9fc76699": [
+      924
+    ],
+    "a7bd4aaa": [
+      500
+    ],
+    "a94703ab": [
+      176,
+      666
+    ],
+    "c4f5d8e4": [
+      176,
+      632
+    ],
+    "cab5aefd": [
+      824
+    ],
+    "styles": [
+      204,
+      296,
+      576,
+      590,
+      632,
+      666,
+      752,
+      760,
+      176
+    ]
+  },
+  "assets": {
+    "44": {
+      "js": [
+        {
+          "file": "assets/js/9ad21558.d6659cf6.js",
+          "hash": "77be03334881331a",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/9ad21558.d6659cf6.js"
+        }
+      ]
+    },
+    "176": {
+      "css": [
+        {
+          "file": "assets/css/styles.890c17de.css",
+          "hash": "84ded13e4fd7e0db",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/css/styles.890c17de.css"
+        }
+      ]
+    },
+    "204": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.3f317b20.js",
+          "hash": "65553bd484762539",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/1f391b9e.3f317b20.js"
+        }
+      ]
+    },
+    "296": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.348e79b4.js",
+          "hash": "19c01945c8061335",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/runtime~main.348e79b4.js"
+        }
+      ]
+    },
+    "304": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.0b546179.js",
+          "hash": "349af9b539fbe817",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/5e95c892.0b546179.js"
+        }
+      ]
+    },
+    "328": {
+      "js": [
+        {
+          "file": "assets/js/0e384e19.b3ecb7ad.js",
+          "hash": "718e7a3ea60083c5",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/0e384e19.b3ecb7ad.js"
+        }
+      ]
+    },
+    "432": {
+      "js": [
+        {
+          "file": "assets/js/037c105f.ad48384a.js",
+          "hash": "2c3b5a726454ea5d",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/037c105f.ad48384a.js"
+        }
+      ]
+    },
+    "500": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.94431585.js",
+          "hash": "563e4b484e8289e3",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/a7bd4aaa.94431585.js"
+        }
+      ]
+    },
+    "552": {
+      "js": [
+        {
+          "file": "assets/js/552.50349080.js",
+          "hash": "9ef1980f842e3e7f",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/552.50349080.js"
+        }
+      ]
+    },
+    "576": {
+      "js": [
+        {
+          "file": "assets/js/14eb3368.f52164fa.js",
+          "hash": "5d5f43c454bdc15e",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/14eb3368.f52164fa.js"
+        }
+      ]
+    },
+    "590": {
+      "js": [
+        {
+          "file": "assets/js/main.49b30762.js",
+          "hash": "51e5c714dd95d515",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/main.49b30762.js"
+        }
+      ]
+    },
+    "632": {
+      "js": [
+        {
+          "file": "assets/js/c4f5d8e4.291dea3b.js",
+          "hash": "eb5ec3dcff3a7a20",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/c4f5d8e4.291dea3b.js"
+        }
+      ]
+    },
+    "652": {
+      "js": [
+        {
+          "file": "assets/js/393be207.de9a3efe.js",
+          "hash": "876942b6e923eba0",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/393be207.de9a3efe.js"
+        }
+      ]
+    },
+    "666": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.999cb2f1.js",
+          "hash": "714a2deabff742e7",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/a94703ab.999cb2f1.js"
+        }
+      ]
+    },
+    "696": {
+      "js": [
+        {
+          "file": "assets/js/935f2afb.4e1f1ea0.js",
+          "hash": "3bee216cfe26380e",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/935f2afb.4e1f1ea0.js"
+        }
+      ]
+    },
+    "724": {
+      "js": [
+        {
+          "file": "assets/js/79675e1e.c83d692b.js",
+          "hash": "b195ae6e39791718",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/79675e1e.c83d692b.js"
+        }
+      ]
+    },
+    "752": {
+      "js": [
+        {
+          "file": "assets/js/17896441.29b52aa3.js",
+          "hash": "66ccd3aaf2cc1638",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/17896441.29b52aa3.js"
+        }
+      ]
+    },
+    "760": {
+      "js": [
+        {
+          "file": "assets/js/760.602a5d72.js",
+          "hash": "e6532c7cf603581f",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/760.602a5d72.js"
+        }
+      ]
+    },
+    "796": {
+      "js": [
+        {
+          "file": "assets/js/889729a7.631c85b6.js",
+          "hash": "fbc3557531b5372d",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/889729a7.631c85b6.js"
+        }
+      ]
+    },
+    "824": {
+      "js": [
+        {
+          "file": "assets/js/cab5aefd.71382944.js",
+          "hash": "5d1146bd43ca937b",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/cab5aefd.71382944.js"
+        }
+      ]
+    },
+    "924": {
+      "js": [
+        {
+          "file": "assets/js/9fc76699.397202b6.js",
+          "hash": "caf7e3db529a6948",
+          "publicPath": "/Scrapegraph-ai-documentation/assets/js/9fc76699.397202b6.js"
+        }
+      ]
+    }
+  }
+}
