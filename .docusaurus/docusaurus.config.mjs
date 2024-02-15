@@ -9,8 +9,8 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://your-docusaurus-site.example.com",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "Scrapegraph-ai-team",
+  "projectName": "Scrapegraph",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -52,15 +52,25 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Introduction"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
+          "to": "/docs/activation-api-keys/activation",
+          "label": "Installation of the keys",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "to": "/docs/contributing/contributing_markdown",
+          "label": "Contributing",
+          "position": "left"
+        },
+        {
+          "to": "/docs/authors/authors_markdown",
+          "label": "Authors",
+          "position": "left"
+        },
+        {
+          "href": "https://github.com/VinciGit00/Scrapegraph-ai",
           "label": "GitHub",
           "position": "right"
         }
@@ -83,21 +93,13 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "label": "Github",
+              "href": "https://github.com/VinciGit00/Scrapegraph-ai"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2024 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2024, Marco Perini, Lorenzo Padoan and Marco Vinciguerra. Built with Docusaurus."
     },
     "prism": {
       "theme": {

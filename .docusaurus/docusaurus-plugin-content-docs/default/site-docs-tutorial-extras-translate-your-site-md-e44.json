@@ -19,5 +19,9 @@
   "previous": {
     "title": "Manage Docs Versions",
     "permalink": "/docs/tutorial-extras/manage-docs-versions"
+  },
+  "next": {
+    "title": "authors_markdown",
+    "permalink": "/docs/authors/authors_markdown"
   }
 }

@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Scrapegraph-ai-team', // Usually your GitHub org/user name.
+  projectName: 'Scrapegraph', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -76,11 +76,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Introduction',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs/activation-api-keys/activation', label: 'Installation of the keys', position: 'left'},
+          {to: '/docs/contributing/contributing_markdown', label: 'Contributing', position: 'left'},
+          {to: '/docs/authors/authors_markdown', label: 'Authors', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/VinciGit00/Scrapegraph-ai',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,21 +104,13 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Github',
+                href: 'https://github.com/VinciGit00/Scrapegraph-ai',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}, Marco Perini, Lorenzo Padoan and Marco Vinciguerra. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
