@@ -11,13 +11,13 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "activation-api-keys/activation",
-              "path": "/docs/activation-api-keys/activation",
+              "id": "activation",
+              "path": "/docs/activation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "authors/authors_markdown",
-              "path": "/docs/authors/authors_markdown",
+              "id": "basic_usage",
+              "path": "/docs/basic_usage",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -31,13 +31,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "intro",
-              "path": "/docs/intro",
+              "id": "contributing/designers",
+              "path": "/docs/contributing/designers",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/how-to-activate-keys",
-              "path": "/docs/category/how-to-activate-keys",
+              "id": "intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             }
           ],

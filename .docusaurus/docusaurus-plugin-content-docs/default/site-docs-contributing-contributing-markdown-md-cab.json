@@ -1,6 +1,6 @@
 {
   "id": "contributing/contributing_markdown",
-  "title": "contributing_markdown",
+  "title": "🎻 List of the contributors",
   "description": "Contributors",
   "source": "@site/docs/contributing/contributing_markdown.md",
   "sourceDirName": "contributing",
@@ -14,7 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "acknowledgements",
+    "title": "🏒 Acknowledgements",
     "permalink": "/docs/contributing/acknowledgements"
+  },
+  "next": {
+    "title": "🧵 Created by",
+    "permalink": "/docs/contributing/designers"
   }
 }

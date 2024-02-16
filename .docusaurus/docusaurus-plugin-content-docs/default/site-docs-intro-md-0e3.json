@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "Tutorial Scrapegraph-ai",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
+  "description": "ScrapeGraphAI is a web scraping python library based on LangChain which uses LLM and direct graph logic to create scraping pipelines.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "How to activate keys",
-    "permalink": "/docs/category/how-to-activate-keys"
+    "title": "🔑 Keys activation",
+    "permalink": "/docs/activation"
   }
 }

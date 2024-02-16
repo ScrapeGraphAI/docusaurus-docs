@@ -1,0 +1,24 @@
+{
+  "id": "basic_usage",
+  "title": "💻 Basic usage",
+  "description": "Case 1: Extracting information using a prompt",
+  "source": "@site/docs/basic_usage.md",
+  "sourceDirName": ".",
+  "slug": "/basic_usage",
+  "permalink": "/docs/basic_usage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/basic_usage.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🔑 Keys activation",
+    "permalink": "/docs/activation"
+  },
+  "next": {
+    "title": "🏒 Acknowledgements",
+    "permalink": "/docs/contributing/acknowledgements"
+  }
+}

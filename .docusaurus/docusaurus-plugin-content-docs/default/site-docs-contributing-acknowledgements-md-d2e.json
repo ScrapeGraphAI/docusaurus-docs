@@ -1,7 +1,7 @@
 {
   "id": "contributing/acknowledgements",
-  "title": "acknowledgements",
-  "description": "Thanks to",
+  "title": "🏒 Acknowledgements",
+  "description": "- nicolapiazzalunga for having inspired us to the functions: scrapegraph/converttojson.py and scrapegraph/converttocsv.py",
   "source": "@site/docs/contributing/acknowledgements.md",
   "sourceDirName": "contributing",
   "slug": "/contributing/acknowledgements",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "authors_markdown",
-    "permalink": "/docs/authors/authors_markdown"
+    "title": "💻 Basic usage",
+    "permalink": "/docs/basic_usage"
   },
   "next": {
-    "title": "contributing_markdown",
+    "title": "🎻 List of the contributors",
     "permalink": "/docs/contributing/contributing_markdown"
   }
 }

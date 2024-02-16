@@ -1,0 +1,20 @@
+{
+  "id": "contributing/designers",
+  "title": "🧵 Created by",
+  "description": "key1",
+  "source": "@site/docs/contributing/designers.md",
+  "sourceDirName": "contributing",
+  "slug": "/contributing/designers",
+  "permalink": "/docs/contributing/designers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/designers.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🎻 List of the contributors",
+    "permalink": "/docs/contributing/contributing_markdown"
+  }
+}

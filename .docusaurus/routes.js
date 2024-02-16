@@ -44,31 +44,25 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b49'),
+    component: ComponentCreator('/docs', '69d'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '59d'),
+        component: ComponentCreator('/docs', '5b4'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '0fe'),
+            component: ComponentCreator('/docs', '319'),
             routes: [
               {
-                path: '/docs/activation-api-keys/activation',
-                component: ComponentCreator('/docs/activation-api-keys/activation', '7bf'),
+                path: '/docs/activation',
+                component: ComponentCreator('/docs/activation', 'c61'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/authors/authors_markdown',
-                component: ComponentCreator('/docs/authors/authors_markdown', '50e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/how-to-activate-keys',
-                component: ComponentCreator('/docs/category/how-to-activate-keys', '099'),
+                path: '/docs/basic_usage',
+                component: ComponentCreator('/docs/basic_usage', '8a1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -81,6 +75,12 @@ export default [
               {
                 path: '/docs/contributing/contributing_markdown',
                 component: ComponentCreator('/docs/contributing/contributing_markdown', 'd54'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/contributing/designers',
+                component: ComponentCreator('/docs/contributing/designers', 'd0e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

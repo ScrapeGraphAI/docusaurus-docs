@@ -70,11 +70,6 @@ export default {
           "position": "left"
         },
         {
-          "to": "/docs/authors/authors_markdown",
-          "label": "Authors",
-          "position": "left"
-        },
-        {
           "href": "https://github.com/VinciGit00/Scrapegraph-ai",
           "label": "GitHub",
           "position": "right"

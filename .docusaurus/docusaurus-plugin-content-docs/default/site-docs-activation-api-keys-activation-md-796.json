@@ -1,7 +1,7 @@
 {
   "id": "activation-api-keys/activation",
-  "title": "activation",
-  "description": "ciao fede",
+  "title": "How to activate the keys",
+  "description": "This is an open source project aimed at developing a scraping library using LLM through Langchain. The goal is to be able to scrape data using natural language queries and store them in a structured format.",
   "source": "@site/docs/activation-api-keys/activation.md",
   "sourceDirName": "activation-api-keys",
   "slug": "/activation-api-keys/activation",
@@ -18,7 +18,7 @@
     "permalink": "/docs/category/how-to-activate-keys"
   },
   "next": {
-    "title": "authors_markdown",
-    "permalink": "/docs/authors/authors_markdown"
+    "title": "💻 Basic usage",
+    "permalink": "/docs/basic_usage"
   }
 }

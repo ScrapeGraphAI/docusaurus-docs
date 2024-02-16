@@ -11,41 +11,24 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Scrapegraph-ai",
+        "label": "🕷️ ScrapeGraphAI: You Only Scrape Once",
         "href": "/docs/intro",
         "docId": "intro",
         "unlisted": false
       },
       {
-        "type": "category",
-        "label": "How to activate keys",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "activation",
-            "href": "/docs/activation-api-keys/activation",
-            "docId": "activation-api-keys/activation",
-            "unlisted": false
-          }
-        ],
-        "href": "/docs/category/how-to-activate-keys"
+        "type": "link",
+        "label": "🔑 Keys activation",
+        "href": "/docs/activation",
+        "docId": "activation",
+        "unlisted": false
       },
       {
-        "type": "category",
-        "label": "authors",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "authors_markdown",
-            "href": "/docs/authors/authors_markdown",
-            "docId": "authors/authors_markdown",
-            "unlisted": false
-          }
-        ]
+        "type": "link",
+        "label": "💻 Basic usage",
+        "href": "/docs/basic_usage",
+        "docId": "basic_usage",
+        "unlisted": false
       },
       {
         "type": "category",
@@ -55,16 +38,23 @@
         "items": [
           {
             "type": "link",
-            "label": "acknowledgements",
+            "label": "🏒 Acknowledgements",
             "href": "/docs/contributing/acknowledgements",
             "docId": "contributing/acknowledgements",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "contributing_markdown",
+            "label": "🎻 List of the contributors",
             "href": "/docs/contributing/contributing_markdown",
             "docId": "contributing/contributing_markdown",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🧵 Created by",
+            "href": "/docs/contributing/designers",
+            "docId": "contributing/designers",
             "unlisted": false
           }
         ]
@@ -72,34 +62,40 @@
     ]
   },
   "docs": {
-    "activation-api-keys/activation": {
-      "id": "activation-api-keys/activation",
-      "title": "activation",
-      "description": "ciao fede",
+    "activation": {
+      "id": "activation",
+      "title": "🔑 Keys activation",
+      "description": "This is an open source project aimed at developing a scraping library using LLM through Langchain. The goal is to be able to scrape data using natural language queries and store them in a structured format.",
       "sidebar": "tutorialSidebar"
     },
-    "authors/authors_markdown": {
-      "id": "authors/authors_markdown",
-      "title": "authors_markdown",
-      "description": "Autori",
+    "basic_usage": {
+      "id": "basic_usage",
+      "title": "💻 Basic usage",
+      "description": "Case 1: Extracting information using a prompt",
       "sidebar": "tutorialSidebar"
     },
     "contributing/acknowledgements": {
       "id": "contributing/acknowledgements",
-      "title": "acknowledgements",
-      "description": "Thanks to",
+      "title": "🏒 Acknowledgements",
+      "description": "- nicolapiazzalunga for having inspired us to the functions: scrapegraph/converttojson.py and scrapegraph/converttocsv.py",
       "sidebar": "tutorialSidebar"
     },
     "contributing/contributing_markdown": {
       "id": "contributing/contributing_markdown",
-      "title": "contributing_markdown",
+      "title": "🎻 List of the contributors",
       "description": "Contributors",
+      "sidebar": "tutorialSidebar"
+    },
+    "contributing/designers": {
+      "id": "contributing/designers",
+      "title": "🧵 Created by",
+      "description": "key1",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
       "id": "intro",
-      "title": "Tutorial Scrapegraph-ai",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
+      "description": "ScrapeGraphAI is a web scraping python library based on LangChain which uses LLM and direct graph logic to create scraping pipelines.",
       "sidebar": "tutorialSidebar"
     }
   }
