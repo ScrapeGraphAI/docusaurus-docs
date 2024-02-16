@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/Scrapegraph-ai-documentation/docs",
-          "tagsPath": "/Scrapegraph-ai-documentation/docs/tags",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
@@ -26,7 +26,7 @@
               "source": "@site/docs/activation-api-keys/activation.md",
               "sourceDirName": "activation-api-keys",
               "slug": "/activation-api-keys/activation",
-              "permalink": "/Scrapegraph-ai-documentation/docs/activation-api-keys/activation",
+              "permalink": "/docs/activation-api-keys/activation",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/activation-api-keys/activation.md",
@@ -36,11 +36,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "How to activate keys",
-                "permalink": "/Scrapegraph-ai-documentation/docs/category/how-to-activate-keys"
+                "permalink": "/docs/category/how-to-activate-keys"
               },
               "next": {
                 "title": "authors_markdown",
-                "permalink": "/Scrapegraph-ai-documentation/docs/authors/authors_markdown"
+                "permalink": "/docs/authors/authors_markdown"
               }
             },
             {
@@ -50,7 +50,7 @@
               "source": "@site/docs/authors/authors_markdown.md",
               "sourceDirName": "authors",
               "slug": "/authors/authors_markdown",
-              "permalink": "/Scrapegraph-ai-documentation/docs/authors/authors_markdown",
+              "permalink": "/docs/authors/authors_markdown",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/authors/authors_markdown.md",
@@ -60,21 +60,45 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "activation",
-                "permalink": "/Scrapegraph-ai-documentation/docs/activation-api-keys/activation"
+                "permalink": "/docs/activation-api-keys/activation"
+              },
+              "next": {
+                "title": "acknowledgements",
+                "permalink": "/docs/contributing/acknowledgements"
+              }
+            },
+            {
+              "id": "contributing/acknowledgements",
+              "title": "acknowledgements",
+              "description": "Thanks to",
+              "source": "@site/docs/contributing/acknowledgements.md",
+              "sourceDirName": "contributing",
+              "slug": "/contributing/acknowledgements",
+              "permalink": "/docs/contributing/acknowledgements",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/acknowledgements.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "authors_markdown",
+                "permalink": "/docs/authors/authors_markdown"
               },
               "next": {
                 "title": "contributing_markdown",
-                "permalink": "/Scrapegraph-ai-documentation/docs/contributing/contributing_markdown"
+                "permalink": "/docs/contributing/contributing_markdown"
               }
             },
             {
               "id": "contributing/contributing_markdown",
               "title": "contributing_markdown",
-              "description": "contributions",
+              "description": "Contributors",
               "source": "@site/docs/contributing/contributing_markdown.md",
               "sourceDirName": "contributing",
               "slug": "/contributing/contributing_markdown",
-              "permalink": "/Scrapegraph-ai-documentation/docs/contributing/contributing_markdown",
+              "permalink": "/docs/contributing/contributing_markdown",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/contributing_markdown.md",
@@ -83,8 +107,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "authors_markdown",
-                "permalink": "/Scrapegraph-ai-documentation/docs/authors/authors_markdown"
+                "title": "acknowledgements",
+                "permalink": "/docs/contributing/acknowledgements"
               }
             },
             {
@@ -94,7 +118,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/Scrapegraph-ai-documentation/docs/intro",
+              "permalink": "/docs/intro",
               "draft": false,
               "unlisted": false,
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
@@ -107,7 +131,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "How to activate keys",
-                "permalink": "/Scrapegraph-ai-documentation/docs/category/how-to-activate-keys"
+                "permalink": "/docs/category/how-to-activate-keys"
               }
             }
           ],
@@ -133,7 +157,7 @@
                   "type": "generated-index",
                   "description": "How to activate keys for openai",
                   "slug": "/category/how-to-activate-keys",
-                  "permalink": "/Scrapegraph-ai-documentation/docs/category/how-to-activate-keys"
+                  "permalink": "/docs/category/how-to-activate-keys"
                 }
               },
               {
@@ -156,6 +180,10 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "contributing/acknowledgements"
+                  },
+                  {
+                    "type": "doc",
                     "id": "contributing/contributing_markdown"
                   }
                 ]
@@ -172,7 +200,7 @@
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
-      "blogTagsListPath": "/Scrapegraph-ai-documentation/blog/tags",
+      "blogTagsListPath": "/blog/tags",
       "blogTagsPaginated": []
     }
   },
@@ -180,12 +208,12 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/Scrapegraph-ai-documentation/",
+        "permalink": "/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
-        "permalink": "/Scrapegraph-ai-documentation/markdown-page",
+        "permalink": "/markdown-page",
         "source": "@site/src/pages/markdown-page.md",
         "title": "Markdown page example",
         "description": "You don't need React to write simple standalone pages.",

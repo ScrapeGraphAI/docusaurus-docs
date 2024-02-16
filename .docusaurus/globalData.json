@@ -1,38 +1,43 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/Scrapegraph-ai-documentation/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/Scrapegraph-ai-documentation/docs",
+          "path": "/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "activation-api-keys/activation",
-              "path": "/Scrapegraph-ai-documentation/docs/activation-api-keys/activation",
+              "path": "/docs/activation-api-keys/activation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "authors/authors_markdown",
-              "path": "/Scrapegraph-ai-documentation/docs/authors/authors_markdown",
+              "path": "/docs/authors/authors_markdown",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "contributing/acknowledgements",
+              "path": "/docs/contributing/acknowledgements",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "contributing/contributing_markdown",
-              "path": "/Scrapegraph-ai-documentation/docs/contributing/contributing_markdown",
+              "path": "/docs/contributing/contributing_markdown",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/Scrapegraph-ai-documentation/docs/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/how-to-activate-keys",
-              "path": "/Scrapegraph-ai-documentation/docs/category/how-to-activate-keys",
+              "path": "/docs/category/how-to-activate-keys",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -40,7 +45,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/Scrapegraph-ai-documentation/docs/intro",
+                "path": "/docs/intro",
                 "label": "intro"
               }
             }

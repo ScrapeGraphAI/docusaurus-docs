@@ -8,7 +8,7 @@ export default {
   "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
   "url": "https://VinciGit00.github.io",
-  "baseUrl": "/Scrapegraph-ai-documentation/",
+  "baseUrl": "/",
   "organizationName": "VinciGit00",
   "projectName": "Scrapegraph-ai-documentation",
   "onBrokenLinks": "throw",
@@ -40,6 +40,11 @@ export default {
     ]
   ],
   "themeConfig": {
+    "colorMode": {
+      "defaultMode": "dark",
+      "disableSwitch": true,
+      "respectPrefersColorScheme": false
+    },
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
       "title": "Scrapegraph-ai",
@@ -304,11 +309,6 @@ export default {
           }
         }
       ]
-    },
-    "colorMode": {
-      "defaultMode": "light",
-      "disableSwitch": false,
-      "respectPrefersColorScheme": false
     },
     "docs": {
       "versionPersistence": "localStorage",

@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "Tutorial Scrapegraph-ai",
-        "href": "/Scrapegraph-ai-documentation/docs/intro",
+        "href": "/docs/intro",
         "docId": "intro",
         "unlisted": false
       },
@@ -25,12 +25,12 @@
           {
             "type": "link",
             "label": "activation",
-            "href": "/Scrapegraph-ai-documentation/docs/activation-api-keys/activation",
+            "href": "/docs/activation-api-keys/activation",
             "docId": "activation-api-keys/activation",
             "unlisted": false
           }
         ],
-        "href": "/Scrapegraph-ai-documentation/docs/category/how-to-activate-keys"
+        "href": "/docs/category/how-to-activate-keys"
       },
       {
         "type": "category",
@@ -41,7 +41,7 @@
           {
             "type": "link",
             "label": "authors_markdown",
-            "href": "/Scrapegraph-ai-documentation/docs/authors/authors_markdown",
+            "href": "/docs/authors/authors_markdown",
             "docId": "authors/authors_markdown",
             "unlisted": false
           }
@@ -55,8 +55,15 @@
         "items": [
           {
             "type": "link",
+            "label": "acknowledgements",
+            "href": "/docs/contributing/acknowledgements",
+            "docId": "contributing/acknowledgements",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "contributing_markdown",
-            "href": "/Scrapegraph-ai-documentation/docs/contributing/contributing_markdown",
+            "href": "/docs/contributing/contributing_markdown",
             "docId": "contributing/contributing_markdown",
             "unlisted": false
           }
@@ -77,10 +84,16 @@
       "description": "Autori",
       "sidebar": "tutorialSidebar"
     },
+    "contributing/acknowledgements": {
+      "id": "contributing/acknowledgements",
+      "title": "acknowledgements",
+      "description": "Thanks to",
+      "sidebar": "tutorialSidebar"
+    },
     "contributing/contributing_markdown": {
       "id": "contributing/contributing_markdown",
       "title": "contributing_markdown",
-      "description": "contributions",
+      "description": "Contributors",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

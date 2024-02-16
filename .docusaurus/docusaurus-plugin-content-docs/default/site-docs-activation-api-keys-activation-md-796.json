@@ -5,7 +5,7 @@
   "source": "@site/docs/activation-api-keys/activation.md",
   "sourceDirName": "activation-api-keys",
   "slug": "/activation-api-keys/activation",
-  "permalink": "/Scrapegraph-ai-documentation/docs/activation-api-keys/activation",
+  "permalink": "/docs/activation-api-keys/activation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/activation-api-keys/activation.md",
@@ -15,10 +15,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "How to activate keys",
-    "permalink": "/Scrapegraph-ai-documentation/docs/category/how-to-activate-keys"
+    "permalink": "/docs/category/how-to-activate-keys"
   },
   "next": {
     "title": "authors_markdown",
-    "permalink": "/Scrapegraph-ai-documentation/docs/authors/authors_markdown"
+    "permalink": "/docs/authors/authors_markdown"
   }
 }

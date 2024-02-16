@@ -3,49 +3,90 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/Scrapegraph-ai-documentation/markdown-page',
-    component: ComponentCreator('/Scrapegraph-ai-documentation/markdown-page', 'e5a'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'c6d'),
     exact: true
   },
   {
-    path: '/Scrapegraph-ai-documentation/docs',
-    component: ComponentCreator('/Scrapegraph-ai-documentation/docs', '2ef'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '388'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '583'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', '51b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'ac1'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '57c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', 'd7e'),
+    exact: true
+  },
+  {
+    path: '/markdown-page',
+    component: ComponentCreator('/markdown-page', '470'),
+    exact: true
+  },
+  {
+    path: '/docs',
+    component: ComponentCreator('/docs', 'b49'),
     routes: [
       {
-        path: '/Scrapegraph-ai-documentation/docs',
-        component: ComponentCreator('/Scrapegraph-ai-documentation/docs', '67e'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '59d'),
         routes: [
           {
-            path: '/Scrapegraph-ai-documentation/docs',
-            component: ComponentCreator('/Scrapegraph-ai-documentation/docs', '7e0'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '0fe'),
             routes: [
               {
-                path: '/Scrapegraph-ai-documentation/docs/activation-api-keys/activation',
-                component: ComponentCreator('/Scrapegraph-ai-documentation/docs/activation-api-keys/activation', '199'),
+                path: '/docs/activation-api-keys/activation',
+                component: ComponentCreator('/docs/activation-api-keys/activation', '7bf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Scrapegraph-ai-documentation/docs/authors/authors_markdown',
-                component: ComponentCreator('/Scrapegraph-ai-documentation/docs/authors/authors_markdown', '649'),
+                path: '/docs/authors/authors_markdown',
+                component: ComponentCreator('/docs/authors/authors_markdown', '50e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Scrapegraph-ai-documentation/docs/category/how-to-activate-keys',
-                component: ComponentCreator('/Scrapegraph-ai-documentation/docs/category/how-to-activate-keys', '6bf'),
+                path: '/docs/category/how-to-activate-keys',
+                component: ComponentCreator('/docs/category/how-to-activate-keys', '099'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Scrapegraph-ai-documentation/docs/contributing/contributing_markdown',
-                component: ComponentCreator('/Scrapegraph-ai-documentation/docs/contributing/contributing_markdown', '9b8'),
+                path: '/docs/contributing/acknowledgements',
+                component: ComponentCreator('/docs/contributing/acknowledgements', 'f57'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/Scrapegraph-ai-documentation/docs/intro',
-                component: ComponentCreator('/Scrapegraph-ai-documentation/docs/intro', 'd41'),
+                path: '/docs/contributing/contributing_markdown',
+                component: ComponentCreator('/docs/contributing/contributing_markdown', 'd54'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', 'aed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -56,8 +97,8 @@ export default [
     ]
   },
   {
-    path: '/Scrapegraph-ai-documentation/',
-    component: ComponentCreator('/Scrapegraph-ai-documentation/', '2b5'),
+    path: '/',
+    component: ComponentCreator('/', 'b71'),
     exact: true
   },
   {

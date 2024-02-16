@@ -1,0 +1,24 @@
+{
+  "id": "contributing/acknowledgements",
+  "title": "acknowledgements",
+  "description": "Thanks to",
+  "source": "@site/docs/contributing/acknowledgements.md",
+  "sourceDirName": "contributing",
+  "slug": "/contributing/acknowledgements",
+  "permalink": "/docs/contributing/acknowledgements",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/acknowledgements.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "authors_markdown",
+    "permalink": "/docs/authors/authors_markdown"
+  },
+  "next": {
+    "title": "contributing_markdown",
+    "permalink": "/docs/contributing/contributing_markdown"
+  }
+}
