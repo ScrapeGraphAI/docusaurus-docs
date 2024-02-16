@@ -33,14 +33,13 @@
     "0e384e19": [
       328
     ],
-    "14eb3368": [
-      176,
-      576
-    ],
     "1f391b9e": [
       176,
       760,
       204
+    ],
+    "239b5e41": [
+      912
     ],
     "393be207": [
       652
@@ -48,20 +47,20 @@
     "5e95c892": [
       304
     ],
-    "79675e1e": [
-      724
-    ],
-    "889729a7": [
-      796
+    "8bbc8161": [
+      316
     ],
     "935f2afb": [
       696
     ],
+    "949f3ba6": [
+      88
+    ],
+    "9851d47d": [
+      152
+    ],
     "9ad21558": [
       44
-    ],
-    "9fc76699": [
-      924
     ],
     "a7bd4aaa": [
       500
@@ -74,13 +73,12 @@
       176,
       632
     ],
-    "cab5aefd": [
-      824
+    "d3df6510": [
+      948
     ],
     "styles": [
       204,
       296,
-      576,
       590,
       632,
       666,
@@ -95,16 +93,34 @@
         {
           "file": "assets/js/9ad21558.d6659cf6.js",
           "hash": "77be03334881331a",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/9ad21558.d6659cf6.js"
+          "publicPath": "/assets/js/9ad21558.d6659cf6.js"
+        }
+      ]
+    },
+    "88": {
+      "js": [
+        {
+          "file": "assets/js/949f3ba6.47fe2f92.js",
+          "hash": "d07e7ccdb4bc1971",
+          "publicPath": "/assets/js/949f3ba6.47fe2f92.js"
+        }
+      ]
+    },
+    "152": {
+      "js": [
+        {
+          "file": "assets/js/9851d47d.125e506f.js",
+          "hash": "b6605949c2d50eff",
+          "publicPath": "/assets/js/9851d47d.125e506f.js"
         }
       ]
     },
     "176": {
       "css": [
         {
-          "file": "assets/css/styles.890c17de.css",
-          "hash": "84ded13e4fd7e0db",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/css/styles.890c17de.css"
+          "file": "assets/css/styles.61df0958.css",
+          "hash": "503cb21aeddea813",
+          "publicPath": "/assets/css/styles.61df0958.css"
         }
       ]
     },
@@ -113,16 +129,16 @@
         {
           "file": "assets/js/1f391b9e.3f317b20.js",
           "hash": "65553bd484762539",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/1f391b9e.3f317b20.js"
+          "publicPath": "/assets/js/1f391b9e.3f317b20.js"
         }
       ]
     },
     "296": {
       "js": [
         {
-          "file": "assets/js/runtime~main.a08b1626.js",
-          "hash": "7ba693b66fdeb09f",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/runtime~main.a08b1626.js"
+          "file": "assets/js/runtime~main.143f24a6.js",
+          "hash": "c5431d61e2c19e69",
+          "publicPath": "/assets/js/runtime~main.143f24a6.js"
         }
       ]
     },
@@ -131,16 +147,25 @@
         {
           "file": "assets/js/5e95c892.0b546179.js",
           "hash": "349af9b539fbe817",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/5e95c892.0b546179.js"
+          "publicPath": "/assets/js/5e95c892.0b546179.js"
+        }
+      ]
+    },
+    "316": {
+      "js": [
+        {
+          "file": "assets/js/8bbc8161.141c78b9.js",
+          "hash": "5ecc8beae4a95c07",
+          "publicPath": "/assets/js/8bbc8161.141c78b9.js"
         }
       ]
     },
     "328": {
       "js": [
         {
-          "file": "assets/js/0e384e19.b3ecb7ad.js",
-          "hash": "718e7a3ea60083c5",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/0e384e19.b3ecb7ad.js"
+          "file": "assets/js/0e384e19.c8f5c502.js",
+          "hash": "f32063eaa41205ce",
+          "publicPath": "/assets/js/0e384e19.c8f5c502.js"
         }
       ]
     },
@@ -149,7 +174,7 @@
         {
           "file": "assets/js/037c105f.ad48384a.js",
           "hash": "2c3b5a726454ea5d",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/037c105f.ad48384a.js"
+          "publicPath": "/assets/js/037c105f.ad48384a.js"
         }
       ]
     },
@@ -158,7 +183,7 @@
         {
           "file": "assets/js/a7bd4aaa.94431585.js",
           "hash": "563e4b484e8289e3",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/a7bd4aaa.94431585.js"
+          "publicPath": "/assets/js/a7bd4aaa.94431585.js"
         }
       ]
     },
@@ -167,25 +192,16 @@
         {
           "file": "assets/js/552.50349080.js",
           "hash": "9ef1980f842e3e7f",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/552.50349080.js"
-        }
-      ]
-    },
-    "576": {
-      "js": [
-        {
-          "file": "assets/js/14eb3368.f52164fa.js",
-          "hash": "5d5f43c454bdc15e",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/14eb3368.f52164fa.js"
+          "publicPath": "/assets/js/552.50349080.js"
         }
       ]
     },
     "590": {
       "js": [
         {
-          "file": "assets/js/main.49b30762.js",
-          "hash": "51e5c714dd95d515",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/main.49b30762.js"
+          "file": "assets/js/main.dd5e2045.js",
+          "hash": "4452e45e13c59bb0",
+          "publicPath": "/assets/js/main.dd5e2045.js"
         }
       ]
     },
@@ -194,16 +210,16 @@
         {
           "file": "assets/js/c4f5d8e4.291dea3b.js",
           "hash": "eb5ec3dcff3a7a20",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/c4f5d8e4.291dea3b.js"
+          "publicPath": "/assets/js/c4f5d8e4.291dea3b.js"
         }
       ]
     },
     "652": {
       "js": [
         {
-          "file": "assets/js/393be207.de9a3efe.js",
-          "hash": "876942b6e923eba0",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/393be207.de9a3efe.js"
+          "file": "assets/js/393be207.34041ce2.js",
+          "hash": "bbff121d5dbe2b74",
+          "publicPath": "/assets/js/393be207.34041ce2.js"
         }
       ]
     },
@@ -211,35 +227,26 @@
       "js": [
         {
           "file": "assets/js/a94703ab.999cb2f1.js",
-          "hash": "714a2deabff742e7",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/a94703ab.999cb2f1.js"
+          "hash": "64a7e0cef1060209",
+          "publicPath": "/assets/js/a94703ab.999cb2f1.js"
         }
       ]
     },
     "696": {
       "js": [
         {
-          "file": "assets/js/935f2afb.dd5223c2.js",
-          "hash": "58d82491f22ea9e7",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/935f2afb.dd5223c2.js"
-        }
-      ]
-    },
-    "724": {
-      "js": [
-        {
-          "file": "assets/js/79675e1e.c83d692b.js",
-          "hash": "b195ae6e39791718",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/79675e1e.c83d692b.js"
+          "file": "assets/js/935f2afb.47d65f30.js",
+          "hash": "5b4f615c9cdc367a",
+          "publicPath": "/assets/js/935f2afb.47d65f30.js"
         }
       ]
     },
     "752": {
       "js": [
         {
-          "file": "assets/js/17896441.29b52aa3.js",
-          "hash": "66ccd3aaf2cc1638",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/17896441.29b52aa3.js"
+          "file": "assets/js/17896441.5d159295.js",
+          "hash": "51ffb3f51e302070",
+          "publicPath": "/assets/js/17896441.5d159295.js"
         }
       ]
     },
@@ -248,34 +255,25 @@
         {
           "file": "assets/js/760.602a5d72.js",
           "hash": "e6532c7cf603581f",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/760.602a5d72.js"
+          "publicPath": "/assets/js/760.602a5d72.js"
         }
       ]
     },
-    "796": {
+    "912": {
       "js": [
         {
-          "file": "assets/js/889729a7.631c85b6.js",
-          "hash": "fbc3557531b5372d",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/889729a7.631c85b6.js"
+          "file": "assets/js/239b5e41.bec12f28.js",
+          "hash": "8dfeb573999b6ef0",
+          "publicPath": "/assets/js/239b5e41.bec12f28.js"
         }
       ]
     },
-    "824": {
+    "948": {
       "js": [
         {
-          "file": "assets/js/cab5aefd.d4bebf39.js",
-          "hash": "77eaa7890a2af43d",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/cab5aefd.d4bebf39.js"
-        }
-      ]
-    },
-    "924": {
-      "js": [
-        {
-          "file": "assets/js/9fc76699.397202b6.js",
-          "hash": "caf7e3db529a6948",
-          "publicPath": "/Scrapegraph-ai-documentation/assets/js/9fc76699.397202b6.js"
+          "file": "assets/js/d3df6510.429f9443.js",
+          "hash": "76b77c0fdb3b2ecd",
+          "publicPath": "/assets/js/d3df6510.429f9443.js"
         }
       ]
     }

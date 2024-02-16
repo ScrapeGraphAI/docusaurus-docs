@@ -3,56 +3,21 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'c6d'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '388'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '583'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '51b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'ac1'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '57c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'd7e'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '470'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '69d'),
+    component: ComponentCreator('/docs', '4f1'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '5b4'),
+        component: ComponentCreator('/docs', '28c'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '319'),
+            component: ComponentCreator('/docs', 'dba'),
             routes: [
               {
                 path: '/docs/activation',
@@ -67,20 +32,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/contributing/acknowledgements',
-                component: ComponentCreator('/docs/contributing/acknowledgements', 'f57'),
+                path: '/docs/Contributing/acknowledgements',
+                component: ComponentCreator('/docs/Contributing/acknowledgements', '5bb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/contributing/contributing_markdown',
-                component: ComponentCreator('/docs/contributing/contributing_markdown', 'd54'),
+                path: '/docs/Contributing/contributing_markdown',
+                component: ComponentCreator('/docs/Contributing/contributing_markdown', 'dfd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/contributing/designers',
-                component: ComponentCreator('/docs/contributing/designers', 'd0e'),
+                path: '/docs/Contributing/designers',
+                component: ComponentCreator('/docs/Contributing/designers', '8cc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

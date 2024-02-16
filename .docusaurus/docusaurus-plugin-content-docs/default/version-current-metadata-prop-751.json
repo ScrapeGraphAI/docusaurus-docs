@@ -17,6 +17,35 @@
         "unlisted": false
       },
       {
+        "type": "category",
+        "label": "Contributing",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "🏒 Acknowledgements",
+            "href": "/docs/Contributing/acknowledgements",
+            "docId": "Contributing/acknowledgements",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🎻 List of the contributors",
+            "href": "/docs/Contributing/contributing_markdown",
+            "docId": "Contributing/contributing_markdown",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🧵 Created by",
+            "href": "/docs/Contributing/designers",
+            "docId": "Contributing/designers",
+            "unlisted": false
+          }
+        ]
+      },
+      {
         "type": "link",
         "label": "🔑 Keys activation",
         "href": "/docs/activation",
@@ -29,35 +58,6 @@
         "href": "/docs/basic_usage",
         "docId": "basic_usage",
         "unlisted": false
-      },
-      {
-        "type": "category",
-        "label": "contributing",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "🏒 Acknowledgements",
-            "href": "/docs/contributing/acknowledgements",
-            "docId": "contributing/acknowledgements",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🎻 List of the contributors",
-            "href": "/docs/contributing/contributing_markdown",
-            "docId": "contributing/contributing_markdown",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🧵 Created by",
-            "href": "/docs/contributing/designers",
-            "docId": "contributing/designers",
-            "unlisted": false
-          }
-        ]
       }
     ]
   },
@@ -74,20 +74,20 @@
       "description": "Case 1: Extracting information using a prompt",
       "sidebar": "tutorialSidebar"
     },
-    "contributing/acknowledgements": {
-      "id": "contributing/acknowledgements",
+    "Contributing/acknowledgements": {
+      "id": "Contributing/acknowledgements",
       "title": "🏒 Acknowledgements",
       "description": "- nicolapiazzalunga for having inspired us to the functions: scrapegraph/converttojson.py and scrapegraph/converttocsv.py",
       "sidebar": "tutorialSidebar"
     },
-    "contributing/contributing_markdown": {
-      "id": "contributing/contributing_markdown",
+    "Contributing/contributing_markdown": {
+      "id": "Contributing/contributing_markdown",
       "title": "🎻 List of the contributors",
       "description": "Contributors",
       "sidebar": "tutorialSidebar"
     },
-    "contributing/designers": {
-      "id": "contributing/designers",
+    "Contributing/designers": {
+      "id": "Contributing/designers",
       "title": "🧵 Created by",
       "description": "key1",
       "sidebar": "tutorialSidebar"

@@ -60,13 +60,8 @@ export default {
           "label": "Introduction"
         },
         {
-          "to": "/docs/activation-api-keys/activation",
+          "to": "/docs/activation",
           "label": "Installation of the keys",
-          "position": "left"
-        },
-        {
-          "to": "/docs/contributing/contributing_markdown",
-          "label": "Contributing",
           "position": "left"
         },
         {

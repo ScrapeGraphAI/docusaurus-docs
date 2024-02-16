@@ -35,8 +35,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
-                "permalink": "/docs/intro"
+                "title": "🧵 Created by",
+                "permalink": "/docs/Contributing/designers"
               },
               "next": {
                 "title": "💻 Basic usage",
@@ -61,78 +61,78 @@
               "previous": {
                 "title": "🔑 Keys activation",
                 "permalink": "/docs/activation"
-              },
-              "next": {
-                "title": "🏒 Acknowledgements",
-                "permalink": "/docs/contributing/acknowledgements"
               }
             },
             {
-              "id": "contributing/acknowledgements",
+              "id": "Contributing/acknowledgements",
               "title": "🏒 Acknowledgements",
               "description": "- nicolapiazzalunga for having inspired us to the functions: scrapegraph/converttojson.py and scrapegraph/converttocsv.py",
-              "source": "@site/docs/contributing/acknowledgements.md",
-              "sourceDirName": "contributing",
-              "slug": "/contributing/acknowledgements",
-              "permalink": "/docs/contributing/acknowledgements",
+              "source": "@site/docs/Contributing/acknowledgements.md",
+              "sourceDirName": "Contributing",
+              "slug": "/Contributing/acknowledgements",
+              "permalink": "/docs/Contributing/acknowledgements",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/acknowledgements.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Contributing/acknowledgements.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "💻 Basic usage",
-                "permalink": "/docs/basic_usage"
+                "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "🎻 List of the contributors",
-                "permalink": "/docs/contributing/contributing_markdown"
+                "permalink": "/docs/Contributing/contributing_markdown"
               }
             },
             {
-              "id": "contributing/contributing_markdown",
+              "id": "Contributing/contributing_markdown",
               "title": "🎻 List of the contributors",
               "description": "Contributors",
-              "source": "@site/docs/contributing/contributing_markdown.md",
-              "sourceDirName": "contributing",
-              "slug": "/contributing/contributing_markdown",
-              "permalink": "/docs/contributing/contributing_markdown",
+              "source": "@site/docs/Contributing/contributing_markdown.md",
+              "sourceDirName": "Contributing",
+              "slug": "/Contributing/contributing_markdown",
+              "permalink": "/docs/Contributing/contributing_markdown",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/contributing_markdown.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Contributing/contributing_markdown.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "🏒 Acknowledgements",
-                "permalink": "/docs/contributing/acknowledgements"
+                "permalink": "/docs/Contributing/acknowledgements"
               },
               "next": {
                 "title": "🧵 Created by",
-                "permalink": "/docs/contributing/designers"
+                "permalink": "/docs/Contributing/designers"
               }
             },
             {
-              "id": "contributing/designers",
+              "id": "Contributing/designers",
               "title": "🧵 Created by",
               "description": "key1",
-              "source": "@site/docs/contributing/designers.md",
-              "sourceDirName": "contributing",
-              "slug": "/contributing/designers",
-              "permalink": "/docs/contributing/designers",
+              "source": "@site/docs/Contributing/designers.md",
+              "sourceDirName": "Contributing",
+              "slug": "/Contributing/designers",
+              "permalink": "/docs/Contributing/designers",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/designers.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Contributing/designers.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "🎻 List of the contributors",
-                "permalink": "/docs/contributing/contributing_markdown"
+                "permalink": "/docs/Contributing/contributing_markdown"
+              },
+              "next": {
+                "title": "🔑 Keys activation",
+                "permalink": "/docs/activation"
               }
             },
             {
@@ -154,8 +154,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "🔑 Keys activation",
-                "permalink": "/docs/activation"
+                "title": "🏒 Acknowledgements",
+                "permalink": "/docs/Contributing/acknowledgements"
               }
             }
           ],
@@ -167,32 +167,32 @@
                 "id": "intro"
               },
               {
+                "type": "category",
+                "label": "Contributing",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Contributing/acknowledgements"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Contributing/contributing_markdown"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Contributing/designers"
+                  }
+                ]
+              },
+              {
                 "type": "doc",
                 "id": "activation"
               },
               {
                 "type": "doc",
                 "id": "basic_usage"
-              },
-              {
-                "type": "category",
-                "label": "contributing",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "contributing/acknowledgements"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "contributing/contributing_markdown"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "contributing/designers"
-                  }
-                ]
               }
             ]
           }
