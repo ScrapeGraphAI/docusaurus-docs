@@ -9,7 +9,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Scrapegraph-ai',
-  tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -82,9 +81,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Introduction',
+            label: 'Documentation',
           },
           {to: '/docs/activation', label: 'Installation of the keys', position: 'left'},
+          {to: '/docs/activation', label: 'Contributing guidelines', position: 'left'},
           {
             href: 'https://github.com/VinciGit00/Scrapegraph-ai',
             label: 'GitHub',

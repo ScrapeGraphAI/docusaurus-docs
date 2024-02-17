@@ -5,7 +5,6 @@
  */
 export default {
   "title": "Scrapegraph-ai",
-  "tagline": "Dinosaurs are cool",
   "favicon": "img/favicon.ico",
   "url": "https://VinciGit00.github.io",
   "baseUrl": "/",
@@ -57,11 +56,16 @@ export default {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
           "position": "left",
-          "label": "Introduction"
+          "label": "Documentation"
         },
         {
           "to": "/docs/activation",
           "label": "Installation of the keys",
+          "position": "left"
+        },
+        {
+          "to": "/docs/activation",
+          "label": "Contributing guidelines",
           "position": "left"
         },
         {
@@ -99,8 +103,8 @@ export default {
     "prism": {
       "theme": {
         "plain": {
-          "color": "#282a36",
-          "backgroundColor": "#282a36"
+          "color": "#393A34",
+          "backgroundColor": "#f6f8fa"
         },
         "styles": [
           {
@@ -326,6 +330,7 @@ export default {
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],
+  "tagline": "",
   "titleDelimiter": "|",
   "noIndex": false,
   "markdown": {

@@ -21,18 +21,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Contributing/acknowledgements",
-              "path": "/docs/Contributing/acknowledgements",
+              "id": "contributing/acknowledgements",
+              "path": "/docs/contributing/acknowledgements",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Contributing/contributing_markdown",
-              "path": "/docs/Contributing/contributing_markdown",
+              "id": "contributing/contributing_markdown",
+              "path": "/docs/contributing/contributing_markdown",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Contributing/designers",
-              "path": "/docs/Contributing/designers",
+              "id": "contributing/designers",
+              "path": "/docs/contributing/designers",
               "sidebar": "tutorialSidebar"
             },
             {

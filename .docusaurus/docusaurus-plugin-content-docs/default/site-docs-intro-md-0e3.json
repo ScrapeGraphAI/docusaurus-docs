@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "🏒 Acknowledgements",
-    "permalink": "/docs/Contributing/acknowledgements"
+    "title": "🔑 Keys activation",
+    "permalink": "/docs/activation"
   }
 }

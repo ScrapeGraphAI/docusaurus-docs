@@ -16,5 +16,9 @@
   "previous": {
     "title": "🔑 Keys activation",
     "permalink": "/docs/activation"
+  },
+  "next": {
+    "title": "🏒 Acknowledgements",
+    "permalink": "/docs/contributing/acknowledgements"
   }
 }
