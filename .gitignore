@@ -3,3 +3,4 @@ node_modules
 docusaurus/docusaurus.config.mjs
 .DS_Store
 build
+.docusaurus

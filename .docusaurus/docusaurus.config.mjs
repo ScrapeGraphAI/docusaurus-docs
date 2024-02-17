@@ -64,11 +64,6 @@ export default {
           "position": "left"
         },
         {
-          "to": "/docs/Contributing/contributing_guidelines",
-          "label": "Contributing guidelines",
-          "position": "left"
-        },
-        {
           "href": "https://github.com/VinciGit00/Scrapegraph-ai",
           "label": "GitHub",
           "position": "right"
