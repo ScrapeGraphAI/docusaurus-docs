@@ -1,0 +1,24 @@
+{
+  "id": "Examples/Example",
+  "title": "👽 Example",
+  "description": "First of all you have to install the library",
+  "source": "@site/docs/Examples/Example.md",
+  "sourceDirName": "Examples",
+  "slug": "/Examples/Example",
+  "permalink": "/docs/Examples/Example",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/Example.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tutorials",
+    "permalink": "/docs/category/tutorials"
+  },
+  "next": {
+    "title": "Contributing",
+    "permalink": "/docs/category/contributing"
+  }
+}

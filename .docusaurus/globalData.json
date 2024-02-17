@@ -16,28 +16,93 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "basic_usage",
-              "path": "/docs/basic_usage",
+              "id": "Contributing/acknowledgements",
+              "path": "/docs/Contributing/acknowledgements",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "contributing/acknowledgements",
-              "path": "/docs/contributing/acknowledgements",
+              "id": "Contributing/contributing_guidelines",
+              "path": "/docs/Contributing/contributing_guidelines",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "contributing/contributing_markdown",
-              "path": "/docs/contributing/contributing_markdown",
+              "id": "Contributing/contributing_markdown",
+              "path": "/docs/Contributing/contributing_markdown",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "contributing/designers",
-              "path": "/docs/contributing/designers",
+              "id": "Contributing/designers",
+              "path": "/docs/Contributing/designers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Examples/Example",
+              "path": "/docs/Examples/Example",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/base_node",
+              "path": "/docs/Introduction/base_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/Basics",
+              "path": "/docs/Introduction/Basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/conditional_node",
+              "path": "/docs/Introduction/conditional_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/fetch_html_node",
+              "path": "/docs/Introduction/fetch_html_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/generate_answer_node",
+              "path": "/docs/Introduction/generate_answer_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/get_probable_tags_node",
+              "path": "/docs/Introduction/get_probable_tags_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/Nodes",
+              "path": "/docs/Introduction/Nodes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/parse_html_node",
+              "path": "/docs/Introduction/parse_html_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/text_to_speach_node",
+              "path": "/docs/Introduction/text_to_speach_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/introduction",
+              "path": "/docs/category/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorials",
+              "path": "/docs/category/tutorials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/contributing",
+              "path": "/docs/category/contributing",
               "sidebar": "tutorialSidebar"
             }
           ],

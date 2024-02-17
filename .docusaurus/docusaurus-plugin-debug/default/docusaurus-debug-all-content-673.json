@@ -22,7 +22,7 @@
             {
               "id": "activation",
               "title": "🔑 Keys activation",
-              "description": "This is an open source project aimed at developing a scraping library using LLM through Langchain. The goal is to be able to scrape data using natural language queries and store them in a structured format.",
+              "description": "For activating the keys go to https",
               "source": "@site/docs/activation.md",
               "sourceDirName": ".",
               "slug": "/activation",
@@ -35,104 +35,128 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
-                "permalink": "/docs/intro"
-              },
-              "next": {
-                "title": "💻 Basic usage",
-                "permalink": "/docs/basic_usage"
+                "title": "🧵 Created by",
+                "permalink": "/docs/Contributing/designers"
               }
             },
             {
-              "id": "basic_usage",
-              "title": "💻 Basic usage",
-              "description": "Case 1: Extracting information using a prompt",
-              "source": "@site/docs/basic_usage.md",
-              "sourceDirName": ".",
-              "slug": "/basic_usage",
-              "permalink": "/docs/basic_usage",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/basic_usage.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "🔑 Keys activation",
-                "permalink": "/docs/activation"
-              },
-              "next": {
-                "title": "🏒 Acknowledgements",
-                "permalink": "/docs/contributing/acknowledgements"
-              }
-            },
-            {
-              "id": "contributing/acknowledgements",
+              "id": "Contributing/acknowledgements",
               "title": "🏒 Acknowledgements",
               "description": "- nicolapiazzalunga for having inspired us to the functions: scrapegraph/converttojson.py and scrapegraph/converttocsv.py",
-              "source": "@site/docs/contributing/acknowledgements.md",
-              "sourceDirName": "contributing",
-              "slug": "/contributing/acknowledgements",
-              "permalink": "/docs/contributing/acknowledgements",
+              "source": "@site/docs/Contributing/acknowledgements.md",
+              "sourceDirName": "Contributing",
+              "slug": "/Contributing/acknowledgements",
+              "permalink": "/docs/Contributing/acknowledgements",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/acknowledgements.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Contributing/acknowledgements.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "💻 Basic usage",
-                "permalink": "/docs/basic_usage"
+                "title": "Contributing",
+                "permalink": "/docs/category/contributing"
+              },
+              "next": {
+                "title": "🤝 Contributing",
+                "permalink": "/docs/Contributing/contributing_guidelines"
+              }
+            },
+            {
+              "id": "Contributing/contributing_guidelines",
+              "title": "🤝 Contributing",
+              "description": "Scrapegraph-ai is MIT LICENSED.",
+              "source": "@site/docs/Contributing/contributing_guidelines.md",
+              "sourceDirName": "Contributing",
+              "slug": "/Contributing/contributing_guidelines",
+              "permalink": "/docs/Contributing/contributing_guidelines",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Contributing/contributing_guidelines.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🏒 Acknowledgements",
+                "permalink": "/docs/Contributing/acknowledgements"
               },
               "next": {
                 "title": "🎻 List of the contributors",
-                "permalink": "/docs/contributing/contributing_markdown"
+                "permalink": "/docs/Contributing/contributing_markdown"
               }
             },
             {
-              "id": "contributing/contributing_markdown",
+              "id": "Contributing/contributing_markdown",
               "title": "🎻 List of the contributors",
               "description": "Contributors",
-              "source": "@site/docs/contributing/contributing_markdown.md",
-              "sourceDirName": "contributing",
-              "slug": "/contributing/contributing_markdown",
-              "permalink": "/docs/contributing/contributing_markdown",
+              "source": "@site/docs/Contributing/contributing_markdown.md",
+              "sourceDirName": "Contributing",
+              "slug": "/Contributing/contributing_markdown",
+              "permalink": "/docs/Contributing/contributing_markdown",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/contributing_markdown.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Contributing/contributing_markdown.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🏒 Acknowledgements",
-                "permalink": "/docs/contributing/acknowledgements"
+                "title": "🤝 Contributing",
+                "permalink": "/docs/Contributing/contributing_guidelines"
               },
               "next": {
                 "title": "🧵 Created by",
-                "permalink": "/docs/contributing/designers"
+                "permalink": "/docs/Contributing/designers"
               }
             },
             {
-              "id": "contributing/designers",
+              "id": "Contributing/designers",
               "title": "🧵 Created by",
               "description": "key1",
-              "source": "@site/docs/contributing/designers.md",
-              "sourceDirName": "contributing",
-              "slug": "/contributing/designers",
-              "permalink": "/docs/contributing/designers",
+              "source": "@site/docs/Contributing/designers.md",
+              "sourceDirName": "Contributing",
+              "slug": "/Contributing/designers",
+              "permalink": "/docs/Contributing/designers",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/contributing/designers.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Contributing/designers.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "🎻 List of the contributors",
-                "permalink": "/docs/contributing/contributing_markdown"
+                "permalink": "/docs/Contributing/contributing_markdown"
+              },
+              "next": {
+                "title": "🔑 Keys activation",
+                "permalink": "/docs/activation"
+              }
+            },
+            {
+              "id": "Examples/Example",
+              "title": "👽 Example",
+              "description": "First of all you have to install the library",
+              "source": "@site/docs/Examples/Example.md",
+              "sourceDirName": "Examples",
+              "slug": "/Examples/Example",
+              "permalink": "/docs/Examples/Example",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/Example.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tutorials",
+                "permalink": "/docs/category/tutorials"
+              },
+              "next": {
+                "title": "Contributing",
+                "permalink": "/docs/category/contributing"
               }
             },
             {
@@ -154,8 +178,224 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "🔑 Keys activation",
-                "permalink": "/docs/activation"
+                "title": "Introduction",
+                "permalink": "/docs/category/introduction"
+              }
+            },
+            {
+              "id": "Introduction/base_node",
+              "title": "🌲 Base node",
+              "description": "",
+              "source": "@site/docs/Introduction/base_node.md",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/base_node",
+              "permalink": "/docs/Introduction/base_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/base_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🪢 Nodes",
+                "permalink": "/docs/Introduction/Nodes"
+              },
+              "next": {
+                "title": "🗣️ Conditional_node",
+                "permalink": "/docs/Introduction/conditional_node"
+              }
+            },
+            {
+              "id": "Introduction/Basics",
+              "title": "📚 Basics",
+              "description": "The standard structure of Scrapegrah-ai is a graph made by nodes.",
+              "source": "@site/docs/Introduction/Basics.md",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/Basics",
+              "permalink": "/docs/Introduction/Basics",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/Basics.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/category/introduction"
+              },
+              "next": {
+                "title": "🪢 Nodes",
+                "permalink": "/docs/Introduction/Nodes"
+              }
+            },
+            {
+              "id": "Introduction/conditional_node",
+              "title": "🗣️ Conditional_node",
+              "description": "",
+              "source": "@site/docs/Introduction/conditional_node.md",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/conditional_node",
+              "permalink": "/docs/Introduction/conditional_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/conditional_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🌲 Base node",
+                "permalink": "/docs/Introduction/base_node"
+              },
+              "next": {
+                "title": "😼 Fetch_html_node",
+                "permalink": "/docs/Introduction/fetch_html_node"
+              }
+            },
+            {
+              "id": "Introduction/fetch_html_node",
+              "title": "😼 Fetch_html_node",
+              "description": "",
+              "source": "@site/docs/Introduction/fetch_html_node.md",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/fetch_html_node",
+              "permalink": "/docs/Introduction/fetch_html_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/fetch_html_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🗣️ Conditional_node",
+                "permalink": "/docs/Introduction/conditional_node"
+              },
+              "next": {
+                "title": "🐝 generate_answer_node",
+                "permalink": "/docs/Introduction/generate_answer_node"
+              }
+            },
+            {
+              "id": "Introduction/generate_answer_node",
+              "title": "🐝 generate_answer_node",
+              "description": "",
+              "source": "@site/docs/Introduction/generate_answer_node.md",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/generate_answer_node",
+              "permalink": "/docs/Introduction/generate_answer_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/generate_answer_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "😼 Fetch_html_node",
+                "permalink": "/docs/Introduction/fetch_html_node"
+              },
+              "next": {
+                "title": "💫 get_probable_tags_node",
+                "permalink": "/docs/Introduction/get_probable_tags_node"
+              }
+            },
+            {
+              "id": "Introduction/get_probable_tags_node",
+              "title": "💫 get_probable_tags_node",
+              "description": "",
+              "source": "@site/docs/Introduction/get_probable_tags_node.md",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/get_probable_tags_node",
+              "permalink": "/docs/Introduction/get_probable_tags_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/get_probable_tags_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🐝 generate_answer_node",
+                "permalink": "/docs/Introduction/generate_answer_node"
+              },
+              "next": {
+                "title": "parse_html_node",
+                "permalink": "/docs/Introduction/parse_html_node"
+              }
+            },
+            {
+              "id": "Introduction/Nodes",
+              "title": "🪢 Nodes",
+              "description": "The basic unit of Scrapegraph-ai is the Node",
+              "source": "@site/docs/Introduction/Nodes.md",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/Nodes",
+              "permalink": "/docs/Introduction/Nodes",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/Nodes.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "📚 Basics",
+                "permalink": "/docs/Introduction/Basics"
+              },
+              "next": {
+                "title": "🌲 Base node",
+                "permalink": "/docs/Introduction/base_node"
+              }
+            },
+            {
+              "id": "Introduction/parse_html_node",
+              "title": "parse_html_node",
+              "description": "",
+              "source": "@site/docs/Introduction/parse_html_node.md",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/parse_html_node",
+              "permalink": "/docs/Introduction/parse_html_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/parse_html_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "💫 get_probable_tags_node",
+                "permalink": "/docs/Introduction/get_probable_tags_node"
+              },
+              "next": {
+                "title": "🔥 Text_to_speach_node",
+                "permalink": "/docs/Introduction/text_to_speach_node"
+              }
+            },
+            {
+              "id": "Introduction/text_to_speach_node",
+              "title": "🔥 Text_to_speach_node",
+              "description": "",
+              "source": "@site/docs/Introduction/text_to_speach_node.md",
+              "sourceDirName": "Introduction",
+              "slug": "/Introduction/text_to_speach_node",
+              "permalink": "/docs/Introduction/text_to_speach_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/text_to_speach_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "parse_html_node",
+                "permalink": "/docs/Introduction/parse_html_node"
+              },
+              "next": {
+                "title": "Tutorials",
+                "permalink": "/docs/category/tutorials"
               }
             }
           ],
@@ -167,32 +407,106 @@
                 "id": "intro"
               },
               {
-                "type": "doc",
-                "id": "activation"
-              },
-              {
-                "type": "doc",
-                "id": "basic_usage"
-              },
-              {
                 "type": "category",
-                "label": "contributing",
+                "label": "Introduction",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "contributing/acknowledgements"
+                    "id": "Introduction/Basics"
                   },
                   {
                     "type": "doc",
-                    "id": "contributing/contributing_markdown"
+                    "id": "Introduction/Nodes"
                   },
                   {
                     "type": "doc",
-                    "id": "contributing/designers"
+                    "id": "Introduction/base_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Introduction/conditional_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Introduction/fetch_html_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Introduction/generate_answer_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Introduction/get_probable_tags_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Introduction/parse_html_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Introduction/text_to_speach_node"
                   }
-                ]
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Introduction and basics classes of Scrapegraph-ai",
+                  "slug": "/category/introduction",
+                  "permalink": "/docs/category/introduction"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Tutorials",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Examples/Example"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "List of documents of tutorials",
+                  "slug": "/category/tutorials",
+                  "permalink": "/docs/category/tutorials"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Contributing",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Contributing/acknowledgements"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Contributing/contributing_guidelines"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Contributing/contributing_markdown"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Contributing/designers"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Contributions infos",
+                  "slug": "/category/contributing",
+                  "permalink": "/docs/category/contributing"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "activation"
               }
             ]
           }

@@ -1,0 +1,16 @@
+{
+  "title": "Tutorials",
+  "description": "List of documents of tutorials",
+  "slug": "/category/tutorials",
+  "permalink": "/docs/category/tutorials",
+  "navigation": {
+    "previous": {
+      "title": "🔥 Text_to_speach_node",
+      "permalink": "/docs/Introduction/text_to_speach_node"
+    },
+    "next": {
+      "title": "👽 Example",
+      "permalink": "/docs/Examples/Example"
+    }
+  }
+}

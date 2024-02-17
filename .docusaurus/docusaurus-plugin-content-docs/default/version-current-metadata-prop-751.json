@@ -17,47 +17,136 @@
         "unlisted": false
       },
       {
-        "type": "link",
-        "label": "🔑 Keys activation",
-        "href": "/docs/activation",
-        "docId": "activation",
-        "unlisted": false
-      },
-      {
-        "type": "link",
-        "label": "💻 Basic usage",
-        "href": "/docs/basic_usage",
-        "docId": "basic_usage",
-        "unlisted": false
+        "type": "category",
+        "label": "Introduction",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "📚 Basics",
+            "href": "/docs/Introduction/Basics",
+            "docId": "Introduction/Basics",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🪢 Nodes",
+            "href": "/docs/Introduction/Nodes",
+            "docId": "Introduction/Nodes",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🌲 Base node",
+            "href": "/docs/Introduction/base_node",
+            "docId": "Introduction/base_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🗣️ Conditional_node",
+            "href": "/docs/Introduction/conditional_node",
+            "docId": "Introduction/conditional_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "😼 Fetch_html_node",
+            "href": "/docs/Introduction/fetch_html_node",
+            "docId": "Introduction/fetch_html_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🐝 generate_answer_node",
+            "href": "/docs/Introduction/generate_answer_node",
+            "docId": "Introduction/generate_answer_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "💫 get_probable_tags_node",
+            "href": "/docs/Introduction/get_probable_tags_node",
+            "docId": "Introduction/get_probable_tags_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "parse_html_node",
+            "href": "/docs/Introduction/parse_html_node",
+            "docId": "Introduction/parse_html_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🔥 Text_to_speach_node",
+            "href": "/docs/Introduction/text_to_speach_node",
+            "docId": "Introduction/text_to_speach_node",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/introduction"
       },
       {
         "type": "category",
-        "label": "contributing",
+        "label": "Tutorials",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "👽 Example",
+            "href": "/docs/Examples/Example",
+            "docId": "Examples/Example",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/tutorials"
+      },
+      {
+        "type": "category",
+        "label": "Contributing",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "🏒 Acknowledgements",
-            "href": "/docs/contributing/acknowledgements",
-            "docId": "contributing/acknowledgements",
+            "href": "/docs/Contributing/acknowledgements",
+            "docId": "Contributing/acknowledgements",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🤝 Contributing",
+            "href": "/docs/Contributing/contributing_guidelines",
+            "docId": "Contributing/contributing_guidelines",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🎻 List of the contributors",
-            "href": "/docs/contributing/contributing_markdown",
-            "docId": "contributing/contributing_markdown",
+            "href": "/docs/Contributing/contributing_markdown",
+            "docId": "Contributing/contributing_markdown",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🧵 Created by",
-            "href": "/docs/contributing/designers",
-            "docId": "contributing/designers",
+            "href": "/docs/Contributing/designers",
+            "docId": "Contributing/designers",
             "unlisted": false
           }
-        ]
+        ],
+        "href": "/docs/category/contributing"
+      },
+      {
+        "type": "link",
+        "label": "🔑 Keys activation",
+        "href": "/docs/activation",
+        "docId": "activation",
+        "unlisted": false
       }
     ]
   },
@@ -65,37 +154,97 @@
     "activation": {
       "id": "activation",
       "title": "🔑 Keys activation",
-      "description": "This is an open source project aimed at developing a scraping library using LLM through Langchain. The goal is to be able to scrape data using natural language queries and store them in a structured format.",
+      "description": "For activating the keys go to https",
       "sidebar": "tutorialSidebar"
     },
-    "basic_usage": {
-      "id": "basic_usage",
-      "title": "💻 Basic usage",
-      "description": "Case 1: Extracting information using a prompt",
-      "sidebar": "tutorialSidebar"
-    },
-    "contributing/acknowledgements": {
-      "id": "contributing/acknowledgements",
+    "Contributing/acknowledgements": {
+      "id": "Contributing/acknowledgements",
       "title": "🏒 Acknowledgements",
       "description": "- nicolapiazzalunga for having inspired us to the functions: scrapegraph/converttojson.py and scrapegraph/converttocsv.py",
       "sidebar": "tutorialSidebar"
     },
-    "contributing/contributing_markdown": {
-      "id": "contributing/contributing_markdown",
+    "Contributing/contributing_guidelines": {
+      "id": "Contributing/contributing_guidelines",
+      "title": "🤝 Contributing",
+      "description": "Scrapegraph-ai is MIT LICENSED.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Contributing/contributing_markdown": {
+      "id": "Contributing/contributing_markdown",
       "title": "🎻 List of the contributors",
       "description": "Contributors",
       "sidebar": "tutorialSidebar"
     },
-    "contributing/designers": {
-      "id": "contributing/designers",
+    "Contributing/designers": {
+      "id": "Contributing/designers",
       "title": "🧵 Created by",
       "description": "key1",
+      "sidebar": "tutorialSidebar"
+    },
+    "Examples/Example": {
+      "id": "Examples/Example",
+      "title": "👽 Example",
+      "description": "First of all you have to install the library",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
       "id": "intro",
       "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
       "description": "ScrapeGraphAI is a web scraping python library based on LangChain which uses LLM and direct graph logic to create scraping pipelines.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/base_node": {
+      "id": "Introduction/base_node",
+      "title": "🌲 Base node",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/Basics": {
+      "id": "Introduction/Basics",
+      "title": "📚 Basics",
+      "description": "The standard structure of Scrapegrah-ai is a graph made by nodes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/conditional_node": {
+      "id": "Introduction/conditional_node",
+      "title": "🗣️ Conditional_node",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/fetch_html_node": {
+      "id": "Introduction/fetch_html_node",
+      "title": "😼 Fetch_html_node",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/generate_answer_node": {
+      "id": "Introduction/generate_answer_node",
+      "title": "🐝 generate_answer_node",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/get_probable_tags_node": {
+      "id": "Introduction/get_probable_tags_node",
+      "title": "💫 get_probable_tags_node",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/Nodes": {
+      "id": "Introduction/Nodes",
+      "title": "🪢 Nodes",
+      "description": "The basic unit of Scrapegraph-ai is the Node",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/parse_html_node": {
+      "id": "Introduction/parse_html_node",
+      "title": "parse_html_node",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/text_to_speach_node": {
+      "id": "Introduction/text_to_speach_node",
+      "title": "🔥 Text_to_speach_node",
+      "description": "",
       "sidebar": "tutorialSidebar"
     }
   }

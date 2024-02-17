@@ -1,12 +1,12 @@
 {
-  "title": "Tutorial - Basics",
+  "title": "Tutorial",
   "description": "5 minutes to learn the most important Docusaurus concepts.",
-  "slug": "/category/tutorial---basics-1",
-  "permalink": "/docs/category/tutorial---basics-1",
+  "slug": "/category/tutorial",
+  "permalink": "/docs/category/tutorial",
   "navigation": {
     "previous": {
-      "title": "🧵 Created by",
-      "permalink": "/docs/Contributing/designers"
+      "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
+      "permalink": "/docs/intro"
     },
     "next": {
       "title": "👽 Example",

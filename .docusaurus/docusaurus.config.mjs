@@ -64,7 +64,7 @@ export default {
           "position": "left"
         },
         {
-          "to": "/docs/activation",
+          "to": "/docs/Contributing/contributing_guidelines",
           "label": "Contributing guidelines",
           "position": "left"
         },

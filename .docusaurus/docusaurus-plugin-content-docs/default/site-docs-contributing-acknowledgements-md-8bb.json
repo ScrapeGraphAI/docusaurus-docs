@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
-    "permalink": "/docs/intro"
+    "title": "Contributing",
+    "permalink": "/docs/category/contributing"
   },
   "next": {
-    "title": "🎻 List of the contributors",
-    "permalink": "/docs/Contributing/contributing_markdown"
+    "title": "🤝 Contributing",
+    "permalink": "/docs/Contributing/contributing_guidelines"
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": "activation",
   "title": "🔑 Keys activation",
-  "description": "This is an open source project aimed at developing a scraping library using LLM through Langchain. The goal is to be able to scrape data using natural language queries and store them in a structured format.",
+  "description": "For activating the keys go to https",
   "source": "@site/docs/activation.md",
   "sourceDirName": ".",
   "slug": "/activation",
@@ -14,11 +14,7 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
-    "permalink": "/docs/intro"
-  },
-  "next": {
-    "title": "💻 Basic usage",
-    "permalink": "/docs/basic_usage"
+    "title": "🧵 Created by",
+    "permalink": "/docs/Contributing/designers"
   }
 }

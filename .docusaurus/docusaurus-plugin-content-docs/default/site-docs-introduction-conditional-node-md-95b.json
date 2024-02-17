@@ -1,0 +1,24 @@
+{
+  "id": "Introduction/conditional_node",
+  "title": "🗣️ Conditional_node",
+  "description": "",
+  "source": "@site/docs/Introduction/conditional_node.md",
+  "sourceDirName": "Introduction",
+  "slug": "/Introduction/conditional_node",
+  "permalink": "/docs/Introduction/conditional_node",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/conditional_node.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🌲 Base node",
+    "permalink": "/docs/Introduction/base_node"
+  },
+  "next": {
+    "title": "😼 Fetch_html_node",
+    "permalink": "/docs/Introduction/fetch_html_node"
+  }
+}

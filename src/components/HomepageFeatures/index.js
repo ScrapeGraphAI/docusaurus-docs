@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      Scrapegraph-ai is an open source library for scraping with the use of AI. 
+      You just need to activate the API keys and you can scrape thousands of web pages in seconds!
       </>
     ),
   },
@@ -18,8 +18,17 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        With this library you will be able to save hours of time because you have just to setupp the project and the AI will do everything for you
+      </>
+    ),
+  },
+
+  {
+    title: 'Focus on What Matters',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        With this library you will be able to save hours of time because you have just to setupp the project and the AI will do everything for you
       </>
     ),
   },

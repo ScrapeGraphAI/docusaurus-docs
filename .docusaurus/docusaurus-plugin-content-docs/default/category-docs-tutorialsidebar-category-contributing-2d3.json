@@ -1,0 +1,16 @@
+{
+  "title": "Contributing",
+  "description": "Contributions infos",
+  "slug": "/category/contributing",
+  "permalink": "/docs/category/contributing",
+  "navigation": {
+    "previous": {
+      "title": "👽 Example",
+      "permalink": "/docs/Examples/Example"
+    },
+    "next": {
+      "title": "🏒 Acknowledgements",
+      "permalink": "/docs/Contributing/acknowledgements"
+    }
+  }
+}

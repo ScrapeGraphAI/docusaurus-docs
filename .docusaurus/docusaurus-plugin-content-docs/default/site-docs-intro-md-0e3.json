@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "🔑 Keys activation",
-    "permalink": "/docs/activation"
+    "title": "Introduction",
+    "permalink": "/docs/category/introduction"
   }
 }

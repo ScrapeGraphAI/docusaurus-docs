@@ -8,6 +8,7 @@ ScrapeGraphAI is a *web scraping* python library based on LangChain which uses L
 Just say which information you want to extract and the library will do it for you!
 
 ## 🚀 Quick install
+The reference page for Scrapegraph-ai is avaible on the official page of pypy: [pypi](https://pypi.org/project/scrapegraphai/).
 
 ```bash
 pip install scrapegraphai
