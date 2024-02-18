@@ -1,7 +1,7 @@
 {
   "id": "Introduction/get_probable_tags_node",
   "title": "💫 get_probable_tags_node",
-  "description": "",
+  "description": "Introduction",
   "source": "@site/docs/Introduction/get_probable_tags_node.md",
   "sourceDirName": "Introduction",
   "slug": "/Introduction/get_probable_tags_node",
@@ -18,7 +18,7 @@
     "permalink": "/docs/Introduction/generate_answer_node"
   },
   "next": {
-    "title": "parse_html_node",
-    "permalink": "/docs/Introduction/parse_html_node"
+    "title": "🚁 image_to_text_node",
+    "permalink": "/docs/Introduction/image_to_text_node"
   }
 }

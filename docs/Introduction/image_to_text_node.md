@@ -1,7 +1,5 @@
-# 🌲 Base node
-
+# 🚁 image_to_text_node
 ## Introduction
-Is the superclass from all nodes are created
 
 ## Implementation
 ```python
@@ -9,6 +7,7 @@ Is the superclass from all nodes are created
 Module for creating the basic node
 """
 from abc import ABC, abstractmethod
+from openai import OpenAI
 
 
 class BaseNode(ABC):
@@ -45,7 +44,7 @@ class BaseNode(ABC):
                     raised to indicate the incorrect usage.
     """
 
-    def __init__(self, node_name: str, node_type: str):
+    def __init__(self, llm, node_name: str = "ParseImageToText"):
         """
         Initialize the node with a unique identifier and a specified node type.
 
@@ -56,21 +55,44 @@ class BaseNode(ABC):
         Raises:
             ValueError: If node_type is not "node" or "conditional_node".
         """
-        self.node_name = node_name
-        if node_type not in ["node", "conditional_node"]:
-            raise ValueError(
-                f"node_type must be 'node' or 'conditional_node', got '{node_type}'")
-        self.node_type = node_type
+        super().__init__(node_name, "node")
+        self.llm = llm
 
     @abstractmethod
-    def execute(self, state: dict):
+    def execute(self, state: dict, url: str) -> str:
         """
         Execute the node's logic and return the updated state.
         Args:
             state (dict): The current state of the graph.
+            url (str): url of the image where to 
         :return: The updated state after executing this node.
         """
-        pass
+        # Da fixare
+        client = OpenAI()
+
+        if not self.llm.model_name == "gpt-4-vision-preview":
+            raise ValueError("Model is not gpt-4-vision-preview")
+
+        response = client.chat.completions.create(
+            model=self.llm.model_name,
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": "What’s in this image?"},
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": url,
+                            },
+                        },
+                    ],
+                }
+            ],
+            max_tokens=300,
+        )
+
+        return response.choices[0]
 
 ```
 ## Example

@@ -73,9 +73,9 @@
           },
           {
             "type": "link",
-            "label": "parse_html_node",
-            "href": "/docs/Introduction/parse_html_node",
-            "docId": "Introduction/parse_html_node",
+            "label": "🚁 image_to_text_node",
+            "href": "/docs/Introduction/image_to_text_node",
+            "docId": "Introduction/image_to_text_node",
             "unlisted": false
           },
           {
@@ -196,7 +196,7 @@
     "Introduction/base_node": {
       "id": "Introduction/base_node",
       "title": "🌲 Base node",
-      "description": "",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Introduction/Basics": {
@@ -208,25 +208,31 @@
     "Introduction/conditional_node": {
       "id": "Introduction/conditional_node",
       "title": "🗣️ Conditional_node",
-      "description": "",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Introduction/fetch_html_node": {
       "id": "Introduction/fetch_html_node",
       "title": "😼 Fetch_html_node",
-      "description": "",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Introduction/generate_answer_node": {
       "id": "Introduction/generate_answer_node",
       "title": "🐝 generate_answer_node",
-      "description": "",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Introduction/get_probable_tags_node": {
       "id": "Introduction/get_probable_tags_node",
       "title": "💫 get_probable_tags_node",
-      "description": "",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Introduction/image_to_text_node": {
+      "id": "Introduction/image_to_text_node",
+      "title": "🚁 image_to_text_node",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Introduction/Nodes": {
@@ -235,16 +241,10 @@
       "description": "The basic unit of Scrapegraph-ai is the Node",
       "sidebar": "tutorialSidebar"
     },
-    "Introduction/parse_html_node": {
-      "id": "Introduction/parse_html_node",
-      "title": "parse_html_node",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
     "Introduction/text_to_speach_node": {
       "id": "Introduction/text_to_speach_node",
       "title": "🔥 Text_to_speach_node",
-      "description": "",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     }
   }

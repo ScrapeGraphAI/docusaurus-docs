@@ -1,7 +1,7 @@
 {
   "id": "Introduction/parse_html_node",
   "title": "parse_html_node",
-  "description": "",
+  "description": "Introduction",
   "source": "@site/docs/Introduction/parse_html_node.md",
   "sourceDirName": "Introduction",
   "slug": "/Introduction/parse_html_node",
@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "💫 get_probable_tags_node",
-    "permalink": "/docs/Introduction/get_probable_tags_node"
+    "title": "🚁 image_to_text_node",
+    "permalink": "/docs/Introduction/image_to_text_node"
   },
   "next": {
     "title": "🔥 Text_to_speach_node",

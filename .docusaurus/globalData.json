@@ -76,13 +76,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/Nodes",
-              "path": "/docs/Introduction/Nodes",
+              "id": "Introduction/image_to_text_node",
+              "path": "/docs/Introduction/image_to_text_node",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/parse_html_node",
-              "path": "/docs/Introduction/parse_html_node",
+              "id": "Introduction/Nodes",
+              "path": "/docs/Introduction/Nodes",
               "sidebar": "tutorialSidebar"
             },
             {
