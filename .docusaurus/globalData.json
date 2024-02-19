@@ -96,6 +96,26 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Utils/convert_to_json",
+              "path": "/docs/Utils/convert_to_json",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Utils/remover",
+              "path": "/docs/Utils/remover",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Utils/save_audio_from_bytes",
+              "path": "/docs/Utils/save_audio_from_bytes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Utils/token_calculator",
+              "path": "/docs/Utils/token_calculator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/introduction",
               "path": "/docs/category/introduction",
               "sidebar": "tutorialSidebar"

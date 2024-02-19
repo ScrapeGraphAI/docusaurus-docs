@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'fbf'),
+    component: ComponentCreator('/docs', 'b15'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '4a1'),
+        component: ComponentCreator('/docs', '714'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'b86'),
+            component: ComponentCreator('/docs', '398'),
             routes: [
               {
                 path: '/docs/activation',
@@ -183,6 +183,30 @@ export default [
               {
                 path: '/docs/Utils/convert_to_csv',
                 component: ComponentCreator('/docs/Utils/convert_to_csv', '031'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Utils/convert_to_json',
+                component: ComponentCreator('/docs/Utils/convert_to_json', '02a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Utils/remover',
+                component: ComponentCreator('/docs/Utils/remover', 'f6d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Utils/save_audio_from_bytes',
+                component: ComponentCreator('/docs/Utils/save_audio_from_bytes', '235'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Utils/token_calculator',
+                component: ComponentCreator('/docs/Utils/token_calculator', '3b2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
