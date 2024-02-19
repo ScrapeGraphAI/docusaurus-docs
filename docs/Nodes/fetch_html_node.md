@@ -75,7 +75,3 @@ class FetchHTMLNode(BaseNode):
         return state
 
 ```
-## Example
-```python
-
-```

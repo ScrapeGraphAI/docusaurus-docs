@@ -50,6 +50,4 @@ class TextToSpeechNode(BaseNode):
         state.update({"audio": audio})
         return state
 ```
-## Example
-```python
-```
+

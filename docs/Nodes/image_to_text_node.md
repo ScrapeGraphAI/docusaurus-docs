@@ -47,6 +47,4 @@ class ImageToTextNode(BaseNode):
         return state
 
 ```
-## Example
-```python
-```
+

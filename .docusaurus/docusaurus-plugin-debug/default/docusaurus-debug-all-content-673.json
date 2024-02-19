@@ -136,16 +136,16 @@
               }
             },
             {
-              "id": "Examples/Example",
-              "title": "👽 Example",
-              "description": "First of all you have to install the library",
-              "source": "@site/docs/Examples/Example.md",
+              "id": "Examples/CustomGraph",
+              "title": "👼🏻 Custom graph",
+              "description": "You can create custom graphs based on your necessities, using standard nodes provided by the library.",
+              "source": "@site/docs/Examples/CustomGraph.md",
               "sourceDirName": "Examples",
-              "slug": "/Examples/Example",
-              "permalink": "/docs/Examples/Example",
+              "slug": "/Examples/CustomGraph",
+              "permalink": "/docs/Examples/CustomGraph",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/Example.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/CustomGraph.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -153,6 +153,78 @@
               "previous": {
                 "title": "Tutorials",
                 "permalink": "/docs/category/tutorials"
+              },
+              "next": {
+                "title": "🍇 GraphBuilder",
+                "permalink": "/docs/Examples/GraphBuilder"
+              }
+            },
+            {
+              "id": "Examples/GraphBuilder",
+              "title": "🍇 GraphBuilder",
+              "description": "key1",
+              "source": "@site/docs/Examples/GraphBuilder.md",
+              "sourceDirName": "Examples",
+              "slug": "/Examples/GraphBuilder",
+              "permalink": "/docs/Examples/GraphBuilder",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/GraphBuilder.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "👼🏻 Custom graph",
+                "permalink": "/docs/Examples/CustomGraph"
+              },
+              "next": {
+                "title": "🧑🏻‍💻 SmartScraperGraph",
+                "permalink": "/docs/Examples/SmartScraperGraph"
+              }
+            },
+            {
+              "id": "Examples/SmartScraperGraph",
+              "title": "🧑🏻‍💻 SmartScraperGraph",
+              "description": "key1",
+              "source": "@site/docs/Examples/SmartScraperGraph.md",
+              "sourceDirName": "Examples",
+              "slug": "/Examples/SmartScraperGraph",
+              "permalink": "/docs/Examples/SmartScraperGraph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/SmartScraperGraph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🍇 GraphBuilder",
+                "permalink": "/docs/Examples/GraphBuilder"
+              },
+              "next": {
+                "title": "🔊 Speech graph",
+                "permalink": "/docs/Examples/SpeechSummaryGraph"
+              }
+            },
+            {
+              "id": "Examples/SpeechSummaryGraph",
+              "title": "🔊 Speech graph",
+              "description": "key1",
+              "source": "@site/docs/Examples/SpeechSummaryGraph.md",
+              "sourceDirName": "Examples",
+              "slug": "/Examples/SpeechSummaryGraph",
+              "permalink": "/docs/Examples/SpeechSummaryGraph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/SpeechSummaryGraph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🧑🏻‍💻 SmartScraperGraph",
+                "permalink": "/docs/Examples/SmartScraperGraph"
               },
               "next": {
                 "title": "Utils",
@@ -419,20 +491,20 @@
               },
               "next": {
                 "title": "🤖 convert_to_json",
-                "permalink": "/docs/Utils/convert_to_json"
+                "permalink": "/docs/Utils/convert_to_j"
               }
             },
             {
-              "id": "Utils/convert_to_json",
+              "id": "Utils/convert_to_j",
               "title": "🤖 convert_to_json",
               "description": "Introduction",
-              "source": "@site/docs/Utils/convert_to_json.md",
+              "source": "@site/docs/Utils/convert_to_j.md",
               "sourceDirName": "Utils",
-              "slug": "/Utils/convert_to_json",
-              "permalink": "/docs/Utils/convert_to_json",
+              "slug": "/Utils/convert_to_j",
+              "permalink": "/docs/Utils/convert_to_j",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/convert_to_json.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/convert_to_j.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -443,51 +515,51 @@
               },
               "next": {
                 "title": "🚣 Remover",
-                "permalink": "/docs/Utils/remover"
+                "permalink": "/docs/Utils/r"
               }
             },
             {
-              "id": "Utils/remover",
+              "id": "Utils/r",
               "title": "🚣 Remover",
               "description": "Introduction",
-              "source": "@site/docs/Utils/remover.md",
+              "source": "@site/docs/Utils/r.md",
               "sourceDirName": "Utils",
-              "slug": "/Utils/remover",
-              "permalink": "/docs/Utils/remover",
+              "slug": "/Utils/r",
+              "permalink": "/docs/Utils/r",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/remover.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/r.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "🤖 convert_to_json",
-                "permalink": "/docs/Utils/convert_to_json"
+                "permalink": "/docs/Utils/convert_to_j"
               },
               "next": {
                 "title": "🏆 save_audio_from_bytes",
-                "permalink": "/docs/Utils/save_audio_from_bytes"
+                "permalink": "/docs/Utils/save"
               }
             },
             {
-              "id": "Utils/save_audio_from_bytes",
+              "id": "Utils/save",
               "title": "🏆 save_audio_from_bytes",
               "description": "Introduction",
-              "source": "@site/docs/Utils/save_audio_from_bytes.md",
+              "source": "@site/docs/Utils/save.md",
               "sourceDirName": "Utils",
-              "slug": "/Utils/save_audio_from_bytes",
-              "permalink": "/docs/Utils/save_audio_from_bytes",
+              "slug": "/Utils/save",
+              "permalink": "/docs/Utils/save",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/save_audio_from_bytes.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/save.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "🚣 Remover",
-                "permalink": "/docs/Utils/remover"
+                "permalink": "/docs/Utils/r"
               },
               "next": {
                 "title": "🇹🇰 Token calculator",
@@ -511,7 +583,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "🏆 save_audio_from_bytes",
-                "permalink": "/docs/Utils/save_audio_from_bytes"
+                "permalink": "/docs/Utils/save"
               },
               "next": {
                 "title": "Contributing",
@@ -598,7 +670,19 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Examples/Example"
+                    "id": "Examples/CustomGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Examples/GraphBuilder"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Examples/SmartScraperGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Examples/SpeechSummaryGraph"
                   }
                 ],
                 "link": {
@@ -620,15 +704,15 @@
                   },
                   {
                     "type": "doc",
-                    "id": "Utils/convert_to_json"
+                    "id": "Utils/convert_to_j"
                   },
                   {
                     "type": "doc",
-                    "id": "Utils/remover"
+                    "id": "Utils/r"
                   },
                   {
                     "type": "doc",
-                    "id": "Utils/save_audio_from_bytes"
+                    "id": "Utils/save"
                   },
                   {
                     "type": "doc",

@@ -94,6 +94,4 @@ class GetProbableTagsNode(BaseNode):
         return state
 
 ```
-## Example
-```python
-```
+

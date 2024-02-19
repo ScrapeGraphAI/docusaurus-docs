@@ -74,6 +74,3 @@ class ConditionalNode(BaseNode):
         return self.next_nodes[1].node_name
 
 ```
-## Example
-```python
-```

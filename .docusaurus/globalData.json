@@ -36,8 +36,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Examples/Example",
-              "path": "/docs/Examples/Example",
+              "id": "Examples/CustomGraph",
+              "path": "/docs/Examples/CustomGraph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Examples/GraphBuilder",
+              "path": "/docs/Examples/GraphBuilder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Examples/SmartScraperGraph",
+              "path": "/docs/Examples/SmartScraperGraph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Examples/SpeechSummaryGraph",
+              "path": "/docs/Examples/SpeechSummaryGraph",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -96,18 +111,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Utils/convert_to_json",
-              "path": "/docs/Utils/convert_to_json",
+              "id": "Utils/convert_to_j",
+              "path": "/docs/Utils/convert_to_j",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Utils/remover",
-              "path": "/docs/Utils/remover",
+              "id": "Utils/r",
+              "path": "/docs/Utils/r",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Utils/save_audio_from_bytes",
-              "path": "/docs/Utils/save_audio_from_bytes",
+              "id": "Utils/save",
+              "path": "/docs/Utils/save",
               "sidebar": "tutorialSidebar"
             },
             {

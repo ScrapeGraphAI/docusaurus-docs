@@ -106,6 +106,3 @@ class GenerateAnswerNode(BaseNode):
         return state
 
 ```
-## Example
-```python
-```

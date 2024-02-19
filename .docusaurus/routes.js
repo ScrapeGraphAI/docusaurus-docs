@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b15'),
+    component: ComponentCreator('/docs', '432'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '714'),
+        component: ComponentCreator('/docs', 'b8a'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '398'),
+            component: ComponentCreator('/docs', 'fce'),
             routes: [
               {
                 path: '/docs/activation',
@@ -115,8 +115,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Examples/Example',
-                component: ComponentCreator('/docs/Examples/Example', 'f9c'),
+                path: '/docs/Examples/CustomGraph',
+                component: ComponentCreator('/docs/Examples/CustomGraph', '651'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Examples/GraphBuilder',
+                component: ComponentCreator('/docs/Examples/GraphBuilder', 'de6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Examples/SmartScraperGraph',
+                component: ComponentCreator('/docs/Examples/SmartScraperGraph', 'a1d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Examples/SpeechSummaryGraph',
+                component: ComponentCreator('/docs/Examples/SpeechSummaryGraph', '789'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -187,20 +205,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Utils/convert_to_json',
-                component: ComponentCreator('/docs/Utils/convert_to_json', '02a'),
+                path: '/docs/Utils/convert_to_j',
+                component: ComponentCreator('/docs/Utils/convert_to_j', '55e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Utils/remover',
-                component: ComponentCreator('/docs/Utils/remover', 'f6d'),
+                path: '/docs/Utils/r',
+                component: ComponentCreator('/docs/Utils/r', '988'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Utils/save_audio_from_bytes',
-                component: ComponentCreator('/docs/Utils/save_audio_from_bytes', '235'),
+                path: '/docs/Utils/save',
+                component: ComponentCreator('/docs/Utils/save', 'c89'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

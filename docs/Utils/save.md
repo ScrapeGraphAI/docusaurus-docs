@@ -41,5 +41,4 @@ OUTPUT_PATH = "generated_speech.wav"
 
 save_audio_from_bytes(BYTE_RESPONSE, OUTPUT_PATH)
 
-
 ```

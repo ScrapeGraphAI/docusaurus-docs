@@ -105,9 +105,30 @@
         "items": [
           {
             "type": "link",
-            "label": "👽 Example",
-            "href": "/docs/Examples/Example",
-            "docId": "Examples/Example",
+            "label": "👼🏻 Custom graph",
+            "href": "/docs/Examples/CustomGraph",
+            "docId": "Examples/CustomGraph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🍇 GraphBuilder",
+            "href": "/docs/Examples/GraphBuilder",
+            "docId": "Examples/GraphBuilder",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🧑🏻‍💻 SmartScraperGraph",
+            "href": "/docs/Examples/SmartScraperGraph",
+            "docId": "Examples/SmartScraperGraph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🔊 Speech graph",
+            "href": "/docs/Examples/SpeechSummaryGraph",
+            "docId": "Examples/SpeechSummaryGraph",
             "unlisted": false
           }
         ],
@@ -129,22 +150,22 @@
           {
             "type": "link",
             "label": "🤖 convert_to_json",
-            "href": "/docs/Utils/convert_to_json",
-            "docId": "Utils/convert_to_json",
+            "href": "/docs/Utils/convert_to_j",
+            "docId": "Utils/convert_to_j",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🚣 Remover",
-            "href": "/docs/Utils/remover",
-            "docId": "Utils/remover",
+            "href": "/docs/Utils/r",
+            "docId": "Utils/r",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🏆 save_audio_from_bytes",
-            "href": "/docs/Utils/save_audio_from_bytes",
-            "docId": "Utils/save_audio_from_bytes",
+            "href": "/docs/Utils/save",
+            "docId": "Utils/save",
             "unlisted": false
           },
           {
@@ -234,10 +255,28 @@
       "description": "key1",
       "sidebar": "tutorialSidebar"
     },
-    "Examples/Example": {
-      "id": "Examples/Example",
-      "title": "👽 Example",
-      "description": "First of all you have to install the library",
+    "Examples/CustomGraph": {
+      "id": "Examples/CustomGraph",
+      "title": "👼🏻 Custom graph",
+      "description": "You can create custom graphs based on your necessities, using standard nodes provided by the library.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Examples/GraphBuilder": {
+      "id": "Examples/GraphBuilder",
+      "title": "🍇 GraphBuilder",
+      "description": "key1",
+      "sidebar": "tutorialSidebar"
+    },
+    "Examples/SmartScraperGraph": {
+      "id": "Examples/SmartScraperGraph",
+      "title": "🧑🏻‍💻 SmartScraperGraph",
+      "description": "key1",
+      "sidebar": "tutorialSidebar"
+    },
+    "Examples/SpeechSummaryGraph": {
+      "id": "Examples/SpeechSummaryGraph",
+      "title": "🔊 Speech graph",
+      "description": "key1",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
@@ -306,20 +345,20 @@
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Utils/convert_to_json": {
-      "id": "Utils/convert_to_json",
+    "Utils/convert_to_j": {
+      "id": "Utils/convert_to_j",
       "title": "🤖 convert_to_json",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Utils/remover": {
-      "id": "Utils/remover",
+    "Utils/r": {
+      "id": "Utils/r",
       "title": "🚣 Remover",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Utils/save_audio_from_bytes": {
-      "id": "Utils/save_audio_from_bytes",
+    "Utils/save": {
+      "id": "Utils/save",
       "title": "🏆 save_audio_from_bytes",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
