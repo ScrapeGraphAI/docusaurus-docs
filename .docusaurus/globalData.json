@@ -91,6 +91,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Utils/convert_to_csv",
+              "path": "/docs/Utils/convert_to_csv",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/introduction",
               "path": "/docs/category/introduction",
               "sidebar": "tutorialSidebar"
@@ -103,6 +108,11 @@
             {
               "id": "/category/tutorials",
               "path": "/docs/category/tutorials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/utils",
+              "path": "/docs/category/utils",
               "sidebar": "tutorialSidebar"
             },
             {

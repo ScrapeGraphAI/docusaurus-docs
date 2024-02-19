@@ -155,8 +155,8 @@
                 "permalink": "/docs/category/tutorials"
               },
               "next": {
-                "title": "Contributing",
-                "permalink": "/docs/category/contributing"
+                "title": "Utils",
+                "permalink": "/docs/category/utils"
               }
             },
             {
@@ -397,6 +397,30 @@
                 "title": "Tutorials",
                 "permalink": "/docs/category/tutorials"
               }
+            },
+            {
+              "id": "Utils/convert_to_csv",
+              "title": "🍷 convert_to_csv",
+              "description": "Introduction",
+              "source": "@site/docs/Utils/convert_to_csv.md",
+              "sourceDirName": "Utils",
+              "slug": "/Utils/convert_to_csv",
+              "permalink": "/docs/Utils/convert_to_csv",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/convert_to_csv.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Utils",
+                "permalink": "/docs/category/utils"
+              },
+              "next": {
+                "title": "Contributing",
+                "permalink": "/docs/category/contributing"
+              }
             }
           ],
           "drafts": [],
@@ -486,6 +510,24 @@
                   "description": "List of documents of tutorials",
                   "slug": "/category/tutorials",
                   "permalink": "/docs/category/tutorials"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Utils",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Utils/convert_to_csv"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Description of the utils folder",
+                  "slug": "/category/utils",
+                  "permalink": "/docs/category/utils"
                 }
               },
               {

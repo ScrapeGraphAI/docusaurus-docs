@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '358'),
+    component: ComponentCreator('/docs', 'fbf'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '15b'),
+        component: ComponentCreator('/docs', '4a1'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '484'),
+            component: ComponentCreator('/docs', 'b86'),
             routes: [
               {
                 path: '/docs/activation',
@@ -81,6 +81,12 @@ export default [
               {
                 path: '/docs/category/tutorials',
                 component: ComponentCreator('/docs/category/tutorials', 'f40'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/utils',
+                component: ComponentCreator('/docs/category/utils', 'b2e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -171,6 +177,12 @@ export default [
               {
                 path: '/docs/Nodes/text_to_speach_node',
                 component: ComponentCreator('/docs/Nodes/text_to_speach_node', '325'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Utils/convert_to_csv',
+                component: ComponentCreator('/docs/Utils/convert_to_csv', '031'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

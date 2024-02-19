@@ -115,6 +115,22 @@
       },
       {
         "type": "category",
+        "label": "Utils",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "🍷 convert_to_csv",
+            "href": "/docs/Utils/convert_to_csv",
+            "docId": "Utils/convert_to_csv",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/utils"
+      },
+      {
+        "type": "category",
         "label": "Contributing",
         "collapsible": true,
         "collapsed": true,
@@ -253,6 +269,12 @@
     "Nodes/text_to_speach_node": {
       "id": "Nodes/text_to_speach_node",
       "title": "🔥 Text_to_speach_node",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Utils/convert_to_csv": {
+      "id": "Utils/convert_to_csv",
+      "title": "🍷 convert_to_csv",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     }
