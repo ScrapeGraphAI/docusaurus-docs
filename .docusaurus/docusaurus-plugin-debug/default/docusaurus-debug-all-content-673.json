@@ -183,30 +183,6 @@
               }
             },
             {
-              "id": "Introduction/base_node",
-              "title": "🌲 Base node",
-              "description": "Introduction",
-              "source": "@site/docs/Introduction/base_node.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/base_node",
-              "permalink": "/docs/Introduction/base_node",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/base_node.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "🪢 Nodes",
-                "permalink": "/docs/Introduction/Nodes"
-              },
-              "next": {
-                "title": "🗣️ Conditional_node",
-                "permalink": "/docs/Introduction/conditional_node"
-              }
-            },
-            {
               "id": "Introduction/Basics",
               "title": "📚 Basics",
               "description": "The standard structure of Scrapegrah-ai is a graph made by nodes.",
@@ -226,172 +202,196 @@
                 "permalink": "/docs/category/introduction"
               },
               "next": {
-                "title": "🪢 Nodes",
-                "permalink": "/docs/Introduction/Nodes"
+                "title": "Nodes",
+                "permalink": "/docs/category/nodes"
               }
             },
             {
-              "id": "Introduction/conditional_node",
-              "title": "🗣️ Conditional_node",
+              "id": "Nodes/base_node",
+              "title": "🌲 Base node",
               "description": "Introduction",
-              "source": "@site/docs/Introduction/conditional_node.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/conditional_node",
-              "permalink": "/docs/Introduction/conditional_node",
+              "source": "@site/docs/Nodes/base_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/base_node",
+              "permalink": "/docs/Nodes/base_node",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/conditional_node.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/base_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🪢 Nodes",
+                "permalink": "/docs/Nodes/"
+              },
+              "next": {
+                "title": "🗣️ Conditional_node",
+                "permalink": "/docs/Nodes/conditional_node"
+              }
+            },
+            {
+              "id": "Nodes/conditional_node",
+              "title": "🗣️ Conditional_node",
+              "description": "Introduction",
+              "source": "@site/docs/Nodes/conditional_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/conditional_node",
+              "permalink": "/docs/Nodes/conditional_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/conditional_node.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "🌲 Base node",
-                "permalink": "/docs/Introduction/base_node"
+                "permalink": "/docs/Nodes/base_node"
               },
               "next": {
                 "title": "😼 Fetch_html_node",
-                "permalink": "/docs/Introduction/fetch_html_node"
+                "permalink": "/docs/Nodes/fetch_html_node"
               }
             },
             {
-              "id": "Introduction/fetch_html_node",
+              "id": "Nodes/fetch_html_node",
               "title": "😼 Fetch_html_node",
               "description": "Introduction",
-              "source": "@site/docs/Introduction/fetch_html_node.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/fetch_html_node",
-              "permalink": "/docs/Introduction/fetch_html_node",
+              "source": "@site/docs/Nodes/fetch_html_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/fetch_html_node",
+              "permalink": "/docs/Nodes/fetch_html_node",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/fetch_html_node.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/fetch_html_node.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "🗣️ Conditional_node",
-                "permalink": "/docs/Introduction/conditional_node"
+                "permalink": "/docs/Nodes/conditional_node"
               },
               "next": {
-                "title": "🐝 generate_answer_node",
-                "permalink": "/docs/Introduction/generate_answer_node"
+                "title": "🐝 Generate_answer_node",
+                "permalink": "/docs/Nodes/generate_answer_node"
               }
             },
             {
-              "id": "Introduction/generate_answer_node",
-              "title": "🐝 generate_answer_node",
+              "id": "Nodes/generate_answer_node",
+              "title": "🐝 Generate_answer_node",
               "description": "Introduction",
-              "source": "@site/docs/Introduction/generate_answer_node.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/generate_answer_node",
-              "permalink": "/docs/Introduction/generate_answer_node",
+              "source": "@site/docs/Nodes/generate_answer_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/generate_answer_node",
+              "permalink": "/docs/Nodes/generate_answer_node",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/generate_answer_node.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/generate_answer_node.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "😼 Fetch_html_node",
-                "permalink": "/docs/Introduction/fetch_html_node"
+                "permalink": "/docs/Nodes/fetch_html_node"
               },
               "next": {
-                "title": "💫 get_probable_tags_node",
-                "permalink": "/docs/Introduction/get_probable_tags_node"
+                "title": "💫 Get_probable_tags_node",
+                "permalink": "/docs/Nodes/get_probable_tags_node"
               }
             },
             {
-              "id": "Introduction/get_probable_tags_node",
-              "title": "💫 get_probable_tags_node",
+              "id": "Nodes/get_probable_tags_node",
+              "title": "💫 Get_probable_tags_node",
               "description": "Introduction",
-              "source": "@site/docs/Introduction/get_probable_tags_node.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/get_probable_tags_node",
-              "permalink": "/docs/Introduction/get_probable_tags_node",
+              "source": "@site/docs/Nodes/get_probable_tags_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/get_probable_tags_node",
+              "permalink": "/docs/Nodes/get_probable_tags_node",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/get_probable_tags_node.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/get_probable_tags_node.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🐝 generate_answer_node",
-                "permalink": "/docs/Introduction/generate_answer_node"
+                "title": "🐝 Generate_answer_node",
+                "permalink": "/docs/Nodes/generate_answer_node"
               },
               "next": {
-                "title": "🚁 image_to_text_node",
-                "permalink": "/docs/Introduction/image_to_text_node"
+                "title": "🚁 Image_to_text_node",
+                "permalink": "/docs/Nodes/image_to_text_node"
               }
             },
             {
-              "id": "Introduction/image_to_text_node",
-              "title": "🚁 image_to_text_node",
+              "id": "Nodes/image_to_text_node",
+              "title": "🚁 Image_to_text_node",
               "description": "Introduction",
-              "source": "@site/docs/Introduction/image_to_text_node.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/image_to_text_node",
-              "permalink": "/docs/Introduction/image_to_text_node",
+              "source": "@site/docs/Nodes/image_to_text_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/image_to_text_node",
+              "permalink": "/docs/Nodes/image_to_text_node",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/image_to_text_node.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/image_to_text_node.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "💫 get_probable_tags_node",
-                "permalink": "/docs/Introduction/get_probable_tags_node"
+                "title": "💫 Get_probable_tags_node",
+                "permalink": "/docs/Nodes/get_probable_tags_node"
               },
               "next": {
                 "title": "🔥 Text_to_speach_node",
-                "permalink": "/docs/Introduction/text_to_speach_node"
+                "permalink": "/docs/Nodes/text_to_speach_node"
               }
             },
             {
-              "id": "Introduction/Nodes",
+              "id": "Nodes/Nodes",
               "title": "🪢 Nodes",
               "description": "The basic unit of Scrapegraph-ai is the Node",
-              "source": "@site/docs/Introduction/Nodes.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/Nodes",
-              "permalink": "/docs/Introduction/Nodes",
+              "source": "@site/docs/Nodes/Nodes.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/",
+              "permalink": "/docs/Nodes/",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/Nodes.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/Nodes.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "📚 Basics",
-                "permalink": "/docs/Introduction/Basics"
+                "title": "Nodes",
+                "permalink": "/docs/category/nodes"
               },
               "next": {
                 "title": "🌲 Base node",
-                "permalink": "/docs/Introduction/base_node"
+                "permalink": "/docs/Nodes/base_node"
               }
             },
             {
-              "id": "Introduction/text_to_speach_node",
+              "id": "Nodes/text_to_speach_node",
               "title": "🔥 Text_to_speach_node",
               "description": "Introduction",
-              "source": "@site/docs/Introduction/text_to_speach_node.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/text_to_speach_node",
-              "permalink": "/docs/Introduction/text_to_speach_node",
+              "source": "@site/docs/Nodes/text_to_speach_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/text_to_speach_node",
+              "permalink": "/docs/Nodes/text_to_speach_node",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/text_to_speach_node.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/text_to_speach_node.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🚁 image_to_text_node",
-                "permalink": "/docs/Introduction/image_to_text_node"
+                "title": "🚁 Image_to_text_node",
+                "permalink": "/docs/Nodes/image_to_text_node"
               },
               "next": {
                 "title": "Tutorials",
@@ -535,38 +535,6 @@
                   {
                     "type": "doc",
                     "id": "Introduction/Basics"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/Nodes"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/base_node"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/conditional_node"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/fetch_html_node"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/generate_answer_node"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/get_probable_tags_node"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/image_to_text_node"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Introduction/text_to_speach_node"
                   }
                 ],
                 "link": {
@@ -574,6 +542,52 @@
                   "description": "Introduction and basics classes of Scrapegraph-ai",
                   "slug": "/category/introduction",
                   "permalink": "/docs/category/introduction"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Nodes",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Nodes/Nodes"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Nodes/base_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Nodes/conditional_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Nodes/fetch_html_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Nodes/generate_answer_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Nodes/get_probable_tags_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Nodes/image_to_text_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Nodes/text_to_speach_node"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Description of the nodes folder",
+                  "slug": "/category/nodes",
+                  "permalink": "/docs/category/nodes"
                 }
               },
               {

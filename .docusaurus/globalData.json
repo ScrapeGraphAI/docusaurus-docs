@@ -46,48 +46,48 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/base_node",
-              "path": "/docs/Introduction/base_node",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Introduction/Basics",
               "path": "/docs/Introduction/Basics",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/conditional_node",
-              "path": "/docs/Introduction/conditional_node",
+              "id": "Nodes/base_node",
+              "path": "/docs/Nodes/base_node",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/fetch_html_node",
-              "path": "/docs/Introduction/fetch_html_node",
+              "id": "Nodes/conditional_node",
+              "path": "/docs/Nodes/conditional_node",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/generate_answer_node",
-              "path": "/docs/Introduction/generate_answer_node",
+              "id": "Nodes/fetch_html_node",
+              "path": "/docs/Nodes/fetch_html_node",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/get_probable_tags_node",
-              "path": "/docs/Introduction/get_probable_tags_node",
+              "id": "Nodes/generate_answer_node",
+              "path": "/docs/Nodes/generate_answer_node",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/image_to_text_node",
-              "path": "/docs/Introduction/image_to_text_node",
+              "id": "Nodes/get_probable_tags_node",
+              "path": "/docs/Nodes/get_probable_tags_node",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/Nodes",
-              "path": "/docs/Introduction/Nodes",
+              "id": "Nodes/image_to_text_node",
+              "path": "/docs/Nodes/image_to_text_node",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/text_to_speach_node",
-              "path": "/docs/Introduction/text_to_speach_node",
+              "id": "Nodes/Nodes",
+              "path": "/docs/Nodes/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Nodes/text_to_speach_node",
+              "path": "/docs/Nodes/text_to_speach_node",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -118,6 +118,11 @@
             {
               "id": "/category/introduction",
               "path": "/docs/category/introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/nodes",
+              "path": "/docs/category/nodes",
               "sidebar": "tutorialSidebar"
             },
             {

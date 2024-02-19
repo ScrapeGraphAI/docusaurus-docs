@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ab4'),
+    component: ComponentCreator('/docs', 'b15'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '960'),
+        component: ComponentCreator('/docs', '714'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '351'),
+            component: ComponentCreator('/docs', '398'),
             routes: [
               {
                 path: '/docs/activation',
@@ -69,6 +69,12 @@ export default [
               {
                 path: '/docs/category/introduction',
                 component: ComponentCreator('/docs/category/introduction', 'd40'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/nodes',
+                component: ComponentCreator('/docs/category/nodes', 'e9d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -121,56 +127,56 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Introduction/base_node',
-                component: ComponentCreator('/docs/Introduction/base_node', 'e39'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/Introduction/Basics',
                 component: ComponentCreator('/docs/Introduction/Basics', '8bd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Introduction/conditional_node',
-                component: ComponentCreator('/docs/Introduction/conditional_node', '63f'),
+                path: '/docs/Nodes/',
+                component: ComponentCreator('/docs/Nodes/', '883'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Introduction/fetch_html_node',
-                component: ComponentCreator('/docs/Introduction/fetch_html_node', '2c1'),
+                path: '/docs/Nodes/base_node',
+                component: ComponentCreator('/docs/Nodes/base_node', 'f32'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Introduction/generate_answer_node',
-                component: ComponentCreator('/docs/Introduction/generate_answer_node', '3da'),
+                path: '/docs/Nodes/conditional_node',
+                component: ComponentCreator('/docs/Nodes/conditional_node', '65d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Introduction/get_probable_tags_node',
-                component: ComponentCreator('/docs/Introduction/get_probable_tags_node', '4e0'),
+                path: '/docs/Nodes/fetch_html_node',
+                component: ComponentCreator('/docs/Nodes/fetch_html_node', 'ba8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Introduction/image_to_text_node',
-                component: ComponentCreator('/docs/Introduction/image_to_text_node', 'b61'),
+                path: '/docs/Nodes/generate_answer_node',
+                component: ComponentCreator('/docs/Nodes/generate_answer_node', '061'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Introduction/Nodes',
-                component: ComponentCreator('/docs/Introduction/Nodes', 'a20'),
+                path: '/docs/Nodes/get_probable_tags_node',
+                component: ComponentCreator('/docs/Nodes/get_probable_tags_node', '40c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Introduction/text_to_speach_node',
-                component: ComponentCreator('/docs/Introduction/text_to_speach_node', '332'),
+                path: '/docs/Nodes/image_to_text_node',
+                component: ComponentCreator('/docs/Nodes/image_to_text_node', '587'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Nodes/text_to_speach_node',
+                component: ComponentCreator('/docs/Nodes/text_to_speach_node', '325'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

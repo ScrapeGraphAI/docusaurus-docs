@@ -28,65 +28,74 @@
             "href": "/docs/Introduction/Basics",
             "docId": "Introduction/Basics",
             "unlisted": false
-          },
+          }
+        ],
+        "href": "/docs/category/introduction"
+      },
+      {
+        "type": "category",
+        "label": "Nodes",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
           {
             "type": "link",
             "label": "🪢 Nodes",
-            "href": "/docs/Introduction/Nodes",
-            "docId": "Introduction/Nodes",
+            "href": "/docs/Nodes/",
+            "docId": "Nodes/Nodes",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🌲 Base node",
-            "href": "/docs/Introduction/base_node",
-            "docId": "Introduction/base_node",
+            "href": "/docs/Nodes/base_node",
+            "docId": "Nodes/base_node",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🗣️ Conditional_node",
-            "href": "/docs/Introduction/conditional_node",
-            "docId": "Introduction/conditional_node",
+            "href": "/docs/Nodes/conditional_node",
+            "docId": "Nodes/conditional_node",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "😼 Fetch_html_node",
-            "href": "/docs/Introduction/fetch_html_node",
-            "docId": "Introduction/fetch_html_node",
+            "href": "/docs/Nodes/fetch_html_node",
+            "docId": "Nodes/fetch_html_node",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "🐝 generate_answer_node",
-            "href": "/docs/Introduction/generate_answer_node",
-            "docId": "Introduction/generate_answer_node",
+            "label": "🐝 Generate_answer_node",
+            "href": "/docs/Nodes/generate_answer_node",
+            "docId": "Nodes/generate_answer_node",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "💫 get_probable_tags_node",
-            "href": "/docs/Introduction/get_probable_tags_node",
-            "docId": "Introduction/get_probable_tags_node",
+            "label": "💫 Get_probable_tags_node",
+            "href": "/docs/Nodes/get_probable_tags_node",
+            "docId": "Nodes/get_probable_tags_node",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "🚁 image_to_text_node",
-            "href": "/docs/Introduction/image_to_text_node",
-            "docId": "Introduction/image_to_text_node",
+            "label": "🚁 Image_to_text_node",
+            "href": "/docs/Nodes/image_to_text_node",
+            "docId": "Nodes/image_to_text_node",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🔥 Text_to_speach_node",
-            "href": "/docs/Introduction/text_to_speach_node",
-            "docId": "Introduction/text_to_speach_node",
+            "href": "/docs/Nodes/text_to_speach_node",
+            "docId": "Nodes/text_to_speach_node",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/introduction"
+        "href": "/docs/category/nodes"
       },
       {
         "type": "category",
@@ -237,56 +246,56 @@
       "description": "ScrapeGraphAI is a web scraping python library based on LangChain which uses LLM and direct graph logic to create scraping pipelines.",
       "sidebar": "tutorialSidebar"
     },
-    "Introduction/base_node": {
-      "id": "Introduction/base_node",
-      "title": "🌲 Base node",
-      "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
     "Introduction/Basics": {
       "id": "Introduction/Basics",
       "title": "📚 Basics",
       "description": "The standard structure of Scrapegrah-ai is a graph made by nodes.",
       "sidebar": "tutorialSidebar"
     },
-    "Introduction/conditional_node": {
-      "id": "Introduction/conditional_node",
+    "Nodes/base_node": {
+      "id": "Nodes/base_node",
+      "title": "🌲 Base node",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Nodes/conditional_node": {
+      "id": "Nodes/conditional_node",
       "title": "🗣️ Conditional_node",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Introduction/fetch_html_node": {
-      "id": "Introduction/fetch_html_node",
+    "Nodes/fetch_html_node": {
+      "id": "Nodes/fetch_html_node",
       "title": "😼 Fetch_html_node",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Introduction/generate_answer_node": {
-      "id": "Introduction/generate_answer_node",
-      "title": "🐝 generate_answer_node",
+    "Nodes/generate_answer_node": {
+      "id": "Nodes/generate_answer_node",
+      "title": "🐝 Generate_answer_node",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Introduction/get_probable_tags_node": {
-      "id": "Introduction/get_probable_tags_node",
-      "title": "💫 get_probable_tags_node",
+    "Nodes/get_probable_tags_node": {
+      "id": "Nodes/get_probable_tags_node",
+      "title": "💫 Get_probable_tags_node",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Introduction/image_to_text_node": {
-      "id": "Introduction/image_to_text_node",
-      "title": "🚁 image_to_text_node",
+    "Nodes/image_to_text_node": {
+      "id": "Nodes/image_to_text_node",
+      "title": "🚁 Image_to_text_node",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Introduction/Nodes": {
-      "id": "Introduction/Nodes",
+    "Nodes/Nodes": {
+      "id": "Nodes/Nodes",
       "title": "🪢 Nodes",
       "description": "The basic unit of Scrapegraph-ai is the Node",
       "sidebar": "tutorialSidebar"
     },
-    "Introduction/text_to_speach_node": {
-      "id": "Introduction/text_to_speach_node",
+    "Nodes/text_to_speach_node": {
+      "id": "Nodes/text_to_speach_node",
       "title": "🔥 Text_to_speach_node",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"

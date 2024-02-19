@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "🪢 Nodes",
-    "permalink": "/docs/Introduction/Nodes"
+    "title": "📚 Basics",
+    "permalink": "/docs/Introduction/Basics"
   },
   "next": {
-    "title": "🗣️ Conditional_node",
-    "permalink": "/docs/Introduction/conditional_node"
+    "title": "Nodes",
+    "permalink": "/docs/category/nodes"
   }
 }
