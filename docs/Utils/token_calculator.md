@@ -36,7 +36,6 @@ def truncate_text_tokens(text: str, model: str, encoding_name: str) -> List[str]
 
     return result
 
-
 ```
 ## Example
 ```python
