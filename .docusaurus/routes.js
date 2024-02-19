@@ -3,21 +3,56 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'c6d'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '388'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '583'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', '51b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'ac1'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '57c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', 'd7e'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '470'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b15'),
+    component: ComponentCreator('/docs', '358'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '714'),
+        component: ComponentCreator('/docs', '15b'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '398'),
+            component: ComponentCreator('/docs', '484'),
             routes: [
               {
                 path: '/docs/activation',
@@ -46,12 +81,6 @@ export default [
               {
                 path: '/docs/category/tutorials',
                 component: ComponentCreator('/docs/category/tutorials', 'f40'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/utils',
-                component: ComponentCreator('/docs/category/utils', 'b2e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -142,36 +171,6 @@ export default [
               {
                 path: '/docs/Nodes/text_to_speach_node',
                 component: ComponentCreator('/docs/Nodes/text_to_speach_node', '325'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Utils/convert_to_csv',
-                component: ComponentCreator('/docs/Utils/convert_to_csv', '031'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Utils/convert_to_json',
-                component: ComponentCreator('/docs/Utils/convert_to_json', '02a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Utils/remover',
-                component: ComponentCreator('/docs/Utils/remover', 'f6d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Utils/save_audio_from_bytes',
-                component: ComponentCreator('/docs/Utils/save_audio_from_bytes', '235'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Utils/token_calculator',
-                component: ComponentCreator('/docs/Utils/token_calculator', '3b2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

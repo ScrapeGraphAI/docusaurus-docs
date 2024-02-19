@@ -115,50 +115,6 @@
       },
       {
         "type": "category",
-        "label": "Utils",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "🍷 convert_to_csv",
-            "href": "/docs/Utils/convert_to_csv",
-            "docId": "Utils/convert_to_csv",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🤖 convert_to_json",
-            "href": "/docs/Utils/convert_to_json",
-            "docId": "Utils/convert_to_json",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🚣 Remover",
-            "href": "/docs/Utils/remover",
-            "docId": "Utils/remover",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🏆 save_audio_from_bytes",
-            "href": "/docs/Utils/save_audio_from_bytes",
-            "docId": "Utils/save_audio_from_bytes",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🇹🇰 Token calculator",
-            "href": "/docs/Utils/token_calculator",
-            "docId": "Utils/token_calculator",
-            "unlisted": false
-          }
-        ],
-        "href": "/docs/category/utils"
-      },
-      {
-        "type": "category",
         "label": "Contributing",
         "collapsible": true,
         "collapsed": true,
@@ -298,36 +254,6 @@
       "id": "Nodes/text_to_speach_node",
       "title": "🔥 Text_to_speach_node",
       "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
-    "Utils/convert_to_csv": {
-      "id": "Utils/convert_to_csv",
-      "title": "🍷 convert_to_csv",
-      "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
-    "Utils/convert_to_json": {
-      "id": "Utils/convert_to_json",
-      "title": "🤖 convert_to_json",
-      "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
-    "Utils/remover": {
-      "id": "Utils/remover",
-      "title": "🚣 Remover",
-      "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
-    "Utils/save_audio_from_bytes": {
-      "id": "Utils/save_audio_from_bytes",
-      "title": "🏆 save_audio_from_bytes",
-      "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
-    "Utils/token_calculator": {
-      "id": "Utils/token_calculator",
-      "title": "🇹🇰 Token calculator",
-      "description": "The token calculator class is a class that implements the token for the link to scrape.",
       "sidebar": "tutorialSidebar"
     }
   }

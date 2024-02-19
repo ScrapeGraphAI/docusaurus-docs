@@ -155,8 +155,8 @@
                 "permalink": "/docs/category/tutorials"
               },
               "next": {
-                "title": "Utils",
-                "permalink": "/docs/category/utils"
+                "title": "Contributing",
+                "permalink": "/docs/category/contributing"
               }
             },
             {
@@ -397,126 +397,6 @@
                 "title": "Tutorials",
                 "permalink": "/docs/category/tutorials"
               }
-            },
-            {
-              "id": "Utils/convert_to_csv",
-              "title": "🍷 convert_to_csv",
-              "description": "Introduction",
-              "source": "@site/docs/Utils/convert_to_csv.md",
-              "sourceDirName": "Utils",
-              "slug": "/Utils/convert_to_csv",
-              "permalink": "/docs/Utils/convert_to_csv",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/convert_to_csv.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Utils",
-                "permalink": "/docs/category/utils"
-              },
-              "next": {
-                "title": "🤖 convert_to_json",
-                "permalink": "/docs/Utils/convert_to_json"
-              }
-            },
-            {
-              "id": "Utils/convert_to_json",
-              "title": "🤖 convert_to_json",
-              "description": "Introduction",
-              "source": "@site/docs/Utils/convert_to_json.md",
-              "sourceDirName": "Utils",
-              "slug": "/Utils/convert_to_json",
-              "permalink": "/docs/Utils/convert_to_json",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/convert_to_json.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "🍷 convert_to_csv",
-                "permalink": "/docs/Utils/convert_to_csv"
-              },
-              "next": {
-                "title": "🚣 Remover",
-                "permalink": "/docs/Utils/remover"
-              }
-            },
-            {
-              "id": "Utils/remover",
-              "title": "🚣 Remover",
-              "description": "Introduction",
-              "source": "@site/docs/Utils/remover.md",
-              "sourceDirName": "Utils",
-              "slug": "/Utils/remover",
-              "permalink": "/docs/Utils/remover",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/remover.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "🤖 convert_to_json",
-                "permalink": "/docs/Utils/convert_to_json"
-              },
-              "next": {
-                "title": "🏆 save_audio_from_bytes",
-                "permalink": "/docs/Utils/save_audio_from_bytes"
-              }
-            },
-            {
-              "id": "Utils/save_audio_from_bytes",
-              "title": "🏆 save_audio_from_bytes",
-              "description": "Introduction",
-              "source": "@site/docs/Utils/save_audio_from_bytes.md",
-              "sourceDirName": "Utils",
-              "slug": "/Utils/save_audio_from_bytes",
-              "permalink": "/docs/Utils/save_audio_from_bytes",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/save_audio_from_bytes.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "🚣 Remover",
-                "permalink": "/docs/Utils/remover"
-              },
-              "next": {
-                "title": "🇹🇰 Token calculator",
-                "permalink": "/docs/Utils/token_calculator"
-              }
-            },
-            {
-              "id": "Utils/token_calculator",
-              "title": "🇹🇰 Token calculator",
-              "description": "The token calculator class is a class that implements the token for the link to scrape.",
-              "source": "@site/docs/Utils/token_calculator.md",
-              "sourceDirName": "Utils",
-              "slug": "/Utils/token_calculator",
-              "permalink": "/docs/Utils/token_calculator",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/token_calculator.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "🏆 save_audio_from_bytes",
-                "permalink": "/docs/Utils/save_audio_from_bytes"
-              },
-              "next": {
-                "title": "Contributing",
-                "permalink": "/docs/category/contributing"
-              }
             }
           ],
           "drafts": [],
@@ -606,40 +486,6 @@
                   "description": "List of documents of tutorials",
                   "slug": "/category/tutorials",
                   "permalink": "/docs/category/tutorials"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Utils",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Utils/convert_to_csv"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Utils/convert_to_json"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Utils/remover"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Utils/save_audio_from_bytes"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Utils/token_calculator"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Description of the utils folder",
-                  "slug": "/category/utils",
-                  "permalink": "/docs/category/utils"
                 }
               },
               {
