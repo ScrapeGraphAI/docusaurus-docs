@@ -1,0 +1,8 @@
+{
+  "label": "Introduction",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Introduction and basics classes of Scrapegraph-ai"
+  }
+}

@@ -91,6 +91,31 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Utils/convert_to_csv",
+              "path": "/docs/Utils/convert_to_csv",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Utils/convert_to_json",
+              "path": "/docs/Utils/convert_to_json",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Utils/remover",
+              "path": "/docs/Utils/remover",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Utils/save_audio_from_bytes",
+              "path": "/docs/Utils/save_audio_from_bytes",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Utils/token_calculator",
+              "path": "/docs/Utils/token_calculator",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/introduction",
               "path": "/docs/category/introduction",
               "sidebar": "tutorialSidebar"
@@ -98,6 +123,11 @@
             {
               "id": "/category/tutorials",
               "path": "/docs/category/tutorials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/utils",
+              "path": "/docs/category/utils",
               "sidebar": "tutorialSidebar"
             },
             {
