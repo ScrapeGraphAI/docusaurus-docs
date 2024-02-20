@@ -5,6 +5,7 @@
 OPENAI_API_KEY = "YOUR_API_KEY"
 ```
 ![key1](img/GraphBuilder.png)
+
 **GraphBuilder** is an experimental class that helps you to create custom graphs based on your prompt. It creates a json with the essential elements that identify a graph and allows you to visualize it using **graphviz**. It knows what are the kind of nodes that the library provides by default and connect them to help you reach your goal.
 
 ```python

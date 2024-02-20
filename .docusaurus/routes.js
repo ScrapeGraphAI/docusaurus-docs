@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '432'),
+    component: ComponentCreator('/docs', 'a00'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'b8a'),
+        component: ComponentCreator('/docs', '5b5'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'fce'),
+            component: ComponentCreator('/docs', '1a8'),
             routes: [
               {
                 path: '/docs/activation',
@@ -63,6 +63,18 @@ export default [
               {
                 path: '/docs/category/contributing',
                 component: ComponentCreator('/docs/category/contributing', '9f4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/graphs',
+                component: ComponentCreator('/docs/category/graphs', '2f5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/helpers',
+                component: ComponentCreator('/docs/category/helpers', '42b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -135,6 +147,42 @@ export default [
               {
                 path: '/docs/Examples/SpeechSummaryGraph',
                 component: ComponentCreator('/docs/Examples/SpeechSummaryGraph', '789'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Graphs/base_graph',
+                component: ComponentCreator('/docs/Graphs/base_graph', '1d8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Graphs/smart_scraper_graph',
+                component: ComponentCreator('/docs/Graphs/smart_scraper_graph', '17f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Graphs/speech_summary',
+                component: ComponentCreator('/docs/Graphs/speech_summary', '1cc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Helpers/models_tokens',
+                component: ComponentCreator('/docs/Helpers/models_tokens', 'f49'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Helpers/nodes_metadata',
+                component: ComponentCreator('/docs/Helpers/nodes_metadata', '2c0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Helpers/schemas',
+                component: ComponentCreator('/docs/Helpers/schemas', '779'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

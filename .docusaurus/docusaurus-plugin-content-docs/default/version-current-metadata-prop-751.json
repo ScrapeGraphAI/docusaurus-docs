@@ -180,6 +180,66 @@
       },
       {
         "type": "category",
+        "label": "Graphs",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Base Graph",
+            "href": "/docs/Graphs/base_graph",
+            "docId": "Graphs/base_graph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Smart scraper graph",
+            "href": "/docs/Graphs/smart_scraper_graph",
+            "docId": "Graphs/smart_scraper_graph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Speech summary",
+            "href": "/docs/Graphs/speech_summary",
+            "docId": "Graphs/speech_summary",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/graphs"
+      },
+      {
+        "type": "category",
+        "label": "Helpers",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "🙃 Models tokens",
+            "href": "/docs/Helpers/models_tokens",
+            "docId": "Helpers/models_tokens",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🥑 Nodes metadata",
+            "href": "/docs/Helpers/nodes_metadata",
+            "docId": "Helpers/nodes_metadata",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🗳️ Schemas",
+            "href": "/docs/Helpers/schemas",
+            "docId": "Helpers/schemas",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/helpers"
+      },
+      {
+        "type": "category",
         "label": "Contributing",
         "collapsible": true,
         "collapsed": true,
@@ -277,6 +337,42 @@
       "id": "Examples/SpeechSummaryGraph",
       "title": "🔊 Speech graph",
       "description": "key1",
+      "sidebar": "tutorialSidebar"
+    },
+    "Graphs/base_graph": {
+      "id": "Graphs/base_graph",
+      "title": "Base Graph",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Graphs/smart_scraper_graph": {
+      "id": "Graphs/smart_scraper_graph",
+      "title": "Smart scraper graph",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Graphs/speech_summary": {
+      "id": "Graphs/speech_summary",
+      "title": "Speech summary",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Helpers/models_tokens": {
+      "id": "Helpers/models_tokens",
+      "title": "🙃 Models tokens",
+      "description": "Description",
+      "sidebar": "tutorialSidebar"
+    },
+    "Helpers/nodes_metadata": {
+      "id": "Helpers/nodes_metadata",
+      "title": "🥑 Nodes metadata",
+      "description": "Description",
+      "sidebar": "tutorialSidebar"
+    },
+    "Helpers/schemas": {
+      "id": "Helpers/schemas",
+      "title": "🗳️ Schemas",
+      "description": "Description",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

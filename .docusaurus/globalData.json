@@ -56,6 +56,36 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Graphs/base_graph",
+              "path": "/docs/Graphs/base_graph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Graphs/smart_scraper_graph",
+              "path": "/docs/Graphs/smart_scraper_graph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Graphs/speech_summary",
+              "path": "/docs/Graphs/speech_summary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Helpers/models_tokens",
+              "path": "/docs/Helpers/models_tokens",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Helpers/nodes_metadata",
+              "path": "/docs/Helpers/nodes_metadata",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Helpers/schemas",
+              "path": "/docs/Helpers/schemas",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -148,6 +178,16 @@
             {
               "id": "/category/utils",
               "path": "/docs/category/utils",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/graphs",
+              "path": "/docs/category/graphs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/helpers",
+              "path": "/docs/category/helpers",
               "sidebar": "tutorialSidebar"
             },
             {

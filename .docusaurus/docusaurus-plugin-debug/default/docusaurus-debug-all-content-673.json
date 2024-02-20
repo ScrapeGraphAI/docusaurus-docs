@@ -232,6 +232,150 @@
               }
             },
             {
+              "id": "Graphs/base_graph",
+              "title": "Base Graph",
+              "description": "Introduction",
+              "source": "@site/docs/Graphs/base_graph.md",
+              "sourceDirName": "Graphs",
+              "slug": "/Graphs/base_graph",
+              "permalink": "/docs/Graphs/base_graph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Graphs/base_graph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Graphs",
+                "permalink": "/docs/category/graphs"
+              },
+              "next": {
+                "title": "Smart scraper graph",
+                "permalink": "/docs/Graphs/smart_scraper_graph"
+              }
+            },
+            {
+              "id": "Graphs/smart_scraper_graph",
+              "title": "Smart scraper graph",
+              "description": "Introduction",
+              "source": "@site/docs/Graphs/smart_scraper_graph.md",
+              "sourceDirName": "Graphs",
+              "slug": "/Graphs/smart_scraper_graph",
+              "permalink": "/docs/Graphs/smart_scraper_graph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Graphs/smart_scraper_graph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Base Graph",
+                "permalink": "/docs/Graphs/base_graph"
+              },
+              "next": {
+                "title": "Speech summary",
+                "permalink": "/docs/Graphs/speech_summary"
+              }
+            },
+            {
+              "id": "Graphs/speech_summary",
+              "title": "Speech summary",
+              "description": "Introduction",
+              "source": "@site/docs/Graphs/speech_summary.md",
+              "sourceDirName": "Graphs",
+              "slug": "/Graphs/speech_summary",
+              "permalink": "/docs/Graphs/speech_summary",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Graphs/speech_summary.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Smart scraper graph",
+                "permalink": "/docs/Graphs/smart_scraper_graph"
+              },
+              "next": {
+                "title": "Helpers",
+                "permalink": "/docs/category/helpers"
+              }
+            },
+            {
+              "id": "Helpers/models_tokens",
+              "title": "🙃 Models tokens",
+              "description": "Description",
+              "source": "@site/docs/Helpers/models_tokens.md",
+              "sourceDirName": "Helpers",
+              "slug": "/Helpers/models_tokens",
+              "permalink": "/docs/Helpers/models_tokens",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Helpers/models_tokens.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Helpers",
+                "permalink": "/docs/category/helpers"
+              },
+              "next": {
+                "title": "🥑 Nodes metadata",
+                "permalink": "/docs/Helpers/nodes_metadata"
+              }
+            },
+            {
+              "id": "Helpers/nodes_metadata",
+              "title": "🥑 Nodes metadata",
+              "description": "Description",
+              "source": "@site/docs/Helpers/nodes_metadata.md",
+              "sourceDirName": "Helpers",
+              "slug": "/Helpers/nodes_metadata",
+              "permalink": "/docs/Helpers/nodes_metadata",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Helpers/nodes_metadata.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🙃 Models tokens",
+                "permalink": "/docs/Helpers/models_tokens"
+              },
+              "next": {
+                "title": "🗳️ Schemas",
+                "permalink": "/docs/Helpers/schemas"
+              }
+            },
+            {
+              "id": "Helpers/schemas",
+              "title": "🗳️ Schemas",
+              "description": "Description",
+              "source": "@site/docs/Helpers/schemas.md",
+              "sourceDirName": "Helpers",
+              "slug": "/Helpers/schemas",
+              "permalink": "/docs/Helpers/schemas",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Helpers/schemas.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🥑 Nodes metadata",
+                "permalink": "/docs/Helpers/nodes_metadata"
+              },
+              "next": {
+                "title": "Contributing",
+                "permalink": "/docs/category/contributing"
+              }
+            },
+            {
               "id": "intro",
               "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
               "description": "ScrapeGraphAI is a web scraping python library based on LangChain which uses LLM and direct graph logic to create scraping pipelines.",
@@ -586,8 +730,8 @@
                 "permalink": "/docs/Utils/save"
               },
               "next": {
-                "title": "Contributing",
-                "permalink": "/docs/category/contributing"
+                "title": "Graphs",
+                "permalink": "/docs/category/graphs"
               }
             }
           ],
@@ -724,6 +868,58 @@
                   "description": "Description of the utils folder",
                   "slug": "/category/utils",
                   "permalink": "/docs/category/utils"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Graphs",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Graphs/base_graph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Graphs/smart_scraper_graph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Graphs/speech_summary"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Description of the Helpers folder",
+                  "slug": "/category/graphs",
+                  "permalink": "/docs/category/graphs"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Helpers",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Helpers/models_tokens"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Helpers/nodes_metadata"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Helpers/schemas"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Description of the Helpers folder",
+                  "slug": "/category/helpers",
+                  "permalink": "/docs/category/helpers"
                 }
               },
               {
