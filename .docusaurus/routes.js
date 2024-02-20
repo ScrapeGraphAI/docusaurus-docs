@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'a00'),
+    component: ComponentCreator('/docs', '5f7'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '5b5'),
+        component: ComponentCreator('/docs', '26e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '1a8'),
+            component: ComponentCreator('/docs', '34f'),
             routes: [
               {
                 path: '/docs/activation',
@@ -81,6 +81,12 @@ export default [
               {
                 path: '/docs/category/introduction',
                 component: ComponentCreator('/docs/category/introduction', 'd40'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/models',
+                component: ComponentCreator('/docs/category/models', '3e0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -195,6 +201,24 @@ export default [
               {
                 path: '/docs/Introduction/Basics',
                 component: ComponentCreator('/docs/Introduction/Basics', '8bd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Models/openai',
+                component: ComponentCreator('/docs/Models/openai', 'af0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Models/openai_iit',
+                component: ComponentCreator('/docs/Models/openai_iit', 'b3d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Models/openai_tts',
+                component: ComponentCreator('/docs/Models/openai_tts', 'a8c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

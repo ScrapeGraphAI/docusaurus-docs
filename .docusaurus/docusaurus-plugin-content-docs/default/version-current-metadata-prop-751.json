@@ -186,27 +186,57 @@
         "items": [
           {
             "type": "link",
-            "label": "Base Graph",
+            "label": "⚾️ Base Graph",
             "href": "/docs/Graphs/base_graph",
             "docId": "Graphs/base_graph",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Smart scraper graph",
+            "label": "🥐 Smart scraper graph",
             "href": "/docs/Graphs/smart_scraper_graph",
             "docId": "Graphs/smart_scraper_graph",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "Speech summary",
+            "label": "🥖 Speech summary",
             "href": "/docs/Graphs/speech_summary",
             "docId": "Graphs/speech_summary",
             "unlisted": false
           }
         ],
         "href": "/docs/category/graphs"
+      },
+      {
+        "type": "category",
+        "label": "Models",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "🔥 Openai",
+            "href": "/docs/Models/openai",
+            "docId": "Models/openai",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🌛 Openai_iit",
+            "href": "/docs/Models/openai_iit",
+            "docId": "Models/openai_iit",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🌜 Openai_tts",
+            "href": "/docs/Models/openai_tts",
+            "docId": "Models/openai_tts",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/models"
       },
       {
         "type": "category",
@@ -341,19 +371,19 @@
     },
     "Graphs/base_graph": {
       "id": "Graphs/base_graph",
-      "title": "Base Graph",
+      "title": "⚾️ Base Graph",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Graphs/smart_scraper_graph": {
       "id": "Graphs/smart_scraper_graph",
-      "title": "Smart scraper graph",
+      "title": "🥐 Smart scraper graph",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Graphs/speech_summary": {
       "id": "Graphs/speech_summary",
-      "title": "Speech summary",
+      "title": "🥖 Speech summary",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
@@ -385,6 +415,24 @@
       "id": "Introduction/Basics",
       "title": "📚 Basics",
       "description": "The standard structure of Scrapegrah-ai is a graph made by nodes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Models/openai": {
+      "id": "Models/openai",
+      "title": "🔥 Openai",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Models/openai_iit": {
+      "id": "Models/openai_iit",
+      "title": "🌛 Openai_iit",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Models/openai_tts": {
+      "id": "Models/openai_tts",
+      "title": "🌜 Openai_tts",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Nodes/base_node": {

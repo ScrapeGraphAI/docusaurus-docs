@@ -96,6 +96,21 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Models/openai",
+              "path": "/docs/Models/openai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Models/openai_iit",
+              "path": "/docs/Models/openai_iit",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Models/openai_tts",
+              "path": "/docs/Models/openai_tts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Nodes/base_node",
               "path": "/docs/Nodes/base_node",
               "sidebar": "tutorialSidebar"
@@ -183,6 +198,11 @@
             {
               "id": "/category/graphs",
               "path": "/docs/category/graphs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/models",
+              "path": "/docs/category/models",
               "sidebar": "tutorialSidebar"
             },
             {

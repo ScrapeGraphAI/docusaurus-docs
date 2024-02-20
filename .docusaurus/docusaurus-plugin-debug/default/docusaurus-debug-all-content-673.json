@@ -233,7 +233,7 @@
             },
             {
               "id": "Graphs/base_graph",
-              "title": "Base Graph",
+              "title": "⚾️ Base Graph",
               "description": "Introduction",
               "source": "@site/docs/Graphs/base_graph.md",
               "sourceDirName": "Graphs",
@@ -251,13 +251,13 @@
                 "permalink": "/docs/category/graphs"
               },
               "next": {
-                "title": "Smart scraper graph",
+                "title": "🥐 Smart scraper graph",
                 "permalink": "/docs/Graphs/smart_scraper_graph"
               }
             },
             {
               "id": "Graphs/smart_scraper_graph",
-              "title": "Smart scraper graph",
+              "title": "🥐 Smart scraper graph",
               "description": "Introduction",
               "source": "@site/docs/Graphs/smart_scraper_graph.md",
               "sourceDirName": "Graphs",
@@ -271,17 +271,17 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Base Graph",
+                "title": "⚾️ Base Graph",
                 "permalink": "/docs/Graphs/base_graph"
               },
               "next": {
-                "title": "Speech summary",
+                "title": "🥖 Speech summary",
                 "permalink": "/docs/Graphs/speech_summary"
               }
             },
             {
               "id": "Graphs/speech_summary",
-              "title": "Speech summary",
+              "title": "🥖 Speech summary",
               "description": "Introduction",
               "source": "@site/docs/Graphs/speech_summary.md",
               "sourceDirName": "Graphs",
@@ -295,12 +295,12 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Smart scraper graph",
+                "title": "🥐 Smart scraper graph",
                 "permalink": "/docs/Graphs/smart_scraper_graph"
               },
               "next": {
-                "title": "Helpers",
-                "permalink": "/docs/category/helpers"
+                "title": "Models",
+                "permalink": "/docs/category/models"
               }
             },
             {
@@ -420,6 +420,78 @@
               "next": {
                 "title": "Nodes",
                 "permalink": "/docs/category/nodes"
+              }
+            },
+            {
+              "id": "Models/openai",
+              "title": "🔥 Openai",
+              "description": "Introduction",
+              "source": "@site/docs/Models/openai.md",
+              "sourceDirName": "Models",
+              "slug": "/Models/openai",
+              "permalink": "/docs/Models/openai",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Models/openai.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Models",
+                "permalink": "/docs/category/models"
+              },
+              "next": {
+                "title": "🌛 Openai_iit",
+                "permalink": "/docs/Models/openai_iit"
+              }
+            },
+            {
+              "id": "Models/openai_iit",
+              "title": "🌛 Openai_iit",
+              "description": "Introduction",
+              "source": "@site/docs/Models/openai_iit.md",
+              "sourceDirName": "Models",
+              "slug": "/Models/openai_iit",
+              "permalink": "/docs/Models/openai_iit",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Models/openai_iit.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🔥 Openai",
+                "permalink": "/docs/Models/openai"
+              },
+              "next": {
+                "title": "🌜 Openai_tts",
+                "permalink": "/docs/Models/openai_tts"
+              }
+            },
+            {
+              "id": "Models/openai_tts",
+              "title": "🌜 Openai_tts",
+              "description": "Introduction",
+              "source": "@site/docs/Models/openai_tts.md",
+              "sourceDirName": "Models",
+              "slug": "/Models/openai_tts",
+              "permalink": "/docs/Models/openai_tts",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Models/openai_tts.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🌛 Openai_iit",
+                "permalink": "/docs/Models/openai_iit"
+              },
+              "next": {
+                "title": "Helpers",
+                "permalink": "/docs/category/helpers"
               }
             },
             {
@@ -894,6 +966,32 @@
                   "description": "Description of the Helpers folder",
                   "slug": "/category/graphs",
                   "permalink": "/docs/category/graphs"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Models",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Models/openai"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Models/openai_iit"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Models/openai_tts"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Description of the Helpers folder",
+                  "slug": "/category/models",
+                  "permalink": "/docs/category/models"
                 }
               },
               {
