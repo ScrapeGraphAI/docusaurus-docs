@@ -26,5 +26,20 @@ Is it possible to try also the collab version
 
 The documentation for ScrapeGraphAI can be found [here](https://scrapegraph-ai.readthedocs.io/en/latest/).
 
-## Contact us
+## 🤝 Contributing
+
+Scrapegraph-ai is [MIT LICENSED](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/LICENSE).
+
+Contributions are welcome! Please check out the todos below, and feel free to open a pull request.
+
+For more information, please see the [contributing guidelines](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/CONTRIBUTING.md).
+
+Join our Discord server to discuss with us improvements and give us suggestions!
+
+[![Join Discord Server](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/DujC7HG8)
+ 
+You can also follow all the updates on linkedin!
 [![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/company/scrapegraphai/)
+
+## Contributors
+[![Contributors](https://contrib.rocks/image?repo=VinciGit00/Scrapegraph-ai)](https://github.com/VinciGit00/Scrapegraph-ai/graphs/contributors)
