@@ -26,3 +26,5 @@ Is it possible to try also the collab version
 
 The documentation for ScrapeGraphAI can be found [here](https://scrapegraph-ai.readthedocs.io/en/latest/).
 
+## Contact us
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/company/scrapegraphai/)
