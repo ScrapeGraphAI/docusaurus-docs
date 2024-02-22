@@ -7,6 +7,12 @@ sidebar_position: 1
 ScrapeGraphAI is a *web scraping* python library based on LangChain which uses LLM and direct graph logic to create scraping pipelines.
 Just say which information you want to extract and the library will do it for you!
 
+## Library
+Link of the Github repo:
+
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VinciGit00/Scrapegraph-ai)
+
+
 ## 🚀 Quick install
 The reference page for Scrapegraph-ai is avaible on the official page of pypy: [pypi](https://pypi.org/project/scrapegraphai/).
 
