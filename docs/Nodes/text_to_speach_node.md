@@ -12,6 +12,7 @@ Module for parsing the text to voice
 
 from .base_node import BaseNode
 
+
 class TextToSpeechNode(BaseNode):
     """
     A class representing a node that processes text and returns the voice.
@@ -30,7 +31,7 @@ class TextToSpeechNode(BaseNode):
         super().__init__(node_name, "node")
         self.llm = llm
 
-    def execute(self, state: dict, text: str | None = None) -> dict:
+    def execute(self, state: dict) -> dict:
         """
         Execute the node's logic and return the updated state.
         Args:
@@ -43,11 +44,9 @@ class TextToSpeechNode(BaseNode):
         text2translate = state.get("answer", None)
         if not text2translate:
             raise ValueError("No text to translate to speech.")
-        
         print("---TRANSLATING TEXT TO SPEECH---")
         audio = self.llm.run(text2translate["summary"])
 
         state.update({"audio": audio})
         return state
 ```
-

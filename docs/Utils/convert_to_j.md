@@ -39,7 +39,6 @@ def convert_to_json(data: dict, filename: str, position: str):
             f"You don't have permission to write to '{position}'.") from pe
     except Exception as e:
         raise e
-
 ```
 
 ## Example

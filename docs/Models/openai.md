@@ -23,5 +23,4 @@ class OpenAI(ChatOpenAI):
         """
         # Initialize the superclass (ChatOpenAI) with provided config parameters
         super().__init__(**llm_config)
-
 ```

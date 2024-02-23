@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5f7'),
+    component: ComponentCreator('/docs', '959'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '26e'),
+        component: ComponentCreator('/docs', 'f64'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '34f'),
+            component: ComponentCreator('/docs', 'ff6'),
             routes: [
               {
                 path: '/docs/activation',
@@ -61,8 +61,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Builders/GraphBuilder',
+                component: ComponentCreator('/docs/Builders/GraphBuilder', '5df'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/builders',
+                component: ComponentCreator('/docs/category/builders', 'ae7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/contributing',
                 component: ComponentCreator('/docs/category/contributing', '9f4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/evaluators',
+                component: ComponentCreator('/docs/category/evaluators', 'f11'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -129,6 +147,12 @@ export default [
               {
                 path: '/docs/Contributing/designers',
                 component: ComponentCreator('/docs/Contributing/designers', '8cc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Evaluators/trulens',
+                component: ComponentCreator('/docs/Evaluators/trulens', '73c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -261,6 +285,18 @@ export default [
               {
                 path: '/docs/Nodes/image_to_text_node',
                 component: ComponentCreator('/docs/Nodes/image_to_text_node', '587'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Nodes/parsehtml_node',
+                component: ComponentCreator('/docs/Nodes/parsehtml_node', '1ae'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Nodes/rag',
+                component: ComponentCreator('/docs/Nodes/rag', '9ce'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

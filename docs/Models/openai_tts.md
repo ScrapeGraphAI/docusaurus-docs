@@ -5,64 +5,59 @@ OpenAIImageToText class
 ## Implementation
 ```python
 """
-This module contains the OpenAIImageToText class, 
-which is a subclass of ChatOpenAI that is specialized for converting images to text.
+This module contains the OpenAITextToSpeech class, which uses OpenAI's API
+to convert text into speech.
 """
 
-from langchain_openai import ChatOpenAI
-from langchain_core.messages import HumanMessage
+from openai import OpenAI
 
 
-class OpenAIImageToText(ChatOpenAI):
+class OpenAITextToSpeech:
     """
-    A class that uses OpenAI's Chat API to convert an image to text.
+    A class that uses OpenAI's API to convert text to speech.
 
     Args:
         llm_config (dict): The configuration for the language model.
 
     Attributes:
-        max_tokens (int): The maximum number of tokens to generate in the response.
+        model (str): The model to use for text-to-speech conversion.
+        voice (str): The voice model to use for generating speech.
 
     Methods:
-        run(image_url): Runs the image-to-text conversion using the provided image URL.
-
+        run(text): Converts the provided text to speech and returns the
+        bytes of the generated speech.
     """
 
-    def __init__(self, llm_config: dict):
+    def __init__(self, llm_config: dict, model: str = "tts-1", voice: str = "alloy"):
         """
-        Initializes an instance of the OpenAIImageToText class.
+        Initializes an instance of the OpenAITextToSpeech class.
 
         Args:
             llm_config (dict): The configuration for the language model.
-
+            model (str, optional): The model to use for text-to-speech conversion. 
+            Defaults to "tts-1".
+            voice (str, optional): The voice model to use for generating speech. 
+            Defaults to "alloy".
         """
-        super().__init__(**llm_config, max_tokens=256)
 
-    def run(self, image_url: str):
+        # convert model_name to model
+        self.client = OpenAI(api_key=llm_config.get("api_key"))
+        self.model = model
+        self.voice = voice
+
+    def run(self, text):
         """
-        Runs the image-to-text conversion using the provided image URL.
+        Converts the provided text to speech and returns the bytes of the generated speech.
 
         Args:
-            image_url (str): The URL of the image to convert to text.
-
-        Returns:
-            str: The generated text description of the image.
+            text (str): The text to convert to speech.
 
         """
-        message = HumanMessage(
-            content=[
-                {"type": "text", "text": "What is this image showing"},
-                {
-                    "type": "image_url",
-                    "image_url": {
-                        "url": image_url,
-                        "detail": "auto",
-                    },
-                },
-            ]
+        response = self.client.audio.speech.create(
+            model=self.model,
+            voice=self.voice,
+            input=text
         )
 
-        # Use the invoke method from the superclass (ChatOpenAI)
-        result = self.invoke([message]).content
-        return result
+        return response.content
 ```

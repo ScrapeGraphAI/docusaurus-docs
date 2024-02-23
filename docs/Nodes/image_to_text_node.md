@@ -45,6 +45,4 @@ class ImageToTextNode(BaseNode):
 
         state.update({"image_text": text_answer})
         return state
-
 ```
-

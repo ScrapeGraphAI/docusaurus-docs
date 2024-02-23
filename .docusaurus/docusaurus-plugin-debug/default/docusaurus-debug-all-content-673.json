@@ -35,8 +35,32 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🧵 Created by",
-                "permalink": "/docs/Contributing/designers"
+                "title": "🔊 Speech graph",
+                "permalink": "/docs/Examples/SpeechSummaryGraph"
+              }
+            },
+            {
+              "id": "Builders/GraphBuilder",
+              "title": "💫 Graph Builder",
+              "description": "Introduction",
+              "source": "@site/docs/Builders/GraphBuilder.md",
+              "sourceDirName": "Builders",
+              "slug": "/Builders/GraphBuilder",
+              "permalink": "/docs/Builders/GraphBuilder",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Builders/GraphBuilder.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Builders",
+                "permalink": "/docs/category/builders"
+              },
+              "next": {
+                "title": "Evaluators",
+                "permalink": "/docs/category/evaluators"
               }
             },
             {
@@ -131,14 +155,38 @@
                 "permalink": "/docs/Contributing/contributing_markdown"
               },
               "next": {
-                "title": "🔑 Keys activation",
-                "permalink": "/docs/activation"
+                "title": "Tutorials",
+                "permalink": "/docs/category/tutorials"
+              }
+            },
+            {
+              "id": "Evaluators/trulens",
+              "title": "🥕 Trulens_evaluator",
+              "description": "Introduction",
+              "source": "@site/docs/Evaluators/trulens.md",
+              "sourceDirName": "Evaluators",
+              "slug": "/Evaluators/trulens",
+              "permalink": "/docs/Evaluators/trulens",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Evaluators/trulens.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Evaluators",
+                "permalink": "/docs/category/evaluators"
+              },
+              "next": {
+                "title": "Graphs",
+                "permalink": "/docs/category/graphs"
               }
             },
             {
               "id": "Examples/CustomGraph",
               "title": "👼🏻 Custom graph",
-              "description": "You can create custom graphs based on your necessities, using standard nodes provided by the library.",
+              "description": "Introduction",
               "source": "@site/docs/Examples/CustomGraph.md",
               "sourceDirName": "Examples",
               "slug": "/Examples/CustomGraph",
@@ -227,8 +275,8 @@
                 "permalink": "/docs/Examples/SmartScraperGraph"
               },
               "next": {
-                "title": "Utils",
-                "permalink": "/docs/category/utils"
+                "title": "🔑 Keys activation",
+                "permalink": "/docs/activation"
               }
             },
             {
@@ -371,8 +419,8 @@
                 "permalink": "/docs/Helpers/nodes_metadata"
               },
               "next": {
-                "title": "Contributing",
-                "permalink": "/docs/category/contributing"
+                "title": "Utils",
+                "permalink": "/docs/category/utils"
               }
             },
             {
@@ -634,8 +682,8 @@
                 "permalink": "/docs/Nodes/get_probable_tags_node"
               },
               "next": {
-                "title": "🔥 Text_to_speach_node",
-                "permalink": "/docs/Nodes/text_to_speach_node"
+                "title": "🦅 Parse HTML node",
+                "permalink": "/docs/Nodes/parsehtml_node"
               }
             },
             {
@@ -663,6 +711,54 @@
               }
             },
             {
+              "id": "Nodes/parsehtml_node",
+              "title": "🦅 Parse HTML node",
+              "description": "Introduction",
+              "source": "@site/docs/Nodes/parsehtml_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/parsehtml_node",
+              "permalink": "/docs/Nodes/parsehtml_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/parsehtml_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🚁 Image_to_text_node",
+                "permalink": "/docs/Nodes/image_to_text_node"
+              },
+              "next": {
+                "title": "🪿 Rag node",
+                "permalink": "/docs/Nodes/rag"
+              }
+            },
+            {
+              "id": "Nodes/rag",
+              "title": "🪿 Rag node",
+              "description": "Introduction",
+              "source": "@site/docs/Nodes/rag.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/rag",
+              "permalink": "/docs/Nodes/rag",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/rag.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🦅 Parse HTML node",
+                "permalink": "/docs/Nodes/parsehtml_node"
+              },
+              "next": {
+                "title": "🔥 Text_to_speach_node",
+                "permalink": "/docs/Nodes/text_to_speach_node"
+              }
+            },
+            {
               "id": "Nodes/text_to_speach_node",
               "title": "🔥 Text_to_speach_node",
               "description": "Introduction",
@@ -678,12 +774,12 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🚁 Image_to_text_node",
-                "permalink": "/docs/Nodes/image_to_text_node"
+                "title": "🪿 Rag node",
+                "permalink": "/docs/Nodes/rag"
               },
               "next": {
-                "title": "Tutorials",
-                "permalink": "/docs/category/tutorials"
+                "title": "Builders",
+                "permalink": "/docs/category/builders"
               }
             },
             {
@@ -802,8 +898,8 @@
                 "permalink": "/docs/Utils/save"
               },
               "next": {
-                "title": "Graphs",
-                "permalink": "/docs/category/graphs"
+                "title": "Contributing",
+                "permalink": "/docs/category/contributing"
               }
             }
           ],
@@ -868,6 +964,14 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Nodes/parsehtml_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Nodes/rag"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Nodes/text_to_speach_node"
                   }
                 ],
@@ -880,66 +984,38 @@
               },
               {
                 "type": "category",
-                "label": "Tutorials",
+                "label": "Builders",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Examples/CustomGraph"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Examples/GraphBuilder"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Examples/SmartScraperGraph"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Examples/SpeechSummaryGraph"
+                    "id": "Builders/GraphBuilder"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "List of documents of tutorials",
-                  "slug": "/category/tutorials",
-                  "permalink": "/docs/category/tutorials"
+                  "description": "Introduction graph builder",
+                  "slug": "/category/builders",
+                  "permalink": "/docs/category/builders"
                 }
               },
               {
                 "type": "category",
-                "label": "Utils",
+                "label": "Evaluators",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Utils/convert_to_csv"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Utils/convert_to_j"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Utils/r"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Utils/save"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Utils/token_calculator"
+                    "id": "Evaluators/trulens"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "Description of the utils folder",
-                  "slug": "/category/utils",
-                  "permalink": "/docs/category/utils"
+                  "description": "Evaluator folder",
+                  "slug": "/category/evaluators",
+                  "permalink": "/docs/category/evaluators"
                 }
               },
               {
@@ -1022,6 +1098,40 @@
               },
               {
                 "type": "category",
+                "label": "Utils",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Utils/convert_to_csv"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Utils/convert_to_j"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Utils/r"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Utils/save"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Utils/token_calculator"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Description of the utils folder",
+                  "slug": "/category/utils",
+                  "permalink": "/docs/category/utils"
+                }
+              },
+              {
+                "type": "category",
                 "label": "Contributing",
                 "collapsible": true,
                 "collapsed": true,
@@ -1048,6 +1158,36 @@
                   "description": "Contributions infos",
                   "slug": "/category/contributing",
                   "permalink": "/docs/category/contributing"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Tutorials",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Examples/CustomGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Examples/GraphBuilder"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Examples/SmartScraperGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Examples/SpeechSummaryGraph"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "List of documents of tutorials",
+                  "slug": "/category/tutorials",
+                  "permalink": "/docs/category/tutorials"
                 }
               },
               {

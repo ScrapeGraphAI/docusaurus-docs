@@ -45,7 +45,6 @@ def remover(file: str, only_body: bool = False) -> str:
             res = res + elem
 
     return res.replace("\\n", "")
-
 ```
 ## Example
 ```python

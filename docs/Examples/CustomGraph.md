@@ -1,4 +1,7 @@
 # 👼🏻 Custom graph
+## Introduction
+
+## Implementation
 ```python
 # if you plan on using text_to_speech and GPT4-Vision models be sure to use the
 # correct APIKEY

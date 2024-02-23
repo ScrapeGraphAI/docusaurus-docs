@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Builders/GraphBuilder",
+              "path": "/docs/Builders/GraphBuilder",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Contributing/acknowledgements",
               "path": "/docs/Contributing/acknowledgements",
               "sidebar": "tutorialSidebar"
@@ -33,6 +38,11 @@
             {
               "id": "Contributing/designers",
               "path": "/docs/Contributing/designers",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Evaluators/trulens",
+              "path": "/docs/Evaluators/trulens",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -146,6 +156,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Nodes/parsehtml_node",
+              "path": "/docs/Nodes/parsehtml_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Nodes/rag",
+              "path": "/docs/Nodes/rag",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Nodes/text_to_speach_node",
               "path": "/docs/Nodes/text_to_speach_node",
               "sidebar": "tutorialSidebar"
@@ -186,13 +206,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorials",
-              "path": "/docs/category/tutorials",
+              "id": "/category/builders",
+              "path": "/docs/category/builders",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/utils",
-              "path": "/docs/category/utils",
+              "id": "/category/evaluators",
+              "path": "/docs/category/evaluators",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -211,8 +231,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/utils",
+              "path": "/docs/category/utils",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/contributing",
               "path": "/docs/category/contributing",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorials",
+              "path": "/docs/category/tutorials",
               "sidebar": "tutorialSidebar"
             }
           ],

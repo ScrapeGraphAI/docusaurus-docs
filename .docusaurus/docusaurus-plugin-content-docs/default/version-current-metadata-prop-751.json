@@ -89,6 +89,20 @@
           },
           {
             "type": "link",
+            "label": "🦅 Parse HTML node",
+            "href": "/docs/Nodes/parsehtml_node",
+            "docId": "Nodes/parsehtml_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🪿 Rag node",
+            "href": "/docs/Nodes/rag",
+            "docId": "Nodes/rag",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "🔥 Text_to_speach_node",
             "href": "/docs/Nodes/text_to_speach_node",
             "docId": "Nodes/text_to_speach_node",
@@ -99,84 +113,35 @@
       },
       {
         "type": "category",
-        "label": "Tutorials",
+        "label": "Builders",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "👼🏻 Custom graph",
-            "href": "/docs/Examples/CustomGraph",
-            "docId": "Examples/CustomGraph",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🍇 GraphBuilder",
-            "href": "/docs/Examples/GraphBuilder",
-            "docId": "Examples/GraphBuilder",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🧑🏻‍💻 SmartScraperGraph",
-            "href": "/docs/Examples/SmartScraperGraph",
-            "docId": "Examples/SmartScraperGraph",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🔊 Speech graph",
-            "href": "/docs/Examples/SpeechSummaryGraph",
-            "docId": "Examples/SpeechSummaryGraph",
+            "label": "💫 Graph Builder",
+            "href": "/docs/Builders/GraphBuilder",
+            "docId": "Builders/GraphBuilder",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/tutorials"
+        "href": "/docs/category/builders"
       },
       {
         "type": "category",
-        "label": "Utils",
+        "label": "Evaluators",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "🍷 convert_to_csv",
-            "href": "/docs/Utils/convert_to_csv",
-            "docId": "Utils/convert_to_csv",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🤖 convert_to_json",
-            "href": "/docs/Utils/convert_to_j",
-            "docId": "Utils/convert_to_j",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🚣 Remover",
-            "href": "/docs/Utils/r",
-            "docId": "Utils/r",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🏆 save_audio_from_bytes",
-            "href": "/docs/Utils/save",
-            "docId": "Utils/save",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🇹🇰 Token calculator",
-            "href": "/docs/Utils/token_calculator",
-            "docId": "Utils/token_calculator",
+            "label": "🥕 Trulens_evaluator",
+            "href": "/docs/Evaluators/trulens",
+            "docId": "Evaluators/trulens",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/utils"
+        "href": "/docs/category/evaluators"
       },
       {
         "type": "category",
@@ -270,6 +235,50 @@
       },
       {
         "type": "category",
+        "label": "Utils",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "🍷 convert_to_csv",
+            "href": "/docs/Utils/convert_to_csv",
+            "docId": "Utils/convert_to_csv",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🤖 convert_to_json",
+            "href": "/docs/Utils/convert_to_j",
+            "docId": "Utils/convert_to_j",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🚣 Remover",
+            "href": "/docs/Utils/r",
+            "docId": "Utils/r",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🏆 save_audio_from_bytes",
+            "href": "/docs/Utils/save",
+            "docId": "Utils/save",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🇹🇰 Token calculator",
+            "href": "/docs/Utils/token_calculator",
+            "docId": "Utils/token_calculator",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/utils"
+      },
+      {
+        "type": "category",
         "label": "Contributing",
         "collapsible": true,
         "collapsed": true,
@@ -306,6 +315,43 @@
         "href": "/docs/category/contributing"
       },
       {
+        "type": "category",
+        "label": "Tutorials",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "👼🏻 Custom graph",
+            "href": "/docs/Examples/CustomGraph",
+            "docId": "Examples/CustomGraph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🍇 GraphBuilder",
+            "href": "/docs/Examples/GraphBuilder",
+            "docId": "Examples/GraphBuilder",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🧑🏻‍💻 SmartScraperGraph",
+            "href": "/docs/Examples/SmartScraperGraph",
+            "docId": "Examples/SmartScraperGraph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🔊 Speech graph",
+            "href": "/docs/Examples/SpeechSummaryGraph",
+            "docId": "Examples/SpeechSummaryGraph",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/tutorials"
+      },
+      {
         "type": "link",
         "label": "🔑 Keys activation",
         "href": "/docs/activation",
@@ -319,6 +365,12 @@
       "id": "activation",
       "title": "🔑 Keys activation",
       "description": "For activating the keys go to https",
+      "sidebar": "tutorialSidebar"
+    },
+    "Builders/GraphBuilder": {
+      "id": "Builders/GraphBuilder",
+      "title": "💫 Graph Builder",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Contributing/acknowledgements": {
@@ -345,10 +397,16 @@
       "description": "key1",
       "sidebar": "tutorialSidebar"
     },
+    "Evaluators/trulens": {
+      "id": "Evaluators/trulens",
+      "title": "🥕 Trulens_evaluator",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
     "Examples/CustomGraph": {
       "id": "Examples/CustomGraph",
       "title": "👼🏻 Custom graph",
-      "description": "You can create custom graphs based on your necessities, using standard nodes provided by the library.",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Examples/GraphBuilder": {
@@ -475,6 +533,18 @@
       "id": "Nodes/Nodes",
       "title": "🪢 Nodes",
       "description": "The basic unit of Scrapegraph-ai is the Node",
+      "sidebar": "tutorialSidebar"
+    },
+    "Nodes/parsehtml_node": {
+      "id": "Nodes/parsehtml_node",
+      "title": "🦅 Parse HTML node",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Nodes/rag": {
+      "id": "Nodes/rag",
+      "title": "🪿 Rag node",
+      "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Nodes/text_to_speach_node": {

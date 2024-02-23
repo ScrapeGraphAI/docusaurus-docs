@@ -71,8 +71,4 @@ class BaseNode(ABC):
         :return: The updated state after executing this node.
         """
         pass
-
-```
-## Example
-```python
 ```
