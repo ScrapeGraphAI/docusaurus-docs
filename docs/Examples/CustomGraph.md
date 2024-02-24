@@ -54,30 +54,35 @@ model = OpenAI(llm_config)
 
 # define the nodes for the graph
 fetch_html_node = FetchHTMLNode("fetch_html")
-parse_document_node = ParseHTMLNode("parse_document")
+rag_node = RAGNode(model, "rag_nodes")
 generate_answer_node = GenerateAnswerNode(model, "generate_answer")
 
 # create the graph
 graph = BaseGraph(
+    # Add nodes
     nodes={
         fetch_html_node,
-        parse_document_node,
+        rag_node,
         generate_answer_node
     },
+    # Add the edges
     edges={
-        (fetch_html_node, parse_document_node),
-        (parse_document_node, generate_answer_node)
+        (fetch_html_node, rag_node),
+        (rag_node, generate_answer_node)
     },
+    # Define the starting node
     entry_point=fetch_html_node
 )
 
 # execute the graph
-inputs = {"user_input": "What is the title of the page?", "url": "https://example.com"}
+inputs = {"user_input": "Give me the news",
+          "url": "https://www.ansa.it/sito/notizie/topnews/index.shtml"}
 result = graph.execute(inputs)
 
 # get the answer from the result
 answer = result.get("answer", "No answer found.")
 print(answer)
+
 ```
 ```bash
 Fetching pages: 100%|##########| 1/1 [00:00<00:00, 16.79it/s]
