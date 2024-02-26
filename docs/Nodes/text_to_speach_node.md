@@ -1,7 +1,7 @@
 # 🔥 Text_to_speach_node
 
 ## Introduction
-
+The Text to Speech Node is a critical component within Scrapegraph-ai, responsible for processing text and returning the corresponding voice output. This node utilizes an instance of the OpenAITextToSpeech class to convert text into speech, enabling the generation of audio responses based on textual input.
 
 ## Implementation
 ```python

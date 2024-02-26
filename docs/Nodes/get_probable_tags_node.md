@@ -1,6 +1,8 @@
 # 💫 Get_probable_tags_node
 ## Introduction
 
+The Get Probable Tags Node is an essential component of Scrapegraph-ai, designed to utilize a language model to identify probable HTML tags within a document that are likely to contain information relevant to a user's query. By generating a prompt describing the task, submitting it to the language model, and processing the output, this node produces a list of probable tags crucial for subsequent processing in the scraping workflow.
+
 
 ## Implementation
 ```python

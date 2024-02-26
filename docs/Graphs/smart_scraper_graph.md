@@ -1,7 +1,6 @@
 # 🥐 Smart scraper graph
 ## Introduction 
-Creation of the smart scraper graph
-
+The SmartScraperGraph class represents a comprehensive web scraping tool that automates the process of extracting information from web pages using a natural language model to interpret and answer prompts.
 ## Implementation
 
 ```python

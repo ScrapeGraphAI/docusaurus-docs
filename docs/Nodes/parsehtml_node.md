@@ -2,6 +2,7 @@
 
 ## Introduction
 
+The Parse HTML Node is a significant component within Scrapegraph-ai, designed to parse HTML content from a document using specified tags. This node leverages the BeautifulSoupTransformer for parsing, offering flexibility in extracting specific parts of an HTML document based on the tags provided in the state. By allowing targeted extraction of content, this node enhances the scraping workflow and optimizes the processing of large HTML documents.
 ## Implementation
 ```python
 """

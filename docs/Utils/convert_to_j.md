@@ -1,6 +1,6 @@
 # 🤖 convert_to_json
 ## Introduction
-This function given a filename, a dictionary and a position it saves it in the json format
+The convert_to_json function takes a dictionary containing data, a filename, and a directory position, and saves the data in JSON format at the specified location.
 ## Implementation
 ```python
 """

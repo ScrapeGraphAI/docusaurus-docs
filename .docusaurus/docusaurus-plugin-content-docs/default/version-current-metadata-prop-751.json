@@ -40,13 +40,6 @@
         "items": [
           {
             "type": "link",
-            "label": "🪢 Nodes",
-            "href": "/docs/Nodes/",
-            "docId": "Nodes/Nodes",
-            "unlisted": false
-          },
-          {
-            "type": "link",
             "label": "🌲 Base node",
             "href": "/docs/Nodes/base_node",
             "docId": "Nodes/base_node",
@@ -347,6 +340,13 @@
             "href": "/docs/Examples/SpeechSummaryGraph",
             "docId": "Examples/SpeechSummaryGraph",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Trulens evaluation",
+            "href": "/docs/Examples/trulens",
+            "docId": "Examples/trulens",
+            "unlisted": false
           }
         ],
         "href": "/docs/category/tutorials"
@@ -425,6 +425,12 @@
       "id": "Examples/SpeechSummaryGraph",
       "title": "🔊 Speech graph",
       "description": "key1",
+      "sidebar": "tutorialSidebar"
+    },
+    "Examples/trulens": {
+      "id": "Examples/trulens",
+      "title": "Trulens evaluation",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "Graphs/base_graph": {
@@ -527,12 +533,6 @@
       "id": "Nodes/image_to_text_node",
       "title": "🚁 Image_to_text_node",
       "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
-    "Nodes/Nodes": {
-      "id": "Nodes/Nodes",
-      "title": "🪢 Nodes",
-      "description": "The basic unit of Scrapegraph-ai is the Node",
       "sidebar": "tutorialSidebar"
     },
     "Nodes/parsehtml_node": {

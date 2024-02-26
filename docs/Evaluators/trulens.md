@@ -1,7 +1,7 @@
 # 🥕 Trulens_evaluator
 
 ## Introduction
-
+The TrulensEvaluator class is designed to evaluate Trulens using the SmartScraperGraph by providing graph parameters and recording feedback. It allows for the evaluation of Trulens' performance in scraping and processing information from web pages.
 ## Implementation
 ```python
 """Module for making the RAG"""

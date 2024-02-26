@@ -1,5 +1,6 @@
 # 💫 Graph Builder
 ## Introduction
+The GraphBuilder class is designed to dynamically construct web scraping graphs based on user prompts. It utilizes a natural language understanding model to interpret user prompts and automatically generates a graph configuration for scraping web content.
 
 ## Implementation
 

@@ -2,6 +2,7 @@
 
 ## Introduction
 
+The Fetch HTML Node is a crucial component within Scrapegraph-ai responsible for retrieving the HTML content of a specified URL and updating the graph's state with this content. This node serves as an initial step in many scraping workflows, ensuring that the necessary HTML content is available for further processing by subsequent nodes in the graph.
 
 ## Implementation
 ```python

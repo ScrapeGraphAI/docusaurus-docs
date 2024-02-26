@@ -1,8 +1,7 @@
 # 🥖 Speech summary
 
 ## Introduction 
-Extraction of the summary from a speach
-
+The SpeechSummaryGraph class automates the process of extracting and summarizing information from web pages, then converting that summary into spoken word via an MP3 file.
 ## Implementation
 
 ```python

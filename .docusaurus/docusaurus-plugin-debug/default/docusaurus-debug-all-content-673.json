@@ -35,8 +35,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🔊 Speech graph",
-                "permalink": "/docs/Examples/SpeechSummaryGraph"
+                "title": "Trulens evaluation",
+                "permalink": "/docs/Examples/trulens"
               }
             },
             {
@@ -273,6 +273,30 @@
               "previous": {
                 "title": "🧑🏻‍💻 SmartScraperGraph",
                 "permalink": "/docs/Examples/SmartScraperGraph"
+              },
+              "next": {
+                "title": "Trulens evaluation",
+                "permalink": "/docs/Examples/trulens"
+              }
+            },
+            {
+              "id": "Examples/trulens",
+              "title": "Trulens evaluation",
+              "description": "",
+              "source": "@site/docs/Examples/trulens.md",
+              "sourceDirName": "Examples",
+              "slug": "/Examples/trulens",
+              "permalink": "/docs/Examples/trulens",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/trulens.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🔊 Speech graph",
+                "permalink": "/docs/Examples/SpeechSummaryGraph"
               },
               "next": {
                 "title": "🔑 Keys activation",
@@ -558,8 +582,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🪢 Nodes",
-                "permalink": "/docs/Nodes/"
+                "title": "Nodes",
+                "permalink": "/docs/category/nodes"
               },
               "next": {
                 "title": "🗣️ Conditional_node",
@@ -684,30 +708,6 @@
               "next": {
                 "title": "🦅 Parse HTML node",
                 "permalink": "/docs/Nodes/parsehtml_node"
-              }
-            },
-            {
-              "id": "Nodes/Nodes",
-              "title": "🪢 Nodes",
-              "description": "The basic unit of Scrapegraph-ai is the Node",
-              "source": "@site/docs/Nodes/Nodes.md",
-              "sourceDirName": "Nodes",
-              "slug": "/Nodes/",
-              "permalink": "/docs/Nodes/",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/Nodes.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Nodes",
-                "permalink": "/docs/category/nodes"
-              },
-              "next": {
-                "title": "🌲 Base node",
-                "permalink": "/docs/Nodes/base_node"
               }
             },
             {
@@ -934,10 +934,6 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
-                  {
-                    "type": "doc",
-                    "id": "Nodes/Nodes"
-                  },
                   {
                     "type": "doc",
                     "id": "Nodes/base_node"
@@ -1181,6 +1177,10 @@
                   {
                     "type": "doc",
                     "id": "Examples/SpeechSummaryGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Examples/trulens"
                   }
                 ],
                 "link": {

@@ -1,6 +1,6 @@
 # ⚾️ Base Graph
 ## Introduction 
-Creation of the base graph
+The BaseGraph class manages the execution flow of a graph composed of interconnected nodes.
 ## Implementation
 
 ```python

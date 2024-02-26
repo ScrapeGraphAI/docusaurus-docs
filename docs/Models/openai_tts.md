@@ -1,7 +1,8 @@
 # 🌜 Openai_tts
 
 ## Introduction
-OpenAIImageToText class
+The OpenAITextToSpeech class utilizes OpenAI's API to convert text into speech.
+
 ## Implementation
 ```python
 """

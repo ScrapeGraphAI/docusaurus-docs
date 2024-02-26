@@ -66,6 +66,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Examples/trulens",
+              "path": "/docs/Examples/trulens",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Graphs/base_graph",
               "path": "/docs/Graphs/base_graph",
               "sidebar": "tutorialSidebar"
@@ -148,11 +153,6 @@
             {
               "id": "Nodes/image_to_text_node",
               "path": "/docs/Nodes/image_to_text_node",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Nodes/Nodes",
-              "path": "/docs/Nodes/",
               "sidebar": "tutorialSidebar"
             },
             {

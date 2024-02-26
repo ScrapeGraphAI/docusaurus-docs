@@ -1,6 +1,6 @@
 # 🚁 Image_to_text_node
 ## Introduction
-
+The Image to Text Node is a fundamental component within Scrapegraph-ai, designed to process an image and return its text description. This node leverages an instance of the OpenAIImageToText class to extract text from images, contributing to the extraction and interpretation of information from visual content.
 ## Implementation
 ```python
 """ 

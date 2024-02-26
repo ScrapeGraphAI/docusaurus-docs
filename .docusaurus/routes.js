@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '959'),
+    component: ComponentCreator('/docs', '36f'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'f64'),
+        component: ComponentCreator('/docs', 'e53'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ff6'),
+            component: ComponentCreator('/docs', 'a4a'),
             routes: [
               {
                 path: '/docs/activation',
@@ -181,6 +181,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Examples/trulens',
+                component: ComponentCreator('/docs/Examples/trulens', '7d7'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Graphs/base_graph',
                 component: ComponentCreator('/docs/Graphs/base_graph', '1d8'),
                 exact: true,
@@ -243,12 +249,6 @@ export default [
               {
                 path: '/docs/Models/openai_tts',
                 component: ComponentCreator('/docs/Models/openai_tts', 'a8c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Nodes/',
-                component: ComponentCreator('/docs/Nodes/', '883'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

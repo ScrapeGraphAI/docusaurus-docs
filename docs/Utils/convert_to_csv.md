@@ -1,8 +1,7 @@
 # 🍷 convert_to_csv
 
 ## Introduction
-This function given a filename, a dictionary and a position it saves it in the csv format
-
+The convert_to_csv function takes a dictionary containing data, a filename, and a directory position, and saves the data in CSV format at the specified location.
 
 ## Implementation
 ```python
