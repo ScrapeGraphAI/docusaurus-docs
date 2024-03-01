@@ -8,7 +8,8 @@ The Parse HTML Node is a significant component within Scrapegraph-ai, designed t
 """
 Module for parsing the HTML node
 """
-from langchain_community.document_transformers import BeautifulSoupTransformer
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.document_transformers import Html2TextTransformer
 from .base_node import BaseNode
 
 
@@ -34,13 +35,16 @@ class ParseHTMLNode(BaseNode):
         the specified tags, if provided, and updates the state with the parsed content.
     """
 
-    def __init__(self, node_name="ParseHTMLNode"):
+    def __init__(self, node_name: str):
         """
         Initializes the ParseHTMLNode with a node name.
+        Args:
+            node_name (str): name of the node
+            node_type (str, optional): type of the node
         """
         super().__init__(node_name, "node")
 
-    def execute(self, state):
+    def execute(self,  state):
         """
         Executes the node's logic to parse the HTML document based on specified tags. 
         If tags are provided in the state, the document is parsed accordingly; otherwise, 
@@ -60,23 +64,24 @@ class ParseHTMLNode(BaseNode):
                       information for parsing is missing.
         """
 
-        print("---PARSE HTML DOCUMENT---")
+        print("---PARSING HTML DOCUMENT---")
         try:
             document = state["document"]
         except KeyError as e:
             print(f"Error: {e} not found in state.")
             raise
 
-        tags = state.get("tags", None)
+        text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
+            chunk_size=4000,
+            chunk_overlap=0,
+        )
 
-        if not tags:
-            print("No specific tags provided; returning document as is.")
-            return state
+        docs_transformed = Html2TextTransformer(
+        ).transform_documents(document)[0]
 
-        bs_transformer = BeautifulSoupTransformer()
-        parsed_document = bs_transformer.transform_documents(
-            document, tags_to_extract=tags)
-        print("Document parsed with specified tags.")
-        state.update({"parsed_document": parsed_document})
+        chunks = text_splitter.split_text(docs_transformed.page_content)
+
+        state.update({"document_chunks": chunks})
+
         return state
 ```

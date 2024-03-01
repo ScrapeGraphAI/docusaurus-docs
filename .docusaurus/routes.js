@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '36f'),
+    component: ComponentCreator('/docs', '62a'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'e53'),
+        component: ComponentCreator('/docs', 'e45'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'a4a'),
+            component: ComponentCreator('/docs', '3ef'),
             routes: [
               {
                 path: '/docs/activation',
@@ -93,12 +93,6 @@ export default [
               {
                 path: '/docs/category/helpers',
                 component: ComponentCreator('/docs/category/helpers', '42b'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/introduction',
-                component: ComponentCreator('/docs/category/introduction', 'd40'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -225,12 +219,6 @@ export default [
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', 'aed'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Introduction/Basics',
-                component: ComponentCreator('/docs/Introduction/Basics', '8bd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

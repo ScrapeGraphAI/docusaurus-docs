@@ -18,22 +18,6 @@
       },
       {
         "type": "category",
-        "label": "Introduction",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "📚 Basics",
-            "href": "/docs/Introduction/Basics",
-            "docId": "Introduction/Basics",
-            "unlisted": false
-          }
-        ],
-        "href": "/docs/category/introduction"
-      },
-      {
-        "type": "category",
         "label": "Nodes",
         "collapsible": true,
         "collapsed": true,
@@ -473,12 +457,6 @@
       "id": "intro",
       "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
       "description": "ScrapeGraphAI is a web scraping python library based on LangChain which uses LLM and direct graph logic to create scraping pipelines.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Introduction/Basics": {
-      "id": "Introduction/Basics",
-      "title": "📚 Basics",
-      "description": "The standard structure of Scrapegrah-ai is a graph made by nodes.",
       "sidebar": "tutorialSidebar"
     },
     "Models/openai": {

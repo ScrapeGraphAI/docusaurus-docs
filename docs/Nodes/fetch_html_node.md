@@ -41,11 +41,13 @@ class FetchHTMLNode(BaseNode):
                         to succeed.
     """
 
-    def __init__(self, node_name: str, node_type: str = "node"):
+    def __init__(self, node_name: str):
         """
         Initializes the FetchHTMLNode with a node name and node type.
+        Arguments:
+            node_name (str): name of the node
         """
-        super().__init__(node_name, node_type)
+        super().__init__(node_name, "node")
 
     def execute(self, state: dict) -> dict:
         """
@@ -62,6 +64,7 @@ class FetchHTMLNode(BaseNode):
             KeyError: If the 'url' key is not found in the state, indicating that the
                       necessary information to perform the operation is missing.
         """
+        print("---FETCHING HTML CODE---")
         try:
             url = state["url"]
         except KeyError as e:
@@ -74,5 +77,4 @@ class FetchHTMLNode(BaseNode):
         state["document"] = document
 
         return state
-
 ```

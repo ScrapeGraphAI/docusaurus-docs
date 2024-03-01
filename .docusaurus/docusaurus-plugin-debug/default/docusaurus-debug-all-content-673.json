@@ -466,30 +466,6 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Introduction",
-                "permalink": "/docs/category/introduction"
-              }
-            },
-            {
-              "id": "Introduction/Basics",
-              "title": "📚 Basics",
-              "description": "The standard structure of Scrapegrah-ai is a graph made by nodes.",
-              "source": "@site/docs/Introduction/Basics.md",
-              "sourceDirName": "Introduction",
-              "slug": "/Introduction/Basics",
-              "permalink": "/docs/Introduction/Basics",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Introduction/Basics.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/category/introduction"
-              },
-              "next": {
                 "title": "Nodes",
                 "permalink": "/docs/category/nodes"
               }
@@ -912,24 +888,6 @@
               },
               {
                 "type": "category",
-                "label": "Introduction",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Introduction/Basics"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Introduction and basics classes of Scrapegraph-ai",
-                  "slug": "/category/introduction",
-                  "permalink": "/docs/category/introduction"
-                }
-              },
-              {
-                "type": "category",
                 "label": "Nodes",
                 "collapsible": true,
                 "collapsed": true,
@@ -973,7 +931,7 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "Description of the nodes folder",
+                  "description": "In the standard structure of Scrapegraph-ai, a graph is composed of nodes, each with its own functionality. The principal nodes of this library include: \n\n- base_node: an abstract class from which all nodes derive. \n- conditional_node: creates conditional branches. \n- fetch_html_node: performs HTML requests. \n- generate_answer_node: generates an answer using a language model (LLM) based on the user's input and the content extracted from a webpage. \n- get_probable_tags_node: utilizes a language model to identify probable HTML tags within a document that are likely to contain information relevant to a user's query. \n- image_to_text_node: given an image, retrieves the text. \n- text_to_speech_node: given text, saves it as an .mp3 file.",
                   "slug": "/category/nodes",
                   "permalink": "/docs/category/nodes"
                 }

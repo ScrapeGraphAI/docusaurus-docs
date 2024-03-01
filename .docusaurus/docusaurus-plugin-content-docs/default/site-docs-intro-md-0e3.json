@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Introduction",
-    "permalink": "/docs/category/introduction"
+    "title": "Nodes",
+    "permalink": "/docs/category/nodes"
   }
 }

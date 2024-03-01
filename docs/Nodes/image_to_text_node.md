@@ -9,6 +9,7 @@ Module for the ImageToTextNode class.
 
 from .base_node import BaseNode
 
+
 class ImageToTextNode(BaseNode):
     """
     A class representing a node that processes an image and returns the text description.
@@ -20,13 +21,13 @@ class ImageToTextNode(BaseNode):
         execute(state, url): Execute the node's logic and return the updated state.
     """
 
-    def __init__(self, llm, node_name: str = "ParseImageToText"):
+    def __init__(self, llm, node_name: str):
         """
         Initializes an instance of the ImageToTextNode class.
 
         Args:
             llm (OpenAIImageToText): An instance of the OpenAIImageToText class.
-            node_name (str, optional): The name of the node. Defaults to "ParseImageToText".
+            node_name (str): name of the node
         """
         super().__init__(node_name, "node")
         self.llm = llm

@@ -106,11 +106,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Introduction/Basics",
-              "path": "/docs/Introduction/Basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Models/openai",
               "path": "/docs/Models/openai",
               "sidebar": "tutorialSidebar"
@@ -193,11 +188,6 @@
             {
               "id": "Utils/token_calculator",
               "path": "/docs/Utils/token_calculator",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/introduction",
-              "path": "/docs/category/introduction",
               "sidebar": "tutorialSidebar"
             },
             {

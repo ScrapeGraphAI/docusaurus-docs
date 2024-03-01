@@ -38,9 +38,12 @@ class GenerateAnswerNode(BaseNode):
                         updating the state with the generated answer under the 'answer' key.
     """
 
-    def __init__(self, llm, node_name: str = "GenerateAnswerNode"):
+    def __init__(self, llm, node_name: str):
         """
         Initializes the GenerateAnswerNode with a language model client and a node name.
+        Args:
+            llm (OpenAIImageToText): An instance of the OpenAIImageToText class.
+            node_name (str): name of the node
         """
         super().__init__(node_name, "node")
         self.llm = llm
@@ -64,10 +67,10 @@ class GenerateAnswerNode(BaseNode):
                       that the necessary information for generating an answer is missing.
         """
 
-        print("---GENERATE ANSWER---")
+        print("---GENERATING ANSWER---")
         try:
             user_input = state["user_input"]
-            document = state["document"]
+            document = state["document_chunks"]
         except KeyError as e:
             print(f"Error: {e} not found in state.")
             raise
@@ -106,7 +109,7 @@ class GenerateAnswerNode(BaseNode):
             prompt = PromptTemplate(
                 template=template_chunks,
                 input_variables=["question"],
-                partial_variables={"context": chunk.page_content,
+                partial_variables={"context": chunk,
                                    "chunk_id": i + 1, "format_instructions": format_instructions},
             )
             # Dynamically name the chains based on their index

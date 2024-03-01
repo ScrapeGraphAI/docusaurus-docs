@@ -1,7 +1,7 @@
 # 🪿 Rag node
 
 ## Introduction
-
+The RAG Node is a vital component in the language chain framework, specializing in parsing HTML content from documents. It efficiently extracts relevant information using user-defined tags, enhancing the processing of large HTML documents. By integrating parsing techniques like BeautifulSoupTransformer, the RAG Node optimizes document processing pipelines, contributing to improved efficiency and effectiveness in text processing tasks.
 ## Implementation
 ```python
 """
@@ -69,7 +69,7 @@ class RAGNode(BaseNode):
                       information for parsing is missing.
         """
 
-        print("---PARSE HTML DOCUMENT---")
+        print("---PARSING HTML DOCUMENT---")
         try:
             user_input = state["user_input"]
             document = state["document"]
@@ -116,6 +116,6 @@ class RAGNode(BaseNode):
         compressed_docs = compression_retriever.get_relevant_documents(
             user_input)
         print("Documents compressed and stored in a vector database.")
-        state.update({"relevant_chunks": compressed_docs})
+        state.update({"document_chunks": compressed_docs})
         return state
 ```
