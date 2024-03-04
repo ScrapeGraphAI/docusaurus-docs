@@ -327,6 +327,13 @@
           },
           {
             "type": "link",
+            "label": "🥎 Graph from text",
+            "href": "/docs/Examples/Graph_text",
+            "docId": "Examples/Graph_text",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "🧑🏻‍💻 SmartScraperGraph",
             "href": "/docs/Examples/SmartScraperGraph",
             "docId": "Examples/SmartScraperGraph",
@@ -341,7 +348,7 @@
           },
           {
             "type": "link",
-            "label": "Trulens evaluation",
+            "label": "🏀 Trulens evaluation",
             "href": "/docs/Examples/trulens",
             "docId": "Examples/trulens",
             "unlisted": false
@@ -407,6 +414,12 @@
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
+    "Examples/Graph_text": {
+      "id": "Examples/Graph_text",
+      "title": "🥎 Graph from text",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
     "Examples/GraphBuilder": {
       "id": "Examples/GraphBuilder",
       "title": "🍇 GraphBuilder",
@@ -427,7 +440,7 @@
     },
     "Examples/trulens": {
       "id": "Examples/trulens",
-      "title": "Trulens evaluation",
+      "title": "🏀 Trulens evaluation",
       "description": "",
       "sidebar": "tutorialSidebar"
     },

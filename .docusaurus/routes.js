@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'f7a'),
+    component: ComponentCreator('/docs', '5d8'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'ecc'),
+        component: ComponentCreator('/docs', '1a5'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '6da'),
+            component: ComponentCreator('/docs', '6a5'),
             routes: [
               {
                 path: '/docs/activation',
@@ -153,6 +153,12 @@ export default [
               {
                 path: '/docs/Examples/CustomGraph',
                 component: ComponentCreator('/docs/Examples/CustomGraph', '651'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Examples/Graph_text',
+                component: ComponentCreator('/docs/Examples/Graph_text', 'b75'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

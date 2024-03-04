@@ -35,7 +35,7 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Trulens evaluation",
+                "title": "🏀 Trulens evaluation",
                 "permalink": "/docs/Examples/trulens"
               }
             },
@@ -208,6 +208,30 @@
               }
             },
             {
+              "id": "Examples/Graph_text",
+              "title": "🥎 Graph from text",
+              "description": "",
+              "source": "@site/docs/Examples/Graph_text.md",
+              "sourceDirName": "Examples",
+              "slug": "/Examples/Graph_text",
+              "permalink": "/docs/Examples/Graph_text",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/Graph_text.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🍇 GraphBuilder",
+                "permalink": "/docs/Examples/GraphBuilder"
+              },
+              "next": {
+                "title": "🧑🏻‍💻 SmartScraperGraph",
+                "permalink": "/docs/Examples/SmartScraperGraph"
+              }
+            },
+            {
               "id": "Examples/GraphBuilder",
               "title": "🍇 GraphBuilder",
               "description": "key1",
@@ -227,8 +251,8 @@
                 "permalink": "/docs/Examples/CustomGraph"
               },
               "next": {
-                "title": "🧑🏻‍💻 SmartScraperGraph",
-                "permalink": "/docs/Examples/SmartScraperGraph"
+                "title": "🥎 Graph from text",
+                "permalink": "/docs/Examples/Graph_text"
               }
             },
             {
@@ -247,8 +271,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🍇 GraphBuilder",
-                "permalink": "/docs/Examples/GraphBuilder"
+                "title": "🥎 Graph from text",
+                "permalink": "/docs/Examples/Graph_text"
               },
               "next": {
                 "title": "🔊 Speech graph",
@@ -275,13 +299,13 @@
                 "permalink": "/docs/Examples/SmartScraperGraph"
               },
               "next": {
-                "title": "Trulens evaluation",
+                "title": "🏀 Trulens evaluation",
                 "permalink": "/docs/Examples/trulens"
               }
             },
             {
               "id": "Examples/trulens",
-              "title": "Trulens evaluation",
+              "title": "🏀 Trulens evaluation",
               "description": "",
               "source": "@site/docs/Examples/trulens.md",
               "sourceDirName": "Examples",
@@ -1183,6 +1207,10 @@
                   {
                     "type": "doc",
                     "id": "Examples/GraphBuilder"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Examples/Graph_text"
                   },
                   {
                     "type": "doc",

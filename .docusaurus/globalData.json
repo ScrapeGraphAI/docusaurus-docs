@@ -51,6 +51,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Examples/Graph_text",
+              "path": "/docs/Examples/Graph_text",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Examples/GraphBuilder",
               "path": "/docs/Examples/GraphBuilder",
               "sidebar": "tutorialSidebar"
