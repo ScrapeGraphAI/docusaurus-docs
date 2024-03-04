@@ -610,6 +610,30 @@
                 "permalink": "/docs/Nodes/conditional_node"
               },
               "next": {
+                "title": "🪃 Fetch_text_node",
+                "permalink": "/docs/Nodes/fetch_text_node"
+              }
+            },
+            {
+              "id": "Nodes/fetch_text_node",
+              "title": "🪃 Fetch_text_node",
+              "description": "Introduction",
+              "source": "@site/docs/Nodes/fetch_text_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/fetch_text_node",
+              "permalink": "/docs/Nodes/fetch_text_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/fetch_text_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "😼 Fetch_html_node",
+                "permalink": "/docs/Nodes/fetch_html_node"
+              },
+              "next": {
                 "title": "🐝 Generate_answer_node",
                 "permalink": "/docs/Nodes/generate_answer_node"
               }
@@ -630,8 +654,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "😼 Fetch_html_node",
-                "permalink": "/docs/Nodes/fetch_html_node"
+                "title": "🪃 Fetch_text_node",
+                "permalink": "/docs/Nodes/fetch_text_node"
               },
               "next": {
                 "title": "💫 Get_probable_tags_node",
@@ -682,6 +706,30 @@
                 "permalink": "/docs/Nodes/get_probable_tags_node"
               },
               "next": {
+                "title": "⛳️ Parse_text_node",
+                "permalink": "/docs/Nodes/parse_text_node"
+              }
+            },
+            {
+              "id": "Nodes/parse_text_node",
+              "title": "⛳️ Parse_text_node",
+              "description": "Introduction",
+              "source": "@site/docs/Nodes/parse_text_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/parse_text_node",
+              "permalink": "/docs/Nodes/parse_text_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/parse_text_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🚁 Image_to_text_node",
+                "permalink": "/docs/Nodes/image_to_text_node"
+              },
+              "next": {
                 "title": "🦅 Parse HTML node",
                 "permalink": "/docs/Nodes/parsehtml_node"
               }
@@ -702,8 +750,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🚁 Image_to_text_node",
-                "permalink": "/docs/Nodes/image_to_text_node"
+                "title": "⛳️ Parse_text_node",
+                "permalink": "/docs/Nodes/parse_text_node"
               },
               "next": {
                 "title": "🪿 Rag node",
@@ -906,6 +954,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Nodes/fetch_text_node"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Nodes/generate_answer_node"
                   },
                   {
@@ -915,6 +967,10 @@
                   {
                     "type": "doc",
                     "id": "Nodes/image_to_text_node"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Nodes/parse_text_node"
                   },
                   {
                     "type": "doc",

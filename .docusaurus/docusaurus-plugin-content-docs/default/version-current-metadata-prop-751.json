@@ -45,6 +45,13 @@
           },
           {
             "type": "link",
+            "label": "🪃 Fetch_text_node",
+            "href": "/docs/Nodes/fetch_text_node",
+            "docId": "Nodes/fetch_text_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "🐝 Generate_answer_node",
             "href": "/docs/Nodes/generate_answer_node",
             "docId": "Nodes/generate_answer_node",
@@ -62,6 +69,13 @@
             "label": "🚁 Image_to_text_node",
             "href": "/docs/Nodes/image_to_text_node",
             "docId": "Nodes/image_to_text_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "⛳️ Parse_text_node",
+            "href": "/docs/Nodes/parse_text_node",
+            "docId": "Nodes/parse_text_node",
             "unlisted": false
           },
           {
@@ -495,6 +509,12 @@
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
+    "Nodes/fetch_text_node": {
+      "id": "Nodes/fetch_text_node",
+      "title": "🪃 Fetch_text_node",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
     "Nodes/generate_answer_node": {
       "id": "Nodes/generate_answer_node",
       "title": "🐝 Generate_answer_node",
@@ -510,6 +530,12 @@
     "Nodes/image_to_text_node": {
       "id": "Nodes/image_to_text_node",
       "title": "🚁 Image_to_text_node",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Nodes/parse_text_node": {
+      "id": "Nodes/parse_text_node",
+      "title": "⛳️ Parse_text_node",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },

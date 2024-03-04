@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '62a'),
+    component: ComponentCreator('/docs', 'f7a'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'e45'),
+        component: ComponentCreator('/docs', 'ecc'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '3ef'),
+            component: ComponentCreator('/docs', '6da'),
             routes: [
               {
                 path: '/docs/activation',
@@ -259,6 +259,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Nodes/fetch_text_node',
+                component: ComponentCreator('/docs/Nodes/fetch_text_node', 'f7d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Nodes/generate_answer_node',
                 component: ComponentCreator('/docs/Nodes/generate_answer_node', '061'),
                 exact: true,
@@ -273,6 +279,12 @@ export default [
               {
                 path: '/docs/Nodes/image_to_text_node',
                 component: ComponentCreator('/docs/Nodes/image_to_text_node', '587'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Nodes/parse_text_node',
+                component: ComponentCreator('/docs/Nodes/parse_text_node', '2c9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
