@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '5d8'),
+    component: ComponentCreator('/docs', '6ff'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '1a5'),
+        component: ComponentCreator('/docs', 'ae7'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '6a5'),
+            component: ComponentCreator('/docs', '59e'),
             routes: [
               {
                 path: '/docs/activation',
@@ -291,12 +291,6 @@ export default [
               {
                 path: '/docs/Nodes/parse_text_node',
                 component: ComponentCreator('/docs/Nodes/parse_text_node', '2c9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Nodes/parsehtml_node',
-                component: ComponentCreator('/docs/Nodes/parsehtml_node', '1ae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

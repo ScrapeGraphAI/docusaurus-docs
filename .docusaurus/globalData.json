@@ -166,11 +166,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Nodes/parsehtml_node",
-              "path": "/docs/Nodes/parsehtml_node",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Nodes/rag",
               "path": "/docs/Nodes/rag",
               "sidebar": "tutorialSidebar"

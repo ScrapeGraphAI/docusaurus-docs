@@ -3,6 +3,9 @@ sidebar_position: 1
 ---
 
 # 🕷️ ScrapeGraphAI: You Only Scrape Once
+[![Downloads](https://static.pepy.tech/badge/scrapegraphai)](https://pepy.tech/project/scrapegraphai)
+[![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/pylint-dev/pylint)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ScrapeGraphAI is a *web scraping* python library based on LangChain which uses LLM and direct graph logic to create scraping pipelines.
 Just say which information you want to extract and the library will do it for you!
@@ -11,7 +14,6 @@ Just say which information you want to extract and the library will do it for yo
 Link of the Github repo:
 
 [![My Skills](https://skillicons.dev/icons?i=github)](https://github.com/VinciGit00/Scrapegraph-ai)
-
 
 ## 🚀 Quick install
 The reference page for Scrapegraph-ai is avaible on the official page of pypy: [pypi](https://pypi.org/project/scrapegraphai/).

@@ -73,16 +73,9 @@
           },
           {
             "type": "link",
-            "label": "⛳️ Parse_text_node",
+            "label": "⛳️ Parse_Node",
             "href": "/docs/Nodes/parse_text_node",
             "docId": "Nodes/parse_text_node",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🦅 Parse HTML node",
-            "href": "/docs/Nodes/parsehtml_node",
-            "docId": "Nodes/parsehtml_node",
             "unlisted": false
           },
           {
@@ -429,7 +422,7 @@
     "Examples/SmartScraperGraph": {
       "id": "Examples/SmartScraperGraph",
       "title": "🧑🏻‍💻 SmartScraperGraph",
-      "description": "key1",
+      "description": "The dictionary of the result is:",
       "sidebar": "tutorialSidebar"
     },
     "Examples/SpeechSummaryGraph": {
@@ -483,7 +476,7 @@
     "intro": {
       "id": "intro",
       "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
-      "description": "ScrapeGraphAI is a web scraping python library based on LangChain which uses LLM and direct graph logic to create scraping pipelines.",
+      "description": "Downloads",
       "sidebar": "tutorialSidebar"
     },
     "Models/openai": {
@@ -548,13 +541,7 @@
     },
     "Nodes/parse_text_node": {
       "id": "Nodes/parse_text_node",
-      "title": "⛳️ Parse_text_node",
-      "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
-    "Nodes/parsehtml_node": {
-      "id": "Nodes/parsehtml_node",
-      "title": "🦅 Parse HTML node",
+      "title": "⛳️ Parse_Node",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },

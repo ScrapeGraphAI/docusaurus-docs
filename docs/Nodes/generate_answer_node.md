@@ -7,9 +7,15 @@ The Generate Answer Node plays a crucial role within Scrapegraph-ai by utilizing
 """
 Module for generating the answer node
 """
-from langchain_core.output_parsers import JsonOutputParser
+# Imports from standard library
+from tqdm import tqdm
+
+# Imports from Langchain
 from langchain.prompts import PromptTemplate
+from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.runnables import RunnableParallel
+
+# Imports from the library
 from .base_node import BaseNode
 
 
@@ -70,7 +76,7 @@ class GenerateAnswerNode(BaseNode):
         print("---GENERATING ANSWER---")
         try:
             user_input = state["user_input"]
-            document = state["document_chunks"]
+            document = state["document"]
         except KeyError as e:
             print(f"Error: {e} not found in state.")
             raise
@@ -105,11 +111,12 @@ class GenerateAnswerNode(BaseNode):
 
         chains_dict = {}
 
-        for i, chunk in enumerate(context):
+        # Use tqdm to add progress bar
+        for i, chunk in enumerate(tqdm(context, desc="Processing chunks")):
             prompt = PromptTemplate(
                 template=template_chunks,
                 input_variables=["question"],
-                partial_variables={"context": chunk,
+                partial_variables={"context": chunk.page_content,
                                    "chunk_id": i + 1, "format_instructions": format_instructions},
             )
             # Dynamically name the chains based on their index
