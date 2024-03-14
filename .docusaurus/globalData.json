@@ -8,7 +8,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "Nodes/base_node",
           "docs": [
             {
               "id": "activation",
@@ -48,6 +48,11 @@
             {
               "id": "Examples/CustomGraph",
               "path": "/docs/Examples/CustomGraph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Examples/Gemini_implementation",
+              "path": "/docs/Examples/Gemini_implementation",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -250,8 +255,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/category/nodes",
+                "label": "Nodes"
               }
             }
           }

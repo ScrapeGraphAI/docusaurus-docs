@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '6ff'),
+    component: ComponentCreator('/docs', '729'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'ae7'),
+        component: ComponentCreator('/docs', '2aa'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '59e'),
+            component: ComponentCreator('/docs', '07c'),
             routes: [
               {
                 path: '/docs/activation',
@@ -153,6 +153,12 @@ export default [
               {
                 path: '/docs/Examples/CustomGraph',
                 component: ComponentCreator('/docs/Examples/CustomGraph', '651'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Examples/Gemini_implementation',
+                component: ComponentCreator('/docs/Examples/Gemini_implementation', '8d8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -16,5 +16,9 @@
   "previous": {
     "title": "🏀 Trulens evaluation",
     "permalink": "/docs/Examples/trulens"
+  },
+  "next": {
+    "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
+    "permalink": "/docs/intro"
   }
 }

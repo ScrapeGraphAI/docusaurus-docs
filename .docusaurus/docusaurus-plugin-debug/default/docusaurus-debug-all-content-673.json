@@ -37,6 +37,10 @@
               "previous": {
                 "title": "🏀 Trulens evaluation",
                 "permalink": "/docs/Examples/trulens"
+              },
+              "next": {
+                "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
+                "permalink": "/docs/intro"
               }
             },
             {
@@ -203,6 +207,30 @@
                 "permalink": "/docs/category/tutorials"
               },
               "next": {
+                "title": "😫 Gemini implementation",
+                "permalink": "/docs/Examples/Gemini_implementation"
+              }
+            },
+            {
+              "id": "Examples/Gemini_implementation",
+              "title": "😫 Gemini implementation",
+              "description": "Introduction",
+              "source": "@site/docs/Examples/Gemini_implementation.md",
+              "sourceDirName": "Examples",
+              "slug": "/Examples/Gemini_implementation",
+              "permalink": "/docs/Examples/Gemini_implementation",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/Gemini_implementation.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "👼🏻 Custom graph",
+                "permalink": "/docs/Examples/CustomGraph"
+              },
+              "next": {
                 "title": "🍇 GraphBuilder",
                 "permalink": "/docs/Examples/GraphBuilder"
               }
@@ -247,8 +275,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "👼🏻 Custom graph",
-                "permalink": "/docs/Examples/CustomGraph"
+                "title": "😫 Gemini implementation",
+                "permalink": "/docs/Examples/Gemini_implementation"
               },
               "next": {
                 "title": "🥎 Graph from text",
@@ -484,14 +512,11 @@
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
+              "frontMatter": {},
               "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Nodes",
-                "permalink": "/docs/category/nodes"
+              "previous": {
+                "title": "🔑 Keys activation",
+                "permalink": "/docs/activation"
               }
             },
             {
@@ -931,10 +956,6 @@
           "sidebars": {
             "tutorialSidebar": [
               {
-                "type": "doc",
-                "id": "intro"
-              },
-              {
                 "type": "category",
                 "label": "Nodes",
                 "collapsible": true,
@@ -1178,6 +1199,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Examples/Gemini_implementation"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Examples/GraphBuilder"
                   },
                   {
@@ -1207,6 +1232,10 @@
               {
                 "type": "doc",
                 "id": "activation"
+              },
+              {
+                "type": "doc",
+                "id": "intro"
               }
             ]
           }

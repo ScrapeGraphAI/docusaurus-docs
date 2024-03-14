@@ -10,13 +10,6 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "🕷️ ScrapeGraphAI: You Only Scrape Once",
-        "href": "/docs/intro",
-        "docId": "intro",
-        "unlisted": false
-      },
-      {
         "type": "category",
         "label": "Nodes",
         "collapsible": true,
@@ -313,6 +306,13 @@
           },
           {
             "type": "link",
+            "label": "😫 Gemini implementation",
+            "href": "/docs/Examples/Gemini_implementation",
+            "docId": "Examples/Gemini_implementation",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "🍇 GraphBuilder",
             "href": "/docs/Examples/GraphBuilder",
             "docId": "Examples/GraphBuilder",
@@ -354,6 +354,13 @@
         "label": "🔑 Keys activation",
         "href": "/docs/activation",
         "docId": "activation",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "🕷️ ScrapeGraphAI: You Only Scrape Once",
+        "href": "/docs/intro",
+        "docId": "intro",
         "unlisted": false
       }
     ]
@@ -404,6 +411,12 @@
     "Examples/CustomGraph": {
       "id": "Examples/CustomGraph",
       "title": "👼🏻 Custom graph",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Examples/Gemini_implementation": {
+      "id": "Examples/Gemini_implementation",
+      "title": "😫 Gemini implementation",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
