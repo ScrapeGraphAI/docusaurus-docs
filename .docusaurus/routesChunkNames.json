@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-729": {
+  "/docs-d9c": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-037-a5a"
     }
   },
-  "/docs-2aa": {
+  "/docs-021": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-07c": {
+  "/docs-d0f": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/activation-c61": {
@@ -105,6 +105,10 @@
   "/docs/category/utils-b2e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-utils-5-a-9-741"
+  },
+  "/docs/category/versions-517": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-versions-2-e-7-4bb"
   },
   "/docs/Contributing/acknowledgements-5bb": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -253,6 +257,10 @@
   "/docs/Utils/token_calculator-3b2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-utils-token-calculator-7-b-6-bc9"
+  },
+  "/docs/Versions/versioning-4fc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-versions-versioning-88-f-8be"
   },
   "/-b71": {
     "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",

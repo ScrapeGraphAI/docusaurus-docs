@@ -206,6 +206,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Versions/versioning",
+              "path": "/docs/Versions/versioning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/nodes",
               "path": "/docs/category/nodes",
               "sidebar": "tutorialSidebar"
@@ -248,6 +253,11 @@
             {
               "id": "/category/tutorials",
               "path": "/docs/category/tutorials",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/versions",
+              "path": "/docs/category/versions",
               "sidebar": "tutorialSidebar"
             }
           ],

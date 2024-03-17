@@ -35,8 +35,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🏀 Trulens evaluation",
-                "permalink": "/docs/Examples/trulens"
+                "title": "versioning",
+                "permalink": "/docs/Versions/versioning"
               },
               "next": {
                 "title": "🕷️ ScrapeGraphAI: You Only Scrape Once",
@@ -351,8 +351,8 @@
                 "permalink": "/docs/Examples/SpeechSummaryGraph"
               },
               "next": {
-                "title": "🔑 Keys activation",
-                "permalink": "/docs/activation"
+                "title": "Versions",
+                "permalink": "/docs/category/versions"
               }
             },
             {
@@ -950,6 +950,30 @@
                 "title": "Contributing",
                 "permalink": "/docs/category/contributing"
               }
+            },
+            {
+              "id": "Versions/versioning",
+              "title": "versioning",
+              "description": "* Version 0.0.9:",
+              "source": "@site/docs/Versions/versioning.md",
+              "sourceDirName": "Versions",
+              "slug": "/Versions/versioning",
+              "permalink": "/docs/Versions/versioning",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Versions/versioning.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Versions",
+                "permalink": "/docs/category/versions"
+              },
+              "next": {
+                "title": "🔑 Keys activation",
+                "permalink": "/docs/activation"
+              }
             }
           ],
           "drafts": [],
@@ -1227,6 +1251,24 @@
                   "description": "List of documents of tutorials",
                   "slug": "/category/tutorials",
                   "permalink": "/docs/category/tutorials"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Versions",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Versions/versioning"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "List of versions on pip",
+                  "slug": "/category/versions",
+                  "permalink": "/docs/category/versions"
                 }
               },
               {

@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '729'),
+    component: ComponentCreator('/docs', 'd9c'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '2aa'),
+        component: ComponentCreator('/docs', '021'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '07c'),
+            component: ComponentCreator('/docs', 'd0f'),
             routes: [
               {
                 path: '/docs/activation',
@@ -117,6 +117,12 @@ export default [
               {
                 path: '/docs/category/utils',
                 component: ComponentCreator('/docs/category/utils', 'b2e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/versions',
+                component: ComponentCreator('/docs/category/versions', '517'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -339,6 +345,12 @@ export default [
               {
                 path: '/docs/Utils/token_calculator',
                 component: ComponentCreator('/docs/Utils/token_calculator', '3b2'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Versions/versioning',
+                component: ComponentCreator('/docs/Versions/versioning', '4fc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

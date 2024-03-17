@@ -350,6 +350,22 @@
         "href": "/docs/category/tutorials"
       },
       {
+        "type": "category",
+        "label": "Versions",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "versioning",
+            "href": "/docs/Versions/versioning",
+            "docId": "Versions/versioning",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/versions"
+      },
+      {
         "type": "link",
         "label": "🔑 Keys activation",
         "href": "/docs/activation",
@@ -598,6 +614,12 @@
       "id": "Utils/token_calculator",
       "title": "🇹🇰 Token calculator",
       "description": "The token calculator class is a class that implements the token for the link to scrape.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Versions/versioning": {
+      "id": "Versions/versioning",
+      "title": "versioning",
+      "description": "* Version 0.0.9:",
       "sidebar": "tutorialSidebar"
     }
   }
