@@ -3,12 +3,14 @@
 
 The Get Probable Tags Node is an essential component of Scrapegraph-ai, designed to utilize a language model to identify probable HTML tags within a document that are likely to contain information relevant to a user's query. By generating a prompt describing the task, submitting it to the language model, and processing the output, this node produces a list of probable tags crucial for subsequent processing in the scraping workflow.
 
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/get_probable_tags_node.py)
 
 ## Implementation
 ```python
 """
 Module for proobable tags
 """
+from typing import List
 from langchain.output_parsers import CommaSeparatedListOutputParser
 from langchain.prompts import PromptTemplate
 from .base_node import BaseNode
@@ -37,17 +39,18 @@ class GetProbableTagsNode(BaseNode):
                         probable HTML tags, updating the state with these tags under the 'tags' key.
     """
 
-    def __init__(self, llm, node_name: str):
+    def __init__(self, input: str, output: List[str], model_config: dict,
+                 node_name: str = "GetProbableTags"):
         """
         Initializes the GetProbableTagsNode with a language model client and a node name.
         Args:
             llm (OpenAIImageToText): An instance of the OpenAIImageToText class.
             node_name (str): name of the node
         """
-        super().__init__(node_name, "node")
-        self.llm = llm
+        super().__init__(node_name, "node", input, output, 2, model_config)
+        self.llm_model = model_config["llm_model"]
 
-    def execute(self, state: dict):
+    def execute(self, state):
         """
         Generates a list of probable HTML tags based on the user's input and updates the state 
         with this list. The method constructs a prompt for the language model, submits it, and 
@@ -65,13 +68,16 @@ class GetProbableTagsNode(BaseNode):
                       necessary information for generating tag predictions is missing.
         """
 
-        print("---GETTING PROBABLE TAGS---")
-        try:
-            user_input = state["user_input"]
-            url = state["url"]
-        except KeyError as e:
-            print(f"Error: {e} not found in state.")
-            raise
+        print(f"--- Executing {self.node_name} Node ---")
+
+        # Interpret input keys based on the provided input expression
+        input_keys = self.get_input_keys(state)
+
+        # Fetching data from the state based on the input keys
+        input_data = [state[key] for key in input_keys]
+
+        user_prompt = input_data[0]
+        url = input_data[1]
 
         output_parser = CommaSeparatedListOutputParser()
         format_instructions = output_parser.get_format_instructions()
@@ -89,13 +95,10 @@ class GetProbableTagsNode(BaseNode):
         )
 
         # Execute the chain to get probable tags
-        tag_answer = tag_prompt | self.llm | output_parser
-        probable_tags = tag_answer.invoke({"question": user_input})
-
-        print("Possible tags: ", *probable_tags)
+        tag_answer = tag_prompt | self.llm_model | output_parser
+        probable_tags = tag_answer.invoke({"question": user_prompt})
 
         # Update the dictionary with probable tags
-        state.update({"tags": probable_tags})
+        state.update({self.output[0]: probable_tags})
         return state
 ```
-

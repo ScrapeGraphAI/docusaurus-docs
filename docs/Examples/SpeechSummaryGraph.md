@@ -1,30 +1,34 @@
 # 🔊 Speech graph
+The link of the example is: [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/examples/graph_examples/smart_scraper_example.py).
 ```python
-# if you plan on using text_to_speech and GPT4-Vision models be sure to use the
-# correct APIKEY
-OPENAI_API_KEY = "YOUR_API_KEY"
-```
-![key1](img/scraping_schema.png)
-**SpeechSummaryGraph** is a class representing one of the default scraping pipelines that generate a summary of the website and return it together with an audio file. Similar to the **SmartScraperGraph** but with the addition of the **TextToSpeechNode** node.
-```python
-"""
-Basic example of scraping pipeline using SpeechSummaryGraph
+""" 
+Basic example of scraping pipeline using SmartScraper
 """
 
-from scrapegraphai.graphs import SpeechSummaryGraph
+import os
+from dotenv import load_dotenv
+from scrapegraphai.graphs import SmartScraperGraph
 
-llm_config = {
-    "api_key": OPENAI_API_KEY
+load_dotenv()
+openai_key = os.getenv("OPENAI_APIKEY")
+
+# Define the configuration for the graph
+graph_config = {
+    "llm": {
+        "api_key": openai_key,
+        "model": "gpt-3.5-turbo",
+    },
 }
 
-# Save the audio to a file
-audio_file = "website_summary.mp3"
-speech_summary_graph = SpeechSummaryGraph("Make a summary of the webpage to be converted to audio for blind people.",
-                             "https://perinim.github.io/projects/", llm_config,
-                                audio_file)
+# Create the SmartScraperGraph instance
+smart_scraper_graph = SmartScraperGraph(
+    prompt="List me all the news with their description.",
+    file_source="https://www.ansa.it/veneto/",  # also accepts a local file path
+    config=graph_config
+)
 
-final_state = speech_summary_graph.run()
-print(final_state.get("answer", "No answer found."))
+result = smart_scraper_graph.run()
+print(result)
 ```
 ```bash
 Fetching pages: 100%|##########| 1/1 [00:00<00:00, 13.14it/s]

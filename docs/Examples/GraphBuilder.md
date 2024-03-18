@@ -1,31 +1,37 @@
 # 🍇 GraphBuilder
+The link of the example is: [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/examples/graph_examples/graph_builder_example.py).
 ```python
-# if you plan on using text_to_speech and GPT4-Vision models be sure to use the
-# correct APIKEY
-OPENAI_API_KEY = "YOUR_API_KEY"
-```
-![key1](img/GraphBuilder.png)
-
-**GraphBuilder** is an experimental class that helps you to create custom graphs based on your prompt. It creates a json with the essential elements that identify a graph and allows you to visualize it using **graphviz**. It knows what are the kind of nodes that the library provides by default and connect them to help you reach your goal.
-
-```python
+""" 
+Example of graph builder
+"""
+import os
+from dotenv import load_dotenv
 from scrapegraphai.builders import GraphBuilder
 
-llm_config = {
-    "api_key": OPENAI_API_KEY,
-    "model_name": "gpt-3.5-turbo",
-    "temperature": 0,
-    "streaming": True
+load_dotenv()
+openai_key = os.getenv("OPENAI_APIKEY")
+
+# Define the configuration for the graph
+graph_config = {
+    "llm": {
+        "api_key": openai_key,
+        "model": "gpt-3.5-turbo",
+    },
 }
 
 # Example usage of GraphBuilder
-user_prompt = "Extract the news and generate a text summary with a voiceover."
-graph_builder = GraphBuilder(user_prompt, llm_config)
+graph_builder = GraphBuilder(
+    user_prompt="Extract the news and generate a text summary with a voiceover.",
+    config=graph_config
+)
+
 graph_json = graph_builder.build_graph()
 
 # Convert the resulting JSON to Graphviz format
 graphviz_graph = graph_builder.convert_json_to_graphviz(graph_json)
-print(graph_json)
+
+# Save the graph to a file and open it in the default viewer
+graphviz_graph.render('ScrapeGraphAI_generated_graph', view=True)
 ```
 ```bash
 {'input': 'Extract the news and generate a text summary with a voiceover.',

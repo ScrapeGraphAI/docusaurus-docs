@@ -2,12 +2,14 @@
 ## Introduction
 The Generate Answer Node plays a crucial role within Scrapegraph-ai by utilizing a language model (LLM) to generate answers based on the user's input and the content extracted from a webpage. This node constructs a prompt from the user's input and the scraped content, feeds it to the language model, and parses the model's response to produce a coherent answer.
 
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/generate_answer_node.py)
 ## Implementation
 ```python
 """
 Module for generating the answer node
 """
 # Imports from standard library
+from typing import List
 from tqdm import tqdm
 
 # Imports from Langchain
@@ -44,17 +46,18 @@ class GenerateAnswerNode(BaseNode):
                         updating the state with the generated answer under the 'answer' key.
     """
 
-    def __init__(self, llm, node_name: str):
+    def __init__(self, input: str, output: List[str], model_config: dict,
+                 node_name: str = "GenerateAnswer"):
         """
         Initializes the GenerateAnswerNode with a language model client and a node name.
         Args:
             llm (OpenAIImageToText): An instance of the OpenAIImageToText class.
             node_name (str): name of the node
         """
-        super().__init__(node_name, "node")
-        self.llm = llm
+        super().__init__(node_name, "node", input, output, 2, model_config)
+        self.llm_model = model_config["llm_model"]
 
-    def execute(self, state: dict) -> dict:
+    def execute(self, state):
         """
         Generates an answer by constructing a prompt from the user's input and the scraped
         content, querying the language model, and parsing its response.
@@ -73,23 +76,16 @@ class GenerateAnswerNode(BaseNode):
                       that the necessary information for generating an answer is missing.
         """
 
-        print("---GENERATING ANSWER---")
-        try:
-            user_input = state["user_input"]
-            document = state["document"]
-        except KeyError as e:
-            print(f"Error: {e} not found in state.")
-            raise
+        print(f"--- Executing {self.node_name} Node ---")
 
-        parsed_document = state.get("parsed_document", None)
-        relevant_chunks = state.get("relevant_chunks", None)
+        # Interpret input keys based on the provided input expression
+        input_keys = self.get_input_keys(state)
 
-        if relevant_chunks:
-            context = relevant_chunks
-        elif parsed_document:
-            context = parsed_document
-        else:
-            context = document
+        # Fetching data from the state based on the input keys
+        input_data = [state[key] for key in input_keys]
+
+        user_prompt = input_data[0]
+        doc = input_data[1]
 
         output_parser = JsonOutputParser()
         format_instructions = output_parser.get_format_instructions()
@@ -112,7 +108,7 @@ class GenerateAnswerNode(BaseNode):
         chains_dict = {}
 
         # Use tqdm to add progress bar
-        for i, chunk in enumerate(tqdm(context, desc="Processing chunks")):
+        for i, chunk in enumerate(tqdm(doc, desc="Processing chunks")):
             prompt = PromptTemplate(
                 template=template_chunks,
                 input_variables=["question"],
@@ -121,12 +117,12 @@ class GenerateAnswerNode(BaseNode):
             )
             # Dynamically name the chains based on their index
             chain_name = f"chunk{i+1}"
-            chains_dict[chain_name] = prompt | self.llm | output_parser
+            chains_dict[chain_name] = prompt | self.llm_model | output_parser
 
         # Use dictionary unpacking to pass the dynamically named chains to RunnableParallel
         map_chain = RunnableParallel(**chains_dict)
         # Chain
-        answer_map = map_chain.invoke({"question": user_input})
+        answer_map = map_chain.invoke({"question": user_prompt})
 
         # Merge the answers from the chunks
         merge_prompt = PromptTemplate(
@@ -134,11 +130,11 @@ class GenerateAnswerNode(BaseNode):
             input_variables=["context", "question"],
             partial_variables={"format_instructions": format_instructions},
         )
-        merge_chain = merge_prompt | self.llm | output_parser
+        merge_chain = merge_prompt | self.llm_model | output_parser
         answer = merge_chain.invoke(
-            {"context": answer_map, "question": user_input})
+            {"context": answer_map, "question": user_prompt})
 
         # Update the state with the generated answer
-        state.update({"answer": answer})
+        state.update({self.output[0]: answer})
         return state
 ```

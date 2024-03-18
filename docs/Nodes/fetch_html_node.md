@@ -2,34 +2,22 @@
 
 ## Introduction
 
-The Fetch HTML Node is a crucial component within Scrapegraph-ai responsible for retrieving the HTML content of a specified URL and updating the graph's state with this content. This node serves as an initial step in many scraping workflows, ensuring that the necessary HTML content is available for further processing by subsequent nodes in the graph.
+The Fetch  Node is a crucial component within Scrapegraph-ai responsible for retrieving the HTML content of a specified URL or just text and updating the graph's state with this content. This node serves as an initial step in many scraping workflows, ensuring that the necessary HTML content is available for further processing by subsequent nodes in the graph.
 
+he implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/fetch_node.py)
 ## Implementation
 ```python
 """ 
 Module for fetching the HTML node
 """
-from typing import Any
+
+from typing import List
 from langchain_community.document_loaders import AsyncHtmlLoader
 from langchain_core.documents import Document
 from .base_node import BaseNode
-from ..utils.remover import remover
 
 
-def _build_metadata(soup: Any, url: str) -> dict:
-    """Build metadata from BeautifulSoup output."""
-    metadata = {"source": url}
-    if title := soup.find("title"):
-        metadata["title"] = title.get_text()
-    if description := soup.find("meta", attrs={"name": "description"}):
-        metadata["description"] = description.get(
-            "content", "No description found.")
-    if html := soup.find("html"):
-        metadata["language"] = html.get("lang", "No language found.")
-    return metadata
-
-
-class FetchHTMLNode(BaseNode):
+class FetchNode(BaseNode):
     """
     A node responsible for fetching the HTML content of a specified URL and updating
     the graph's state with this content. It uses the AsyncHtmlLoader for asynchronous
@@ -57,15 +45,15 @@ class FetchHTMLNode(BaseNode):
                         to succeed.
     """
 
-    def __init__(self, node_name: str):
+    def __init__(self, input: str, output: List[str], node_name: str = "Fetch"):
         """
         Initializes the FetchHTMLNode with a node name and node type.
         Arguments:
             node_name (str): name of the node
         """
-        super().__init__(node_name, "node")
+        super().__init__(node_name, "node", input, output, 1)
 
-    def execute(self, state: dict) -> dict:
+    def execute(self, state):
         """
         Executes the node's logic to fetch HTML content from a specified URL and
         update the state with this content.
@@ -80,21 +68,28 @@ class FetchHTMLNode(BaseNode):
             KeyError: If the 'url' key is not found in the state, indicating that the
                       necessary information to perform the operation is missing.
         """
-        print("---FETCHING HTML CODE---")
-        try:
-            url = state["url"]
-        except KeyError as e:
-            print(f"Error: {e} not found in state.")
-            raise
+        print(f"--- Executing {self.node_name} Node ---")
 
-        loader = AsyncHtmlLoader(url)
-        document = loader.load()
-        # metadata = document[0].metadata
-        # document = remover(str(document[0]))
+        # Interpret input keys based on the provided input expression
+        input_keys = self.get_input_keys(state)
 
-        # state["document"] = [
-        #     Document(page_content=document, metadata=metadata)]
-        state["document"] = document
+        # Fetching data from the state based on the input keys
+        input_data = [state[key] for key in input_keys]
 
+        source = input_data[0]
+        # if it is a .txt file
+        if source.endswith(".txt"):
+            with open(source, "r") as file:
+                file_content = file.read()
+            document = Document(page_content=file_content, metadata={
+                "source": source
+            })
+
+        # if it is a URL
+        else:
+            loader = AsyncHtmlLoader(source)
+            document = loader.load()
+
+        state.update({self.output[0]: document})
         return state
 ```

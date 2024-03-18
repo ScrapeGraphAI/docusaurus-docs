@@ -2,20 +2,22 @@
 
 ## Introduction
 The RAG Node is a vital component in the language chain framework, specializing in parsing HTML content from documents. It efficiently extracts relevant information using user-defined tags, enhancing the processing of large HTML documents. By integrating parsing techniques like BeautifulSoupTransformer, the RAG Node optimizes document processing pipelines, contributing to improved efficiency and effectiveness in text processing tasks.
+
+
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/rag_node.py)
 ## Implementation
 ```python
 """
 Module for parsing the HTML node
 """
 
+from typing import List
 from langchain.docstore.document import Document
 from langchain.retrievers import ContextualCompressionRetriever
 from langchain.retrievers.document_compressors import EmbeddingsFilter, DocumentCompressorPipeline
 from langchain_community.document_transformers import EmbeddingsRedundantFilter
 from langchain_community.vectorstores import FAISS
 from langchain_openai import OpenAIEmbeddings
-
-
 from .base_node import BaseNode
 
 
@@ -39,12 +41,12 @@ class RAGNode(BaseNode):
         the specified tags, if provided, and updates the state with the parsed content.
     """
 
-    def __init__(self, llm, node_name="RagNode"):
+    def __init__(self, input: str, output: List[str], model_config: dict, node_name: str = "RAG"):
         """
         Initializes the ParseHTMLNode with a node name.
         """
-        super().__init__(node_name, "node")
-        self.llm = llm
+        super().__init__(node_name, "node", input, output, 2, model_config)
+        self.llm_model = model_config["llm_model"]
 
     def execute(self, state):
         """
@@ -62,25 +64,20 @@ class RAGNode(BaseNode):
                       information for parsing is missing.
         """
 
-        print("---RAG STARTED---")
-        try:
-            user_input = state["user_input"]
-            document = state["document"]
-        except KeyError as e:
-            print(f"Error: {e} not found in state.")
-            raise
+        print(f"--- Executing {self.node_name} Node ---")
 
-        parsed_document = state.get("parsed_document", None)
+        # Interpret input keys based on the provided input expression
+        input_keys = self.get_input_keys(state)
 
-        if parsed_document:
-            chunks = parsed_document
-        else:
-            print("Parsed document not found. Using original document.")
-            chunks = document
+        # Fetching data from the state based on the input keys
+        input_data = [state[key] for key in input_keys]
+
+        user_prompt = input_data[0]
+        doc = input_data[1]
 
         chunked_docs = []
 
-        for i, chunk in enumerate(chunks):
+        for i, chunk in enumerate(doc):
             doc = Document(
                 page_content=chunk,
                 metadata={
@@ -89,9 +86,9 @@ class RAGNode(BaseNode):
             )
             chunked_docs.append(doc)
 
-        print("---UPDATED CHUNKS METADATA---")
+        print("--- (updated chunks metadata) ---")
 
-        openai_key = self.llm.openai_api_key
+        openai_key = self.llm_model.openai_api_key
         retriever = FAISS.from_documents(chunked_docs,
                                          OpenAIEmbeddings(api_key=openai_key)).as_retriever()
         # could be any embedding of your choice
@@ -102,7 +99,6 @@ class RAGNode(BaseNode):
         pipeline_compressor = DocumentCompressorPipeline(
             transformers=[redundant_filter, relevant_filter]
         )
-        
         # redundant + relevant filter compressor
         compression_retriever = ContextualCompressionRetriever(
             base_compressor=pipeline_compressor, base_retriever=retriever
@@ -114,10 +110,10 @@ class RAGNode(BaseNode):
         # )
 
         compressed_docs = compression_retriever.get_relevant_documents(
-            user_input)
-        
-        print("---TOKENS COMPRESSED AND VECTOR STORED---")
-        
-        state.update({"relevant_chunks": compressed_docs})
+            user_prompt)
+
+        print("--- (tokens compressed and vector stored) ---")
+
+        state.update({self.output[0]: compressed_docs})
         return state
 ```

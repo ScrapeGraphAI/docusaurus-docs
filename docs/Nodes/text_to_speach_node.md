@@ -3,13 +3,14 @@
 ## Introduction
 The Text to Speech Node is a critical component within Scrapegraph-ai, responsible for processing text and returning the corresponding voice output. This node utilizes an instance of the OpenAITextToSpeech class to convert text into speech, enabling the generation of audio responses based on textual input.
 
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/text_to_speech_node.py).
 ## Implementation
 ```python
 
 """
 Module for parsing the text to voice
 """
-
+from typing import List
 from .base_node import BaseNode
 
 
@@ -24,14 +25,15 @@ class TextToSpeechNode(BaseNode):
         execute(state, text): Execute the node's logic and return the updated state.
     """
 
-    def __init__(self, llm, node_name: str = "TextToSpeechNode"):
+    def __init__(self, input: str, output: List[str],
+                 model_config: dict, node_name: str = "TextToSpeech"):
         """
         Initializes an instance of the TextToSpeechNode class.
         """
-        super().__init__(node_name, "node")
-        self.llm = llm
+        super().__init__(node_name, "node", input, output, 1, model_config)
+        self.tts_model = model_config["tts_model"]
 
-    def execute(self, state: dict) -> dict:
+    def execute(self, state):
         """
         Execute the node's logic and return the updated state.
         Args:
@@ -41,12 +43,20 @@ class TextToSpeechNode(BaseNode):
         :return: The updated state after executing this node.
         """
 
-        text2translate = state.get("answer", None)
-        if not text2translate:
-            raise ValueError("No text to translate to speech.")
-        print("---TRANSLATING TEXT TO SPEECH---")
-        audio = self.llm.run(text2translate["summary"])
+        print(f"--- Executing {self.node_name} Node ---")
 
-        state.update({"audio": audio})
+        # Interpret input keys based on the provided input expression
+        input_keys = self.get_input_keys(state)
+
+        # Fetching data from the state based on the input keys
+        input_data = [state[key] for key in input_keys]
+
+        # get the text to translate
+        text2translate = str(next(iter(input_data[0].values())))
+        # text2translate = str(input_data[0])
+
+        audio = self.tts_model.run(text2translate)
+
+        state.update({self.output[0]: audio})
         return state
 ```

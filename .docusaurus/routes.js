@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd9c'),
+    component: ComponentCreator('/docs', '56f'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '021'),
+        component: ComponentCreator('/docs', 'e6c'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'd0f'),
+            component: ComponentCreator('/docs', '277'),
             routes: [
               {
                 path: '/docs/activation',
@@ -273,12 +273,6 @@ export default [
               {
                 path: '/docs/Nodes/fetch_html_node',
                 component: ComponentCreator('/docs/Nodes/fetch_html_node', 'ba8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Nodes/fetch_text_node',
-                component: ComponentCreator('/docs/Nodes/fetch_text_node', 'f7d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

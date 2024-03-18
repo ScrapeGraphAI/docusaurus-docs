@@ -146,11 +146,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Nodes/fetch_text_node",
-              "path": "/docs/Nodes/fetch_text_node",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Nodes/generate_answer_node",
               "path": "/docs/Nodes/generate_answer_node",
               "sidebar": "tutorialSidebar"

@@ -38,13 +38,6 @@
           },
           {
             "type": "link",
-            "label": "🪃 Fetch_text_node",
-            "href": "/docs/Nodes/fetch_text_node",
-            "docId": "Nodes/fetch_text_node",
-            "unlisted": false
-          },
-          {
-            "type": "link",
             "label": "🐝 Generate_answer_node",
             "href": "/docs/Nodes/generate_answer_node",
             "docId": "Nodes/generate_answer_node",
@@ -299,14 +292,14 @@
         "items": [
           {
             "type": "link",
-            "label": "👼🏻 Custom graph",
+            "label": "👼🏻 Custom graph with OpenAI",
             "href": "/docs/Examples/CustomGraph",
             "docId": "Examples/CustomGraph",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "😫 Gemini implementation",
+            "label": "👼🏻 Custom graph with Gemini",
             "href": "/docs/Examples/Gemini_implementation",
             "docId": "Examples/Gemini_implementation",
             "unlisted": false
@@ -367,7 +360,7 @@
       },
       {
         "type": "link",
-        "label": "🔑 Keys activation",
+        "label": "🔑 OpnAI keys activation",
         "href": "/docs/activation",
         "docId": "activation",
         "unlisted": false
@@ -384,7 +377,7 @@
   "docs": {
     "activation": {
       "id": "activation",
-      "title": "🔑 Keys activation",
+      "title": "🔑 OpnAI keys activation",
       "description": "For activating the keys go to https",
       "sidebar": "tutorialSidebar"
     },
@@ -426,13 +419,13 @@
     },
     "Examples/CustomGraph": {
       "id": "Examples/CustomGraph",
-      "title": "👼🏻 Custom graph",
+      "title": "👼🏻 Custom graph with OpenAI",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
     "Examples/Gemini_implementation": {
       "id": "Examples/Gemini_implementation",
-      "title": "😫 Gemini implementation",
+      "title": "👼🏻 Custom graph with Gemini",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
@@ -445,19 +438,19 @@
     "Examples/GraphBuilder": {
       "id": "Examples/GraphBuilder",
       "title": "🍇 GraphBuilder",
-      "description": "key1",
+      "description": "The link of the example is: link.",
       "sidebar": "tutorialSidebar"
     },
     "Examples/SmartScraperGraph": {
       "id": "Examples/SmartScraperGraph",
       "title": "🧑🏻‍💻 SmartScraperGraph",
-      "description": "The dictionary of the result is:",
+      "description": "The link of the example is: link.",
       "sidebar": "tutorialSidebar"
     },
     "Examples/SpeechSummaryGraph": {
       "id": "Examples/SpeechSummaryGraph",
       "title": "🔊 Speech graph",
-      "description": "key1",
+      "description": "The link of the example is: link.",
       "sidebar": "tutorialSidebar"
     },
     "Examples/trulens": {
@@ -544,12 +537,6 @@
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Nodes/fetch_text_node": {
-      "id": "Nodes/fetch_text_node",
-      "title": "🪃 Fetch_text_node",
-      "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
     "Nodes/generate_answer_node": {
       "id": "Nodes/generate_answer_node",
       "title": "🐝 Generate_answer_node",
@@ -619,7 +606,7 @@
     "Versions/versioning": {
       "id": "Versions/versioning",
       "title": "versioning",
-      "description": "* Version 0.0.9:",
+      "description": "* Version 0.0.10: Main refactoring",
       "sidebar": "tutorialSidebar"
     }
   }

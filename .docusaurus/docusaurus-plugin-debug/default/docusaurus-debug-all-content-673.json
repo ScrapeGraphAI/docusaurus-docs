@@ -21,7 +21,7 @@
           "docs": [
             {
               "id": "activation",
-              "title": "🔑 Keys activation",
+              "title": "🔑 OpnAI keys activation",
               "description": "For activating the keys go to https",
               "source": "@site/docs/activation.md",
               "sourceDirName": ".",
@@ -189,7 +189,7 @@
             },
             {
               "id": "Examples/CustomGraph",
-              "title": "👼🏻 Custom graph",
+              "title": "👼🏻 Custom graph with OpenAI",
               "description": "Introduction",
               "source": "@site/docs/Examples/CustomGraph.md",
               "sourceDirName": "Examples",
@@ -207,13 +207,13 @@
                 "permalink": "/docs/category/tutorials"
               },
               "next": {
-                "title": "😫 Gemini implementation",
+                "title": "👼🏻 Custom graph with Gemini",
                 "permalink": "/docs/Examples/Gemini_implementation"
               }
             },
             {
               "id": "Examples/Gemini_implementation",
-              "title": "😫 Gemini implementation",
+              "title": "👼🏻 Custom graph with Gemini",
               "description": "Introduction",
               "source": "@site/docs/Examples/Gemini_implementation.md",
               "sourceDirName": "Examples",
@@ -227,7 +227,7 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "👼🏻 Custom graph",
+                "title": "👼🏻 Custom graph with OpenAI",
                 "permalink": "/docs/Examples/CustomGraph"
               },
               "next": {
@@ -262,7 +262,7 @@
             {
               "id": "Examples/GraphBuilder",
               "title": "🍇 GraphBuilder",
-              "description": "key1",
+              "description": "The link of the example is: link.",
               "source": "@site/docs/Examples/GraphBuilder.md",
               "sourceDirName": "Examples",
               "slug": "/Examples/GraphBuilder",
@@ -275,7 +275,7 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "😫 Gemini implementation",
+                "title": "👼🏻 Custom graph with Gemini",
                 "permalink": "/docs/Examples/Gemini_implementation"
               },
               "next": {
@@ -286,7 +286,7 @@
             {
               "id": "Examples/SmartScraperGraph",
               "title": "🧑🏻‍💻 SmartScraperGraph",
-              "description": "The dictionary of the result is:",
+              "description": "The link of the example is: link.",
               "source": "@site/docs/Examples/SmartScraperGraph.md",
               "sourceDirName": "Examples",
               "slug": "/Examples/SmartScraperGraph",
@@ -310,7 +310,7 @@
             {
               "id": "Examples/SpeechSummaryGraph",
               "title": "🔊 Speech graph",
-              "description": "key1",
+              "description": "The link of the example is: link.",
               "source": "@site/docs/Examples/SpeechSummaryGraph.md",
               "sourceDirName": "Examples",
               "slug": "/Examples/SpeechSummaryGraph",
@@ -515,7 +515,7 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🔑 Keys activation",
+                "title": "🔑 OpnAI keys activation",
                 "permalink": "/docs/activation"
               }
             },
@@ -659,30 +659,6 @@
                 "permalink": "/docs/Nodes/conditional_node"
               },
               "next": {
-                "title": "🪃 Fetch_text_node",
-                "permalink": "/docs/Nodes/fetch_text_node"
-              }
-            },
-            {
-              "id": "Nodes/fetch_text_node",
-              "title": "🪃 Fetch_text_node",
-              "description": "Introduction",
-              "source": "@site/docs/Nodes/fetch_text_node.md",
-              "sourceDirName": "Nodes",
-              "slug": "/Nodes/fetch_text_node",
-              "permalink": "/docs/Nodes/fetch_text_node",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/fetch_text_node.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "😼 Fetch_html_node",
-                "permalink": "/docs/Nodes/fetch_html_node"
-              },
-              "next": {
                 "title": "🐝 Generate_answer_node",
                 "permalink": "/docs/Nodes/generate_answer_node"
               }
@@ -703,8 +679,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🪃 Fetch_text_node",
-                "permalink": "/docs/Nodes/fetch_text_node"
+                "title": "😼 Fetch_html_node",
+                "permalink": "/docs/Nodes/fetch_html_node"
               },
               "next": {
                 "title": "💫 Get_probable_tags_node",
@@ -954,7 +930,7 @@
             {
               "id": "Versions/versioning",
               "title": "versioning",
-              "description": "* Version 0.0.9:",
+              "description": "* Version 0.0.10: Main refactoring",
               "source": "@site/docs/Versions/versioning.md",
               "sourceDirName": "Versions",
               "slug": "/Versions/versioning",
@@ -971,7 +947,7 @@
                 "permalink": "/docs/category/versions"
               },
               "next": {
-                "title": "🔑 Keys activation",
+                "title": "🔑 OpnAI keys activation",
                 "permalink": "/docs/activation"
               }
             }
@@ -996,10 +972,6 @@
                   {
                     "type": "doc",
                     "id": "Nodes/fetch_html_node"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Nodes/fetch_text_node"
                   },
                   {
                     "type": "doc",

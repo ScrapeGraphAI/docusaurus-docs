@@ -1,2 +1,2 @@
-* Version 0.0.9:
-Main refactoring of the code and performance improvement
+* Version 0.0.10: Main refactoring
+* Version 0.0.9: Performance improvement
