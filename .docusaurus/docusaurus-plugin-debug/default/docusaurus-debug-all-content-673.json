@@ -70,7 +70,7 @@
             {
               "id": "Contributing/acknowledgements",
               "title": "🏒 Acknowledgements",
-              "description": "- nicola Piazzalunga for having inspired us to the functions: scrapegraph/converttojson.py and scrapegraph/converttocsv.py",
+              "description": "- Simone Pulcini for having helped in the automatic and semantic release",
               "source": "@site/docs/Contributing/acknowledgements.md",
               "sourceDirName": "Contributing",
               "slug": "/Contributing/acknowledgements",
@@ -238,7 +238,7 @@
             {
               "id": "Examples/Graph_text",
               "title": "🥎 Graph from text",
-              "description": "",
+              "description": "Example of scraping from text",
               "source": "@site/docs/Examples/Graph_text.md",
               "sourceDirName": "Examples",
               "slug": "/Examples/Graph_text",
@@ -930,7 +930,7 @@
             {
               "id": "Versions/versioning",
               "title": "versioning",
-              "description": "* Version 0.0.10: Main refactoring",
+              "description": "* Version 0.0.11: Fixed typo for fetching text node",
               "source": "@site/docs/Versions/versioning.md",
               "sourceDirName": "Versions",
               "slug": "/Versions/versioning",

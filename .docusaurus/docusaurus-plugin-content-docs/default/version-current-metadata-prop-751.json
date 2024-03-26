@@ -390,7 +390,7 @@
     "Contributing/acknowledgements": {
       "id": "Contributing/acknowledgements",
       "title": "🏒 Acknowledgements",
-      "description": "- nicola Piazzalunga for having inspired us to the functions: scrapegraph/converttojson.py and scrapegraph/converttocsv.py",
+      "description": "- Simone Pulcini for having helped in the automatic and semantic release",
       "sidebar": "tutorialSidebar"
     },
     "Contributing/contributing_guidelines": {
@@ -432,7 +432,7 @@
     "Examples/Graph_text": {
       "id": "Examples/Graph_text",
       "title": "🥎 Graph from text",
-      "description": "",
+      "description": "Example of scraping from text",
       "sidebar": "tutorialSidebar"
     },
     "Examples/GraphBuilder": {
@@ -606,7 +606,7 @@
     "Versions/versioning": {
       "id": "Versions/versioning",
       "title": "versioning",
-      "description": "* Version 0.0.10: Main refactoring",
+      "description": "* Version 0.0.11: Fixed typo for fetching text node",
       "sidebar": "tutorialSidebar"
     }
   }

@@ -1,7 +1,7 @@
 {
   "id": "Contributing/acknowledgements",
   "title": "🏒 Acknowledgements",
-  "description": "- nicola Piazzalunga for having inspired us to the functions: scrapegraph/converttojson.py and scrapegraph/converttocsv.py",
+  "description": "- Simone Pulcini for having helped in the automatic and semantic release",
   "source": "@site/docs/Contributing/acknowledgements.md",
   "sourceDirName": "Contributing",
   "slug": "/Contributing/acknowledgements",
