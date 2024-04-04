@@ -520,6 +520,30 @@
               }
             },
             {
+              "id": "Models/gemini",
+              "title": "♊︎ Gemini",
+              "description": "Introduction",
+              "source": "@site/docs/Models/gemini.md",
+              "sourceDirName": "Models",
+              "slug": "/Models/gemini",
+              "permalink": "/docs/Models/gemini",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Models/gemini.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Models",
+                "permalink": "/docs/category/models"
+              },
+              "next": {
+                "title": "🔥 Openai",
+                "permalink": "/docs/Models/openai"
+              }
+            },
+            {
               "id": "Models/openai",
               "title": "🔥 Openai",
               "description": "Introduction",
@@ -535,8 +559,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Models",
-                "permalink": "/docs/category/models"
+                "title": "♊︎ Gemini",
+                "permalink": "/docs/Models/gemini"
               },
               "next": {
                 "title": "🌛 Openai_iit",
@@ -851,6 +875,30 @@
                 "permalink": "/docs/Utils/convert_to_csv"
               },
               "next": {
+                "title": "📡 Parse state",
+                "permalink": "/docs/Utils/parse_state_key"
+              }
+            },
+            {
+              "id": "Utils/parse_state_key",
+              "title": "📡 Parse state",
+              "description": "Function for parsing the state of the key",
+              "source": "@site/docs/Utils/parse_state_key.md",
+              "sourceDirName": "Utils",
+              "slug": "/Utils/parse_state_key",
+              "permalink": "/docs/Utils/parse_state_key",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/parse_state_key.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🤖 convert_to_json",
+                "permalink": "/docs/Utils/convert_to_j"
+              },
+              "next": {
                 "title": "🚣 Remover",
                 "permalink": "/docs/Utils/r"
               }
@@ -871,8 +919,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🤖 convert_to_json",
-                "permalink": "/docs/Utils/convert_to_j"
+                "title": "📡 Parse state",
+                "permalink": "/docs/Utils/parse_state_key"
               },
               "next": {
                 "title": "🏆 save_audio_from_bytes",
@@ -899,6 +947,30 @@
                 "permalink": "/docs/Utils/r"
               },
               "next": {
+                "title": "🔈 Save audio",
+                "permalink": "/docs/Utils/saveaudio"
+              }
+            },
+            {
+              "id": "Utils/saveaudio",
+              "title": "🔈 Save audio",
+              "description": "Function for saving audio",
+              "source": "@site/docs/Utils/saveaudio.md",
+              "sourceDirName": "Utils",
+              "slug": "/Utils/saveaudio",
+              "permalink": "/docs/Utils/saveaudio",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/saveaudio.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🏆 save_audio_from_bytes",
+                "permalink": "/docs/Utils/save"
+              },
+              "next": {
                 "title": "🇹🇰 Token calculator",
                 "permalink": "/docs/Utils/token_calculator"
               }
@@ -919,8 +991,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🏆 save_audio_from_bytes",
-                "permalink": "/docs/Utils/save"
+                "title": "🔈 Save audio",
+                "permalink": "/docs/Utils/saveaudio"
               },
               "next": {
                 "title": "Contributing",
@@ -930,7 +1002,7 @@
             {
               "id": "Versions/versioning",
               "title": "versioning",
-              "description": "* Version 0.0.11: Fixed typo for fetching text node",
+              "description": "* Version 0.0.15: Fixed imagetotext_node",
               "source": "@site/docs/Versions/versioning.md",
               "sourceDirName": "Versions",
               "slug": "/Versions/versioning",
@@ -1075,6 +1147,10 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "Models/gemini"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Models/openai"
                   },
                   {
@@ -1135,11 +1211,19 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Utils/parse_state_key"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Utils/r"
                   },
                   {
                     "type": "doc",
                     "id": "Utils/save"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Utils/saveaudio"
                   },
                   {
                     "type": "doc",

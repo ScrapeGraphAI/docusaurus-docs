@@ -116,6 +116,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Models/gemini",
+              "path": "/docs/Models/gemini",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Models/openai",
               "path": "/docs/Models/openai",
               "sidebar": "tutorialSidebar"
@@ -186,6 +191,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Utils/parse_state_key",
+              "path": "/docs/Utils/parse_state_key",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Utils/r",
               "path": "/docs/Utils/r",
               "sidebar": "tutorialSidebar"
@@ -193,6 +203,11 @@
             {
               "id": "Utils/save",
               "path": "/docs/Utils/save",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Utils/saveaudio",
+              "path": "/docs/Utils/saveaudio",
               "sidebar": "tutorialSidebar"
             },
             {

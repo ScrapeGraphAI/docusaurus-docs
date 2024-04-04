@@ -151,6 +151,13 @@
         "items": [
           {
             "type": "link",
+            "label": "♊︎ Gemini",
+            "href": "/docs/Models/gemini",
+            "docId": "Models/gemini",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "🔥 Openai",
             "href": "/docs/Models/openai",
             "docId": "Models/openai",
@@ -225,6 +232,13 @@
           },
           {
             "type": "link",
+            "label": "📡 Parse state",
+            "href": "/docs/Utils/parse_state_key",
+            "docId": "Utils/parse_state_key",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "🚣 Remover",
             "href": "/docs/Utils/r",
             "docId": "Utils/r",
@@ -235,6 +249,13 @@
             "label": "🏆 save_audio_from_bytes",
             "href": "/docs/Utils/save",
             "docId": "Utils/save",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🔈 Save audio",
+            "href": "/docs/Utils/saveaudio",
+            "docId": "Utils/saveaudio",
             "unlisted": false
           },
           {
@@ -501,6 +522,12 @@
       "description": "Downloads",
       "sidebar": "tutorialSidebar"
     },
+    "Models/gemini": {
+      "id": "Models/gemini",
+      "title": "♊︎ Gemini",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
     "Models/openai": {
       "id": "Models/openai",
       "title": "🔥 Openai",
@@ -585,6 +612,12 @@
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
+    "Utils/parse_state_key": {
+      "id": "Utils/parse_state_key",
+      "title": "📡 Parse state",
+      "description": "Function for parsing the state of the key",
+      "sidebar": "tutorialSidebar"
+    },
     "Utils/r": {
       "id": "Utils/r",
       "title": "🚣 Remover",
@@ -597,6 +630,12 @@
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
+    "Utils/saveaudio": {
+      "id": "Utils/saveaudio",
+      "title": "🔈 Save audio",
+      "description": "Function for saving audio",
+      "sidebar": "tutorialSidebar"
+    },
     "Utils/token_calculator": {
       "id": "Utils/token_calculator",
       "title": "🇹🇰 Token calculator",
@@ -606,7 +645,7 @@
     "Versions/versioning": {
       "id": "Versions/versioning",
       "title": "versioning",
-      "description": "* Version 0.0.11: Fixed typo for fetching text node",
+      "description": "* Version 0.0.15: Fixed imagetotext_node",
       "sidebar": "tutorialSidebar"
     }
   }

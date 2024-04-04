@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-56f": {
+  "/docs-356": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-037-a5a"
     }
   },
-  "/docs-e6c": {
+  "/docs-cbb": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-277": {
+  "/docs-869": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/activation-c61": {
@@ -186,6 +186,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
   },
+  "/docs/Models/gemini-3c7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-models-gemini-06-c-5b3"
+  },
   "/docs/Models/openai-af0": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-models-openai-0-ab-123"
@@ -242,6 +246,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-utils-convert-to-j-5-dc-a1f"
   },
+  "/docs/Utils/parse_state_key-4e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-utils-parse-state-key-44-f-471"
+  },
   "/docs/Utils/r-988": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-utils-r-772-0ea"
@@ -249,6 +257,10 @@
   "/docs/Utils/save-c89": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-utils-save-6-d-7-4ff"
+  },
+  "/docs/Utils/saveaudio-84f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-utils-saveaudio-31-e-5cb"
   },
   "/docs/Utils/token_calculator-3b2": {
     "__comp": "__comp---theme-doc-item-178-a40",
