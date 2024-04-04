@@ -4,3 +4,33 @@ docusaurus/docusaurus.config.mjs
 .DS_Store
 build
 .docusaurus
+.DS_Store
+.DS_Store?
+._*
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+docs/build/
+docs/source/_templates/
+docs/source/_static/
+.env
+venv/
+.vscode/
+
+# exclude pdf, mp3
+*.pdf
+*.mp3
+*.sqlite
+examples/graph_examples/ScrapeGraphAI_generated_graph
+main.py

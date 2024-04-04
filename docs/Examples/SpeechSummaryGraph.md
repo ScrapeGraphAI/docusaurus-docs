@@ -2,15 +2,21 @@
 The link of the example is: [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/examples/graph_examples/smart_scraper_example.py).
 ```python
 """ 
-Basic example of scraping pipeline using SmartScraper
+Basic example of scraping pipeline using SpeechSummaryGraph
 """
 
 import os
 from dotenv import load_dotenv
-from scrapegraphai.graphs import SmartScraperGraph
+from scrapegraphai.graphs import SpeechGraph
+from scrapegraphai.utils import convert_to_csv, convert_to_json
 
 load_dotenv()
 openai_key = os.getenv("OPENAI_APIKEY")
+
+# Save the audio to a file
+FILE_NAME = "website_summary.mp3"
+curr_dir = os.path.dirname(os.path.realpath(__file__))
+output_path = os.path.join(curr_dir, FILE_NAME)
 
 # Define the configuration for the graph
 graph_config = {
@@ -18,17 +24,26 @@ graph_config = {
         "api_key": openai_key,
         "model": "gpt-3.5-turbo",
     },
+    "tts_model": {
+        "api_key": openai_key,
+        "model": "tts-1",
+        "voice": "alloy"
+    },
+    "output_path": output_path,
 }
 
-# Create the SmartScraperGraph instance
-smart_scraper_graph = SmartScraperGraph(
-    prompt="List me all the news with their description.",
-    file_source="https://www.ansa.it/veneto/",  # also accepts a local file path
-    config=graph_config
+speech_graph = SpeechGraph(
+    prompt="Create a summary of the website",
+    file_source="https://perinim.github.io/projects/",
+    config=graph_config,
 )
 
-result = smart_scraper_graph.run()
-print(result)
+result = speech_graph.run()
+print(result.get("answer", "No answer found"))
+
+# Save to json and csv
+convert_to_csv(result, "result")
+convert_to_json(result, "result")
 ```
 ```bash
 Fetching pages: 100%|##########| 1/1 [00:00<00:00, 13.14it/s]
