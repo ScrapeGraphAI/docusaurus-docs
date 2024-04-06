@@ -66,6 +66,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Examples/research_graph_example",
+              "path": "/docs/Examples/research_graph_example",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Examples/SmartScraperGraph",
               "path": "/docs/Examples/SmartScraperGraph",
               "sidebar": "tutorialSidebar"
@@ -83,6 +88,11 @@
             {
               "id": "Graphs/base_graph",
               "path": "/docs/Graphs/base_graph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Graphs/serch_graph",
+              "path": "/docs/Graphs/serch_graph",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -176,6 +186,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Nodes/search_node",
+              "path": "/docs/Nodes/search_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Nodes/text_to_speach_node",
               "path": "/docs/Nodes/text_to_speach_node",
               "sidebar": "tutorialSidebar"
@@ -208,6 +223,11 @@
             {
               "id": "Utils/saveaudio",
               "path": "/docs/Utils/saveaudio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Utils/search_function",
+              "path": "/docs/Utils/search_function",
               "sidebar": "tutorialSidebar"
             },
             {

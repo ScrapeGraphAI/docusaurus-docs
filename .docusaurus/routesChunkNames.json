@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-356": {
+  "/docs-61b": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-037-a5a"
     }
   },
-  "/docs-cbb": {
+  "/docs-932": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-869": {
+  "/docs-ee5": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/activation-c61": {
@@ -146,6 +146,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-examples-graph-builder-153-7aa"
   },
+  "/docs/Examples/research_graph_example-804": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-examples-research-graph-example-666-95e"
+  },
   "/docs/Examples/SmartScraperGraph-a1d": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-examples-smart-scraper-graph-2-a-9-7b8"
@@ -161,6 +165,10 @@
   "/docs/Graphs/base_graph-1d8": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-graphs-base-graph-60-a-515"
+  },
+  "/docs/Graphs/serch_graph-e27": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-graphs-serch-graph-3-b-1-fc0"
   },
   "/docs/Graphs/smart_scraper_graph-17f": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -234,6 +242,10 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-nodes-rag-7-f-7-fc5"
   },
+  "/docs/Nodes/search_node-05f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-nodes-search-node-538-d0c"
+  },
   "/docs/Nodes/text_to_speach_node-325": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-nodes-text-to-speach-node-71-f-675"
@@ -261,6 +273,10 @@
   "/docs/Utils/saveaudio-84f": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-utils-saveaudio-31-e-5cb"
+  },
+  "/docs/Utils/search_function-3c9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-utils-search-function-69-c-e73"
   },
   "/docs/Utils/token_calculator-3b2": {
     "__comp": "__comp---theme-doc-item-178-a40",

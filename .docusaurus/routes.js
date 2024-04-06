@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '356'),
+    component: ComponentCreator('/docs', '61b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'cbb'),
+        component: ComponentCreator('/docs', '932'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '869'),
+            component: ComponentCreator('/docs', 'ee5'),
             routes: [
               {
                 path: '/docs/activation',
@@ -181,6 +181,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Examples/research_graph_example',
+                component: ComponentCreator('/docs/Examples/research_graph_example', '804'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Examples/SmartScraperGraph',
                 component: ComponentCreator('/docs/Examples/SmartScraperGraph', 'a1d'),
                 exact: true,
@@ -201,6 +207,12 @@ export default [
               {
                 path: '/docs/Graphs/base_graph',
                 component: ComponentCreator('/docs/Graphs/base_graph', '1d8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Graphs/serch_graph',
+                component: ComponentCreator('/docs/Graphs/serch_graph', 'e27'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -313,6 +325,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Nodes/search_node',
+                component: ComponentCreator('/docs/Nodes/search_node', '05f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Nodes/text_to_speach_node',
                 component: ComponentCreator('/docs/Nodes/text_to_speach_node', '325'),
                 exact: true,
@@ -351,6 +369,12 @@ export default [
               {
                 path: '/docs/Utils/saveaudio',
                 component: ComponentCreator('/docs/Utils/saveaudio', '84f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Utils/search_function',
+                component: ComponentCreator('/docs/Utils/search_function', '3c9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -73,6 +73,13 @@
           },
           {
             "type": "link",
+            "label": "🪮 Search Node",
+            "href": "/docs/Nodes/search_node",
+            "docId": "Nodes/search_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "🔥 Text_to_speach_node",
             "href": "/docs/Nodes/text_to_speach_node",
             "docId": "Nodes/text_to_speach_node",
@@ -124,6 +131,13 @@
             "label": "⚾️ Base Graph",
             "href": "/docs/Graphs/base_graph",
             "docId": "Graphs/base_graph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🪮 Search graph",
+            "href": "/docs/Graphs/serch_graph",
+            "docId": "Graphs/serch_graph",
             "unlisted": false
           },
           {
@@ -260,6 +274,13 @@
           },
           {
             "type": "link",
+            "label": "🪮 Search function",
+            "href": "/docs/Utils/search_function",
+            "docId": "Utils/search_function",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "🇹🇰 Token calculator",
             "href": "/docs/Utils/token_calculator",
             "docId": "Utils/token_calculator",
@@ -351,6 +372,13 @@
             "label": "🔊 Speech graph",
             "href": "/docs/Examples/SpeechSummaryGraph",
             "docId": "Examples/SpeechSummaryGraph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🥖 Speech summary",
+            "href": "/docs/Examples/research_graph_example",
+            "docId": "Examples/research_graph_example",
             "unlisted": false
           },
           {
@@ -462,6 +490,12 @@
       "description": "The link of the example is: link.",
       "sidebar": "tutorialSidebar"
     },
+    "Examples/research_graph_example": {
+      "id": "Examples/research_graph_example",
+      "title": "🥖 Speech summary",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
     "Examples/SmartScraperGraph": {
       "id": "Examples/SmartScraperGraph",
       "title": "🧑🏻‍💻 SmartScraperGraph",
@@ -483,6 +517,12 @@
     "Graphs/base_graph": {
       "id": "Graphs/base_graph",
       "title": "⚾️ Base Graph",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Graphs/serch_graph": {
+      "id": "Graphs/serch_graph",
+      "title": "🪮 Search graph",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
@@ -594,6 +634,12 @@
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
+    "Nodes/search_node": {
+      "id": "Nodes/search_node",
+      "title": "🪮 Search Node",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
     "Nodes/text_to_speach_node": {
       "id": "Nodes/text_to_speach_node",
       "title": "🔥 Text_to_speach_node",
@@ -636,6 +682,12 @@
       "description": "Function for saving audio",
       "sidebar": "tutorialSidebar"
     },
+    "Utils/search_function": {
+      "id": "Utils/search_function",
+      "title": "🪮 Search function",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
     "Utils/token_calculator": {
       "id": "Utils/token_calculator",
       "title": "🇹🇰 Token calculator",
@@ -645,7 +697,7 @@
     "Versions/versioning": {
       "id": "Versions/versioning",
       "title": "versioning",
-      "description": "* Version 0.0.15: Fixed imagetotext_node",
+      "description": "* Version 0.0.16: Add the search node",
       "sidebar": "tutorialSidebar"
     }
   }

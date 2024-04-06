@@ -284,6 +284,30 @@
               }
             },
             {
+              "id": "Examples/research_graph_example",
+              "title": "🥖 Speech summary",
+              "description": "",
+              "source": "@site/docs/Examples/research_graph_example.md",
+              "sourceDirName": "Examples",
+              "slug": "/Examples/research_graph_example",
+              "permalink": "/docs/Examples/research_graph_example",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/research_graph_example.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🔊 Speech graph",
+                "permalink": "/docs/Examples/SpeechSummaryGraph"
+              },
+              "next": {
+                "title": "🏀 Trulens evaluation",
+                "permalink": "/docs/Examples/trulens"
+              }
+            },
+            {
               "id": "Examples/SmartScraperGraph",
               "title": "🧑🏻‍💻 SmartScraperGraph",
               "description": "The link of the example is: link.",
@@ -327,8 +351,8 @@
                 "permalink": "/docs/Examples/SmartScraperGraph"
               },
               "next": {
-                "title": "🏀 Trulens evaluation",
-                "permalink": "/docs/Examples/trulens"
+                "title": "🥖 Speech summary",
+                "permalink": "/docs/Examples/research_graph_example"
               }
             },
             {
@@ -347,8 +371,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🔊 Speech graph",
-                "permalink": "/docs/Examples/SpeechSummaryGraph"
+                "title": "🥖 Speech summary",
+                "permalink": "/docs/Examples/research_graph_example"
               },
               "next": {
                 "title": "Versions",
@@ -375,6 +399,30 @@
                 "permalink": "/docs/category/graphs"
               },
               "next": {
+                "title": "🪮 Search graph",
+                "permalink": "/docs/Graphs/serch_graph"
+              }
+            },
+            {
+              "id": "Graphs/serch_graph",
+              "title": "🪮 Search graph",
+              "description": "Introduction",
+              "source": "@site/docs/Graphs/serch_graph.md",
+              "sourceDirName": "Graphs",
+              "slug": "/Graphs/serch_graph",
+              "permalink": "/docs/Graphs/serch_graph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Graphs/serch_graph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "⚾️ Base Graph",
+                "permalink": "/docs/Graphs/base_graph"
+              },
+              "next": {
                 "title": "🥐 Smart scraper graph",
                 "permalink": "/docs/Graphs/smart_scraper_graph"
               }
@@ -395,8 +443,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "⚾️ Base Graph",
-                "permalink": "/docs/Graphs/base_graph"
+                "title": "🪮 Search graph",
+                "permalink": "/docs/Graphs/serch_graph"
               },
               "next": {
                 "title": "🥖 Speech summary",
@@ -803,6 +851,30 @@
                 "permalink": "/docs/Nodes/parse_text_node"
               },
               "next": {
+                "title": "🪮 Search Node",
+                "permalink": "/docs/Nodes/search_node"
+              }
+            },
+            {
+              "id": "Nodes/search_node",
+              "title": "🪮 Search Node",
+              "description": "Introduction",
+              "source": "@site/docs/Nodes/search_node.md",
+              "sourceDirName": "Nodes",
+              "slug": "/Nodes/search_node",
+              "permalink": "/docs/Nodes/search_node",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Nodes/search_node.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🪿 Rag node",
+                "permalink": "/docs/Nodes/rag"
+              },
+              "next": {
                 "title": "🔥 Text_to_speach_node",
                 "permalink": "/docs/Nodes/text_to_speach_node"
               }
@@ -823,8 +895,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🪿 Rag node",
-                "permalink": "/docs/Nodes/rag"
+                "title": "🪮 Search Node",
+                "permalink": "/docs/Nodes/search_node"
               },
               "next": {
                 "title": "Builders",
@@ -971,6 +1043,30 @@
                 "permalink": "/docs/Utils/save"
               },
               "next": {
+                "title": "🪮 Search function",
+                "permalink": "/docs/Utils/search_function"
+              }
+            },
+            {
+              "id": "Utils/search_function",
+              "title": "🪮 Search function",
+              "description": "Introduction",
+              "source": "@site/docs/Utils/search_function.md",
+              "sourceDirName": "Utils",
+              "slug": "/Utils/search_function",
+              "permalink": "/docs/Utils/search_function",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Utils/search_function.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🔈 Save audio",
+                "permalink": "/docs/Utils/saveaudio"
+              },
+              "next": {
                 "title": "🇹🇰 Token calculator",
                 "permalink": "/docs/Utils/token_calculator"
               }
@@ -991,8 +1087,8 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🔈 Save audio",
-                "permalink": "/docs/Utils/saveaudio"
+                "title": "🪮 Search function",
+                "permalink": "/docs/Utils/search_function"
               },
               "next": {
                 "title": "Contributing",
@@ -1002,7 +1098,7 @@
             {
               "id": "Versions/versioning",
               "title": "versioning",
-              "description": "* Version 0.0.15: Fixed imagetotext_node",
+              "description": "* Version 0.0.16: Add the search node",
               "source": "@site/docs/Versions/versioning.md",
               "sourceDirName": "Versions",
               "slug": "/Versions/versioning",
@@ -1067,6 +1163,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Nodes/search_node"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Nodes/text_to_speach_node"
                   }
                 ],
@@ -1122,6 +1222,10 @@
                   {
                     "type": "doc",
                     "id": "Graphs/base_graph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Graphs/serch_graph"
                   },
                   {
                     "type": "doc",
@@ -1227,6 +1331,10 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Utils/search_function"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Utils/token_calculator"
                   }
                 ],
@@ -1296,6 +1404,10 @@
                   {
                     "type": "doc",
                     "id": "Examples/SpeechSummaryGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Examples/research_graph_example"
                   },
                   {
                     "type": "doc",
