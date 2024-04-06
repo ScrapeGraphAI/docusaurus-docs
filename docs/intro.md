@@ -48,7 +48,7 @@ For more information, please see the [contributing guidelines](https://github.co
 
 Join our Discord server to discuss with us improvements and give us suggestions!
 
-[![My Skills](https://skillicons.dev/icons?i=discord)](https://discord.gg/DujC7HG8)
+[![My Skills](https://skillicons.dev/icons?i=discord)](https://discord.com/invite/gkxQDAjfeX)
 
 
 You can also follow all the updates on linkedin!

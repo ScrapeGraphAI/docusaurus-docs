@@ -7,4 +7,4 @@ For more information, please see the [contributing guidelines](https://github.co
 
 Join our Discord server to discuss with us improvements and give us suggestions!
 
-[![Join Discord Server](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/DujC7HG8)
+[![Join Discord Server](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/gkxQDAjfeX)
