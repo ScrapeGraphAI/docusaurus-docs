@@ -1,3 +1,4 @@
+* Version 0.0.16: Add the search node
 * Version 0.0.15: Fixed image_to_text_node
 * Version 0.0.14: Add documentation on the pypi page 
 * Version 0.0.12: Refactoring of text node
