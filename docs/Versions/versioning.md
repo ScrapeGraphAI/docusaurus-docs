@@ -1,3 +1,5 @@
+* Version 0.1.0: Add local LLM with Ollama
+***
 * Version 0.0.16: Add the search node
 * Version 0.0.15: Fixed image_to_text_node
 * Version 0.0.14: Add documentation on the pypi page 
