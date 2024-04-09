@@ -1,3 +1,4 @@
+* Version 0.1.1: Add integration for codellama, dolphin-mixtral and mistral-openorca
 * Version 0.1.0: Add local LLM with Ollama
 ***
 * Version 0.0.16: Add the search node
