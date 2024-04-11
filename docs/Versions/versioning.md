@@ -1,3 +1,4 @@
+* Version 0.1.5: Add Ollama integration
 * Version 0.1.4: Fixed bug on Ollama embeddings again
 * Version 0.1.3: Fixed bug on Ollama embeddings
 * Version 0.1.2: Add Zephir integration
