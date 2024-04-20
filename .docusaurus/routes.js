@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '61b'),
+    component: ComponentCreator('/docs', '13a'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '932'),
+        component: ComponentCreator('/docs', 'aca'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ee5'),
+            component: ComponentCreator('/docs', '6b0'),
             routes: [
               {
                 path: '/docs/activation',
@@ -205,8 +205,20 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Graphs/Abstract_graph',
+                component: ComponentCreator('/docs/Graphs/Abstract_graph', '29e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Graphs/base_graph',
                 component: ComponentCreator('/docs/Graphs/base_graph', '1d8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Graphs/script_creator_graph',
+                component: ComponentCreator('/docs/Graphs/script_creator_graph', '906'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -301,6 +313,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Nodes/generate_scraper_node',
+                component: ComponentCreator('/docs/Nodes/generate_scraper_node', '3d6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Nodes/get_probable_tags_node',
                 component: ComponentCreator('/docs/Nodes/get_probable_tags_node', '40c'),
                 exact: true,
@@ -351,6 +369,12 @@ export default [
               {
                 path: '/docs/Utils/parse_state_key',
                 component: ComponentCreator('/docs/Utils/parse_state_key', '4e9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Utils/prettify_info',
+                component: ComponentCreator('/docs/Utils/prettify_info', 'a12'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

@@ -45,6 +45,13 @@
           },
           {
             "type": "link",
+            "label": "🏀 generate_scraper_node",
+            "href": "/docs/Nodes/generate_scraper_node",
+            "docId": "Nodes/generate_scraper_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "💫 Get_probable_tags_node",
             "href": "/docs/Nodes/get_probable_tags_node",
             "docId": "Nodes/get_probable_tags_node",
@@ -128,9 +135,23 @@
         "items": [
           {
             "type": "link",
+            "label": "🆎 Abstract Graph",
+            "href": "/docs/Graphs/Abstract_graph",
+            "docId": "Graphs/Abstract_graph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "⚾️ Base Graph",
             "href": "/docs/Graphs/base_graph",
             "docId": "Graphs/base_graph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🏡 Script generator graph",
+            "href": "/docs/Graphs/script_creator_graph",
+            "docId": "Graphs/script_creator_graph",
             "unlisted": false
           },
           {
@@ -249,6 +270,13 @@
             "label": "📡 Parse state",
             "href": "/docs/Utils/parse_state_key",
             "docId": "Utils/parse_state_key",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🌧️ prettify_exec_info",
+            "href": "/docs/Utils/prettify_info",
+            "docId": "Utils/prettify_info",
             "unlisted": false
           },
           {
@@ -514,9 +542,21 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
+    "Graphs/Abstract_graph": {
+      "id": "Graphs/Abstract_graph",
+      "title": "🆎 Abstract Graph",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
     "Graphs/base_graph": {
       "id": "Graphs/base_graph",
       "title": "⚾️ Base Graph",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Graphs/script_creator_graph": {
+      "id": "Graphs/script_creator_graph",
+      "title": "🏡 Script generator graph",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
@@ -610,6 +650,12 @@
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
+    "Nodes/generate_scraper_node": {
+      "id": "Nodes/generate_scraper_node",
+      "title": "🏀 generate_scraper_node",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
     "Nodes/get_probable_tags_node": {
       "id": "Nodes/get_probable_tags_node",
       "title": "💫 Get_probable_tags_node",
@@ -664,6 +710,12 @@
       "description": "Function for parsing the state of the key",
       "sidebar": "tutorialSidebar"
     },
+    "Utils/prettify_info": {
+      "id": "Utils/prettify_info",
+      "title": "🌧️ prettify_exec_info",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
     "Utils/r": {
       "id": "Utils/r",
       "title": "🚣 Remover",
@@ -697,7 +749,7 @@
     "Versions/versioning": {
       "id": "Versions/versioning",
       "title": "versioning",
-      "description": "* Version 0.0.16: Add the search node",
+      "description": "Version 0.2.1: Improved scraper generator",
       "sidebar": "tutorialSidebar"
     }
   }

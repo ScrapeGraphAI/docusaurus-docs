@@ -86,8 +86,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Graphs/Abstract_graph",
+              "path": "/docs/Graphs/Abstract_graph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Graphs/base_graph",
               "path": "/docs/Graphs/base_graph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Graphs/script_creator_graph",
+              "path": "/docs/Graphs/script_creator_graph",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -166,6 +176,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Nodes/generate_scraper_node",
+              "path": "/docs/Nodes/generate_scraper_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Nodes/get_probable_tags_node",
               "path": "/docs/Nodes/get_probable_tags_node",
               "sidebar": "tutorialSidebar"
@@ -208,6 +223,11 @@
             {
               "id": "Utils/parse_state_key",
               "path": "/docs/Utils/parse_state_key",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Utils/prettify_info",
+              "path": "/docs/Utils/prettify_info",
               "sidebar": "tutorialSidebar"
             },
             {
