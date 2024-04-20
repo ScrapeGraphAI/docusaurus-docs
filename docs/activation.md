@@ -1,4 +1,4 @@
-# 🔑 OpnAI keys activation
+# 🔑 OpenAI keys activation
 For activating the keys go to https://platform.openai.com/docs/overview and follow the following steps:
 
 ![key1](img/apikey_1.png)

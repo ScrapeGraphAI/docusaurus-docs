@@ -356,68 +356,165 @@
       },
       {
         "type": "category",
-        "label": "Tutorials",
+        "label": "Examples openai",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "👼🏻 Custom graph with OpenAI",
-            "href": "/docs/Examples/CustomGraph",
-            "docId": "Examples/CustomGraph",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "👼🏻 Custom graph with Gemini",
-            "href": "/docs/Examples/Gemini_implementation",
-            "docId": "Examples/Gemini_implementation",
-            "unlisted": false
-          },
-          {
-            "type": "link",
-            "label": "🍇 GraphBuilder",
-            "href": "/docs/Examples/GraphBuilder",
-            "docId": "Examples/GraphBuilder",
+            "href": "/docs/Openai Examples/CustomGraph",
+            "docId": "Openai Examples/CustomGraph",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🥎 Graph from text",
-            "href": "/docs/Examples/Graph_text",
-            "docId": "Examples/Graph_text",
+            "href": "/docs/Openai Examples/Graph_text",
+            "docId": "Openai Examples/Graph_text",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🧑🏻‍💻 SmartScraperGraph",
-            "href": "/docs/Examples/SmartScraperGraph",
-            "docId": "Examples/SmartScraperGraph",
+            "href": "/docs/Openai Examples/SmartScraperGraph",
+            "docId": "Openai Examples/SmartScraperGraph",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🔊 Speech graph",
-            "href": "/docs/Examples/SpeechSummaryGraph",
-            "docId": "Examples/SpeechSummaryGraph",
+            "href": "/docs/Openai Examples/SpeechSummaryGraph",
+            "docId": "Openai Examples/SpeechSummaryGraph",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "🥖 Speech summary",
-            "href": "/docs/Examples/research_graph_example",
-            "docId": "Examples/research_graph_example",
+            "href": "/docs/Openai Examples/research_graph_example",
+            "docId": "Openai Examples/research_graph_example",
             "unlisted": false
           },
           {
             "type": "link",
-            "label": "🏀 Trulens evaluation",
-            "href": "/docs/Examples/trulens",
-            "docId": "Examples/trulens",
+            "label": "🧑🏻‍💻 Scrape XML",
+            "href": "/docs/Openai Examples/scrape_xml",
+            "docId": "Openai Examples/scrape_xml",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/tutorials"
+        "href": "/docs/category/examples-openai"
+      },
+      {
+        "type": "category",
+        "label": "Examples gemini",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "👼🏻 Custom graph with OpenAI",
+            "href": "/docs/Gemini Examples/CustomGraph",
+            "docId": "Gemini Examples/CustomGraph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🥎 Graph from text",
+            "href": "/docs/Gemini Examples/Graph_text",
+            "docId": "Gemini Examples/Graph_text",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🧑🏻‍💻 SmartScraperGraph",
+            "href": "/docs/Gemini Examples/SmartScraperGraph",
+            "docId": "Gemini Examples/SmartScraperGraph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🥖 Speech summary",
+            "href": "/docs/Gemini Examples/research_graph_example",
+            "docId": "Gemini Examples/research_graph_example",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🧑🏻‍💻 Scrape XML",
+            "href": "/docs/Gemini Examples/scrape_xml",
+            "docId": "Gemini Examples/scrape_xml",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/examples-gemini"
+      },
+      {
+        "type": "category",
+        "label": "Examples Ollama",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "👼🏻 Custom graph with OpenAI",
+            "href": "/docs/Ollama Examples/CustomGraph",
+            "docId": "Ollama Examples/CustomGraph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🥎 Graph from text",
+            "href": "/docs/Ollama Examples/Graph_text",
+            "docId": "Ollama Examples/Graph_text",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🧑🏻‍💻 SmartScraperGraph",
+            "href": "/docs/Ollama Examples/SmartScraperGraph",
+            "docId": "Ollama Examples/SmartScraperGraph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🧑🏻‍💻 Scrape XML",
+            "href": "/docs/Ollama Examples/scrape_xml",
+            "docId": "Ollama Examples/scrape_xml",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/examples-ollama"
+      },
+      {
+        "type": "category",
+        "label": "Examples Docker",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "🥎 Graph from text",
+            "href": "/docs/Docker Examples/Graph_text",
+            "docId": "Docker Examples/Graph_text",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🧑🏻‍💻 SmartScraperGraph",
+            "href": "/docs/Docker Examples/SmartScraperGraph",
+            "docId": "Docker Examples/SmartScraperGraph",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🧑🏻‍💻 Scrape XML",
+            "href": "/docs/Docker Examples/scrape_xml",
+            "docId": "Docker Examples/scrape_xml",
+            "unlisted": false
+          }
+        ],
+        "href": "/docs/category/examples-docker"
       },
       {
         "type": "category",
@@ -437,7 +534,7 @@
       },
       {
         "type": "link",
-        "label": "🔑 OpnAI keys activation",
+        "label": "🔑 OpenAI keys activation",
         "href": "/docs/activation",
         "docId": "activation",
         "unlisted": false
@@ -454,7 +551,7 @@
   "docs": {
     "activation": {
       "id": "activation",
-      "title": "🔑 OpnAI keys activation",
+      "title": "🔑 OpenAI keys activation",
       "description": "For activating the keys go to https",
       "sidebar": "tutorialSidebar"
     },
@@ -488,58 +585,58 @@
       "description": "key1",
       "sidebar": "tutorialSidebar"
     },
+    "Docker Examples/Graph_text": {
+      "id": "Docker Examples/Graph_text",
+      "title": "🥎 Graph from text",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Docker Examples/scrape_xml": {
+      "id": "Docker Examples/scrape_xml",
+      "title": "🧑🏻‍💻 Scrape XML",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Docker Examples/SmartScraperGraph": {
+      "id": "Docker Examples/SmartScraperGraph",
+      "title": "🧑🏻‍💻 SmartScraperGraph",
+      "description": "The dictionary of the result is:",
+      "sidebar": "tutorialSidebar"
+    },
     "Evaluators/trulens": {
       "id": "Evaluators/trulens",
       "title": "🥕 Trulens_evaluator",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Examples/CustomGraph": {
-      "id": "Examples/CustomGraph",
+    "Gemini Examples/CustomGraph": {
+      "id": "Gemini Examples/CustomGraph",
       "title": "👼🏻 Custom graph with OpenAI",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Examples/Gemini_implementation": {
-      "id": "Examples/Gemini_implementation",
-      "title": "👼🏻 Custom graph with Gemini",
-      "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
-    "Examples/Graph_text": {
-      "id": "Examples/Graph_text",
+    "Gemini Examples/Graph_text": {
+      "id": "Gemini Examples/Graph_text",
       "title": "🥎 Graph from text",
-      "description": "Example of scraping from text",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "Examples/GraphBuilder": {
-      "id": "Examples/GraphBuilder",
-      "title": "🍇 GraphBuilder",
-      "description": "The link of the example is: link.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Examples/research_graph_example": {
-      "id": "Examples/research_graph_example",
+    "Gemini Examples/research_graph_example": {
+      "id": "Gemini Examples/research_graph_example",
       "title": "🥖 Speech summary",
       "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "Examples/SmartScraperGraph": {
-      "id": "Examples/SmartScraperGraph",
-      "title": "🧑🏻‍💻 SmartScraperGraph",
-      "description": "The link of the example is: link.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Examples/SpeechSummaryGraph": {
-      "id": "Examples/SpeechSummaryGraph",
-      "title": "🔊 Speech graph",
-      "description": "The link of the example is: link.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Examples/trulens": {
-      "id": "Examples/trulens",
-      "title": "🏀 Trulens evaluation",
+    "Gemini Examples/scrape_xml": {
+      "id": "Gemini Examples/scrape_xml",
+      "title": "🧑🏻‍💻 Scrape XML",
       "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Gemini Examples/SmartScraperGraph": {
+      "id": "Gemini Examples/SmartScraperGraph",
+      "title": "🧑🏻‍💻 SmartScraperGraph",
+      "description": "The dictionary of the result is:",
       "sidebar": "tutorialSidebar"
     },
     "Graphs/Abstract_graph": {
@@ -690,6 +787,66 @@
       "id": "Nodes/text_to_speach_node",
       "title": "🔥 Text_to_speach_node",
       "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "Ollama Examples/CustomGraph": {
+      "id": "Ollama Examples/CustomGraph",
+      "title": "👼🏻 Custom graph with OpenAI",
+      "description": "Implementation",
+      "sidebar": "tutorialSidebar"
+    },
+    "Ollama Examples/Graph_text": {
+      "id": "Ollama Examples/Graph_text",
+      "title": "🥎 Graph from text",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Ollama Examples/scrape_xml": {
+      "id": "Ollama Examples/scrape_xml",
+      "title": "🧑🏻‍💻 Scrape XML",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Ollama Examples/SmartScraperGraph": {
+      "id": "Ollama Examples/SmartScraperGraph",
+      "title": "🧑🏻‍💻 SmartScraperGraph",
+      "description": "The dictionary of the result is:",
+      "sidebar": "tutorialSidebar"
+    },
+    "Openai Examples/CustomGraph": {
+      "id": "Openai Examples/CustomGraph",
+      "title": "👼🏻 Custom graph with OpenAI",
+      "description": "Implementation",
+      "sidebar": "tutorialSidebar"
+    },
+    "Openai Examples/Graph_text": {
+      "id": "Openai Examples/Graph_text",
+      "title": "🥎 Graph from text",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Openai Examples/research_graph_example": {
+      "id": "Openai Examples/research_graph_example",
+      "title": "🥖 Speech summary",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Openai Examples/scrape_xml": {
+      "id": "Openai Examples/scrape_xml",
+      "title": "🧑🏻‍💻 Scrape XML",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Openai Examples/SmartScraperGraph": {
+      "id": "Openai Examples/SmartScraperGraph",
+      "title": "🧑🏻‍💻 SmartScraperGraph",
+      "description": "The dictionary of the result is:",
+      "sidebar": "tutorialSidebar"
+    },
+    "Openai Examples/SpeechSummaryGraph": {
+      "id": "Openai Examples/SpeechSummaryGraph",
+      "title": "🔊 Speech graph",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "Utils/convert_to_csv": {

@@ -1,34 +1,37 @@
-# 👼🏻 Custom graph with Gemini
-## Introduction
-This is an example of creation of a custom graph
-
-The link of the example is: [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/examples/graph_examples/custom_graph_gemini.py).
+# 👼🏻 Custom graph with OpenAI
 ## Implementation
 ```python
 """
-Example of custom graph using Gemini Google model
+Example of custom graph using existing nodes
 """
 
 import os
 from dotenv import load_dotenv
-from scrapegraphai.models import Gemini
+from scrapegraphai.models import OpenAI
 from scrapegraphai.graphs import BaseGraph
 from scrapegraphai.nodes import FetchNode, ParseNode, RAGNode, GenerateAnswerNode
-
 load_dotenv()
-gemini_key = os.getenv("GOOGLE_APIKEY")
 
+# ************************************************
 # Define the configuration for the graph
+# ************************************************
+
+openai_key = os.getenv("OPENAI_APIKEY")
+
 graph_config = {
     "llm": {
-        "api_key": gemini_key,
-        "model": "gemini-pro",
+        "api_key": openai_key,
+        "model": "gpt-3.5-turbo",
         "temperature": 0,
         "streaming": True
     },
 }
 
-llm_model = Gemini(graph_config["llm"])
+# ************************************************
+# Define the graph nodes
+# ************************************************
+
+llm_model = OpenAI(graph_config["llm"])
 
 # define the nodes for the graph
 fetch_node = FetchNode(
@@ -38,19 +41,23 @@ fetch_node = FetchNode(
 parse_node = ParseNode(
     input="doc",
     output=["parsed_doc"],
+    node_config={"chunk_size": 4096}
 )
 rag_node = RAGNode(
     input="user_prompt & (parsed_doc | doc)",
     output=["relevant_chunks"],
-    model_config={"llm_model": llm_model},
+    node_config={"llm": llm_model},
 )
 generate_answer_node = GenerateAnswerNode(
     input="user_prompt & (relevant_chunks | parsed_doc | doc)",
     output=["answer"],
-    model_config={"llm_model": llm_model},
+    node_config={"llm": llm_model},
 )
 
-# create the graph by defining the nodes and their connections
+# ************************************************
+# Create the graph by defining the connections
+# ************************************************
+
 graph = BaseGraph(
     nodes={
         fetch_node,
@@ -66,8 +73,11 @@ graph = BaseGraph(
     entry_point=fetch_node
 )
 
-# execute the graph
-result = graph.execute({
+# ************************************************
+# Execute the graph
+# ************************************************
+
+result, execution_info = graph.execute({
     "user_prompt": "List me the projects with their description",
     "url": "https://perinim.github.io/projects/"
 })

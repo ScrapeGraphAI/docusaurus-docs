@@ -1,5 +1,5 @@
 # 🔊 Speech graph
-The link of the example is: [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/examples/graph_examples/smart_scraper_example.py).
+
 ```python
 """ 
 Basic example of scraping pipeline using SpeechSummaryGraph
@@ -8,21 +8,28 @@ Basic example of scraping pipeline using SpeechSummaryGraph
 import os
 from dotenv import load_dotenv
 from scrapegraphai.graphs import SpeechGraph
-from scrapegraphai.utils import convert_to_csv, convert_to_json
-
+from scrapegraphai.utils import prettify_exec_info
 load_dotenv()
-openai_key = os.getenv("OPENAI_APIKEY")
 
-# Save the audio to a file
+# ************************************************
+# Define audio output path
+# ************************************************
+
 FILE_NAME = "website_summary.mp3"
 curr_dir = os.path.dirname(os.path.realpath(__file__))
 output_path = os.path.join(curr_dir, FILE_NAME)
 
+# ************************************************
 # Define the configuration for the graph
+# ************************************************
+
+openai_key = os.getenv("OPENAI_APIKEY")
+
 graph_config = {
     "llm": {
         "api_key": openai_key,
         "model": "gpt-3.5-turbo",
+        "temperature": 0.7,
     },
     "tts_model": {
         "api_key": openai_key,
@@ -32,18 +39,25 @@ graph_config = {
     "output_path": output_path,
 }
 
+# ************************************************
+# Create the SpeechGraph instance and run it
+# ************************************************
+
 speech_graph = SpeechGraph(
-    prompt="Create a summary of the website",
-    file_source="https://perinim.github.io/projects/",
+    prompt="Give me a gift idea for a friend.",
+    source="https://www.amazon.it/s?k=profumo&__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=17UXSZNCS2NKE&sprefix=profumo%2Caps%2C88&ref=nb_sb_noss_1",
     config=graph_config,
 )
 
 result = speech_graph.run()
 print(result.get("answer", "No answer found"))
 
-# Save to json and csv
-convert_to_csv(result, "result")
-convert_to_json(result, "result")
+# ************************************************
+# Get graph execution info
+# ************************************************
+
+graph_exec_info = speech_graph.get_execution_info()
+print(prettify_exec_info(graph_exec_info))
 ```
 ```bash
 Fetching pages: 100%|##########| 1/1 [00:00<00:00, 13.14it/s]

@@ -41,48 +41,48 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Docker Examples/Graph_text",
+              "path": "/docs/Docker Examples/Graph_text",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Examples/scrape_xml",
+              "path": "/docs/Docker Examples/scrape_xml",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Docker Examples/SmartScraperGraph",
+              "path": "/docs/Docker Examples/SmartScraperGraph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Evaluators/trulens",
               "path": "/docs/Evaluators/trulens",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Examples/CustomGraph",
-              "path": "/docs/Examples/CustomGraph",
+              "id": "Gemini Examples/CustomGraph",
+              "path": "/docs/Gemini Examples/CustomGraph",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Examples/Gemini_implementation",
-              "path": "/docs/Examples/Gemini_implementation",
+              "id": "Gemini Examples/Graph_text",
+              "path": "/docs/Gemini Examples/Graph_text",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Examples/Graph_text",
-              "path": "/docs/Examples/Graph_text",
+              "id": "Gemini Examples/research_graph_example",
+              "path": "/docs/Gemini Examples/research_graph_example",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Examples/GraphBuilder",
-              "path": "/docs/Examples/GraphBuilder",
+              "id": "Gemini Examples/scrape_xml",
+              "path": "/docs/Gemini Examples/scrape_xml",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Examples/research_graph_example",
-              "path": "/docs/Examples/research_graph_example",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Examples/SmartScraperGraph",
-              "path": "/docs/Examples/SmartScraperGraph",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Examples/SpeechSummaryGraph",
-              "path": "/docs/Examples/SpeechSummaryGraph",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Examples/trulens",
-              "path": "/docs/Examples/trulens",
+              "id": "Gemini Examples/SmartScraperGraph",
+              "path": "/docs/Gemini Examples/SmartScraperGraph",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -211,6 +211,56 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Ollama Examples/CustomGraph",
+              "path": "/docs/Ollama Examples/CustomGraph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ollama Examples/Graph_text",
+              "path": "/docs/Ollama Examples/Graph_text",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ollama Examples/scrape_xml",
+              "path": "/docs/Ollama Examples/scrape_xml",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Ollama Examples/SmartScraperGraph",
+              "path": "/docs/Ollama Examples/SmartScraperGraph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Openai Examples/CustomGraph",
+              "path": "/docs/Openai Examples/CustomGraph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Openai Examples/Graph_text",
+              "path": "/docs/Openai Examples/Graph_text",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Openai Examples/research_graph_example",
+              "path": "/docs/Openai Examples/research_graph_example",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Openai Examples/scrape_xml",
+              "path": "/docs/Openai Examples/scrape_xml",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Openai Examples/SmartScraperGraph",
+              "path": "/docs/Openai Examples/SmartScraperGraph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Openai Examples/SpeechSummaryGraph",
+              "path": "/docs/Openai Examples/SpeechSummaryGraph",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Utils/convert_to_csv",
               "path": "/docs/Utils/convert_to_csv",
               "sidebar": "tutorialSidebar"
@@ -301,8 +351,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorials",
-              "path": "/docs/category/tutorials",
+              "id": "/category/examples-openai",
+              "path": "/docs/category/examples-openai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/examples-gemini",
+              "path": "/docs/category/examples-gemini",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/examples-ollama",
+              "path": "/docs/category/examples-ollama",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/examples-docker",
+              "path": "/docs/category/examples-docker",
               "sidebar": "tutorialSidebar"
             },
             {

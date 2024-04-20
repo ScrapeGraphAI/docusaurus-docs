@@ -1,6 +1,6 @@
 {
   "id": "activation",
-  "title": "🔑 OpnAI keys activation",
+  "title": "🔑 OpenAI keys activation",
   "description": "For activating the keys go to https",
   "source": "@site/docs/activation.md",
   "sourceDirName": ".",

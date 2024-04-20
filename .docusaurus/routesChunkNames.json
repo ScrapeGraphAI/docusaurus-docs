@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-13a": {
+  "/docs-add": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-037-a5a"
     }
   },
-  "/docs-aca": {
+  "/docs-38c": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-6b0": {
+  "/docs-d89": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/activation-c61": {
@@ -82,6 +82,22 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-evaluators-16-a-c26"
   },
+  "/docs/category/examples-docker-c95": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-examples-docker-467-504"
+  },
+  "/docs/category/examples-gemini-7f1": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-examples-gemini-72-f-a16"
+  },
+  "/docs/category/examples-ollama-a33": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-examples-ollamacd-6-ce0"
+  },
+  "/docs/category/examples-openai-7dd": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-examples-openaifb-4-e93"
+  },
   "/docs/category/graphs-2f5": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-graphse-91-a30"
@@ -97,10 +113,6 @@
   "/docs/category/nodes-e9d": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-nodes-538-44d"
-  },
-  "/docs/category/tutorials-f40": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-tutorials-4-cd-b44"
   },
   "/docs/category/utils-b2e": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -126,41 +138,41 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-contributing-designers-949-752"
   },
+  "/docs/Docker Examples/Graph_text-603": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-examples-graph-texta-3-e-e7e"
+  },
+  "/docs/Docker Examples/scrape_xml-082": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-examples-scrape-xmlf-1-c-be3"
+  },
+  "/docs/Docker Examples/SmartScraperGraph-ad3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-docker-examples-smart-scraper-graphc-27-e58"
+  },
   "/docs/Evaluators/trulens-73c": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-evaluators-trulens-7-b-7-0e3"
   },
-  "/docs/Examples/CustomGraph-651": {
+  "/docs/Gemini Examples/CustomGraph-e43": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-custom-graph-8-cc-5f8"
+    "content": "content---docs-gemini-examples-custom-graph-4-c-8-78a"
   },
-  "/docs/Examples/Gemini_implementation-8d8": {
+  "/docs/Gemini Examples/Graph_text-71c": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-gemini-implementation-054-96b"
+    "content": "content---docs-gemini-examples-graph-text-524-9d8"
   },
-  "/docs/Examples/Graph_text-b75": {
+  "/docs/Gemini Examples/research_graph_example-9ed": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-graph-texte-7-a-02f"
+    "content": "content---docs-gemini-examples-research-graph-example-141-431"
   },
-  "/docs/Examples/GraphBuilder-de6": {
+  "/docs/Gemini Examples/scrape_xml-8f5": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-graph-builder-153-7aa"
+    "content": "content---docs-gemini-examples-scrape-xmlbde-697"
   },
-  "/docs/Examples/research_graph_example-804": {
+  "/docs/Gemini Examples/SmartScraperGraph-d01": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-research-graph-example-666-95e"
-  },
-  "/docs/Examples/SmartScraperGraph-a1d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-smart-scraper-graph-2-a-9-7b8"
-  },
-  "/docs/Examples/SpeechSummaryGraph-789": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-speech-summary-graph-592-51c"
-  },
-  "/docs/Examples/trulens-7d7": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-examples-trulensb-7-c-37c"
+    "content": "content---docs-gemini-examples-smart-scraper-graph-06-b-44b"
   },
   "/docs/Graphs/Abstract_graph-29e": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -261,6 +273,46 @@
   "/docs/Nodes/text_to_speach_node-325": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-nodes-text-to-speach-node-71-f-675"
+  },
+  "/docs/Ollama Examples/CustomGraph-a20": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ollama-examples-custom-graph-911-c93"
+  },
+  "/docs/Ollama Examples/Graph_text-bc9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ollama-examples-graph-textbf-4-bd3"
+  },
+  "/docs/Ollama Examples/scrape_xml-7d8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ollama-examples-scrape-xml-987-956"
+  },
+  "/docs/Ollama Examples/SmartScraperGraph-4f8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-ollama-examples-smart-scraper-graphc-7-a-cad"
+  },
+  "/docs/Openai Examples/CustomGraph-38c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-openai-examples-custom-graph-578-bae"
+  },
+  "/docs/Openai Examples/Graph_text-c5a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-openai-examples-graph-text-950-2c5"
+  },
+  "/docs/Openai Examples/research_graph_example-141": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-openai-examples-research-graph-example-007-902"
+  },
+  "/docs/Openai Examples/scrape_xml-6fb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-openai-examples-scrape-xml-6-b-5-a93"
+  },
+  "/docs/Openai Examples/SmartScraperGraph-a9b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-openai-examples-smart-scraper-graph-2-d-0-4db"
+  },
+  "/docs/Openai Examples/SpeechSummaryGraph-e55": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-openai-examples-speech-summary-graph-950-44d"
   },
   "/docs/Utils/convert_to_csv-031": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '13a'),
+    component: ComponentCreator('/docs', 'add'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'aca'),
+        component: ComponentCreator('/docs', '38c'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '6b0'),
+            component: ComponentCreator('/docs', 'd89'),
             routes: [
               {
                 path: '/docs/activation',
@@ -85,6 +85,30 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/category/examples-docker',
+                component: ComponentCreator('/docs/category/examples-docker', 'c95'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/examples-gemini',
+                component: ComponentCreator('/docs/category/examples-gemini', '7f1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/examples-ollama',
+                component: ComponentCreator('/docs/category/examples-ollama', 'a33'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/category/examples-openai',
+                component: ComponentCreator('/docs/category/examples-openai', '7dd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/category/graphs',
                 component: ComponentCreator('/docs/category/graphs', '2f5'),
                 exact: true,
@@ -105,12 +129,6 @@ export default [
               {
                 path: '/docs/category/nodes',
                 component: ComponentCreator('/docs/category/nodes', 'e9d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/category/tutorials',
-                component: ComponentCreator('/docs/category/tutorials', 'f40'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -151,56 +169,56 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/Docker Examples/Graph_text',
+                component: ComponentCreator('/docs/Docker Examples/Graph_text', '603'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Docker Examples/scrape_xml',
+                component: ComponentCreator('/docs/Docker Examples/scrape_xml', '082'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Docker Examples/SmartScraperGraph',
+                component: ComponentCreator('/docs/Docker Examples/SmartScraperGraph', 'ad3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/Evaluators/trulens',
                 component: ComponentCreator('/docs/Evaluators/trulens', '73c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Examples/CustomGraph',
-                component: ComponentCreator('/docs/Examples/CustomGraph', '651'),
+                path: '/docs/Gemini Examples/CustomGraph',
+                component: ComponentCreator('/docs/Gemini Examples/CustomGraph', 'e43'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Examples/Gemini_implementation',
-                component: ComponentCreator('/docs/Examples/Gemini_implementation', '8d8'),
+                path: '/docs/Gemini Examples/Graph_text',
+                component: ComponentCreator('/docs/Gemini Examples/Graph_text', '71c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Examples/Graph_text',
-                component: ComponentCreator('/docs/Examples/Graph_text', 'b75'),
+                path: '/docs/Gemini Examples/research_graph_example',
+                component: ComponentCreator('/docs/Gemini Examples/research_graph_example', '9ed'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Examples/GraphBuilder',
-                component: ComponentCreator('/docs/Examples/GraphBuilder', 'de6'),
+                path: '/docs/Gemini Examples/scrape_xml',
+                component: ComponentCreator('/docs/Gemini Examples/scrape_xml', '8f5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Examples/research_graph_example',
-                component: ComponentCreator('/docs/Examples/research_graph_example', '804'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Examples/SmartScraperGraph',
-                component: ComponentCreator('/docs/Examples/SmartScraperGraph', 'a1d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Examples/SpeechSummaryGraph',
-                component: ComponentCreator('/docs/Examples/SpeechSummaryGraph', '789'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Examples/trulens',
-                component: ComponentCreator('/docs/Examples/trulens', '7d7'),
+                path: '/docs/Gemini Examples/SmartScraperGraph',
+                component: ComponentCreator('/docs/Gemini Examples/SmartScraperGraph', 'd01'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -351,6 +369,66 @@ export default [
               {
                 path: '/docs/Nodes/text_to_speach_node',
                 component: ComponentCreator('/docs/Nodes/text_to_speach_node', '325'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Ollama Examples/CustomGraph',
+                component: ComponentCreator('/docs/Ollama Examples/CustomGraph', 'a20'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Ollama Examples/Graph_text',
+                component: ComponentCreator('/docs/Ollama Examples/Graph_text', 'bc9'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Ollama Examples/scrape_xml',
+                component: ComponentCreator('/docs/Ollama Examples/scrape_xml', '7d8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Ollama Examples/SmartScraperGraph',
+                component: ComponentCreator('/docs/Ollama Examples/SmartScraperGraph', '4f8'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Openai Examples/CustomGraph',
+                component: ComponentCreator('/docs/Openai Examples/CustomGraph', '38c'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Openai Examples/Graph_text',
+                component: ComponentCreator('/docs/Openai Examples/Graph_text', 'c5a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Openai Examples/research_graph_example',
+                component: ComponentCreator('/docs/Openai Examples/research_graph_example', '141'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Openai Examples/scrape_xml',
+                component: ComponentCreator('/docs/Openai Examples/scrape_xml', '6fb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Openai Examples/SmartScraperGraph',
+                component: ComponentCreator('/docs/Openai Examples/SmartScraperGraph', 'a9b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Openai Examples/SpeechSummaryGraph',
+                component: ComponentCreator('/docs/Openai Examples/SpeechSummaryGraph', 'e55'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

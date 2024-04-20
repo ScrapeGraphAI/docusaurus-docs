@@ -21,7 +21,7 @@
           "docs": [
             {
               "id": "activation",
-              "title": "🔑 OpnAI keys activation",
+              "title": "🔑 OpenAI keys activation",
               "description": "For activating the keys go to https",
               "source": "@site/docs/activation.md",
               "sourceDirName": ".",
@@ -159,8 +159,80 @@
                 "permalink": "/docs/Contributing/contributing_markdown"
               },
               "next": {
-                "title": "Tutorials",
-                "permalink": "/docs/category/tutorials"
+                "title": "Examples openai",
+                "permalink": "/docs/category/examples-openai"
+              }
+            },
+            {
+              "id": "Docker Examples/Graph_text",
+              "title": "🥎 Graph from text",
+              "description": "",
+              "source": "@site/docs/Docker Examples/Graph_text.md",
+              "sourceDirName": "Docker Examples",
+              "slug": "/Docker Examples/Graph_text",
+              "permalink": "/docs/Docker Examples/Graph_text",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Docker Examples/Graph_text.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Examples Docker",
+                "permalink": "/docs/category/examples-docker"
+              },
+              "next": {
+                "title": "🧑🏻‍💻 SmartScraperGraph",
+                "permalink": "/docs/Docker Examples/SmartScraperGraph"
+              }
+            },
+            {
+              "id": "Docker Examples/scrape_xml",
+              "title": "🧑🏻‍💻 Scrape XML",
+              "description": "",
+              "source": "@site/docs/Docker Examples/scrape_xml.md",
+              "sourceDirName": "Docker Examples",
+              "slug": "/Docker Examples/scrape_xml",
+              "permalink": "/docs/Docker Examples/scrape_xml",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Docker Examples/scrape_xml.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🧑🏻‍💻 SmartScraperGraph",
+                "permalink": "/docs/Docker Examples/SmartScraperGraph"
+              },
+              "next": {
+                "title": "Versions",
+                "permalink": "/docs/category/versions"
+              }
+            },
+            {
+              "id": "Docker Examples/SmartScraperGraph",
+              "title": "🧑🏻‍💻 SmartScraperGraph",
+              "description": "The dictionary of the result is:",
+              "source": "@site/docs/Docker Examples/SmartScraperGraph.md",
+              "sourceDirName": "Docker Examples",
+              "slug": "/Docker Examples/SmartScraperGraph",
+              "permalink": "/docs/Docker Examples/SmartScraperGraph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Docker Examples/SmartScraperGraph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🥎 Graph from text",
+                "permalink": "/docs/Docker Examples/Graph_text"
+              },
+              "next": {
+                "title": "🧑🏻‍💻 Scrape XML",
+                "permalink": "/docs/Docker Examples/scrape_xml"
               }
             },
             {
@@ -188,195 +260,123 @@
               }
             },
             {
-              "id": "Examples/CustomGraph",
+              "id": "Gemini Examples/CustomGraph",
               "title": "👼🏻 Custom graph with OpenAI",
               "description": "Introduction",
-              "source": "@site/docs/Examples/CustomGraph.md",
-              "sourceDirName": "Examples",
-              "slug": "/Examples/CustomGraph",
-              "permalink": "/docs/Examples/CustomGraph",
+              "source": "@site/docs/Gemini Examples/CustomGraph.md",
+              "sourceDirName": "Gemini Examples",
+              "slug": "/Gemini Examples/CustomGraph",
+              "permalink": "/docs/Gemini Examples/CustomGraph",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/CustomGraph.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Gemini Examples/CustomGraph.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorials",
-                "permalink": "/docs/category/tutorials"
+                "title": "Examples gemini",
+                "permalink": "/docs/category/examples-gemini"
               },
               "next": {
-                "title": "👼🏻 Custom graph with Gemini",
-                "permalink": "/docs/Examples/Gemini_implementation"
+                "title": "🥎 Graph from text",
+                "permalink": "/docs/Gemini Examples/Graph_text"
               }
             },
             {
-              "id": "Examples/Gemini_implementation",
-              "title": "👼🏻 Custom graph with Gemini",
-              "description": "Introduction",
-              "source": "@site/docs/Examples/Gemini_implementation.md",
-              "sourceDirName": "Examples",
-              "slug": "/Examples/Gemini_implementation",
-              "permalink": "/docs/Examples/Gemini_implementation",
+              "id": "Gemini Examples/Graph_text",
+              "title": "🥎 Graph from text",
+              "description": "",
+              "source": "@site/docs/Gemini Examples/Graph_text.md",
+              "sourceDirName": "Gemini Examples",
+              "slug": "/Gemini Examples/Graph_text",
+              "permalink": "/docs/Gemini Examples/Graph_text",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/Gemini_implementation.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Gemini Examples/Graph_text.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "👼🏻 Custom graph with OpenAI",
-                "permalink": "/docs/Examples/CustomGraph"
-              },
-              "next": {
-                "title": "🍇 GraphBuilder",
-                "permalink": "/docs/Examples/GraphBuilder"
-              }
-            },
-            {
-              "id": "Examples/Graph_text",
-              "title": "🥎 Graph from text",
-              "description": "Example of scraping from text",
-              "source": "@site/docs/Examples/Graph_text.md",
-              "sourceDirName": "Examples",
-              "slug": "/Examples/Graph_text",
-              "permalink": "/docs/Examples/Graph_text",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/Graph_text.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "🍇 GraphBuilder",
-                "permalink": "/docs/Examples/GraphBuilder"
+                "permalink": "/docs/Gemini Examples/CustomGraph"
               },
               "next": {
                 "title": "🧑🏻‍💻 SmartScraperGraph",
-                "permalink": "/docs/Examples/SmartScraperGraph"
+                "permalink": "/docs/Gemini Examples/SmartScraperGraph"
               }
             },
             {
-              "id": "Examples/GraphBuilder",
-              "title": "🍇 GraphBuilder",
-              "description": "The link of the example is: link.",
-              "source": "@site/docs/Examples/GraphBuilder.md",
-              "sourceDirName": "Examples",
-              "slug": "/Examples/GraphBuilder",
-              "permalink": "/docs/Examples/GraphBuilder",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/GraphBuilder.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "👼🏻 Custom graph with Gemini",
-                "permalink": "/docs/Examples/Gemini_implementation"
-              },
-              "next": {
-                "title": "🥎 Graph from text",
-                "permalink": "/docs/Examples/Graph_text"
-              }
-            },
-            {
-              "id": "Examples/research_graph_example",
+              "id": "Gemini Examples/research_graph_example",
               "title": "🥖 Speech summary",
               "description": "",
-              "source": "@site/docs/Examples/research_graph_example.md",
-              "sourceDirName": "Examples",
-              "slug": "/Examples/research_graph_example",
-              "permalink": "/docs/Examples/research_graph_example",
+              "source": "@site/docs/Gemini Examples/research_graph_example.md",
+              "sourceDirName": "Gemini Examples",
+              "slug": "/Gemini Examples/research_graph_example",
+              "permalink": "/docs/Gemini Examples/research_graph_example",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/research_graph_example.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "🔊 Speech graph",
-                "permalink": "/docs/Examples/SpeechSummaryGraph"
-              },
-              "next": {
-                "title": "🏀 Trulens evaluation",
-                "permalink": "/docs/Examples/trulens"
-              }
-            },
-            {
-              "id": "Examples/SmartScraperGraph",
-              "title": "🧑🏻‍💻 SmartScraperGraph",
-              "description": "The link of the example is: link.",
-              "source": "@site/docs/Examples/SmartScraperGraph.md",
-              "sourceDirName": "Examples",
-              "slug": "/Examples/SmartScraperGraph",
-              "permalink": "/docs/Examples/SmartScraperGraph",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/SmartScraperGraph.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "🥎 Graph from text",
-                "permalink": "/docs/Examples/Graph_text"
-              },
-              "next": {
-                "title": "🔊 Speech graph",
-                "permalink": "/docs/Examples/SpeechSummaryGraph"
-              }
-            },
-            {
-              "id": "Examples/SpeechSummaryGraph",
-              "title": "🔊 Speech graph",
-              "description": "The link of the example is: link.",
-              "source": "@site/docs/Examples/SpeechSummaryGraph.md",
-              "sourceDirName": "Examples",
-              "slug": "/Examples/SpeechSummaryGraph",
-              "permalink": "/docs/Examples/SpeechSummaryGraph",
-              "draft": false,
-              "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/SpeechSummaryGraph.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Gemini Examples/research_graph_example.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "🧑🏻‍💻 SmartScraperGraph",
-                "permalink": "/docs/Examples/SmartScraperGraph"
+                "permalink": "/docs/Gemini Examples/SmartScraperGraph"
               },
               "next": {
-                "title": "🥖 Speech summary",
-                "permalink": "/docs/Examples/research_graph_example"
+                "title": "🧑🏻‍💻 Scrape XML",
+                "permalink": "/docs/Gemini Examples/scrape_xml"
               }
             },
             {
-              "id": "Examples/trulens",
-              "title": "🏀 Trulens evaluation",
+              "id": "Gemini Examples/scrape_xml",
+              "title": "🧑🏻‍💻 Scrape XML",
               "description": "",
-              "source": "@site/docs/Examples/trulens.md",
-              "sourceDirName": "Examples",
-              "slug": "/Examples/trulens",
-              "permalink": "/docs/Examples/trulens",
+              "source": "@site/docs/Gemini Examples/scrape_xml.md",
+              "sourceDirName": "Gemini Examples",
+              "slug": "/Gemini Examples/scrape_xml",
+              "permalink": "/docs/Gemini Examples/scrape_xml",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Examples/trulens.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Gemini Examples/scrape_xml.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "🥖 Speech summary",
-                "permalink": "/docs/Examples/research_graph_example"
+                "permalink": "/docs/Gemini Examples/research_graph_example"
               },
               "next": {
-                "title": "Versions",
-                "permalink": "/docs/category/versions"
+                "title": "Examples Ollama",
+                "permalink": "/docs/category/examples-ollama"
+              }
+            },
+            {
+              "id": "Gemini Examples/SmartScraperGraph",
+              "title": "🧑🏻‍💻 SmartScraperGraph",
+              "description": "The dictionary of the result is:",
+              "source": "@site/docs/Gemini Examples/SmartScraperGraph.md",
+              "sourceDirName": "Gemini Examples",
+              "slug": "/Gemini Examples/SmartScraperGraph",
+              "permalink": "/docs/Gemini Examples/SmartScraperGraph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Gemini Examples/SmartScraperGraph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🥎 Graph from text",
+                "permalink": "/docs/Gemini Examples/Graph_text"
+              },
+              "next": {
+                "title": "🥖 Speech summary",
+                "permalink": "/docs/Gemini Examples/research_graph_example"
               }
             },
             {
@@ -611,7 +611,7 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🔑 OpnAI keys activation",
+                "title": "🔑 OpenAI keys activation",
                 "permalink": "/docs/activation"
               }
             },
@@ -976,6 +976,246 @@
               }
             },
             {
+              "id": "Ollama Examples/CustomGraph",
+              "title": "👼🏻 Custom graph with OpenAI",
+              "description": "Implementation",
+              "source": "@site/docs/Ollama Examples/CustomGraph.md",
+              "sourceDirName": "Ollama Examples",
+              "slug": "/Ollama Examples/CustomGraph",
+              "permalink": "/docs/Ollama Examples/CustomGraph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ollama Examples/CustomGraph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Examples Ollama",
+                "permalink": "/docs/category/examples-ollama"
+              },
+              "next": {
+                "title": "🥎 Graph from text",
+                "permalink": "/docs/Ollama Examples/Graph_text"
+              }
+            },
+            {
+              "id": "Ollama Examples/Graph_text",
+              "title": "🥎 Graph from text",
+              "description": "",
+              "source": "@site/docs/Ollama Examples/Graph_text.md",
+              "sourceDirName": "Ollama Examples",
+              "slug": "/Ollama Examples/Graph_text",
+              "permalink": "/docs/Ollama Examples/Graph_text",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ollama Examples/Graph_text.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "👼🏻 Custom graph with OpenAI",
+                "permalink": "/docs/Ollama Examples/CustomGraph"
+              },
+              "next": {
+                "title": "🧑🏻‍💻 SmartScraperGraph",
+                "permalink": "/docs/Ollama Examples/SmartScraperGraph"
+              }
+            },
+            {
+              "id": "Ollama Examples/scrape_xml",
+              "title": "🧑🏻‍💻 Scrape XML",
+              "description": "",
+              "source": "@site/docs/Ollama Examples/scrape_xml.md",
+              "sourceDirName": "Ollama Examples",
+              "slug": "/Ollama Examples/scrape_xml",
+              "permalink": "/docs/Ollama Examples/scrape_xml",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ollama Examples/scrape_xml.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🧑🏻‍💻 SmartScraperGraph",
+                "permalink": "/docs/Ollama Examples/SmartScraperGraph"
+              },
+              "next": {
+                "title": "Examples Docker",
+                "permalink": "/docs/category/examples-docker"
+              }
+            },
+            {
+              "id": "Ollama Examples/SmartScraperGraph",
+              "title": "🧑🏻‍💻 SmartScraperGraph",
+              "description": "The dictionary of the result is:",
+              "source": "@site/docs/Ollama Examples/SmartScraperGraph.md",
+              "sourceDirName": "Ollama Examples",
+              "slug": "/Ollama Examples/SmartScraperGraph",
+              "permalink": "/docs/Ollama Examples/SmartScraperGraph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Ollama Examples/SmartScraperGraph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🥎 Graph from text",
+                "permalink": "/docs/Ollama Examples/Graph_text"
+              },
+              "next": {
+                "title": "🧑🏻‍💻 Scrape XML",
+                "permalink": "/docs/Ollama Examples/scrape_xml"
+              }
+            },
+            {
+              "id": "Openai Examples/CustomGraph",
+              "title": "👼🏻 Custom graph with OpenAI",
+              "description": "Implementation",
+              "source": "@site/docs/Openai Examples/CustomGraph.md",
+              "sourceDirName": "Openai Examples",
+              "slug": "/Openai Examples/CustomGraph",
+              "permalink": "/docs/Openai Examples/CustomGraph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Openai Examples/CustomGraph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Examples openai",
+                "permalink": "/docs/category/examples-openai"
+              },
+              "next": {
+                "title": "🥎 Graph from text",
+                "permalink": "/docs/Openai Examples/Graph_text"
+              }
+            },
+            {
+              "id": "Openai Examples/Graph_text",
+              "title": "🥎 Graph from text",
+              "description": "",
+              "source": "@site/docs/Openai Examples/Graph_text.md",
+              "sourceDirName": "Openai Examples",
+              "slug": "/Openai Examples/Graph_text",
+              "permalink": "/docs/Openai Examples/Graph_text",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Openai Examples/Graph_text.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "👼🏻 Custom graph with OpenAI",
+                "permalink": "/docs/Openai Examples/CustomGraph"
+              },
+              "next": {
+                "title": "🧑🏻‍💻 SmartScraperGraph",
+                "permalink": "/docs/Openai Examples/SmartScraperGraph"
+              }
+            },
+            {
+              "id": "Openai Examples/research_graph_example",
+              "title": "🥖 Speech summary",
+              "description": "",
+              "source": "@site/docs/Openai Examples/research_graph_example.md",
+              "sourceDirName": "Openai Examples",
+              "slug": "/Openai Examples/research_graph_example",
+              "permalink": "/docs/Openai Examples/research_graph_example",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Openai Examples/research_graph_example.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🔊 Speech graph",
+                "permalink": "/docs/Openai Examples/SpeechSummaryGraph"
+              },
+              "next": {
+                "title": "🧑🏻‍💻 Scrape XML",
+                "permalink": "/docs/Openai Examples/scrape_xml"
+              }
+            },
+            {
+              "id": "Openai Examples/scrape_xml",
+              "title": "🧑🏻‍💻 Scrape XML",
+              "description": "",
+              "source": "@site/docs/Openai Examples/scrape_xml.md",
+              "sourceDirName": "Openai Examples",
+              "slug": "/Openai Examples/scrape_xml",
+              "permalink": "/docs/Openai Examples/scrape_xml",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Openai Examples/scrape_xml.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🥖 Speech summary",
+                "permalink": "/docs/Openai Examples/research_graph_example"
+              },
+              "next": {
+                "title": "Examples gemini",
+                "permalink": "/docs/category/examples-gemini"
+              }
+            },
+            {
+              "id": "Openai Examples/SmartScraperGraph",
+              "title": "🧑🏻‍💻 SmartScraperGraph",
+              "description": "The dictionary of the result is:",
+              "source": "@site/docs/Openai Examples/SmartScraperGraph.md",
+              "sourceDirName": "Openai Examples",
+              "slug": "/Openai Examples/SmartScraperGraph",
+              "permalink": "/docs/Openai Examples/SmartScraperGraph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Openai Examples/SmartScraperGraph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🥎 Graph from text",
+                "permalink": "/docs/Openai Examples/Graph_text"
+              },
+              "next": {
+                "title": "🔊 Speech graph",
+                "permalink": "/docs/Openai Examples/SpeechSummaryGraph"
+              }
+            },
+            {
+              "id": "Openai Examples/SpeechSummaryGraph",
+              "title": "🔊 Speech graph",
+              "description": "",
+              "source": "@site/docs/Openai Examples/SpeechSummaryGraph.md",
+              "sourceDirName": "Openai Examples",
+              "slug": "/Openai Examples/SpeechSummaryGraph",
+              "permalink": "/docs/Openai Examples/SpeechSummaryGraph",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Openai Examples/SpeechSummaryGraph.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "🧑🏻‍💻 SmartScraperGraph",
+                "permalink": "/docs/Openai Examples/SmartScraperGraph"
+              },
+              "next": {
+                "title": "🥖 Speech summary",
+                "permalink": "/docs/Openai Examples/research_graph_example"
+              }
+            },
+            {
               "id": "Utils/convert_to_csv",
               "title": "🍷 convert_to_csv",
               "description": "Introduction",
@@ -1211,7 +1451,7 @@
                 "permalink": "/docs/category/versions"
               },
               "next": {
-                "title": "🔑 OpnAI keys activation",
+                "title": "🔑 OpenAI keys activation",
                 "permalink": "/docs/activation"
               }
             }
@@ -1489,48 +1729,130 @@
               },
               {
                 "type": "category",
-                "label": "Tutorials",
+                "label": "Examples openai",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Examples/CustomGraph"
+                    "id": "Openai Examples/CustomGraph"
                   },
                   {
                     "type": "doc",
-                    "id": "Examples/Gemini_implementation"
+                    "id": "Openai Examples/Graph_text"
                   },
                   {
                     "type": "doc",
-                    "id": "Examples/GraphBuilder"
+                    "id": "Openai Examples/SmartScraperGraph"
                   },
                   {
                     "type": "doc",
-                    "id": "Examples/Graph_text"
+                    "id": "Openai Examples/SpeechSummaryGraph"
                   },
                   {
                     "type": "doc",
-                    "id": "Examples/SmartScraperGraph"
+                    "id": "Openai Examples/research_graph_example"
                   },
                   {
                     "type": "doc",
-                    "id": "Examples/SpeechSummaryGraph"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Examples/research_graph_example"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Examples/trulens"
+                    "id": "Openai Examples/scrape_xml"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "List of documents of tutorials",
-                  "slug": "/category/tutorials",
-                  "permalink": "/docs/category/tutorials"
+                  "description": "List of tutorials for Openai",
+                  "slug": "/category/examples-openai",
+                  "permalink": "/docs/category/examples-openai"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Examples gemini",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Gemini Examples/CustomGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Gemini Examples/Graph_text"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Gemini Examples/SmartScraperGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Gemini Examples/research_graph_example"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Gemini Examples/scrape_xml"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "List of tutorials for Gemini",
+                  "slug": "/category/examples-gemini",
+                  "permalink": "/docs/category/examples-gemini"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Examples Ollama",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Ollama Examples/CustomGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Ollama Examples/Graph_text"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Ollama Examples/SmartScraperGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Ollama Examples/scrape_xml"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "List of tutorials for openai",
+                  "slug": "/category/examples-ollama",
+                  "permalink": "/docs/category/examples-ollama"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Examples Docker",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Docker Examples/Graph_text"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docker Examples/SmartScraperGraph"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Docker Examples/scrape_xml"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "List of tutorials for Docker",
+                  "slug": "/category/examples-docker",
+                  "permalink": "/docs/category/examples-docker"
                 }
               },
               {
