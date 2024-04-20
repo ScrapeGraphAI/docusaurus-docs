@@ -3,9 +3,6 @@
 ## Introduction
 
 Graph for making research on the internet and answering to the prompt 
-## Usage
-```python
-```
 
 ## Implementation
 
