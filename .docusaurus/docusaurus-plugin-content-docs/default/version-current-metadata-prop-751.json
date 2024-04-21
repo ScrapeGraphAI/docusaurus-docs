@@ -80,7 +80,7 @@
           },
           {
             "type": "link",
-            "label": "🪮 Search Node",
+            "label": "🪮 Search internet Node",
             "href": "/docs/Nodes/search_node",
             "docId": "Nodes/search_node",
             "unlisted": false
@@ -779,7 +779,7 @@
     },
     "Nodes/search_node": {
       "id": "Nodes/search_node",
-      "title": "🪮 Search Node",
+      "title": "🪮 Search internet Node",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
@@ -906,7 +906,7 @@
     "Versions/versioning": {
       "id": "Versions/versioning",
       "title": "versioning",
-      "description": "Version 0.2.1: Improved scraper generator",
+      "description": "Version 0.2.5: add Llama 3 integration",
       "sidebar": "tutorialSidebar"
     }
   }

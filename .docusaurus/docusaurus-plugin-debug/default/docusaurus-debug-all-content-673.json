@@ -923,13 +923,13 @@
                 "permalink": "/docs/Nodes/parse_text_node"
               },
               "next": {
-                "title": "🪮 Search Node",
+                "title": "🪮 Search internet Node",
                 "permalink": "/docs/Nodes/search_node"
               }
             },
             {
               "id": "Nodes/search_node",
-              "title": "🪮 Search Node",
+              "title": "🪮 Search internet Node",
               "description": "Introduction",
               "source": "@site/docs/Nodes/search_node.md",
               "sourceDirName": "Nodes",
@@ -967,7 +967,7 @@
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "🪮 Search Node",
+                "title": "🪮 Search internet Node",
                 "permalink": "/docs/Nodes/search_node"
               },
               "next": {
@@ -1434,7 +1434,7 @@
             {
               "id": "Versions/versioning",
               "title": "versioning",
-              "description": "Version 0.2.1: Improved scraper generator",
+              "description": "Version 0.2.5: add Llama 3 integration",
               "source": "@site/docs/Versions/versioning.md",
               "sourceDirName": "Versions",
               "slug": "/Versions/versioning",
