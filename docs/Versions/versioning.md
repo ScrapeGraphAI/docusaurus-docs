@@ -1,4 +1,5 @@
-Version 0.2.2: fixed bug on embeddings
+Version 0.2.5: add Llama 3 integration
+Version 0.2.2: Fixed bug on embeddings
 Version 0.2.1: Improved scraper generator
 Version 0.2.0: Add scraper generator
 ***
