@@ -1,4 +1,5 @@
-Version 0.2.6: Fixed convert to csv function
+Version 0.2.8: Add robot node
+Version 0.2.6: Fixed convert to csv and json function
 Version 0.2.5: Add Llama 3 integration
 Version 0.2.2: Fixed bug on embeddings
 Version 0.2.1: Improved scraper generator

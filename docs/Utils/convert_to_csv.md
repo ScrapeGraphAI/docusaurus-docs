@@ -9,30 +9,43 @@ The convert_to_csv function takes a dictionary containing data, a filename, and 
 Module that given a filename and a position saves the file in the csv format
 """
 import os
+import sys
 import pandas as pd
 
 
-def convert_to_csv(data: dict, filename: str, position: str):
+def convert_to_csv(data: dict, filename: str, position: str = None):
     """
-    Convert data to JSON format and save it to a file.
+    Converts a dictionary to a CSV file and saves it.
 
     Args:
-        data (dict): Data to save.
-        filename (str): Name of the file to save without .csv extension.
-        position (str): Directory where the file should be saved.
+    data (dict): Data to be converted to CSV.
+    position (str): Optional path where the file should be saved. If not provided,
+    the directory of the caller script will be used.
 
     Raises:
-        ValueError: If filename contains '.csv'.
-        FileNotFoundError: If the specified directory does not exist.
-        PermissionError: If the program does not have permission to write to the directory.
+    FileNotFoundError: If the specified directory does not exist.
+    PermissionError: If the program lacks write permission for the directory.
+    TypeError: If the input data is not a dictionary.
+    Exception: For other potential errors during DataFrame creation or CSV saving.
     """
+
     if ".csv" in filename:
-        raise ValueError("The filename should not contain '.csv'")
+        filename = filename.replace(".csv", "")  # Remove .csv extension
+
+    # Get the directory of the caller script if position is not provided
+    if position is None:
+        caller_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+        position = caller_dir
 
     try:
-        os.makedirs(position, exist_ok=True)
-        pd.DataFrame.from_dict(data, orient='index').to_csv(
-            os.path.join(position, f"{filename}.csv"), index=False)
+        if not isinstance(data, dict):
+            raise TypeError("Input data must be a dictionary")
+
+        os.makedirs(position, exist_ok=True)  # Create directory if needed
+
+        df = pd.DataFrame.from_dict(data, orient='index')
+        df.to_csv(os.path.join(position, f"{filename}.csv"), index=False)
+
     except FileNotFoundError as fnfe:
         raise FileNotFoundError(
             f"The specified directory '{position}' does not exist.") from fnfe
@@ -40,7 +53,8 @@ def convert_to_csv(data: dict, filename: str, position: str):
         raise PermissionError(
             f"You don't have permission to write to '{position}'.") from pe
     except Exception as e:
-        raise e
+        raise e  # Re-raise other potential errors
+
 ```
 
 ## Example

@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'add'),
+    component: ComponentCreator('/docs', '9f0'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '38c'),
+        component: ComponentCreator('/docs', 'd23'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'd89'),
+            component: ComponentCreator('/docs', '483'),
             routes: [
               {
                 path: '/docs/activation',
@@ -357,6 +357,12 @@ export default [
               {
                 path: '/docs/Nodes/rag',
                 component: ComponentCreator('/docs/Nodes/rag', '9ce'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Nodes/robots_node',
+                component: ComponentCreator('/docs/Nodes/robots_node', 'f79'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

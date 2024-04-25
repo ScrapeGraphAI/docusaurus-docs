@@ -80,6 +80,13 @@
           },
           {
             "type": "link",
+            "label": "🪮 Robots Node",
+            "href": "/docs/Nodes/robots_node",
+            "docId": "Nodes/robots_node",
+            "unlisted": false
+          },
+          {
+            "type": "link",
             "label": "🪮 Search internet Node",
             "href": "/docs/Nodes/search_node",
             "docId": "Nodes/search_node",
@@ -777,6 +784,12 @@
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
+    "Nodes/robots_node": {
+      "id": "Nodes/robots_node",
+      "title": "🪮 Robots Node",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
     "Nodes/search_node": {
       "id": "Nodes/search_node",
       "title": "🪮 Search internet Node",
@@ -906,7 +919,7 @@
     "Versions/versioning": {
       "id": "Versions/versioning",
       "title": "versioning",
-      "description": "Version 0.2.5: add Llama 3 integration",
+      "description": "Version 0.2.8: Add robot node",
       "sidebar": "tutorialSidebar"
     }
   }

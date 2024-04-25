@@ -201,6 +201,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Nodes/robots_node",
+              "path": "/docs/Nodes/robots_node",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Nodes/search_node",
               "path": "/docs/Nodes/search_node",
               "sidebar": "tutorialSidebar"
