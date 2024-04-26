@@ -1,3 +1,5 @@
+Version 0.3.1: Refactoring of the engine
+***
 Version 0.2.8: Add robot node
 Version 0.2.6: Fixed convert to csv and json function
 Version 0.2.5: Add Llama 3 integration
