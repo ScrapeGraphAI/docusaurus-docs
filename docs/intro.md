@@ -23,7 +23,7 @@ pip install scrapegraphai
 ## 🔍 Demo
 Official streamlit demo:
 
-[![My Skills](https://skillicons.dev/icons?i=react)]([https://scrapegraph-ai-demo.streamlit.app](https://scrapegraph-ai-demo.streamlit.app)n)
+[![My Skills](https://skillicons.dev/icons?i=react)](https://scrapegraph-ai-demo.streamlit.app)
 
 
 Is it possible to try also the colab version
