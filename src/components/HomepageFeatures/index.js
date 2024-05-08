@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-      Scrapegraph-ai is an open source library for scraping with the use of AI. 
-      You just need to activate the API keys and you can scrape thousands of web pages in seconds!
+      Scrapegraph-ai is an open-source library for AI-powered scraping. 
+      Just activate the API keys, and you can scrape thousands of web pages in seconds!
       </>
     ),
   },
@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-       You just have to implment just some lines of code and the work is done
+       You just need to implement a few lines of code, and the work is done.
       </>
     ),
   },
@@ -28,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        With this library you will be able to save hours of time because you have just to setupp the project and the AI will do everything for you
+        With this library, you can save hours of time because you only need to set up the project, and the AI will do everything for you.
       </>
     ),
   },
