@@ -49,17 +49,17 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-9f0": {
+  "/docs-ec5": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
       "plugin": "plugin---docs-037-a5a"
     }
   },
-  "/docs-d23": {
+  "/docs-b79": {
     "__comp": "__comp---theme-doc-version-roota-7-b-5de",
     "version": "version---docs-935-398"
   },
-  "/docs-483": {
+  "/docs-1a2": {
     "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/activation-c61": {
@@ -137,6 +137,10 @@
   "/docs/Contributing/designers-8cc": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-contributing-designers-949-752"
+  },
+  "/docs/Contributing/sponsors-1bc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-contributing-sponsors-431-46b"
   },
   "/docs/Docker Examples/Graph_text-603": {
     "__comp": "__comp---theme-doc-item-178-a40",

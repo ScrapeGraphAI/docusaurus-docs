@@ -44,15 +44,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '9f0'),
+    component: ComponentCreator('/docs', 'ec5'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'd23'),
+        component: ComponentCreator('/docs', 'b79'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '483'),
+            component: ComponentCreator('/docs', '1a2'),
             routes: [
               {
                 path: '/docs/activation',
@@ -165,6 +165,12 @@ export default [
               {
                 path: '/docs/Contributing/designers',
                 component: ComponentCreator('/docs/Contributing/designers', '8cc'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/Contributing/sponsors',
+                component: ComponentCreator('/docs/Contributing/sponsors', '1bc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

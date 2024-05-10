@@ -41,6 +41,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Contributing/sponsors",
+              "path": "/docs/Contributing/sponsors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Docker Examples/Graph_text",
               "path": "/docs/Docker Examples/Graph_text",
               "sidebar": "tutorialSidebar"

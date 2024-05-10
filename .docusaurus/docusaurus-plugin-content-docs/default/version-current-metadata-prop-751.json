@@ -357,6 +357,13 @@
             "href": "/docs/Contributing/designers",
             "docId": "Contributing/designers",
             "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "🏆 Sponsors",
+            "href": "/docs/Contributing/sponsors",
+            "docId": "Contributing/sponsors",
+            "unlisted": false
           }
         ],
         "href": "/docs/category/contributing"
@@ -571,7 +578,7 @@
     "Contributing/acknowledgements": {
       "id": "Contributing/acknowledgements",
       "title": "🏒 Acknowledgements",
-      "description": "- Simone Pulcini for having helped in the automatic and semantic release",
+      "description": "- Simone Pulcini and Luigi Corollo for having helped in the automatic and semantic release",
       "sidebar": "tutorialSidebar"
     },
     "Contributing/contributing_guidelines": {
@@ -590,6 +597,12 @@
       "id": "Contributing/designers",
       "title": "🧵 Created by",
       "description": "key1",
+      "sidebar": "tutorialSidebar"
+    },
+    "Contributing/sponsors": {
+      "id": "Contributing/sponsors",
+      "title": "🏆 Sponsors",
+      "description": "App Platorm",
       "sidebar": "tutorialSidebar"
     },
     "Docker Examples/Graph_text": {
@@ -919,7 +932,7 @@
     "Versions/versioning": {
       "id": "Versions/versioning",
       "title": "versioning",
-      "description": "Version 0.2.8: Add robot node",
+      "description": "Version 0.3.1: Refactoring of the engine",
       "sidebar": "tutorialSidebar"
     }
   }

@@ -1,7 +1,7 @@
 {
   "id": "Contributing/acknowledgements",
   "title": "🏒 Acknowledgements",
-  "description": "- Simone Pulcini for having helped in the automatic and semantic release",
+  "description": "- Simone Pulcini and Luigi Corollo for having helped in the automatic and semantic release",
   "source": "@site/docs/Contributing/acknowledgements.md",
   "sourceDirName": "Contributing",
   "slug": "/Contributing/acknowledgements",
