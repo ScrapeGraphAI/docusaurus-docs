@@ -1,9 +1,11 @@
-# 🥐 Smart scraper graph
+# 🥐 SmartScraperGraph
+
 ## Introduction 
-The SmartScraperGraph class represents a comprehensive web scraping tool that automates the process of extracting information from web pages using a natural language model to interpret and answer prompts.
+The `SmartScraperGraph` class represents a comprehensive web scraping tool that automates the process of extracting information from web pages using a natural language model to interpret and answer prompts.
 
 
 The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/graphs/smart_scraper_graph.py).
+
 ## Usage
 ```python
 """ 

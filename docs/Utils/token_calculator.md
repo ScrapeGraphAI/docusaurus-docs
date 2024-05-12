@@ -1,11 +1,14 @@
-# 🇹🇰 Token calculator 
-The token calculator class is a class that implements the token for the link to scrape.
-Given a link it retrieves a a list of chunks given the name of the model.
+# 🇹🇰 `token_calculator` 
+
+## Introduction
+The `truncate_text_tokens` retrieves the number of tokens and a list of chunks from a link, to then pass onto the model.
+
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/utils/token_calculator.py).
 
 ## Implementation
 ```python
 """ 
-Module for truncatinh in chunks the messages
+Module for truncating in chunks the messages
 """
 from typing import List
 import tiktoken

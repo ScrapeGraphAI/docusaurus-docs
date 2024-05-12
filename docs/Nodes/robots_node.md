@@ -1,7 +1,7 @@
-# 🪮 Robots Node
+# 🪮 RobotsNode
 
 ## Introduction
-Node for searching if the website is scrapable looking at the robots.txt file.
+The `RobotsNode` can be used to check whether the website is scrapable by looking at the `robots.txt` file.
 
 ## Usage
 ```python
