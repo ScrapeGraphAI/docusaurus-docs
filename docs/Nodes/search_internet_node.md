@@ -3,6 +3,8 @@
 ## Introduction
 The `SearchInternetNode` is used for searching on the internet.
 
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/search_internet_node.py).
+
 ## Usage
 ```python
 from scrapegraphai.models import Ollama
