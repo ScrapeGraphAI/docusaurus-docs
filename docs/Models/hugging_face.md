@@ -8,5 +8,5 @@ The implementation of the class is in this [link](https://github.com/VinciGit00/
 ## Implementation
 
 ```python reference title="HuggingFace"
-https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/models/huggingface.py
+https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/models/hugging_face.py
 ```
