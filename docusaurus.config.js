@@ -59,6 +59,10 @@ const config = {
     ],
   ],
 
+  themes: [
+    'docusaurus-theme-github-codeblock'
+  ],
+
   themeConfig:
     ///** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     
@@ -67,6 +71,12 @@ const config = {
       defaultMode: 'dark',
       disableSwitch: true,
       respectPrefersColorScheme: false,
+    },
+    codeblock: {
+      showGithubLink: true,
+      githubLinkLabel: 'View on GitHub',
+      showRunmeLink: false,
+      runmeLinkLabel: 'Checkout via Runme'
     },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
