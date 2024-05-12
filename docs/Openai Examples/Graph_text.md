@@ -1,4 +1,5 @@
 # 🥎 Graph from text
+
 ```python
 """ 
 Basic example of scraping pipeline using SmartScraper from text

@@ -1,8 +1,8 @@
 {
   "label": "Builders",
-  "position": 4,
+  "position": 3,
   "link": {
     "type": "generated-index",
-    "description": "Introduction graph builder"
+    "description": "GraphBuilder module."
   }
 }

@@ -1,4 +1,5 @@
 # 🧑🏻‍💻 Scrape XML
+
 ```python
 """
 Basic example of scraping pipeline using SmartScraper from XML documents

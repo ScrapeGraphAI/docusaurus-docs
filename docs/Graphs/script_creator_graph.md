@@ -1,6 +1,10 @@
-# 🏡 Script generator graph
+# 🏡 ScriptCreatorGraph
+
 ## Introduction
-This is a graph that as output it a scraper script
+The `ScriptCreatorGraph` class defines a scraping pipeline for generating web scraping scripts.
+
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/graphs/script_creator_graph.py).
+
 ## Usage
 ```python
 """

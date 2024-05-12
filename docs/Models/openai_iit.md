@@ -1,6 +1,10 @@
 # 🌛 Openai_iit
+
 ## Introduction
-The OpenAIImageToText class is a specialized class designed for converting images to text using OpenAI's Chat API.
+The `OpenAIImageToText` class is a specialized class designed for converting images to text using OpenAI's Chat API.
+
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/models/openai_iit.py).
+
 ## Implementation
 ```python
 """

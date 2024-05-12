@@ -1,8 +1,8 @@
 {
-  "label": "Examples openai",
-  "position": 11,
+  "label": "OpenAI Examples",
+  "position": 10,
   "link": {
     "type": "generated-index",
-    "description": "List of tutorials for Openai"
+    "description": "List of tutorials for Openai."
   }
 }

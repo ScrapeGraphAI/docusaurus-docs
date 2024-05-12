@@ -1,9 +1,10 @@
-# ⛳️ Parse_Node
+# ⛳️ ParseNode
 
 ## Introduction
-Within the realm of text processing, the need often arises to extract specific content from documents. The ParseTextNode module serves this purpose by offering a robust mechanism for parsing HTML-like text and extracting desired elements without relying on HTML parsing libraries like BeautifulSoup.
+Within the realm of text processing, the need often arises to extract specific content from documents. The `ParseNode` module serves this purpose by offering a robust mechanism for parsing HTML-like text and extracting the desired elements without relying on HTML parsing libraries like `BeautifulSoup`.
 
-The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/parse_node.py)
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/parse_node.py).
+
 ## Usage
 ```python
 from scrapegraphai.models import Ollama

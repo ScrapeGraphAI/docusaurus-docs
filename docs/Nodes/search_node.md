@@ -1,7 +1,7 @@
-# 🪮 Search internet Node
+# 🪮 SearchInternetNode
 
 ## Introduction
-Node for searching in the internet
+The `SearchInternetNode` is used for searching on the internet.
 
 ## Usage
 ```python

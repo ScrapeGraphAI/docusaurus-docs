@@ -1,10 +1,11 @@
-# 🪿 Rag node
+# 🪿 RagNode
 
 ## Introduction
-The RAG Node is a vital component in the language chain framework, specializing in parsing HTML content from documents. It efficiently extracts relevant information using user-defined tags, enhancing the processing of large HTML documents. By integrating parsing techniques like BeautifulSoupTransformer, the RAG Node optimizes document processing pipelines, contributing to improved efficiency and effectiveness in text processing tasks.
+The `RAGNode` is a vital component in the language chain framework, specializing in parsing HTML content from documents. It efficiently extracts relevant information using user-defined tags, enhancing the processing of large HTML documents. By integrating parsing techniques like `BeautifulSoupTransformer`, the `RAGNode` optimizes document processing pipelines, contributing to improved efficiency and effectiveness in text processing tasks.
 
 
-The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/rag_node.py)
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/rag_node.py).
+
 ## Usage
 ```python
 from scrapegraphai.models import Ollama

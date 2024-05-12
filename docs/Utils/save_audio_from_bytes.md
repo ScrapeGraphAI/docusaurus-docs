@@ -1,5 +1,9 @@
-# 🔈 Save audio
-Function for saving audio
+# 🏆 `save_audio_from_bytes`
+
+## Introduction
+The `save_audio_from_bytes` utility function saves the byte response as an audio file.
+
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/utils/save_audio_from_bytes.py).
 
 ## Implementation
 ```python
@@ -23,4 +27,20 @@ def save_audio_from_bytes(byte_response: bytes, output_path: Union[str, Path]) -
 
     with open(output_path, 'wb') as audio_file:
         audio_file.write(byte_response)
+```
+
+
+## Example
+```python
+""" 
+Example for th e file save_audio_from_bytes
+"""
+from scrapegraphai.utils.save_audio_from_bytes import save_audio_from_bytes
+
+BYTE_RESPONSE = b'\x12\x34\x56\x78\x90'
+
+OUTPUT_PATH = "generated_speech.wav"
+
+save_audio_from_bytes(BYTE_RESPONSE, OUTPUT_PATH)
+
 ```

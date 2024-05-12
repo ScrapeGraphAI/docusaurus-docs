@@ -1,7 +1,8 @@
 # 🤝 Contributing
+
 Scrapegraph-ai is [MIT LICENSED](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/LICENSE).
 
-Contributions are welcome! Please check out the todos below, and feel free to open a pull request.
+Contributions are welcome! Please check out the [GitHub issues](https://github.com/VinciGit00/Scrapegraph-ai/issues), and feel free to open a pull request.
 
 For more information, please see the [contributing guidelines](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/CONTRIBUTING.md).
 

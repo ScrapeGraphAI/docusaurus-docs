@@ -1,9 +1,10 @@
-# 🏀 generate_scraper_node
+# 🏀 GenerateScraperNode
+
 ## Introduction
-The GenerateScraperNode class is designed to generate a response using a language model (LLM) based on user input and content extracted from a webpage. This node constructs a prompt by combining user input and the extracted content, then queries the language model to obtain a response. The model's response is then interpreted and returned, updating the state with the generated answer.
+The `GenerateScraperNode` class is designed to generate a response using a language model (LLM) based on user input and content extracted from a webpage. This node constructs a prompt by combining user input and the extracted content, then queries the language model to obtain a response. The response from the model is then interpreted and returned, updating the state with the generated answer.
 
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/generate_scraper_node.py).
 
-The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/generate_scraper_node.py)
 ## Usage
 ```python
 from scrapegraphai.models import Ollama

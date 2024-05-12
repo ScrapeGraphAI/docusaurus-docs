@@ -1,8 +1,10 @@
-# 🐝 Generate_answer_node
-## Introduction
-The Generate Answer Node plays a crucial role within Scrapegraph-ai by utilizing a language model (LLM) to generate answers based on the user's input and the content extracted from a webpage. This node constructs a prompt from the user's input and the scraped content, feeds it to the language model, and parses the model's response to produce a coherent answer.
+# 🐝 GenerateAnswerNode
 
-The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/generate_answer_node.py)
+## Introduction
+The `GenerateAnswerNode` plays a crucial role within Scrapegraph-ai by utilizing a language model (LLM) to generate answers based on the user's input and the content extracted from a webpage. This node constructs a prompt from the user's input and the scraped content, feeds it to the language model, and parses the model's response to produce a coherent answer.
+
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/generate_answer_node.py).
+
 ## Usage
 ```python
 from scrapegraphai.models import Ollama
