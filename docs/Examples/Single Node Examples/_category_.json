@@ -1,6 +1,6 @@
 {
-  "label": "Examples",
-  "position": 8,
+  "label": "Single Node Examples",
+  "position": 10,
   "link": {
     "type": "doc",
     "id": "index"
