@@ -1,8 +1,8 @@
 {
   "label": "Utils",
-  "position": 9,
+  "position": 7,
   "link": {
     "type": "generated-index",
-    "description": "Description of the utils folder"
+    "description": "Utils module."
   }
 }

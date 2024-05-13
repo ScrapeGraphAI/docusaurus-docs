@@ -1,9 +1,11 @@
-# 💫 Get_probable_tags_node
+# 💫 GetProbableTagsNode
+
 ## Introduction
 
-The Get Probable Tags Node is an essential component of Scrapegraph-ai, designed to utilize a language model to identify probable HTML tags within a document that are likely to contain information relevant to a user's query. By generating a prompt describing the task, submitting it to the language model, and processing the output, this node produces a list of probable tags crucial for subsequent processing in the scraping workflow.
+The `GetProbableTagsNode` is an essential component of Scrapegraph-ai, designed to utilize a language model to identify probable HTML tags within a document that are likely to contain information relevant to a user's query. By generating a prompt describing the task, submitting it to the language model, and processing the output, this node produces a list of probable tags crucial for subsequent processing in the scraping workflow.
 
-The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/get_probable_tags_node.py)
+The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/get_probable_tags_node.py).
+
 ## Usage
 ```python
 from scrapegraphai.models import Ollama
@@ -32,100 +34,8 @@ get_probable_tags_node = GetProbableTagsNode(
     node_config={"llm": llm_model},
 )
 ```
+
 ## Implementation
-```python
-"""
-Module for proobable tags
-"""
-from typing import List
-from langchain.output_parsers import CommaSeparatedListOutputParser
-from langchain.prompts import PromptTemplate
-from .base_node import BaseNode
-
-
-class GetProbableTagsNode(BaseNode):
-    """
-    A node that utilizes a language model to identify probable HTML tags within a document that 
-    are likely to contain the information relevant to a user's query. This node generates a prompt
-    describing the task, submits it to the language model, and processes the output to produce a 
-    list of probable tags.
-
-    Attributes:
-        llm: An instance of a language model client, configured for generating tag predictions.
-        node_name (str): The unique identifier name for the node,
-        defaulting to "GetProbableTagsNode".
-        node_type (str): The type of the node, set to "node" indicating a standard operational node.
-
-    Args:
-        llm: An instance of the language model client (e.g., ChatOpenAI) used for tag predictions.
-        node_name (str, optional): The unique identifier name for the node. 
-        Defaults to "GetProbableTagsNode".
-
-    Methods:
-        execute(state): Processes the user's input and the URL from the state to generate a list of 
-                        probable HTML tags, updating the state with these tags under the 'tags' key.
-    """
-
-    def __init__(self, input: str, output: List[str], model_config: dict,
-                 node_name: str = "GetProbableTags"):
-        """
-        Initializes the GetProbableTagsNode with a language model client and a node name.
-        Args:
-            llm (OpenAIImageToText): An instance of the OpenAIImageToText class.
-            node_name (str): name of the node
-        """
-        super().__init__(node_name, "node", input, output, 2, model_config)
-        self.llm_model = model_config["llm_model"]
-
-    def execute(self, state):
-        """
-        Generates a list of probable HTML tags based on the user's input and updates the state 
-        with this list. The method constructs a prompt for the language model, submits it, and 
-        parses the output to identify probable tags.
-
-        Args:
-            state (dict): The current state of the graph, expected to contain 'user_input', 'url',
-                          and optionally 'document' within 'keys'.
-
-        Returns:
-            dict: The updated state with the 'tags' key containing a list of probable HTML tags.
-
-        Raises:
-            KeyError: If 'user_input' or 'url' is not found in the state, indicating that the
-                      necessary information for generating tag predictions is missing.
-        """
-
-        print(f"--- Executing {self.node_name} Node ---")
-
-        # Interpret input keys based on the provided input expression
-        input_keys = self.get_input_keys(state)
-
-        # Fetching data from the state based on the input keys
-        input_data = [state[key] for key in input_keys]
-
-        user_prompt = input_data[0]
-        url = input_data[1]
-
-        output_parser = CommaSeparatedListOutputParser()
-        format_instructions = output_parser.get_format_instructions()
-
-        template = """You are a website scraper that knows all the types of html tags.
-         You are now asked to list all the html tags where you think you can find the information of the asked question.\n 
-         {format_instructions} \n  The webpage is: {webpage} \n The asked question is the following: {question}
-        """
-
-        tag_prompt = PromptTemplate(
-            template=template,
-            input_variables=["question"],
-            partial_variables={
-                "format_instructions": format_instructions, "webpage": url},
-        )
-
-        # Execute the chain to get probable tags
-        tag_answer = tag_prompt | self.llm_model | output_parser
-        probable_tags = tag_answer.invoke({"question": user_prompt})
-
-        # Update the dictionary with probable tags
-        state.update({self.output[0]: probable_tags})
-        return state
+```python reference title="GetProbableTagsNode"
+https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/get_probable_tags_node.py
 ```

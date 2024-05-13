@@ -1,0 +1,19 @@
+import DocCardList from '@theme/DocCardList';
+
+# Nodes
+
+In the standard structure of `Scrapegraph-ai`, a graph is composed of nodes,
+each with its own functionality. The main nodes of this library include:
+
+- `BaseNode`: an abstract class from which all nodes derive.
+- `ConditionalNode`: creates conditional branches.
+- `FetchHtmlNode`: performs`HTML requests.
+- `GenerateAnswerNode`: generates an answer using a language model (LLM) based on
+the user's input and the content extracted from a webpage.
+- `GetProbableTagsNode`: utilizes a language model to identify probable HTML tags
+within a document that are likely to contain information relevant to a user's
+query.
+- `ImageToTextNode`: given an image, retrieves the text.
+- `TextToSpeechNode`: given text, saves it as an .mp3 file.
+
+<DocCardList />
