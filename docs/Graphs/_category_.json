@@ -2,7 +2,7 @@
   "label": "Graphs",
   "position": 4,
   "link": {
-    "type": "generated-index",
-    "description": "Graphs module."
+    "type": "doc",
+    "id": "index"
   }
 }

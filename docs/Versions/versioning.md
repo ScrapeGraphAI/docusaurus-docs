@@ -1,11 +1,13 @@
-Version 0.3.1: Refactoring of the engine
+# 🆚 Versioning
+
+* Version 0.3.1: Refactoring of the engine
 ***
-Version 0.2.8: Add robot node
-Version 0.2.6: Fixed convert to csv and json function
-Version 0.2.5: Add Llama 3 integration
-Version 0.2.2: Fixed bug on embeddings
-Version 0.2.1: Improved scraper generator
-Version 0.2.0: Add scraper generator
+* Version 0.2.8: Add robot node
+* Version 0.2.6: Fixed convert to csv and json function
+* Version 0.2.5: Add Llama 3 integration
+* Version 0.2.2: Fixed bug on embeddings
+* Version 0.2.1: Improved scraper generator
+* Version 0.2.0: Add scraper generator
 ***
 * Version 0.1.5: Add Ollama integration
 * Version 0.1.4: Fixed bug on Ollama embeddings again
