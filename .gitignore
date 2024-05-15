@@ -4,9 +4,9 @@ docusaurus/docusaurus.config.mjs
 .DS_Store
 build
 .docusaurus
-.DS_Store
 .DS_Store?
 ._*
+package-lock.json
 
 # Byte-compiled / optimized / DLL files
 **/__pycache__/
