@@ -94,6 +94,7 @@ const config = {
             label: 'Documentation',
           },
           {to: '/activation', label: 'Installation of the keys', position: 'left'},
+          {to: '/docs/Contributing', label: 'Contributing', position: 'left'},
           {
             href: 'https://github.com/VinciGit00/Scrapegraph-ai',
             label: 'GitHub',
