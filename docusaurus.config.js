@@ -59,10 +59,6 @@ const config = {
     ],
   ],
 
-  themes: [
-    'docusaurus-theme-github-codeblock'
-  ],
-
   themeConfig:
     ///** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     
@@ -71,12 +67,6 @@ const config = {
       defaultMode: 'dark',
       disableSwitch: true,
       respectPrefersColorScheme: false,
-    },
-    codeblock: {
-      showGithubLink: true,
-      githubLinkLabel: 'View on GitHub',
-      showRunmeLink: false,
-      runmeLinkLabel: 'Checkout via Runme'
     },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
@@ -93,8 +83,7 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/activation', label: 'Installation of the keys', position: 'left'},
-          {to: '/docs/Contributing', label: 'Contributing', position: 'left'},
+          {to: '/docs/activation', label: 'Installation of the keys', position: 'left'},
           {
             href: 'https://github.com/VinciGit00/Scrapegraph-ai',
             label: 'GitHub',

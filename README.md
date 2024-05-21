@@ -1,13 +1,11 @@
 # Scrapegraph-ai official documentation
 
-Official documentation for [Scrapegrah-ai](https://github.com/VinciGit00/Scrapegraph-ai).
-
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
 ```
-$ yarn install
+$ yarn
 ```
 
 ### Local Development
