@@ -2,7 +2,7 @@
   "label": "Models",
   "position": 5,
   "link": {
-    "type": "doc",
-    "id": "index"
+    "type": "generated-index",
+    "description": "Models module."
   }
 }

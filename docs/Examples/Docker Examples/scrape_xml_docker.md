@@ -1,4 +1,4 @@
-# 📔 Docker Scrape XML
+# 🧑🏻‍💻 Docker Scrape XML
 
 In this basic example a scraping pipeline is set up using a [`SmartScraper`](/docs/Graphs/smart_scraper_graph) from XML documents.
 

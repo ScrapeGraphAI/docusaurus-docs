@@ -2,7 +2,7 @@
   "label": "Contributing",
   "position": 9,
   "link": {
-    "type": "doc",
-    "id": "index"
+    "type": "generated-index",
+    "description": "Contribution information."
     }
 }

@@ -1,5 +1,3 @@
-import DocCardList from '@theme/DocCardList';
-
 # 🤝 Contributing
 
 Scrapegraph-ai is [MIT LICENSED](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/LICENSE).
@@ -11,5 +9,3 @@ For more information, please see the [contributing guidelines](https://github.co
 Join our Discord server to discuss with us improvements and give us suggestions!
 
 [![Join Discord Server](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/gkxQDAjfeX)
-
-<DocCardList />

@@ -2,7 +2,7 @@
   "label": "Versions",
   "position": 10,
   "link": {
-    "type": "doc",
-    "id": "index"
+    "type": "generated-index",
+    "description": "List of versions on `pip`."
   }
 }

@@ -2,7 +2,7 @@
   "label": "Utils",
   "position": 7,
   "link": {
-    "type": "doc",
-    "id": "index"
+    "type": "generated-index",
+    "description": "Utils module."
   }
 }

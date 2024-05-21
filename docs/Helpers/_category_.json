@@ -2,7 +2,7 @@
   "label": "Helpers",
   "position": 6,
   "link": {
-    "type": "doc",
-    "id": "index"
+    "type": "generated-index",
+    "description": "Helpers module."
   }
 }

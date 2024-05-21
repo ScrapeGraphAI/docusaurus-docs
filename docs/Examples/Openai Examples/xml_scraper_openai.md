@@ -1,4 +1,4 @@
-# 📔 OpenAI XML Scraper
+# 🧑🏻‍💻 OpenAI XML Scraper
 
 This is a basic example of a scraping pipeline using [`XMLScraperGraph`](/docs/Graphs/xml_scraper_graph) from XML documents.
 

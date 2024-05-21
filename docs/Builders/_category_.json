@@ -2,7 +2,7 @@
   "label": "Builders",
   "position": 3,
   "link": {
-    "type": "doc",
-    "id": "index"
+    "type": "generated-index",
+    "description": "GraphBuilder module."
   }
 }

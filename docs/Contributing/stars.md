@@ -1,2 +1,0 @@
-# Stars 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2hwXzZ0bGMzTElDelJjSmFUdTVqc1JyemdtYmVMVGpZWjFTcnMyZQ==#VinciGit00/Scrapegraph-ai&Date" frameBorder="0"></iframe>
