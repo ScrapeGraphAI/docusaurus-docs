@@ -1,12 +1,12 @@
-# ScriptCreatorGraph Module
+# PDFScraperGraph Module
 
-The `ScriptCreatorGraph` module defines a class for creating and executing a graph that generates web scraping scripts.
+The `PDFScraperGraph` module defines a class for creating and executing a graph that extracts information from PDF files using a natural language model to interpret and answer prompts.
 
 ## Classes
 
-### `ScriptCreatorGraph`
+### `PDFScraperGraph`
 
-`ScriptCreatorGraph` defines a scraping pipeline for generating web scraping scripts.
+`PDFScraperGraph` is a scraping pipeline that extracts information from PDF files using a natural language model to interpret and answer prompts.
 
 #### Attributes
 
@@ -19,12 +19,11 @@ The `ScriptCreatorGraph` module defines a class for creating and executing a gra
 - **verbose (bool)**: A flag indicating whether to show print statements during execution.
 - **headless (bool)**: A flag indicating whether to run the graph in headless mode.
 - **model_token (int)**: The token limit for the language model.
-- **library (str)**: The library used for web scraping.
 
 #### Methods
 
 - **`__init__(self, prompt: str, source: str, config: dict, schema: Optional[str] = None)`**
-  - Initializes the `ScriptCreatorGraph` with a prompt, source, configuration, and schema.
+  - Initializes the `PDFScraperGraph` with a prompt, source, configuration, and schema.
   - **Args**:
     - `prompt (str)`: The prompt for the graph.
     - `source (str)`: The source of the graph.
@@ -32,32 +31,33 @@ The `ScriptCreatorGraph` module defines a class for creating and executing a gra
     - `schema (str)`: The schema for the graph output.
 
 - **`_create_graph(self) -> BaseGraph`**
-  - Creates the graph of nodes representing the workflow for generating web scraping scripts.
+  - Creates the graph of nodes representing the workflow for PDF scraping.
   - **Returns**: An instance of `BaseGraph`.
 
 - **`run(self) -> str`**
-  - Executes the web scraping process and returns the answer to the prompt.
+  - Executes the PDF scraping process and returns the answer to the prompt.
   - **Returns**: The answer to the prompt.
 
 ## Example Usage
 
-Here is an example of how to use the `ScriptCreatorGraph` class:
+Here is an example of how to use the `PDFScraperGraph` class:
 
 ```python
-from script_creator_graph import ScriptCreatorGraph
+from pdf_scraper_graph import PDFScraperGraph
 
 # Define the prompt, source, and configuration
 prompt = "List me all the attractions in Chioggia."
-source = "https://en.wikipedia.org/wiki/Chioggia"
+source = "data/chioggia.pdf"
 config = {
     "llm": {"model": "gpt-3.5-turbo"},
-    "library": "BeautifulSoup"
+    "verbose": True,
+    "headless": False
 }
 
-# Create the script creator graph
-script_creator = ScriptCreatorGraph(prompt, source, config)
+# Create the PDF scraper graph
+pdf_scraper = PDFScraperGraph(prompt, source, config)
 
-# Run the script creator graph
-result = script_creator.run()
+# Run the PDF scraper graph
+result = pdf_scraper.run()
 
 print(result)

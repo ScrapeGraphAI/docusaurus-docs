@@ -1,12 +1,12 @@
-# ScriptCreatorGraph Module
+# JSONScraperGraph Module
 
-The `ScriptCreatorGraph` module defines a class for creating and executing a graph that generates web scraping scripts.
+The `JSONScraperGraph` module defines a class for creating and executing a graph that automates the process of extracting information from JSON files using a natural language model.
 
 ## Classes
 
-### `ScriptCreatorGraph`
+### `JSONScraperGraph`
 
-`ScriptCreatorGraph` defines a scraping pipeline for generating web scraping scripts.
+`JSONScraperGraph` defines a scraping pipeline for JSON files.
 
 #### Attributes
 
@@ -18,21 +18,23 @@ The `ScriptCreatorGraph` module defines a class for creating and executing a gra
 - **embedder_model**: An instance of an embedding model client, configured for generating embeddings.
 - **verbose (bool)**: A flag indicating whether to show print statements during execution.
 - **headless (bool)**: A flag indicating whether to run the graph in headless mode.
-- **model_token (int)**: The token limit for the language model.
-- **library (str)**: The library used for web scraping.
+- **input_key (str)**: The key for the input source (either `json` or `json_dir`).
+- **graph**: The graph of nodes representing the workflow for web scraping.
+- **final_state**: The final state of the graph after execution.
+- **execution_info**: Information about the execution of the graph.
 
 #### Methods
 
 - **`__init__(self, prompt: str, source: str, config: dict, schema: Optional[str] = None)`**
-  - Initializes the `ScriptCreatorGraph` with a prompt, source, configuration, and schema.
+  - Initializes the `JSONScraperGraph` with a prompt, source, and configuration.
   - **Args**:
     - `prompt (str)`: The prompt for the graph.
     - `source (str)`: The source of the graph.
     - `config (dict)`: Configuration parameters for the graph.
-    - `schema (str)`: The schema for the graph output.
+    - `schema (Optional[str])`: The schema for the graph output.
 
 - **`_create_graph(self) -> BaseGraph`**
-  - Creates the graph of nodes representing the workflow for generating web scraping scripts.
+  - Creates the graph of nodes representing the workflow for web scraping.
   - **Returns**: An instance of `BaseGraph`.
 
 - **`run(self) -> str`**
@@ -41,23 +43,24 @@ The `ScriptCreatorGraph` module defines a class for creating and executing a gra
 
 ## Example Usage
 
-Here is an example of how to use the `ScriptCreatorGraph` class:
+Here is an example of how to use the `JSONScraperGraph` class:
 
 ```python
-from script_creator_graph import ScriptCreatorGraph
+from json_scraper_graph import JSONScraperGraph
 
 # Define the prompt, source, and configuration
 prompt = "List me all the attractions in Chioggia."
-source = "https://en.wikipedia.org/wiki/Chioggia"
+source = "data/chioggia.json"
 config = {
     "llm": {"model": "gpt-3.5-turbo"},
-    "library": "BeautifulSoup"
+    "verbose": True,
+    "headless": False,
 }
 
-# Create the script creator graph
-script_creator = ScriptCreatorGraph(prompt, source, config)
+# Create the scraper graph
+json_scraper = JSONScraperGraph(prompt, source, config)
 
-# Run the script creator graph
-result = script_creator.run()
+# Run the scraper graph
+result = json_scraper.run()
 
 print(result)
