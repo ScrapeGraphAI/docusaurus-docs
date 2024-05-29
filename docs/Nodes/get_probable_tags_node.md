@@ -1,131 +1,63 @@
-# 💫 Get_probable_tags_node
-## Introduction
+# GetProbableTagsNode Module
 
-The Get Probable Tags Node is an essential component of Scrapegraph-ai, designed to utilize a language model to identify probable HTML tags within a document that are likely to contain information relevant to a user's query. By generating a prompt describing the task, submitting it to the language model, and processing the output, this node produces a list of probable tags crucial for subsequent processing in the scraping workflow.
+The `GetProbableTagsNode` module implements a node responsible for utilizing a language model to identify probable HTML tags within a document that are likely to contain the information relevant to a user's query. This node generates a prompt describing the task, submits it to the language model, and processes the output to produce a list of probable tags.
 
-The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/get_probable_tags_node.py)
-## Usage
+## Classes
+
+### `GetProbableTagsNode`
+
+`GetProbableTagsNode` is a node responsible for utilizing a language model to identify probable HTML tags within a document that are likely to contain the information relevant to a user's query.
+
+#### Attributes
+
+- **llm_model**: An instance of the language model client used for tag predictions.
+- **verbose (bool)**: A flag indicating whether to show print statements during execution.
+
+#### Methods
+
+- **`__init__(self, input: str, output: List[str], node_config: dict, node_name: str = "GetProbableTags")`**
+  - Initializes the `GetProbableTagsNode` with a language model client and a node name.
+  - **Args**:
+    - `input (str)`: Boolean expression defining the input keys needed from the state.
+    - `output (List[str])`: List of output keys to be updated in the state.
+    - `node_config (dict)`: Additional configuration for the language model.
+    - `node_name (str, optional)`: The unique identifier name for the node. Defaults to "GetProbableTags".
+
+- **`execute(self, state: dict) -> dict`**
+  - Generates a list of probable HTML tags based on the user's input and updates the state with this list.
+  - **Args**:
+    - `state (dict)`: The current state of the graph. The input keys will be used to fetch the correct data types from the state.
+  - **Returns**:
+    - `dict`: The updated state with the input key containing a list of probable HTML tags.
+  - **Raises**:
+    - `KeyError`: If input keys are not found in the state, indicating that the necessary information for generating tag predictions is missing.
+
+#### Example Usage
+
+Here is an example of how to use the `GetProbableTagsNode` class:
+
 ```python
-from scrapegraphai.models import Ollama
-from scrapegraphai.nodes import GetProbableTagsNode
+from get_probable_tags_node import GetProbableTagsNode
 
-graph_config = {
-    "llm": {
-        "model": "ollama/mistral",
-        "temperature": 0,
-        "format": "json",  # Ollama needs the format to be specified explicitly
-        # "model_tokens": 2000, # set context length arbitrarily
-        "base_url": "http://localhost:11434",
-    },
-    "embeddings": {
-        "model": "ollama/nomic-embed-text",
-        "temperature": 0,
-        "base_url": "http://localhost:11434",
-    }
+# Define a GetProbableTagsNode
+get_probable_tags_node = GetProbableTagsNode(
+    input="user_input & document",
+    output=["probable_tags"],
+    node_config={"llm_model": llm_model},
+    node_name="GetProbableTags"
+)
+
+# Define the state
+state = {
+    "user_input": "What tags contain relevant information for the query?",
+    "document": [document],
+    "url": "https://example.com"
 }
 
-llm_model = Ollama(graph_config["llm"])
+# Execute the GetProbableTagsNode
+state = get_probable_tags_node.execute(state)
 
-get_probable_tags_node = GetProbableTagsNode(
-    input="user_prompt & (parsed_doc | doc)",
-    output=["relevant_chunks"],
-    node_config={"llm": llm_model},
-)
-```
-## Implementation
-```python
-"""
-Module for proobable tags
-"""
-from typing import List
-from langchain.output_parsers import CommaSeparatedListOutputParser
-from langchain.prompts import PromptTemplate
-from .base_node import BaseNode
+# Retrieve the probable tags from the state
+probable_tags = state["probable_tags"]
 
-
-class GetProbableTagsNode(BaseNode):
-    """
-    A node that utilizes a language model to identify probable HTML tags within a document that 
-    are likely to contain the information relevant to a user's query. This node generates a prompt
-    describing the task, submits it to the language model, and processes the output to produce a 
-    list of probable tags.
-
-    Attributes:
-        llm: An instance of a language model client, configured for generating tag predictions.
-        node_name (str): The unique identifier name for the node,
-        defaulting to "GetProbableTagsNode".
-        node_type (str): The type of the node, set to "node" indicating a standard operational node.
-
-    Args:
-        llm: An instance of the language model client (e.g., ChatOpenAI) used for tag predictions.
-        node_name (str, optional): The unique identifier name for the node. 
-        Defaults to "GetProbableTagsNode".
-
-    Methods:
-        execute(state): Processes the user's input and the URL from the state to generate a list of 
-                        probable HTML tags, updating the state with these tags under the 'tags' key.
-    """
-
-    def __init__(self, input: str, output: List[str], model_config: dict,
-                 node_name: str = "GetProbableTags"):
-        """
-        Initializes the GetProbableTagsNode with a language model client and a node name.
-        Args:
-            llm (OpenAIImageToText): An instance of the OpenAIImageToText class.
-            node_name (str): name of the node
-        """
-        super().__init__(node_name, "node", input, output, 2, model_config)
-        self.llm_model = model_config["llm_model"]
-
-    def execute(self, state):
-        """
-        Generates a list of probable HTML tags based on the user's input and updates the state 
-        with this list. The method constructs a prompt for the language model, submits it, and 
-        parses the output to identify probable tags.
-
-        Args:
-            state (dict): The current state of the graph, expected to contain 'user_input', 'url',
-                          and optionally 'document' within 'keys'.
-
-        Returns:
-            dict: The updated state with the 'tags' key containing a list of probable HTML tags.
-
-        Raises:
-            KeyError: If 'user_input' or 'url' is not found in the state, indicating that the
-                      necessary information for generating tag predictions is missing.
-        """
-
-        print(f"--- Executing {self.node_name} Node ---")
-
-        # Interpret input keys based on the provided input expression
-        input_keys = self.get_input_keys(state)
-
-        # Fetching data from the state based on the input keys
-        input_data = [state[key] for key in input_keys]
-
-        user_prompt = input_data[0]
-        url = input_data[1]
-
-        output_parser = CommaSeparatedListOutputParser()
-        format_instructions = output_parser.get_format_instructions()
-
-        template = """You are a website scraper that knows all the types of html tags.
-         You are now asked to list all the html tags where you think you can find the information of the asked question.\n 
-         {format_instructions} \n  The webpage is: {webpage} \n The asked question is the following: {question}
-        """
-
-        tag_prompt = PromptTemplate(
-            template=template,
-            input_variables=["question"],
-            partial_variables={
-                "format_instructions": format_instructions, "webpage": url},
-        )
-
-        # Execute the chain to get probable tags
-        tag_answer = tag_prompt | self.llm_model | output_parser
-        probable_tags = tag_answer.invoke({"question": user_prompt})
-
-        # Update the dictionary with probable tags
-        state.update({self.output[0]: probable_tags})
-        return state
-```
+print(f"Probable Tags: {probable_tags}")

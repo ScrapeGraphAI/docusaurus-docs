@@ -1,8 +1,0 @@
-{
-  "label": "Versions",
-  "position": 14,
-  "link": {
-    "type": "generated-index",
-    "description": "List of versions on pip"
-  }
-}

@@ -1,95 +1,61 @@
-# 😼 Fetch_html_node
+# FetchNode Module
 
-## Introduction
+The `FetchNode` module implements a node responsible for fetching the HTML content of a specified URL or loading various types of documents (such as JSON, XML, CSV, or PDF) and updating the graph's state with this content. It uses ChromiumLoader to fetch content from web pages asynchronously, ensuring proxy protection.
 
-The Fetch  Node is a crucial component within Scrapegraph-ai responsible for retrieving the HTML content of a specified URL or just text and updating the graph's state with this content. This node serves as an initial step in many scraping workflows, ensuring that the necessary HTML content is available for further processing by subsequent nodes in the graph.
+## Classes
 
-he implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/fetch_node.py)
-## Implementation
+### `FetchNode`
+
+`FetchNode` is a node responsible for fetching the HTML content of a specified URL or loading various types of documents and updating the graph's state with this content.
+
+#### Attributes
+
+- **headless (bool)**: A flag indicating whether the browser should run in headless mode.
+- **verbose (bool)**: A flag indicating whether to print verbose output during execution.
+
+#### Methods
+
+- **`__init__(self, input: str, output: List[str], node_config: Optional[dict] = None, node_name: str = "Fetch")`**
+  - Initializes the node with the required input keys and output keys.
+  - **Args**:
+    - `input (str)`: Boolean expression defining the input keys needed from the state.
+    - `output (List[str])`: List of output keys to be updated in the state.
+    - `node_config (Optional[dict], optional)`: Additional configuration for the node.
+    - `node_name (str, optional)`: The unique identifier name for the node. Defaults to "Fetch".
+
+- **`execute(self, state)`**
+  - Executes the node's logic to fetch HTML content from a specified URL or load various types of documents and update the state with this content.
+  - **Args**:
+    - `state (dict)`: The current state of the graph.
+  - **Returns**:
+    - `dict`: The updated state with a new output key containing the fetched HTML content.
+  - **Raises**:
+    - `KeyError`: If the input key is not found in the state, indicating that the necessary information to perform the operation is missing.
+
+#### Example Usage
+
+Here is an example of how to use the `FetchNode` class:
+
 ```python
-""" 
-Module for fetching the HTML node
-"""
+from fetch_node import FetchNode
 
-from typing import List
-from langchain_community.document_loaders import AsyncHtmlLoader
-from langchain_core.documents import Document
-from .base_node import BaseNode
+# Define a fetch node
+fetch_node = FetchNode(
+    input="url", 
+    output=["fetched_content", "link_urls", "image_urls"]
+)
 
+# Define the state
+state = {"url": "https://example.com"}
 
-class FetchNode(BaseNode):
-    """
-    A node responsible for fetching the HTML content of a specified URL and updating
-    the graph's state with this content. It uses the AsyncHtmlLoader for asynchronous
-    document loading.
+# Execute the fetch node
+state = fetch_node.execute(state)
 
-    This node acts as a starting point in many scraping workflows, preparing the state
-    with the necessary HTML content for further processing by subsequent nodes in the graph.
+# Retrieve the fetched content and other information from the state
+fetched_content = state["fetched_content"]
+link_urls = state["link_urls"]
+image_urls = state["image_urls"]
 
-    Attributes:
-        node_name (str): The unique identifier name for the node.
-        node_type (str): The type of the node, defaulting to "node". This categorization
-                         helps in determining the node's role and behavior within the graph.
-                         The "node" type is used for standard operational nodes.
-
-    Args:
-        node_name (str): The unique identifier name for the node. This name is used to
-                         reference the node within the graph.
-        node_type (str, optional): The type of the node, limited to "node" or
-                                   "conditional_node". Defaults to "node".
-
-    Methods:
-        execute(state): Fetches the HTML content for the URL specified in the state and
-                        updates the state with this content under the 'document' key.
-                        The 'url' key must be present in the state for the operation
-                        to succeed.
-    """
-
-    def __init__(self, input: str, output: List[str], node_name: str = "Fetch"):
-        """
-        Initializes the FetchHTMLNode with a node name and node type.
-        Arguments:
-            node_name (str): name of the node
-        """
-        super().__init__(node_name, "node", input, output, 1)
-
-    def execute(self, state):
-        """
-        Executes the node's logic to fetch HTML content from a specified URL and
-        update the state with this content.
-
-        Args:
-            state (dict): The current state of the graph, expected to contain a 'url' key.
-
-        Returns:
-            dict: The updated state with a new 'document' key containing the fetched HTML content.
-
-        Raises:
-            KeyError: If the 'url' key is not found in the state, indicating that the
-                      necessary information to perform the operation is missing.
-        """
-        print(f"--- Executing {self.node_name} Node ---")
-
-        # Interpret input keys based on the provided input expression
-        input_keys = self.get_input_keys(state)
-
-        # Fetching data from the state based on the input keys
-        input_data = [state[key] for key in input_keys]
-
-        source = input_data[0]
-        # if it is a .txt file
-        if source.endswith(".txt"):
-            with open(source, "r") as file:
-                file_content = file.read()
-           document = [Document(page_content=file_content, metadata={
-                "source": source
-            })]
-
-        # if it is a URL
-        else:
-            loader = AsyncHtmlLoader(source)
-            document = loader.load()
-
-        state.update({self.output[0]: document})
-        return state
-```
+print(f"Fetched Content: {fetched_content}")
+print(f"Link URLs: {link_urls}")
+print(f"Image URLs: {image_urls}")

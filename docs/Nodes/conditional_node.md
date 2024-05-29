@@ -1,76 +1,51 @@
-# 🗣️ Conditional_node
-## Introduction
-The ConditionalNode class implements a node for determining the next step in a graph's execution flow based on the presence and content of a specified key in the graph's state. This node type facilitates branching logic within the graph, allowing for dynamic paths based on the data available in the current state.
+# ConditionalNode Module
 
-The implementation of the class is in this [link](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/scrapegraphai/nodes/conditional_node.py)
-## Implementation
+The `ConditionalNode` module implements a node that determines the next step in the graph's execution flow based on the presence and content of a specified key in the graph's state. It extends the `BaseNode` class by adding condition-based logic to the execution process.
+
+## Classes
+
+### `ConditionalNode`
+
+`ConditionalNode` is a node that determines the next step in the graph's execution flow based on the presence and content of a specified key in the graph's state.
+
+#### Attributes
+
+- **key_name (str)**: The name of the key in the state to check for its presence.
+
+#### Methods
+
+- **`__init__(self, key_name: str, node_name="ConditionalNode")`**
+  - Initializes the node with the key to check and the next node names based on the condition.
+  - **Args**:
+    - `key_name (str)`: The name of the key to check in the graph's state.
+    - `node_name (str, optional)`: The unique identifier name for the node. Defaults to "ConditionalNode".
+
+- **`execute(self, state: dict) -> dict`**
+  - Checks if the specified key is present in the state and decides the next node accordingly.
+  - **Args**:
+    - `state (dict)`: The current state of the graph.
+  - **Returns**:
+    - `str`: The name of the next node to execute based on the presence of the key.
+
+#### Example Usage
+
+Here is an example of how to use the `ConditionalNode` class:
+
 ```python
-""" 
-Module for implementing the conditional node
-"""
-from .base_node import BaseNode
+from conditional_node import ConditionalNode
 
+# Define a conditional node to check for the presence of a key
+conditional_node = ConditionalNode("example_key")
 
-class ConditionalNode(BaseNode):
-    """
-    A node that determines the next step in the graph's execution flow based on 
-    the presence and content of a specified key in the graph's state. It extends 
-    the BaseNode by adding condition-based logic to the execution process.
+# Define the next nodes based on the condition
+next_node_true = "NextNodeTrue"
+next_node_false = "NextNodeFalse"
 
-    This node type is used to implement branching logic within the graph, allowing 
-    for dynamic paths based on the data available in the current state.
+# Execute the conditional node
+state = {"example_key": "value"}
+state = conditional_node.execute(state)
 
-    Attributes:
-        key_name (str): The name of the key in the state to check for its presence.
-        next_nodes (list): A list of two node instances. The first node is chosen 
-                           for execution if the key exists and has a non-empty value, 
-                           and the second node is chosen if the key does not exist or 
-                           is empty.
+# Determine the next node based on the condition
+next_node_name = next_node_true if state["next_node"] == 0 else next_node_false
 
-    Args:
-        key_name (str): The name of the key to check in the graph's state. This is 
-                        used to determine the path the graph's execution should take.
-        next_nodes (list): A list containing exactly two node instances, specifying 
-                           the next nodes to execute based on the condition's outcome.
-        node_name (str, optional): The unique identifier name for the node. Defaults 
-                                   to "ConditionalNode".
-
-    Raises:
-        ValueError: If next_nodes does not contain exactly two elements, indicating 
-                    a misconfiguration in specifying the conditional paths.
-    """
-
-    def __init__(self, key_name: str, next_nodes: list, node_name="ConditionalNode"):
-        """
-        Initializes the node with the key to check and the next node names based on the condition.
-
-        Args:
-            key_name (str): The name of the key to check in the state.
-            next_nodes (list): A list containing exactly two names of the next nodes.
-                               The first is used if the key exists, the second if it does not.
-
-        Raises:
-            ValueError: If next_nodes does not contain exactly two elements.
-        """
-
-        super().__init__(node_name, "conditional_node")
-        self.key_name = key_name
-        if len(next_nodes) != 2:
-            raise ValueError("next_nodes must contain exactly two elements.")
-        self.next_nodes = next_nodes
-
-    def execute(self, state: dict) -> str:
-        """
-        Checks if the specified key is present in the state and decides the next node accordingly.
-
-        Args:
-            state (dict): The current state of the graph.
-
-        Returns:
-            str: The name of the next node to execute based on the presence of the key.
-        """
-
-        if self.key_name in state and len(state[self.key_name]) > 0:
-            return self.next_nodes[0].node_name
-        return self.next_nodes[1].node_name
-```
+print(f"Next node to execute: {next_node_name}")
