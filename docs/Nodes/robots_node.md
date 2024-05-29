@@ -1,4 +1,4 @@
-# RobotsNode Module
+# 🦂 RobotsNode Module
 
 The `RobotsNode` module implements a node responsible for checking if a website is scrapeable or not based on the robots.txt file. It uses a language model to determine if the website allows scraping of the provided path.
 

@@ -1,4 +1,4 @@
-# ImageToTextNode Module
+# 😆 ImageToTextNode Module
 
 The `ImageToTextNode` module implements a node responsible for retrieving images from a list of URLs and returning a description of the images using an image-to-text model.
 

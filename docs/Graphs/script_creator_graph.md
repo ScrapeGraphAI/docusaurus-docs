@@ -1,4 +1,4 @@
-# ScriptCreatorGraph Module
+# 🦷 ScriptCreatorGraph Module
 
 The `ScriptCreatorGraph` module defines a class for creating and executing a graph that generates web scraping scripts.
 

@@ -1,4 +1,4 @@
-# BaseNode Module
+# 🐸 BaseNode Module
 
 The `BaseNode` module provides an abstract base class for nodes in a graph-based workflow, designed to perform specific actions when executed.
 

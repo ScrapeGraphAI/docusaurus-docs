@@ -1,4 +1,4 @@
-# SpeechGraph Module
+# 🦹🏻‍♀️ SpeechGraph Module
 
 The `SpeechGraph` module defines a class for creating and executing a graph that scrapes the web, provides an answer to a given prompt, and generates an audio file.
 

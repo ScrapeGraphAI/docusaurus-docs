@@ -1,4 +1,4 @@
-# GenerateScraperNode Module
+# 🐭 GenerateScraperNode Module
 
 The `GenerateScraperNode` module implements a node responsible for generating a Python script for scraping a website using the specified library. It takes the user's prompt and the scraped content as input and generates a Python script that extracts the information requested by the user.
 

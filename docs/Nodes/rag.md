@@ -1,4 +1,4 @@
-# RAGNode Module
+# 🐖 RAGNode Module
 
 The `RAGNode` module implements a node responsible for compressing input tokens and storing the document in a vector database for retrieval. Relevant chunks are stored in the state.
 

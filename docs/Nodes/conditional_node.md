@@ -1,4 +1,4 @@
-# ConditionalNode Module
+# 🐷 ConditionalNode Module
 
 The `ConditionalNode` module implements a node that determines the next step in the graph's execution flow based on the presence and content of a specified key in the graph's state. It extends the `BaseNode` class by adding condition-based logic to the execution process.
 

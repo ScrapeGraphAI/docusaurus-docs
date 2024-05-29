@@ -1,4 +1,4 @@
-# JSONScraperGraph Module
+# 🐢 JSONScraperGraph Module
 
 The `JSONScraperGraph` module defines a class for creating and executing a graph that automates the process of extracting information from JSON files using a natural language model.
 

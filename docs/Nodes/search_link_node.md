@@ -1,4 +1,4 @@
-# SearchLinkNode Module
+# 🦖 SearchLinkNode Module
 
 The `SearchLinkNode` module implements a node that can filter out the relevant links in the webpage content for the user prompt. It expects already scraped links on the webpage, making it ideal to use after the `FetchNode`.
 

@@ -1,4 +1,4 @@
-# SearchGraph Module
+# 😽 SearchGraph Module
 
 The `SearchGraph` module defines a class for creating and executing a graph that searches the internet for answers to a given prompt.
 

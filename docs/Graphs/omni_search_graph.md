@@ -1,4 +1,4 @@
-# OmniSearchGraph Module
+# 🌈 OmniSearchGraph Module
 
 The `OmniSearchGraph` module defines a class for creating and executing a graph that searches the internet for answers to a given prompt. It combines web scraping and internet searching to generate an answer based on the user's query.
 

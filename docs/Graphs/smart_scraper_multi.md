@@ -1,4 +1,4 @@
-# SmartScraperMultiGraph Module
+#  🧚🏻‍♂️ SmartScraperMultiGraph Module
 
 The `SmartScraperMultiGraph` module defines a class for creating and executing a graph that scrapes a list of URLs and generates answers to a given prompt.
 

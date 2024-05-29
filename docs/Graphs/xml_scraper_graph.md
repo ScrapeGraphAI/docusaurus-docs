@@ -1,4 +1,4 @@
-# XMLScraperGraph Module
+# 🐰 XMLScraperGraph Module
 
 The `XMLScraperGraph` module defines a class for creating and executing a graph that extracts information from XML files using a natural language model to interpret and answer prompts.
 

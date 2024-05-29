@@ -1,4 +1,4 @@
-# PDFScraperGraph Module
+# 🐙 PDFScraperGraph Module
 
 The `PDFScraperGraph` module defines a class for creating and executing a graph that extracts information from PDF files using a natural language model to interpret and answer prompts.
 

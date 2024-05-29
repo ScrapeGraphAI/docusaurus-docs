@@ -1,4 +1,4 @@
-# GetProbableTagsNode Module
+# 🦆 GetProbableTagsNode Module
 
 The `GetProbableTagsNode` module implements a node responsible for utilizing a language model to identify probable HTML tags within a document that are likely to contain the information relevant to a user's query. This node generates a prompt describing the task, submits it to the language model, and processes the output to produce a list of probable tags.
 

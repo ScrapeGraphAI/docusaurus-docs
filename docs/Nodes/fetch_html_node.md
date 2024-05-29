@@ -1,4 +1,4 @@
-# FetchNode Module
+# 🦊 FetchNode Module
 
 The `FetchNode` module implements a node responsible for fetching the HTML content of a specified URL or loading various types of documents (such as JSON, XML, CSV, or PDF) and updating the graph's state with this content. It uses ChromiumLoader to fetch content from web pages asynchronously, ensuring proxy protection.
 

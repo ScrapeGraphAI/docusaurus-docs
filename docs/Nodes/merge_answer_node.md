@@ -1,4 +1,4 @@
-# MergeAnswersNode Module
+# 🦌MergeAnswersNode Module
 
 The `MergeAnswersNode` module implements a node responsible for merging the answers from multiple graph instances into a single answer.
 

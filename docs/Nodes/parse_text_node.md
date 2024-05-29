@@ -1,4 +1,4 @@
-# ParseNode Module
+# 🐐 ParseNode Module
 
 The `ParseNode` module implements a node responsible for parsing HTML content from a document and splitting it into chunks for further processing.
 

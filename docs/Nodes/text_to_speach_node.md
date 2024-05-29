@@ -1,4 +1,4 @@
-# TextToSpeechNode Module
+# 🦐 TextToSpeechNode Module
 
 The `TextToSpeechNode` module converts text to speech using the specified text-to-speech model.
 

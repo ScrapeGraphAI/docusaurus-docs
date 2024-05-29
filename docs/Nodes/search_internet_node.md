@@ -1,4 +1,4 @@
-# SearchInternetNode Module
+# 🦑 SearchInternetNode Module
 
 The `SearchInternetNode` module implements a node that generates a search query based on the user's input and searches the internet for relevant information. The node constructs a prompt for the language model, submits it, and processes the output to generate a search query. It then uses the search query to find relevant information on the internet and updates the state with the generated answer.
 

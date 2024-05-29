@@ -1,4 +1,4 @@
-# SmartScraperGraph Module
+# 👄 SmartScraperGraph Module
 
 The `SmartScraperGraph` module defines a class for creating and executing a graph that automates the process of extracting information from web pages using a natural language model to interpret and answer prompts.
 
