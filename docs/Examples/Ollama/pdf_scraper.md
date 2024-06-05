@@ -1,4 +1,0 @@
-# 🦨 PDF scraper
-```python
-
-```

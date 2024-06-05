@@ -1,4 +1,0 @@
-# 🪼 XML scraper
-```python
-
-```

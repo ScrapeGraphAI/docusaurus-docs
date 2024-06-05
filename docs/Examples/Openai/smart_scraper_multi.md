@@ -1,4 +1,0 @@
-# 🐑 Smart Scraper multi 
-```python
-
-```

@@ -1,4 +1,0 @@
-# 🐘 CSV scraper multi
-```python
-
-```

@@ -1,4 +1,0 @@
-# 🐐 JSON scraper
-```python
-
-```
