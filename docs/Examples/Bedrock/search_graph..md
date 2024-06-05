@@ -1,4 +1,0 @@
-# 🐕‍🦺 Search graph
-```python
-
-```
