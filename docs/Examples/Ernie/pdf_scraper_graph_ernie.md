@@ -1,4 +1,4 @@
-
+# 🦚 pdf scraper multi
 ```python
 import os, json
 from scrapegraphai.graphs import PDFScraperGraph

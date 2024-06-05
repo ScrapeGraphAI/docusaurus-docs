@@ -1,3 +1,4 @@
+# 🐘 CSV scraper 
 ```python
 """
 Basic example of scraping pipeline using CSVScraperGraph from CSV documents
