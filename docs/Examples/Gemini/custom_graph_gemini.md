@@ -1,4 +1,4 @@
-# 🦧 Custom graph
+
 ```python
 """
 Example of custom graph using Gemini Google model

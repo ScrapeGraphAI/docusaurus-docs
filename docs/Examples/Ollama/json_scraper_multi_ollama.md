@@ -1,4 +1,4 @@
-# 🦬 json scraper multi
+
 ```python
 """
 Module for showing how PDFScraper multi works

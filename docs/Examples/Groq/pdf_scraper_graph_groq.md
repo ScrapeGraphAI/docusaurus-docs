@@ -1,4 +1,3 @@
-# 🦚 pdf scraper multi
 ```python
 """
 Example of pdf_scraper_graph 

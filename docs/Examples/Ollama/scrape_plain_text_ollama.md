@@ -1,4 +1,4 @@
-# 🐄 Scrape plain text
+
 ```python
 """ 
 Basic example of scraping pipeline using SmartScraper from text

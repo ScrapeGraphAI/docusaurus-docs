@@ -1,4 +1,3 @@
-# 🦧 Custom graph
 ```python
 """
 Example of custom graph using existing nodes

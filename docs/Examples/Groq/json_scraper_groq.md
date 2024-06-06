@@ -1,4 +1,3 @@
-# 🦬 json scraper multi
 ```python
 """
 Basic example of scraping pipeline using JSONScraperGraph from JSON documents

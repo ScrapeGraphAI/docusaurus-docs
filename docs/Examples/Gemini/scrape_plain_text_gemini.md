@@ -1,4 +1,3 @@
-# 🐄 Scrape plain text
 ```python
 
 """ 
