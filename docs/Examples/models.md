@@ -1,5 +1,85 @@
 #  ⚽ Models
 
+## Openai 
+* gpt-3.5-turbo-0125 16385
+* gpt-3.5 
+* gpt-3.5-turbo 
+* gpt-3.5-turbo-1106 16385
+* gpt-3.5-turbo-instruct 
+* gpt-4-0125-preview 
+* gpt-4-turbo-preview 
+* gpt-4-turbo 
+* gpt-4-turbo-2024-04-09 
+* gpt-4-1106-preview 
+* gpt-4-vision-preview 
+* gpt-4 
+* gpt-4-0613 
+* gpt-4-32k 
+* gpt-4-32k-0613 
+* gpt-4o 
+    
+## Azure 
+ * gpt-3.5-turbo 
+ * gpt-4 
+ * gpt-4-0613 
+ * gpt-4-32k 
+ * gpt-4-32k-0613 
+ * gpt-4o 
+    
+## Gemini 
+* gemini-pro 
+* gemini-1.5-flash-latest
+* gemini-1.5-pro-latest
+* models/embedding-001 
+    
+
+## Ollama 
+* command-r 
+* command-r-plus 
+* codellama 
+* dbrx 
+* dbrxinstruct 
+* deepseek-coder33b 
+* dolphin-mixtral 
+* llama2 
+* llama3 
+* llama370b-instruct 
+* llava 
+* llava34b 
+* llava_next 
+* mistral 
+* falcon 
+* codellama 
+* dolphin-mixtral 
+* mistral-openorca 
+* stablelm-zephyr 
+* command-r-plus 
+* command-r 
+* mistral7b-instruct 
+* mistral-openorca 
+* mixtral8x22b-instruct 
+* nous-hermes234b 
+* orca-mini 
+* phi33.8b 
+* phi314b 
+* qwen0.5b 
+* qwen1.8b 
+* qwen4b 
+* qwen14b 
+* qwen32b 
+* qwen72b 
+* qwen110b 
+* stablelm-zephyr 
+*w izardlm28x22b 
+### embedding models
+* nomic-embed-text 
+* snowflake-arctic-embed335m 
+* snowflake-arctic-embedl 
+* mxbai-embed-large 512
+
+## oneapi
+* qwen-turbo
+ 
 ## Groq
 * llama3-8b-
 * llama3-70b-
