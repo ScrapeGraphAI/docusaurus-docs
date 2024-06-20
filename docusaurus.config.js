@@ -61,13 +61,12 @@ const config = {
 
   themeConfig:
     ///** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    
     ({
       colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: true,
-      respectPrefersColorScheme: false,
-    },
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -112,13 +111,33 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}, Marco Perini, Lorenzo Padoan and Marco Vinciguerra. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}, Marco Perini, Lorenzo Padoan e Marco Vinciguerra. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
     }),
+  
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {
+        async: 'true', // Note that the value is a string
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-FDLZWFYXKR',
+      },
+    },
+    {
+      tagName: 'script',
+      attributes: {}, // Even if empty, the attributes object is required
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FDLZWFYXKR');
+      `,
+    },
+  ],
 };
 
 export default config;
