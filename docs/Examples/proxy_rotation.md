@@ -15,7 +15,7 @@ from scrapegraphai.utils import prettify_exec_info
 
 graph_config = {
     "llm": {
-        "api_key": "API_KEY"
+        "api_key": "API_KEY",
         "model": "gpt-3.5-turbo",
     },
     "loader_kwargs": {
@@ -24,7 +24,7 @@ graph_config = {
             "username": "********",
             "password": "***",
         },
-    },
+     },
     "verbose": True,
     "headless": False,
 }
@@ -49,5 +49,4 @@ print(result)
 
 graph_exec_info = smart_scraper_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
-
 ```
