@@ -21,9 +21,16 @@ load_dotenv()
 openai_key = os.getenv("OPENAI_APIKEY")
 
 graph_config = {
-    "llm": {
-        "api_key": openai_key,
-        "model": "gpt-3.5-turbo",
+  "llm": {
+        "model": "ollama/llama3",
+        "temperature": 0,
+        # "format": "json",  # Ollama needs the format to be specified explicitly
+        # "base_url": "http://localhost:11434",  # set ollama URL arbitrarily
+    },
+    "embeddings": {
+        "model": "ollama/nomic-embed-text",
+        "temperature": 0,
+        # "base_url": "http://localhost:11434",  # set ollama URL arbitrarily
     },
     "force": True,
     "caching": True
