@@ -17,6 +17,7 @@
 * gpt-4-32k 
 * gpt-4-32k-0613 
 * gpt-4o 
+* gpt-4o-mini
     
 ## Azure 
  * gpt-3.5-turbo 
