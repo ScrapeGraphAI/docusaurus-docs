@@ -1,4 +1,5 @@
 # 🫢 RAG caching
+This Python script demonstrates how to use the SmartScraperGraph class in the ScrapeGraphAI library for web scraping with RAG (Robust Audio Graph) caching. The caching mechanism is enabled by setting the "caching": True configuration parameter, which allows the graph to store and reuse previously computed outputs, reducing the amount of work required for subsequent runs.
 ## Implementation
 ```python
 """ 

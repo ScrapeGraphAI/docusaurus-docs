@@ -1,4 +1,6 @@
 # 🦭 Proxy rotation
+This is a Python script that demonstrates how to use the SmartScraperGraph class in the ScrapeGraphAI library for web scraping with rotating proxies. It shows the configuration of the graph, the creation of an instance of the SmartScraperGraph, and its execution with the specified prompt and source URL. The result of the scraping process is printed, as well as information about the execution of the graph.
+
 ## Implementation
 ```python
 """ 

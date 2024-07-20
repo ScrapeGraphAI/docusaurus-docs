@@ -1,4 +1,5 @@
 # 🦂 SlowMO implementation
+This Python script demonstrates how to use the SmartScraperGraph class in the ScrapeGraphAI library for web scraping with slow motion (SlowMO) implemented, which slows down the loading of the webpage by pausing the graph's execution for a specified number of milliseconds (in this case, 10 seconds).
 ## Implementation
 ```python
 """ 
