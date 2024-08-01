@@ -76,6 +76,12 @@ const config = {
             label: 'Documentation',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Api',
+          },
+          {
             href: 'https://github.com/VinciGit00/Scrapegraph-ai',
             label: 'GitHub',
             position: 'right',
@@ -130,6 +136,25 @@ const config = {
         gtag('config', 'G-FDLZWFYXKR');
       `,
     },
+    
+  ],
+  plugins: [
+    [
+      'docusaurus-plugin-openapi-docs',
+      {
+        id: "api", // plugin id
+        docsPluginId: "classic", // configured for preset-classic
+        config: {
+          petstore: {
+            specPath: "examples/petstore.yaml",
+            outputDir: "docs/petstore",
+            sidebarOptions: {
+              groupPathsBy: "tag",
+            },
+          } 
+        }
+      },
+    ]
   ],
 };
 
