@@ -44,6 +44,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          docItemComponent: "@theme/ApiItem", // Derived from docusaurus-theme-openapi
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -80,10 +81,9 @@ const config = {
             label: 'Documentation',
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            href: 'https://scrapegraph-doc.onrender.com/docs/🐝 API/smartscraper-api-endpoints',
             position: 'left',
-            label: 'Api',
+            label: 'API',
           },
           {
             href: 'https://github.com/VinciGit00/Scrapegraph-ai',
