@@ -1,0 +1,323 @@
+---
+id: extracts-data-from-a-specified-url
+title: "Extracts data from a specified URL."
+description: "Returns the required data from a specified URL using a given prompt and/or schema."
+sidebar_label: "Extracts data from a specified URL."
+hide_title: true
+hide_table_of_contents: true
+api: eJy1VlFv0zAQ/iuWXwCpSweCl74VNqYxBGgdD2iqkJNcG4/ENrbTUlX579zZTputbAxp7KFL7PPdd999d86Wl+AKK42XWvEJvwTfWuWYr4BZ+NlKCyUrhRdsYXXDBHMGCrmQuPr18iNrnVRLXF3KFShm0MR4JlQ51pa5ooJGZHzEyRE4/1aXGz7Z8t4vn3jbwogXWnlQnraEMbUsBIEZ3zhCtOXRDz35jQHEqPMbKDz6xXgGrJfgaLe19cDIeYvQ0Oh2fleYFwHXi5DiGnJmxBKY14jXCgOEF36JxtTkpfLeuMl4jGGkkk22lL5q80zqMcYmFG7MuwAEE39c9ERS3MiJvnUlfOQYUcAvb0Xhb8M4Q3pZA0zUdYDdB2drxEMr0rJBJEeY7qftEFO0ZQuqGtakQA0QMAqV8CQVZLzrRoMCXgfWdwTMuy7uO4MoYlleHR/Tv8OgvRUmgWnlmB37MPv8iUWcjFQhkPQ/4iCNISFexJdct34nWVQasfdEqnJtUYBzA8Nc6xqEOiDyXJUUBLAqFSAYGxAFVYUqC8eSs0VbZ1SiAjmU3n2vYfEI8Vwi3shHOhfqRTFaBzY4/KcW8CS7gCoIvwwesCht7R+nmsD9vi5hQAyb6lAsPZl3Uh8lFaXgSUWv7xPO7Oxo+uX84vQbq0CUyDMlobSntljJMmXy5k/Hz1ETVomazcCu8OSptdo+nVgguPtrBUJUlK9zyBJhLVHJsnZ/P3kSDKkJ9sv9LIvB71IOKcM+xHwwV3aA+fvolaagWIXWxELQ68lGiUafvB14mPCpisGYLorW0g2xrvA8ne3bNWlqN9Z80ksuHGTPeNfFGmMLVxpxcqNdoFP4Ct/GrhHWf49OCL0L5cLY12nO7yYzNlcW7Zb4UwmZFbo54G1G/mbRHUPxMFCl0RIr3s3JO6Yh/Sa4nxp5AZtpS0Cu58PtGakgFnpotKuZCIsYW1LIqE18QwJpd6faUCJS1uX+Wjzdl+R2eg9dPPt7598viMH9QHCkWuiQifThwrmXL/cwtdLhFKf+3409qpwsgKLLpYoaSzOj/5YoGIW3Tei5OEb6EeIYCaZkuE5D7qjv8HSLunAPxEwce64DJlG/oPlPeokIX2bH2XG4plFkjQgdnYpyGpG4+z9xsrsJb/fD4v98LSU1eWRpbGoc+YPJHvsDB+mt/kCNVtQ/uLHdEmFfbd11tIwCsyRrfFwJK0VO1UVVj3p5kuJ/oGgn/F3M6uiKwpN53UZR3xmH3ag/McVhbvyDtvNBi3/5PLtC4zx9BTa6pDNWrGny4++E44NO+qTPRFrb8lqoZUtzcsKjT/r7DfLYv+Q=
+sidebar_class_name: "post api-method"
+info_path: docs/🐝 API/smartscraper-api-endpoints
+custom_edit_url: null
+---
+
+import ApiTabs from "@theme/ApiTabs";
+import DiscriminatorTabs from "@theme/DiscriminatorTabs";
+import MethodEndpoint from "@theme/ApiExplorer/MethodEndpoint";
+import SecuritySchemes from "@theme/ApiExplorer/SecuritySchemes";
+import MimeTabs from "@theme/MimeTabs";
+import ParamsItem from "@theme/ParamsItem";
+import ResponseSamples from "@theme/ResponseSamples";
+import SchemaItem from "@theme/SchemaItem";
+import SchemaTabs from "@theme/SchemaTabs";
+import Markdown from "@theme/Markdown";
+import Heading from "@theme/Heading";
+import OperationTabs from "@theme/OperationTabs";
+import TabItem from "@theme/TabItem";
+
+<Heading
+  as={"h1"}
+  className={"openapi__heading"}
+  children={"Extracts data from a specified URL."}
+>
+</Heading>
+
+<MethodEndpoint
+  method={"post"}
+  path={"/smart_scraper"}
+>
+  
+</MethodEndpoint>
+
+
+
+Returns the required data from a specified URL using a given prompt and/or schema.
+
+<Heading
+  id={"request"}
+  as={"h2"}
+  className={"openapi-tabs__heading"}
+  children={"Request"}
+>
+</Heading>
+
+<MimeTabs
+  className={"openapi-tabs__mime"}
+>
+  <TabItem
+    label={"application/json"}
+    value={"application/json-schema"}
+  >
+    <details
+      style={{}}
+      className={"openapi-markdown__details mime"}
+      data-collapsed={false}
+      open={true}
+    >
+      <summary
+        style={{}}
+        className={"openapi-markdown__details-summary-mime"}
+      >
+        <h3
+          className={"openapi-markdown__details-summary-header-body"}
+        >
+          Body
+        </h3><strong
+          className={"openapi-schema__required"}
+        >
+          required
+        </strong>
+      </summary><div
+        style={{"textAlign":"left","marginLeft":"1rem"}}
+      >
+        
+      </div><ul
+        style={{"marginLeft":"1rem"}}
+      >
+        <SchemaItem
+          collapsible={false}
+          name={"url"}
+          required={true}
+          schemaName={"string"}
+          qualifierMessage={undefined}
+          schema={{"type":"string","description":"The URL of the web page to scrape.","example":"https://perinim.github.io/projects/"}}
+        >
+          
+        </SchemaItem><SchemaItem
+          collapsible={false}
+          name={"prompt"}
+          required={true}
+          schemaName={"string"}
+          qualifierMessage={undefined}
+          schema={{"type":"string","description":"The prompt describing what data to extract.","example":"Give me all the projects with their descriptions"}}
+        >
+          
+        </SchemaItem><SchemaItem
+          collapsible={false}
+          name={"schema"}
+          required={false}
+          schemaName={"object"}
+          qualifierMessage={undefined}
+          schema={{"type":"object","description":"The schema for structuring the extracted data."}}
+        >
+          
+        </SchemaItem>
+      </ul>
+    </details>
+  </TabItem>
+</MimeTabs><div>
+  <div>
+    <ApiTabs
+      label={undefined}
+      id={undefined}
+    >
+      <TabItem
+        label={"200"}
+        value={"200"}
+      >
+        <div>
+          
+          
+          The response will be a JSON object containing the extracted data and metadata about the request.
+          
+          
+        </div><div>
+          <MimeTabs
+            className={"openapi-tabs__mime"}
+            schemaType={"response"}
+          >
+            <TabItem
+              label={"application/json"}
+              value={"application/json"}
+            >
+              <SchemaTabs
+                className={"openapi-tabs__schema"}
+              >
+                <TabItem
+                  label={"Schema"}
+                  value={"Schema"}
+                >
+                  <details
+                    style={{}}
+                    className={"openapi-markdown__details response"}
+                    data-collapsed={false}
+                    open={true}
+                  >
+                    <summary
+                      style={{}}
+                      className={"openapi-markdown__details-summary-response"}
+                    >
+                      <strong>
+                        Schema
+                      </strong>
+                    </summary><div
+                      style={{"textAlign":"left","marginLeft":"1rem"}}
+                    >
+                      
+                    </div><ul
+                      style={{"marginLeft":"1rem"}}
+                    >
+                      <SchemaItem
+                        collapsible={false}
+                        name={"success"}
+                        required={true}
+                        schemaName={"boolean"}
+                        qualifierMessage={undefined}
+                        schema={{"type":"boolean","description":"Indicates whether the scraping was successful."}}
+                      >
+                        
+                      </SchemaItem><SchemaItem
+                        collapsible={false}
+                        name={"credits_left"}
+                        required={true}
+                        schemaName={"string"}
+                        qualifierMessage={undefined}
+                        schema={{"type":"string","description":"Remaining credits for the user."}}
+                      >
+                        
+                      </SchemaItem><SchemaItem
+                        collapsible={false}
+                        name={"url"}
+                        required={true}
+                        schemaName={"string"}
+                        qualifierMessage={undefined}
+                        schema={{"type":"string","description":"The URL that was scraped."}}
+                      >
+                        
+                      </SchemaItem><SchemaItem
+                        collapsible={false}
+                        name={"result"}
+                        required={true}
+                        schemaName={"object"}
+                        qualifierMessage={undefined}
+                        schema={{"type":"object","description":"The data extracted from the web page."}}
+                      >
+                        
+                      </SchemaItem>
+                    </ul>
+                  </details>
+                </TabItem><TabItem
+                  label={"Example (from schema)"}
+                  value={"Example (from schema)"}
+                >
+                  <ResponseSamples
+                    responseExample={"{\n  \"success\": true,\n  \"credits_left\": \"string\",\n  \"url\": \"string\",\n  \"result\": {}\n}"}
+                    language={"json"}
+                  >
+                    
+                  </ResponseSamples>
+                </TabItem>
+              </SchemaTabs>
+            </TabItem>
+          </MimeTabs>
+        </div>
+      </TabItem><TabItem
+        label={"400"}
+        value={"400"}
+      >
+        <div>
+          
+          
+          The SG-APIKEY header was not provided.
+          
+          
+        </div><div>
+          
+        </div>
+      </TabItem><TabItem
+        label={"500"}
+        value={"500"}
+      >
+        <div>
+          
+          
+          Internal Server Error
+          
+          
+        </div><div>
+          <MimeTabs
+            className={"openapi-tabs__mime"}
+            schemaType={"response"}
+          >
+            <TabItem
+              label={"application/json"}
+              value={"application/json"}
+            >
+              <SchemaTabs
+                className={"openapi-tabs__schema"}
+              >
+                <TabItem
+                  label={"Schema"}
+                  value={"Schema"}
+                >
+                  <details
+                    style={{}}
+                    className={"openapi-markdown__details response"}
+                    data-collapsed={false}
+                    open={true}
+                  >
+                    <summary
+                      style={{}}
+                      className={"openapi-markdown__details-summary-response"}
+                    >
+                      <strong>
+                        Schema
+                      </strong>
+                    </summary><div
+                      style={{"textAlign":"left","marginLeft":"1rem"}}
+                    >
+                      
+                    </div><ul
+                      style={{"marginLeft":"1rem"}}
+                    >
+                      <SchemaItem
+                        collapsible={false}
+                        name={"error"}
+                        required={true}
+                        schemaName={"string"}
+                        qualifierMessage={undefined}
+                        schema={{"type":"string","description":"Error message"}}
+                      >
+                        
+                      </SchemaItem><SchemaItem
+                        collapsible={false}
+                        name={"details"}
+                        required={true}
+                        schemaName={"string"}
+                        qualifierMessage={undefined}
+                        schema={{"type":"string","description":"Detailed description of the error"}}
+                      >
+                        
+                      </SchemaItem>
+                    </ul>
+                  </details>
+                </TabItem><TabItem
+                  label={"Example (from schema)"}
+                  value={"Example (from schema)"}
+                >
+                  <ResponseSamples
+                    responseExample={"{\n  \"error\": \"Failed to save result to DynamoDB\",\n  \"details\": \"An error occurred while saving the scraped data to the database.'\"\n}"}
+                    language={"json"}
+                  >
+                    
+                  </ResponseSamples>
+                </TabItem>
+              </SchemaTabs>
+            </TabItem>
+          </MimeTabs>
+        </div>
+      </TabItem>
+    </ApiTabs>
+  </div>
+</div>
+      

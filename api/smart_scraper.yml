@@ -1,0 +1,88 @@
+openapi: 3.0.0
+info:
+  title: SmartScraper API endpoints
+  description: SmartScraper is a web scraping service designed to extract specific information from web pages based on user-provided prompts and schemas (optional).
+  version: 1.0.0
+servers:
+  - url: https://api.scrapegraphai.com
+    description: SmartScraper API endpoint
+paths:
+  /smart_scraper:
+    post:
+      summary: Extracts data from a specified URL.
+      description: Returns the required data from a specified URL using a given prompt and/or schema.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                url:
+                  type: string
+                  description: The URL of the web page to scrape.
+                  example: https://perinim.github.io/projects/
+                prompt:
+                  type: string
+                  description: The prompt describing what data to extract.
+                  example: Give me all the projects with their descriptions
+                schema:
+                  type: object
+                  description: The schema for structuring the extracted data.
+              required:
+                - url
+                - prompt
+      responses:
+        '200':
+          description: The response will be a JSON object containing the extracted data and metadata about the request.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    description: Indicates whether the scraping was successful.
+                  credits_left:
+                    type: string
+                    description: Remaining credits for the user.
+                  url:
+                    type: string
+                    description: The URL that was scraped.
+                  result:
+                    type: object
+                    description: The data extracted from the web page.
+                required:
+                  - success
+                  - credits_left
+                  - url
+                  - result
+        '400':
+          description: The SG-APIKEY header was not provided.
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    description: Error message
+                  details:
+                    type: string
+                    description: Detailed description of the error
+                required:
+                  - error
+                  - details
+                example:
+                  error: Failed to save result to DynamoDB
+                  details: An error occurred while saving the scraped data to the database.'
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: SG-APIKEY
+security:
+  - ApiKeyAuth: []

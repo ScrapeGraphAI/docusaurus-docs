@@ -33,6 +33,10 @@ const config = {
     locales: ['en'],
   },
 
+  themes: [
+    'docusaurus-theme-openapi-docs'
+  ],
+
   presets: [
     [
       'classic',
@@ -146,8 +150,8 @@ const config = {
         docsPluginId: "classic", // configured for preset-classic
         config: {
           petstore: {
-            specPath: "examples/petstore.yaml",
-            outputDir: "docs/petstore",
+            specPath: "api/smart_scraper.yml",
+            outputDir: "docs/🐝 API",
             sidebarOptions: {
               groupPathsBy: "tag",
             },
