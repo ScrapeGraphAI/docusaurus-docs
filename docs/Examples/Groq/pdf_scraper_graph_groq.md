@@ -35,7 +35,6 @@ source = """
     the Beatrice of his earlier poetry, through the celestial spheres of Paradise.
 """
 
-
 pdf_scraper_graph = PDFScraperGraph(
     prompt="Summarize the text and find the main topics",
     source=source,
@@ -44,4 +43,3 @@ pdf_scraper_graph = PDFScraperGraph(
 result = pdf_scraper_graph.run()
 
 print(json.dumps(result, indent=4))
-```

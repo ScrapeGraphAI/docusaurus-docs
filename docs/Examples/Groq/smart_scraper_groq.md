@@ -10,7 +10,6 @@ from scrapegraphai.utils import prettify_exec_info
 
 load_dotenv()
 
-
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
@@ -46,4 +45,3 @@ print(result)
 
 graph_exec_info = smart_scraper_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
-```

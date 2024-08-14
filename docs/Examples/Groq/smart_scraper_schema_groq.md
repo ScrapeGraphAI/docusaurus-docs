@@ -35,11 +35,6 @@ graph_config = {
         "api_key": groq_key,
         "temperature": 0
     },
-     "embeddings": {
-        "model": "ollama/nomic-embed-text",
-        "temperature": 0,
-        # "base_url": "http://localhost:11434",  # set ollama URL arbitrarily
-    },
     "headless": False
 }
 
@@ -64,5 +59,3 @@ print(result)
 
 graph_exec_info = smart_scraper_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
-
-```

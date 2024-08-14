@@ -40,4 +40,3 @@ multiple_search_graph = SmartScraperMultiGraph(
 
 result = multiple_search_graph.run()
 print(json.dumps(result, indent=4))
-```

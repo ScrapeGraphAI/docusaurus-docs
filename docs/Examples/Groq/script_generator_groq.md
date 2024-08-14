@@ -1,4 +1,3 @@
-
 ```python
 """ 
 Basic example of scraping pipeline using ScriptCreatorGraph
@@ -44,4 +43,4 @@ print(result)
 
 graph_exec_info = script_creator_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
-```
+
