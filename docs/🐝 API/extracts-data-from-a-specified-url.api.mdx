@@ -1,7 +1,7 @@
 ---
 id: extracts-data-from-a-specified-url
 title: "Extracts data from a specified URL."
-description: "Returns the required data from a specified URL using a given prompt and/or schema."
+description: "Returns the required data from a specified URL using a given prompt and/or schema. To authenticate with the SmartScraper API, you need to include the `SG-APIKEY` header in your requests. This header should contain your API key."
 sidebar_label: "Extracts data from a specified URL."
 hide_title: true
 hide_table_of_contents: true
@@ -36,12 +36,13 @@ import TabItem from "@theme/TabItem";
   method={"post"}
   path={"/smart_scraper"}
 >
-  
 </MethodEndpoint>
 
-
-
 Returns the required data from a specified URL using a given prompt and/or schema.
+
+**Authentication:**
+
+To authenticate with the SmartScraper API, you need to include the `SG-APIKEY` header in your requests. This header should contain your API key.
 
 <Heading
   id={"request"}
@@ -80,7 +81,7 @@ Returns the required data from a specified URL using a given prompt and/or schem
       </summary><div
         style={{"textAlign":"left","marginLeft":"1rem"}}
       >
-        
+        <!-- Body description goes here -->
       </div><ul
         style={{"marginLeft":"1rem"}}
       >
@@ -92,7 +93,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
           qualifierMessage={undefined}
           schema={{"type":"string","description":"The URL of the web page to scrape.","example":"https://perinim.github.io/projects/"}}
         >
-          
         </SchemaItem><SchemaItem
           collapsible={false}
           name={"prompt"}
@@ -101,7 +101,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
           qualifierMessage={undefined}
           schema={{"type":"string","description":"The prompt describing what data to extract.","example":"Give me all the projects with their descriptions"}}
         >
-          
         </SchemaItem><SchemaItem
           collapsible={false}
           name={"schema"}
@@ -110,7 +109,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
           qualifierMessage={undefined}
           schema={{"type":"object","description":"The schema for structuring the extracted data"}}
         >
-          
         </SchemaItem>
       </ul>
     </details>
@@ -126,11 +124,7 @@ Returns the required data from a specified URL using a given prompt and/or schem
         value={"200"}
       >
         <div>
-          
-          
           The response will be a JSON object containing the extracted data and metadata about the request.
-          
-          
         </div><div>
           <MimeTabs
             className={"openapi-tabs__mime"}
@@ -163,7 +157,7 @@ Returns the required data from a specified URL using a given prompt and/or schem
                     </summary><div
                       style={{"textAlign":"left","marginLeft":"1rem"}}
                     >
-                      
+                      <!-- Schema description goes here -->
                     </div><ul
                       style={{"marginLeft":"1rem"}}
                     >
@@ -175,7 +169,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
                         qualifierMessage={undefined}
                         schema={{"type":"boolean","description":"Indicates whether the scraping was successful."}}
                       >
-                        
                       </SchemaItem><SchemaItem
                         collapsible={false}
                         name={"credits_left"}
@@ -184,7 +177,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
                         qualifierMessage={undefined}
                         schema={{"type":"string","description":"Remaining credits for the user."}}
                       >
-                        
                       </SchemaItem><SchemaItem
                         collapsible={false}
                         name={"url"}
@@ -193,7 +185,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
                         qualifierMessage={undefined}
                         schema={{"type":"string","description":"The URL that was scraped."}}
                       >
-                        
                       </SchemaItem><SchemaItem
                         collapsible={false}
                         name={"result"}
@@ -202,7 +193,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
                         qualifierMessage={undefined}
                         schema={{"type":"object","description":"The data extracted from the web page."}}
                       >
-                        
                       </SchemaItem>
                     </ul>
                   </details>
@@ -214,7 +204,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
                     responseExample={"{\n  \"success\": true,\n  \"credits_left\": \"string\",\n  \"url\": \"string\",\n  \"result\": {}\n}"}
                     language={"json"}
                   >
-                    
                   </ResponseSamples>
                 </TabItem>
               </SchemaTabs>
@@ -226,24 +215,16 @@ Returns the required data from a specified URL using a given prompt and/or schem
         value={"400"}
       >
         <div>
-          
-          
           The SG-APIKEY header was not provided.
-          
-          
         </div><div>
-          
+          <!-- 400 response description goes here -->
         </div>
       </TabItem><TabItem
         label={"500"}
         value={"500"}
       >
         <div>
-          
-          
           Internal Server Error
-          
-          
         </div><div>
           <MimeTabs
             className={"openapi-tabs__mime"}
@@ -276,7 +257,7 @@ Returns the required data from a specified URL using a given prompt and/or schem
                     </summary><div
                       style={{"textAlign":"left","marginLeft":"1rem"}}
                     >
-                      
+                      <!-- Schema description goes here -->
                     </div><ul
                       style={{"marginLeft":"1rem"}}
                     >
@@ -288,7 +269,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
                         qualifierMessage={undefined}
                         schema={{"type":"string","description":"Error message"}}
                       >
-                        
                       </SchemaItem><SchemaItem
                         collapsible={false}
                         name={"details"}
@@ -297,7 +277,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
                         qualifierMessage={undefined}
                         schema={{"type":"string","description":"Detailed description of the error"}}
                       >
-                        
                       </SchemaItem>
                     </ul>
                   </details>
@@ -309,7 +288,6 @@ Returns the required data from a specified URL using a given prompt and/or schem
                     responseExample={"{\n  \"error\": \"Failed to save result to DynamoDB\",\n  \"details\": \"An error occurred while saving the scraped data to the database.'\"\n}"}
                     language={"json"}
                   >
-                    
                   </ResponseSamples>
                 </TabItem>
               </SchemaTabs>
@@ -320,4 +298,3 @@ Returns the required data from a specified URL using a given prompt and/or schem
     </ApiTabs>
   </div>
 </div>
-      
