@@ -1,14 +1,14 @@
 ```python
 """ 
-Basic example of scraping pipeline using SmartScraper with schema
+Basic example of scraping pipeline using SmartScraper
 """
 
 import os
-import json
 from typing import List
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 from dotenv import load_dotenv
 from scrapegraphai.graphs import SmartScraperGraph
+from scrapegraphai.utils import prettify_exec_info
 
 load_dotenv()
 
@@ -24,16 +24,17 @@ class Projects(BaseModel):
     projects: List[Project]
 
 # ************************************************
-# Initialize the model instances
+# Define the configuration for the graph
 # ************************************************
+
+together_key = os.getenv("TOGETHER_APIKEY")
 
 graph_config = {
     "llm": {
-        "api_key": os.environ["AZURE_OPENAI_KEY"],
-        "model": "azure_openai/gpt-3.5-turbo",
+        "model": "togetherai/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+        "api_key": together_key,
     },
     "verbose": True,
-    "headless": False
 }
 
 # ************************************************
@@ -41,11 +42,19 @@ graph_config = {
 # ************************************************
 
 smart_scraper_graph = SmartScraperGraph(
-    prompt="List me all the projects with their description",
+    prompt="List me all the projects with their description.",
+    # also accepts a string with the already downloaded HTML code
     source="https://perinim.github.io/projects/",
     schema=Projects,
     config=graph_config
 )
 
 result = smart_scraper_graph.run()
-print(json.dumps(result, indent=4))
+print(result)
+
+# ************************************************
+# Get graph execution info
+# ************************************************
+
+graph_exec_info = smart_scraper_graph.get_execution_info()
+print(prettify_exec_info(graph_exec_info))

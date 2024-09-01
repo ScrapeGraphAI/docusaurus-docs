@@ -1,63 +1,58 @@
 ```python
 """
-Example of Search Graph
+Basic example of scraping pipeline using CSVScraperMultiGraph from CSV documents
 """
 
 import os
 from dotenv import load_dotenv
-load_dotenv()
-
-from scrapegraphai.graphs import SearchGraph
+import pandas as pd
+from scrapegraphai.graphs import CSVScraperMultiGraph
 from scrapegraphai.utils import convert_to_csv, convert_to_json, prettify_exec_info
 
-from langchain_core.pydantic_v1 import BaseModel, Field
-from typing import List
-
+load_dotenv()
 # ************************************************
-# Define the output schema for the graph
+# Read the CSV file
 # ************************************************
 
-class Dish(BaseModel):
-    name: str = Field(description="The name of the dish")
-    description: str = Field(description="The description of the dish")
+FILE_NAME = "inputs/username.csv"
+curr_dir = os.path.dirname(os.path.realpath(__file__))
+file_path = os.path.join(curr_dir, FILE_NAME)
 
-class Dishes(BaseModel):
-    dishes: List[Dish]
+text = pd.read_csv(file_path)
 
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
 
-deepseek_key = os.getenv("DEEPSEEK_APIKEY")
+together_key = os.getenv("TOGETHER_APIKEY")
 
 graph_config = {
     "llm": {
-        "model": "deepseek/deepseek-chat",
-        "api_key": deepseek_key,
+        "model": "togetherai/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+        "api_key": together_key,
     },
     "verbose": True,
 }
-
 # ************************************************
-# Create the SearchGraph instance and run it
+# Create the CSVScraperMultiGraph instance and run it
 # ************************************************
 
-search_graph = SearchGraph(
-    prompt="List me Chioggia's famous dishes",
-    config=graph_config,
-    schema=Dishes
+csv_scraper_graph = CSVScraperMultiGraph(
+    prompt="List me all the last names",
+    source=[str(text), str(text)],
+    config=graph_config
 )
 
-result = search_graph.run()
+result = csv_scraper_graph.run()
 print(result)
 
 # ************************************************
 # Get graph execution info
 # ************************************************
 
-graph_exec_info = search_graph.get_execution_info()
+graph_exec_info = csv_scraper_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
 
-# Save to json and csv
+# Save to json or csv
 convert_to_csv(result, "result")
 convert_to_json(result, "result")

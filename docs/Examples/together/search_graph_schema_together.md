@@ -2,10 +2,15 @@
 """
 Example of Search Graph
 """
+
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 from scrapegraphai.graphs import SearchGraph
 from scrapegraphai.utils import convert_to_csv, convert_to_json, prettify_exec_info
 
-from langchain_core.pydantic_v1 import BaseModel, Field
+from pydantic import BaseModel, Field
 from typing import List
 
 # ************************************************
@@ -23,15 +28,14 @@ class Dishes(BaseModel):
 # Define the configuration for the graph
 # ************************************************
 
+together_key = os.getenv("TOGETHER_APIKEY")
+
 graph_config = {
     "llm": {
-        "model": "ollama/mistral",
-        "temperature": 0,
-        "format": "json",  # Ollama needs the format to be specified explicitly
-        # "base_url": "http://localhost:11434", # set ollama URL arbitrarily
+        "model": "togetherai/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+        "api_key": together_key,
     },
     "verbose": True,
-    "headless": False
 }
 
 # ************************************************

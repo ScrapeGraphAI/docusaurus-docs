@@ -2,36 +2,25 @@
 """
 Example of Search Graph
 """
+import os
+from dotenv import load_dotenv
 from scrapegraphai.graphs import SearchGraph
 from scrapegraphai.utils import convert_to_csv, convert_to_json, prettify_exec_info
-
-from langchain_core.pydantic_v1 import BaseModel, Field
-from typing import List
-
-# ************************************************
-# Define the output schema for the graph
-# ************************************************
-
-class Dish(BaseModel):
-    name: str = Field(description="The name of the dish")
-    description: str = Field(description="The description of the dish")
-
-class Dishes(BaseModel):
-    dishes: List[Dish]
 
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
 
+load_dotenv()
+
+together_key = os.getenv("TOGETHER_APIKEY")
+
 graph_config = {
     "llm": {
-        "model": "ollama/mistral",
-        "temperature": 0,
-        "format": "json",  # Ollama needs the format to be specified explicitly
-        # "base_url": "http://localhost:11434", # set ollama URL arbitrarily
+        "model": "togetherai/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+        "api_key": together_key,
     },
     "verbose": True,
-    "headless": False
 }
 
 # ************************************************
@@ -39,9 +28,8 @@ graph_config = {
 # ************************************************
 
 search_graph = SearchGraph(
-    prompt="List me Chioggia's famous dishes",
-    config=graph_config,
-    schema=Dishes
+    prompt="List me the best escursions near Trento",
+    config=graph_config
 )
 
 result = search_graph.run()
