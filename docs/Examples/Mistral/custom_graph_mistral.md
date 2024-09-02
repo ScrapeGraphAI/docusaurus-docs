@@ -19,7 +19,7 @@ mistral_key = os.getenv("MISTRAL_API_KEY")
 graph_config = {
      "llm": {
         "api_key": mistral_key,
-        "model": "mistral/open-mistral-nemo",
+        "model": "mistralai/open-mistral-nemo",
     },
 }
 
@@ -43,7 +43,7 @@ robot_node = RobotsNode(
 
 fetch_node = FetchNode(
     input="url | local_dir",
-    output=["doc", "link_urls", "img_urls"],
+    output=["doc"],
     node_config={
         "verbose": True,
         "headless": True,
@@ -108,4 +108,3 @@ result, execution_info = graph.execute({
 # get the answer from the result
 result = result.get("answer", "No answer found.")
 print(result)
-```

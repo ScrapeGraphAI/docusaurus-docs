@@ -1,4 +1,3 @@
-
 ```python
 """
 Example of Search Graph
@@ -35,4 +34,3 @@ search_graph = SearchGraph(
 
 result = search_graph.run()
 print(result)
-```

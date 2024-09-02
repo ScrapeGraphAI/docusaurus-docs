@@ -20,7 +20,7 @@ openai_key = os.getenv("OPENAI_APIKEY")
 graph_config = {
     "llm": {
         "api_key": openai_key,
-        "model": "gpt-4o",
+        "model": "openai/gpt-4o",
     },
     "verbose": True,
     "headless": True,
@@ -47,4 +47,3 @@ print(json.dumps(result, indent=2))
 
 graph_exec_info = omni_scraper_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
-```

@@ -1,4 +1,3 @@
-
 ```python
 """ 
 Basic example of scraping pipeline using SmartScraper from text
@@ -27,17 +26,13 @@ with open(file_path, 'r', encoding="utf-8") as file:
 # Define the configuration for the graph
 # ************************************************
 
-graph_config = {
-     "llm": {
-            "model": "ernie-bot-turbo",
-            "ernie_client_id": "<ernie_client_id>",
-            "ernie_client_secret": "<ernie_client_secret>",
-            "temperature": 0.1
-        },
-        "embeddings": {
-            "model": "ollama/nomic-embed-text",
-            "temperature": 0,
-            "base_url": "http://localhost:11434",}
+graph_config = {  
+    "llm": {
+        "model": "ernie/ernie-bot-turbo",
+        "ernie_client_id": "<ernie_client_id>",
+        "ernie_client_secret": "<ernie_client_secret>",
+        "temperature": 0.1
+    }
 }
 
 # ************************************************
@@ -59,4 +54,3 @@ print(result)
 
 graph_exec_info = smart_scraper_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
-```

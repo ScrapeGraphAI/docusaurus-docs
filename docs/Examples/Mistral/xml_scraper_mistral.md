@@ -29,7 +29,7 @@ mistral_key = os.getenv("MISTRAL_API_KEY")
 graph_config = {
     "llm": {
         "api_key": mistral_key,
-        "model": "mistral/open-mistral-nemo",
+        "model": "mistralai/open-mistral-nemo",
     },
     "verbose":False,
 }
@@ -58,4 +58,3 @@ print(prettify_exec_info(graph_exec_info))
 convert_to_csv(result, "result")
 convert_to_json(result, "result")
 
-```

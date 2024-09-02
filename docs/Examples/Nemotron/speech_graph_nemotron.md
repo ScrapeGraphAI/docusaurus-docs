@@ -1,5 +1,3 @@
-
-
 ```python
 """ 
 Basic example of scraping pipeline using SpeechSummaryGraph
@@ -51,4 +49,3 @@ print(result)
 
 graph_exec_info = speech_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
-```

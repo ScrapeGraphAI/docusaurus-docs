@@ -1,4 +1,3 @@
-
 ```python
 """ 
 Basic example of scraping pipeline using SmartScraper
@@ -40,4 +39,3 @@ print(result)
 
 graph_exec_info = smart_scraper_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
-```

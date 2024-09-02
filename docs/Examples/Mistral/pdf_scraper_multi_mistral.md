@@ -6,7 +6,7 @@ import os
 import json
 from typing import List
 from dotenv import load_dotenv
-from pydantic import BaseModel, Field
+from langchain_core.pydantic_v1 import BaseModel, Field
 from scrapegraphai.graphs import PdfScraperMultiGraph
 
 load_dotenv()
@@ -20,7 +20,7 @@ mistral_key = os.getenv("MISTRAL_API_KEY")
 graph_config = {
     "llm": {
         "api_key": mistral_key,
-        "model": "mistral/open-mistral-nemo",
+        "model": "mistralai/open-mistral-nemo",
     },
     "verbose": True,
 }
@@ -63,4 +63,3 @@ multiple_search_graph = PdfScraperMultiGraph(
 
 result = multiple_search_graph.run()
 print(json.dumps(result, indent=4))
-```

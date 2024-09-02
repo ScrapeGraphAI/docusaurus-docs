@@ -1,4 +1,3 @@
-
 ```python
 """ 
 Basic example of scraping pipeline using ScriptCreatorGraph
@@ -9,7 +8,7 @@ from dotenv import load_dotenv
 from scrapegraphai.graphs import ScriptCreatorGraph
 from scrapegraphai.utils import prettify_exec_info
 
-from pydantic import BaseModel, Field
+from langchain_core.pydantic_v1 import BaseModel, Field
 from typing import List
 
 load_dotenv()
@@ -62,4 +61,3 @@ print(result)
 graph_exec_info = script_creator_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
 
-```

@@ -35,4 +35,3 @@ smart_scraper_graph = SmartScraperGraph(
 result = smart_scraper_graph.run()
 print(result)
 print(prettify_exec_info(result))
-```

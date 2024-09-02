@@ -1,4 +1,3 @@
-
 ```python
 import os, json
 from dotenv import load_dotenv
@@ -40,4 +39,3 @@ pdf_scraper_graph = PDFScraperGraph(
 result = pdf_scraper_graph.run()
 
 print(json.dumps(result, indent=4))
-```

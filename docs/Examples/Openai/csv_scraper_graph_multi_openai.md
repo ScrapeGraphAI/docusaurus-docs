@@ -23,13 +23,13 @@ text = pd.read_csv(file_path)
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
+openai_key = os.getenv("OPENAI_APIKEY")
 
 graph_config = {
-    "llm": {
-        "api_key": "***************************",
-        "model": "oneapi/qwen-turbo",
-        "base_url": "http://127.0.0.1:3000/v1",  # 设置 OneAPI URL
-    }
+     "llm": {
+        "api_key": openai_key,
+        "model": "openai/gpt-4o",
+    },
 }
 
 # ************************************************
@@ -55,4 +55,3 @@ print(prettify_exec_info(graph_exec_info))
 # Save to json or csv
 convert_to_csv(result, "result")
 convert_to_json(result, "result")
-```

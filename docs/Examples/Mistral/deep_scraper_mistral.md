@@ -19,7 +19,7 @@ mistral_key = os.getenv("MISTRAL_API_KEY")
 graph_config = {
     "llm": {
         "api_key": mistral_key,
-        "model": "mistral/open-mistral-nemo",
+        "model": "mistralai/open-mistral-nemo",
     },
     "verbose": True,
     "max_depth": 1
@@ -46,4 +46,3 @@ print(result)
 graph_exec_info = deep_scraper_graph.get_execution_info()
 print(deep_scraper_graph.get_state("relevant_links"))
 print(prettify_exec_info(graph_exec_info))
-```

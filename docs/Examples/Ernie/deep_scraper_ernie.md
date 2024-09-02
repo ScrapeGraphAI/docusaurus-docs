@@ -1,4 +1,3 @@
-
 ```python
 """ 
 Basic example of scraping pipeline using SmartScraper
@@ -20,7 +19,7 @@ openai_key = os.getenv("OPENAI_APIKEY")
 
 graph_config = {
     "llm": {
-            "model": "ernie-bot-turbo",
+            "model": "ernie/ernie-bot-turbo",
             "ernie_client_id": "<ernie_client_id>",
             "ernie_client_secret": "<ernie_client_secret>",
             "temperature": 0.1
@@ -55,4 +54,3 @@ print(result)
 graph_exec_info = deep_scraper_graph.get_execution_info()
 print(deep_scraper_graph.get_state("relevant_links"))
 print(prettify_exec_info(graph_exec_info))
-```

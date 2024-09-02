@@ -1,4 +1,3 @@
-
 ```python
 """ 
 Basic example of scraping pipeline using SmartScraper
@@ -42,4 +41,3 @@ multiple_search_graph = SmartScraperMultiGraph(
 
 result = multiple_search_graph.run()
 print(json.dumps(result, indent=4))
-```

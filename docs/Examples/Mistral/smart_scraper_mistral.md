@@ -17,7 +17,7 @@ load_dotenv()
 graph_config = {
     "llm": {
         "api_key": os.getenv("MISTRAL_API_KEY"),
-        "model": "mistral/open-mistral-nemo",
+        "model": "mistralai/open-mistral-nemo",
     },
     "verbose": True,
     "headless": False,
@@ -42,4 +42,3 @@ print(json.dumps(result, indent=4))
 
 graph_exec_info = smart_scraper_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
-```

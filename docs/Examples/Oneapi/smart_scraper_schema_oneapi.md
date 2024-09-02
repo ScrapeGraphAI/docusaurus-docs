@@ -3,7 +3,7 @@
 Basic example of scraping pipeline using SmartScraper and OneAPI
 """
 from typing import List
-from pydantic import BaseModel, Field
+from langchain_core.pydantic_v1 import BaseModel, Field
 from scrapegraphai.graphs import SmartScraperGraph
 from scrapegraphai.utils import prettify_exec_info
 
@@ -47,4 +47,3 @@ smart_scraper_graph = SmartScraperGraph(
 result = smart_scraper_graph.run()
 print(result)
 print(prettify_exec_info(result))
-```

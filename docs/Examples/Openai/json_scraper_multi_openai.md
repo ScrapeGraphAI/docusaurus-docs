@@ -14,8 +14,8 @@ openai_key = os.getenv("OPENAI_APIKEY")
 graph_config = {
     "llm": {
         "api_key": openai_key,
-        "model": "gpt-3.5-turbo",
-    },
+        "model": "openai/gpt-4o",
+    }
 }
 
 FILE_NAME = "inputs/example.json"
@@ -36,4 +36,3 @@ multiple_search_graph = JSONScraperMultiGraph(
 
 result = multiple_search_graph.run()
 print(json.dumps(result, indent=4))
-```

@@ -1,4 +1,3 @@
-
 ```python
 import os, json
 from dotenv import load_dotenv
@@ -16,7 +15,7 @@ mistral_key = os.getenv("MISTRAL_API_KEY")
 graph_config = {
     "llm": {
         "api_key": mistral_key,
-        "model": "mistral/open-mistral-nemo",
+        "model": "mistralai/open-mistral-nemo",
     },
     "verbose": True,
 }
@@ -40,4 +39,3 @@ pdf_scraper_graph = PDFScraperGraph(
 result = pdf_scraper_graph.run()
 
 print(json.dumps(result, indent=4))
-```

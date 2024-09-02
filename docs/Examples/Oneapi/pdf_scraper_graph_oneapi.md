@@ -25,14 +25,15 @@ source = """
     the Beatrice of his earlier poetry, through the celestial spheres of Paradise.
 """
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 pdf_scraper_graph = PDFScraperGraph(
     prompt="Summarize the text and find the main topics",
     source=source,
     config=graph_config,
-    schema=schema,
 )
 result = pdf_scraper_graph.run()
 
 print(json.dumps(result, indent=4))
-```

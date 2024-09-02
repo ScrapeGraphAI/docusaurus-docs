@@ -1,4 +1,3 @@
-
 ```python
 """
 Module for showing how PDFScraper multi works
@@ -37,4 +36,3 @@ multiple_search_graph = JSONScraperMultiGraph(
 
 result = multiple_search_graph.run()
 print(json.dumps(result, indent=4))
-```

@@ -29,7 +29,7 @@ openai_key = os.getenv("OPENAI_APIKEY")
 graph_config = {
     "llm": {
         "api_key": openai_key,
-        "model": "gpt-3.5-turbo",
+        "model": "openai/gpt-4o",
     },
 }
 
@@ -56,4 +56,3 @@ print(prettify_exec_info(graph_exec_info))
 # Save to json or csv
 convert_to_csv(result, "result")
 convert_to_json(result, "result")
-```

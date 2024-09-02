@@ -1,4 +1,3 @@
-
 ```python
 """
 Example of custom graph using existing nodes
@@ -8,7 +7,7 @@ import os
 from dotenv import load_dotenv
 
 from langchain_openai import OpenAIEmbeddings
-from scrapegraphai.models import OpenAI
+from langchain_openai import ChatOpenAI
 from scrapegraphai.graphs import BaseGraph
 from scrapegraphai.nodes import FetchNode, ParseNode, RAGNode, GenerateAnswerNode, RobotsNode
 load_dotenv()
@@ -44,7 +43,7 @@ robot_node = RobotsNode(
 
 fetch_node = FetchNode(
     input="url | local_dir",
-    output=["doc", "link_urls", "img_urls"],
+    output=["doc"],
     node_config={
         "verbose": True,
         "headless": True,
@@ -109,4 +108,3 @@ result, execution_info = graph.execute({
 # get the answer from the result
 result = result.get("answer", "No answer found.")
 print(result)
-```

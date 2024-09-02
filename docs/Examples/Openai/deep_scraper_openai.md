@@ -19,7 +19,7 @@ openai_key = os.getenv("OPENAI_APIKEY")
 graph_config = {
     "llm": {
         "api_key": openai_key,
-        "model": "gpt-4",
+        "model": "openai/gpt-4o",
     },
     "verbose": True,
     "max_depth": 1
@@ -46,4 +46,3 @@ print(result)
 graph_exec_info = deep_scraper_graph.get_execution_info()
 print(deep_scraper_graph.get_state("relevant_links"))
 print(prettify_exec_info(graph_exec_info))
-```

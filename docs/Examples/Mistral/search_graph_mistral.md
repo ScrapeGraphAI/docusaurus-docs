@@ -1,4 +1,3 @@
-
 ```python
 """
 Example of Search Graph
@@ -18,7 +17,7 @@ mistral_key = os.getenv("MISTRAL_API_KEY")
 graph_config = {
     "llm": {
         "api_key": mistral_key,
-        "model": "mistral/open-mistral-nemo",
+        "model": "mistralai/open-mistral-nemo",
     },
     "max_results": 2,
     "verbose": True,
@@ -35,4 +34,3 @@ search_graph = SearchGraph(
 
 result = search_graph.run()
 print(result)
-```

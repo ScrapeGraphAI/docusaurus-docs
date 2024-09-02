@@ -19,7 +19,7 @@ openai_key = os.getenv("OPENAI_APIKEY")
 graph_config = {
     "llm": {
         "api_key": openai_key,
-        "model": "gpt-4o",
+        "model": "openai/gpt-4o",
     },
     "verbose": True,
     "headless": False,
@@ -41,4 +41,3 @@ multiple_search_graph = SmartScraperMultiGraph(
 
 result = multiple_search_graph.run()
 print(json.dumps(result, indent=4))
-```

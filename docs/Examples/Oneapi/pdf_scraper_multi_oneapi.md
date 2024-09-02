@@ -69,4 +69,3 @@ multiple_search_graph = PdfScraperMultiGraph(
 
 result = multiple_search_graph.run()
 print(json.dumps(result, indent=4))
-```

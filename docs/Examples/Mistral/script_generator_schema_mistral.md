@@ -7,8 +7,7 @@ import os
 from dotenv import load_dotenv
 from scrapegraphai.graphs import ScriptCreatorGraph
 from scrapegraphai.utils import prettify_exec_info
-
-from pydantic import BaseModel, Field
+from langchain_core.pydantic_v1 import BaseModel, Field
 from typing import List
 
 load_dotenv()
@@ -33,7 +32,7 @@ mistral_key = os.getenv("MISTRAL_API_KEY")
 graph_config = {
     "llm": {
         "api_key": mistral_key,
-        "model": "mistral/open-mistral-nemo",
+        "model": "mistralai/open-mistral-nemo",
     },
     "library": "beautifulsoup",
     "verbose": True,
@@ -61,4 +60,3 @@ print(result)
 graph_exec_info = script_creator_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
 
-```

@@ -1,5 +1,3 @@
-
-
 ```python
 """
 Basic example of scraping pipeline using XMLScraperGraph from XML documents
@@ -60,4 +58,3 @@ print(prettify_exec_info(graph_exec_info))
 convert_to_csv(result, "result")
 convert_to_json(result, "result")
 
-```

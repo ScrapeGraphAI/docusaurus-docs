@@ -6,7 +6,7 @@ Example of Search Graph
 import os
 from typing import List
 from dotenv import load_dotenv
-from pydantic import BaseModel, Field
+from langchain_core.pydantic_v1 import BaseModel, Field
 from scrapegraphai.graphs import SearchGraph
 from scrapegraphai.utils import convert_to_csv, convert_to_json, prettify_exec_info
 
@@ -32,7 +32,7 @@ mistral_key = os.getenv("MISTRAL_API_KEY")
 graph_config = {
     "llm": {
         "api_key": mistral_key,
-        "model": "mistral/open-mistral-nemo",
+        "model": "mistralai/open-mistral-nemo",
     },
     "max_results": 2,
     "verbose": True,
@@ -61,4 +61,3 @@ print(prettify_exec_info(graph_exec_info))
 # Save to json and csv
 convert_to_csv(result, "result")
 convert_to_json(result, "result")
-```
