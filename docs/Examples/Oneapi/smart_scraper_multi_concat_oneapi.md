@@ -2,8 +2,10 @@
 """ 
 Basic example of scraping pipeline using SmartScraper
 """
+
+import os
 import json
-from scrapegraphai.graphs import SmartScraperMultiGraph
+from scrapegraphai.graphs import SmartScraperMultiConcatGraph
 
 
 # ************************************************
@@ -12,9 +14,9 @@ from scrapegraphai.graphs import SmartScraperMultiGraph
 
 graph_config = {
     "llm": {
-        "client": "client_name",
-        "model": "bedrock/anthropic.claude-3-sonnet-20240229-v1:0",
-        "temperature": 0.0
+        "api_key": "***************************",
+        "model": "oneapi/qwen-turbo",
+        "base_url": "http://127.0.0.1:3000/v1",  # 设置 OneAPI URL
     }
 }
 
@@ -22,7 +24,7 @@ graph_config = {
 # Create the SmartScraperMultiGraph instance and run it
 # *******************************************************
 
-multiple_search_graph = SmartScraperMultiGraph(
+multiple_search_graph = SmartScraperMultiConcatGraph(
     prompt="Who is Marco Perini?",
     source= [
         "https://perinim.github.io/",

@@ -2,27 +2,32 @@
 """ 
 Basic example of scraping pipeline using SmartScraper
 """
-import json
-from scrapegraphai.graphs import SmartScraperMultiGraph
 
+import os
+import json
+from dotenv import load_dotenv
+from scrapegraphai.graphs import SmartScraperMultiConcatGraph
+
+load_dotenv()
 
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
 
+gemini_key = os.getenv("GOOGLE_APIKEY")
+
 graph_config = {
     "llm": {
-        "client": "client_name",
-        "model": "bedrock/anthropic.claude-3-sonnet-20240229-v1:0",
-        "temperature": 0.0
-    }
+        "api_key": gemini_key,
+        "model": "google_genai/gemini-pro",
+    },
 }
 
 # *******************************************************
 # Create the SmartScraperMultiGraph instance and run it
 # *******************************************************
 
-multiple_search_graph = SmartScraperMultiGraph(
+multiple_search_graph = SmartScraperMultiConcatGraph(
     prompt="Who is Marco Perini?",
     source= [
         "https://perinim.github.io/",
