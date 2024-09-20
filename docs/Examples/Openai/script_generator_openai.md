@@ -21,6 +21,7 @@ graph_config = {
         "api_key": os.getenv("OPENAI_API_KEY"),
         "model": "openai/gpt-4o",
     },
+    "library": "beautifulsoup",
     "verbose": True,
     "headless": False,
 }
