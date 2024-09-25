@@ -52,3 +52,5 @@ print(result)
 
 ## Flow of the process
 ![assets/graph.png](assets/graph.png)
+
+***
