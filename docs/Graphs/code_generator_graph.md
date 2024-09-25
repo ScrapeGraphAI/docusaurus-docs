@@ -12,7 +12,8 @@
 - `embedder_model`: An embedding model for processing text data into vector embeddings.
 - `verbose (bool)`: Flag indicating whether to display detailed execution logs.
 - `headless (bool)`: Specifies whether to run the scraping process in headless mode.
-- `library (str)`: Defines the library used for scraping tasks (e.g., BeautifulSoup).
+- `reduction (int)`: Defines the level of reduction to apply to the HTML content (can be 0, 1, or 2).
+- `max_iterations (dict)`: Maximum number of iterations for each reasoning loop of `GenerateCodeNode`.
 
 ### Methods
 
