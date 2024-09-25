@@ -48,3 +48,7 @@ code_gen = CodeGeneratorGraph(
 
 result = code_gen.run()
 print(result)
+```
+
+## Flow of the process
+![assets/graph.png](assets/graph.png)
