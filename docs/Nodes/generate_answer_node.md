@@ -34,7 +34,7 @@ The `GenerateAnswerNode` module implements a node responsible for generating an 
 
 #### Example Usage
 
-Here is an example of how to use the `GenerateAnswerNode` class:
+Here is an example of how to use the `Generaprompt refinedteAnswerNode` class:
 
 ```python
 from generate_answer_node import GenerateAnswerNode
