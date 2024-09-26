@@ -1,19 +1,20 @@
 ```python
 """ 
-Basic example of scraping pipeline using SmartScraper with schema
+Basic example of scraping pipeline using Code Generator with schema
 """
 
-import os
+import os, json
 from typing import List
-from pydantic import BaseModel, Field
 from dotenv import load_dotenv
-from scrapegraphai.utils import prettify_exec_info
-from scrapegraphai.graphs import SmartScraperGraph
+from pydantic import BaseModel, Field
+from scrapegraphai.graphs import CodeGeneratorGraph
+
 load_dotenv()
 
 # ************************************************
 # Define the output schema for the graph
 # ************************************************
+
 class Project(BaseModel):
     title: str = Field(description="The title of the project")
     description: str = Field(description="The description of the project")
@@ -25,35 +26,34 @@ class Projects(BaseModel):
 # Define the configuration for the graph
 # ************************************************
 
-gemini_key = os.getenv("GOOGLE_APIKEY")
-
 graph_config = {
     "llm": {
-        "api_key": gemini_key,
-        "model": "gemini-pro",
+        "api_key": os.getenv("NEMOTRON_APIKEY"),
+        "model": "nvidia/meta/llama3-70b-instruct",
     },
+    "verbose": True,
+    "headless": False,
+    "reduction": 2,
+    "max_iterations": {
+        "overall": 10,
+        "syntax": 3,
+        "execution": 3,
+        "validation": 3,
+        "semantic": 3
+    },
+    "output_file_name": "extracted_data.py"
 }
 
 # ************************************************
 # Create the SmartScraperGraph instance and run it
 # ************************************************
 
-smart_scraper_graph = SmartScraperGraph(
-    prompt="List me all the news with their description.",
-    # also accepts a string with the already downloaded HTML code
-    source="https://www.wired.com",
+code_generator_graph = CodeGeneratorGraph(
+    prompt="List me all the projects with their description",
+    source="https://perinim.github.io/projects/",
     schema=Projects,
     config=graph_config
 )
 
-result = smart_scraper_graph.run()
+result = code_generator_graph.run()
 print(result)
-
-# ************************************************
-# Get graph execution info
-# ************************************************
-
-graph_exec_info = smart_scraper_graph.get_execution_info()
-print(prettify_exec_info(graph_exec_info))
-
-```
