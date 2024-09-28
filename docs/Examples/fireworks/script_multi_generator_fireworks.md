@@ -27,9 +27,10 @@ graph_config = {
 # ************************************************
 # Create the ScriptCreatorGraph instance and run it
 # ************************************************
+
 urls=[
-    "https://schultzbergagency.com/emil-raste-karlsen/",
-    "https://schultzbergagency.com/johanna-hedberg/",
+    "https://perinim.github.io/",
+    "https://perinim.github.io/cv/"
 ]
 
 # ************************************************
@@ -37,8 +38,7 @@ urls=[
 # ************************************************
 
 script_creator_graph = ScriptCreatorMultiGraph(
-    prompt="Find information about actors",
-    # also accepts a string with the already downloaded HTML code
+    prompt="Who is Marco Perini?",
     source=urls,
     config=graph_config
 )
