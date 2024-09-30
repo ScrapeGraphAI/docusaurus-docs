@@ -1,13 +1,14 @@
 ```python
 """ 
-Basic example of scraping pipeline using SmartScraper and model_instace
+Basic example of scraping pipeline using SmartScraper
 """
 
-import os, json
+import os
+import json
+from dotenv import load_dotenv
 from scrapegraphai.graphs import SmartScraperGraph
 from scrapegraphai.utils import prettify_exec_info
-from langchain_community.chat_models.moonshot import MoonshotChat
-from dotenv import load_dotenv
+
 load_dotenv()
 
 # ************************************************
@@ -15,22 +16,14 @@ load_dotenv()
 # ************************************************
 
 
-llm_instance_config = {
-    "model": "moonshot-v1-8k",
-    "base_url": "https://api.moonshot.cn/v1",
-    "moonshot_api_key": os.getenv("MOONLIGHT_API_KEY"),
-}
-
-
-llm_model_instance = MoonshotChat(**llm_instance_config)
-
 graph_config = {
     "llm": {
-        "model_instance": llm_model_instance, 
-        "model_tokens": 10000
+        "api_key": os.getenv("OPENAI_API_KEY"),
+        "model": "openai/gpt-4o",
     },
+    "reasoning": True,
     "verbose": True,
-    "headless": True,
+    "headless": False,
 }
 
 # ************************************************
