@@ -1,38 +1,36 @@
 ```python
 """ 
-Basic example of scraping pipeline using SmartScraper from text
+Basic example of scraping pipeline using SmartScraper and model_instace
 """
 
-import os
-from dotenv import load_dotenv
+import os, json
 from scrapegraphai.graphs import SmartScraperGraph
 from scrapegraphai.utils import prettify_exec_info
-
+from langchain_community.chat_models.moonshot import MoonshotChat
+from dotenv import load_dotenv
 load_dotenv()
-
-# ************************************************
-# Read the text file
-# ************************************************
-
-FILE_NAME = "inputs/plain_html_example.txt"
-curr_dir = os.path.dirname(os.path.realpath(__file__))
-file_path = os.path.join(curr_dir, FILE_NAME)
-
-# It could be also a http request using the request model
-with open(file_path, 'r', encoding="utf-8") as file:
-    text = file.read()
 
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
 
+
+llm_instance_config = {
+    "model": "moonshot-v1-8k",
+    "base_url": "https://api.moonshot.cn/v1",
+    "moonshot_api_key": os.getenv("MOONLIGHT_API_KEY"),
+}
+
+
+llm_model_instance = MoonshotChat(**llm_instance_config)
+
 graph_config = {
     "llm": {
-        "api_key": os.environ["AZURE_OPENAI_KEY"],
-        "model": "azure_openai/gpt-4o"
+        "model_instance": llm_model_instance, 
+        "model_tokens": 10000
     },
     "verbose": True,
-    "headless": False
+    "headless": True,
 }
 
 # ************************************************
@@ -40,13 +38,13 @@ graph_config = {
 # ************************************************
 
 smart_scraper_graph = SmartScraperGraph(
-    prompt="List me all the projects with their description.",
-    source=text,
+    prompt="List me what does the company do, the name and a contact email.",
+    source="https://scrapegraphai.com/",
     config=graph_config
 )
 
 result = smart_scraper_graph.run()
-print(result)
+print(json.dumps(result, indent=4))
 
 # ************************************************
 # Get graph execution info
