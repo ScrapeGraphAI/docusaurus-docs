@@ -1,15 +1,18 @@
 ```python
 """
-Basic example of scraping pipeline using CSVScraperMultiGraph from CSV documents
+Basic example of scraping pipeline using CSVScraperGraph from CSV documents
 """
 
 import os
 from dotenv import load_dotenv
 import pandas as pd
-from scrapegraphai.graphs import CSVScraperMultiGraph
+from scrapegraphai.graphs import CSVScraperGraph
 from scrapegraphai.utils import convert_to_csv, convert_to_json, prettify_exec_info
+from langchain_community.llms import HuggingFaceEndpoint
+from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
 
 load_dotenv()
+
 # ************************************************
 # Read the CSV file
 # ************************************************
@@ -23,22 +26,33 @@ text = pd.read_csv(file_path)
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
+HUGGINGFACEHUB_API_TOKEN = os.getenv('HUGGINGFACEHUB_API_TOKEN')
+
+repo_id = "mistralai/Mistral-7B-Instruct-v0.2"
+
+llm_model_instance = HuggingFaceEndpoint(
+    repo_id=repo_id, max_length=128, temperature=0.5, token=HUGGINGFACEHUB_API_TOKEN
+)
+
+embedder_model_instance = HuggingFaceInferenceAPIEmbeddings(
+    api_key=HUGGINGFACEHUB_API_TOKEN, model_name="sentence-transformers/all-MiniLM-l6-v2"
+)
+
+# ************************************************
+# Create the SmartScraperGraph instance and run it
+# ************************************************
+
 graph_config = {
-    "llm": {
-        "api_key": os.environ["AZURE_OPENAI_KEY"],
-        "model": "azure_openai/gpt-4o"
-    },
-    "verbose": True,
-    "headless": False
+    "llm": {"model_instance": llm_model_instance},
 }
 
 # ************************************************
-# Create the CSVScraperMultiGraph instance and run it
+# Create the CSVScraperGraph instance and run it
 # ************************************************
 
-csv_scraper_graph = CSVScraperMultiGraph(
+csv_scraper_graph = CSVScraperGraph(
     prompt="List me all the last names",
-    source=[str(text), str(text)],
+    source=str(text),  # Pass the content of the file, not the file object
     config=graph_config
 )
 

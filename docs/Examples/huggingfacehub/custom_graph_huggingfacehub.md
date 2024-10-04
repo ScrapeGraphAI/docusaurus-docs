@@ -5,30 +5,41 @@ Example of custom graph using existing nodes
 
 import os
 from dotenv import load_dotenv
-
 from langchain_openai import OpenAIEmbeddings
 from langchain_openai import ChatOpenAI
 from scrapegraphai.graphs import BaseGraph
 from scrapegraphai.nodes import FetchNode, ParseNode, RAGNode, GenerateAnswerNode, RobotsNode
+from langchain_community.llms import HuggingFaceEndpoint
+from langchain_community.embeddings import HuggingFaceInferenceAPIEmbeddings
+
+load_dotenv()
 
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
 
+
+HUGGINGFACEHUB_API_TOKEN = os.getenv('HUGGINGFACEHUB_API_TOKEN')
+
+repo_id = "mistralai/Mistral-7B-Instruct-v0.2"
+
+llm_model_instance = HuggingFaceEndpoint(
+    repo_id=repo_id, max_length=128, temperature=0.5, token=HUGGINGFACEHUB_API_TOKEN
+)
+
+embedder_model_instance = HuggingFaceInferenceAPIEmbeddings(
+    api_key=HUGGINGFACEHUB_API_TOKEN, model_name="sentence-transformers/all-MiniLM-l6-v2"
+)
+
 graph_config = {
-    "llm": {
-        "model": "ernie/ernie-bot-turbo",
-        "ernie_client_id": "<ernie_client_id>",
-        "ernie_client_secret": "<ernie_client_secret>",
-        "temperature": 0.1
-    }
+    "llm": {"model_instance": llm_model_instance},
 }
 
 # ************************************************
 # Define the graph nodes
 # ************************************************
 
-llm_model = ChatOpenAI(graph_config["llm"])
+llm_model = OpenAI(graph_config["llm"])
 embedder = OpenAIEmbeddings(api_key=llm_model.openai_api_key)
 
 # define the nodes for the graph
