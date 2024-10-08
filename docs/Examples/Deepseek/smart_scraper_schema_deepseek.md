@@ -2,7 +2,6 @@
 """ 
 Basic example of scraping pipeline using SmartScraper
 """
-
 import os
 from typing import List
 from pydantic import BaseModel, Field

@@ -4,10 +4,10 @@ Basic example of scraping pipeline using SmartScraper with a custom rate limit
 """
 from scrapegraphai.graphs import SmartScraperGraph
 from scrapegraphai.utils import prettify_exec_info
+
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
-
 
 graph_config = {
     "llm": {

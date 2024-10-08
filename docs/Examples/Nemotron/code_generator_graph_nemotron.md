@@ -2,8 +2,7 @@
 """ 
 Basic example of scraping pipeline using Code Generator with schema
 """
-
-import os, json
+import os
 from typing import List
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field

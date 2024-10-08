@@ -2,7 +2,8 @@
 """
 Example of pdf_scraper_graph 
 """
-import os, json
+import os
+import json
 from dotenv import load_dotenv
 from scrapegraphai.graphs import PDFScraperGraph
 
@@ -22,7 +23,6 @@ graph_config = {
     },
     "verbose": True,
 }
-
 
 source = """
     The Divine Comedy, Italian La Divina Commedia, original name La commedia, long narrative poem written in Italian 

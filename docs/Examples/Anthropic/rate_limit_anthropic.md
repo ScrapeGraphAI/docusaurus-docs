@@ -2,7 +2,6 @@
 """ 
 Basic example of scraping pipeline using SmartScraper while setting an API rate limit.
 """
-
 import os
 from dotenv import load_dotenv
 from scrapegraphai.graphs import SmartScraperGraph

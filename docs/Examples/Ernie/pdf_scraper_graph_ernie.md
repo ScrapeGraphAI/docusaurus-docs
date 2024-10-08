@@ -1,12 +1,15 @@
 ```python
-import os, json
+"""
+pds scraper module
+"""
+import json
 from scrapegraphai.graphs import PDFScraperGraph
 
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
 
-graph_config = {  
+graph_config = {
     "llm": {
         "model": "ernie/ernie-bot-turbo",
         "ernie_client_id": "<ernie_client_id>",

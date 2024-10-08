@@ -7,6 +7,8 @@ import json
 from dotenv import load_dotenv
 from scrapegraphai.graphs import SmartScraperMultiGraph
 
+load_dotenv()
+
 # ************************************************
 # Define the configuration for the graph
 # ************************************************

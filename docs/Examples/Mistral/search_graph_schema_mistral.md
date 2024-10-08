@@ -2,7 +2,6 @@
 """
 Example of Search Graph
 """
-
 import os
 from typing import List
 from dotenv import load_dotenv

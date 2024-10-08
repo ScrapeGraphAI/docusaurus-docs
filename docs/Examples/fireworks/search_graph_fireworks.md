@@ -2,7 +2,6 @@
 """
 Example of Search Graph
 """
-
 import os
 from dotenv import load_dotenv
 from scrapegraphai.graphs import SearchGraph
@@ -24,8 +23,6 @@ graph_config = {
     "verbose": True,
     "headless": False,
 }
-
-
 
 # ************************************************
 # Create the SearchGraph instance and run it

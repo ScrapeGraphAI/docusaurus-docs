@@ -2,7 +2,6 @@
 """
 Basic example of scraping pipeline using JSONScraperGraph from JSON documents
 """
-
 import os
 from scrapegraphai.graphs import JSONScraperGraph
 from scrapegraphai.utils import convert_to_csv, convert_to_json, prettify_exec_info
@@ -53,4 +52,3 @@ print(prettify_exec_info(graph_exec_info))
 # Save to json or csv
 convert_to_csv(result, "result")
 convert_to_json(result, "result")
-

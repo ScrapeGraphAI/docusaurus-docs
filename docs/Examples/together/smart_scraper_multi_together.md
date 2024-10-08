@@ -2,8 +2,8 @@
 """ 
 Basic example of scraping pipeline using SmartScraper
 """
-
-import os, json
+import os
+import json
 from dotenv import load_dotenv
 from scrapegraphai.graphs import SmartScraperMultiGraph
 
@@ -22,7 +22,6 @@ graph_config = {
     },
     "verbose": True,
 }
-
 
 # *******************************************************
 # Create the SmartScraperMultiGraph instance and run it

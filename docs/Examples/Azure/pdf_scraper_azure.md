@@ -1,5 +1,6 @@
 ```python
-import os, json
+import os
+import json
 from dotenv import load_dotenv
 from scrapegraphai.graphs import PDFScraperGraph
 

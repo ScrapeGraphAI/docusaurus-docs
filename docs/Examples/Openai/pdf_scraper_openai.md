@@ -1,10 +1,13 @@
 ```python
-import os, json
+"""
+pdf_scraper_openai example module
+"""
+import os
+import json
 from dotenv import load_dotenv
 from scrapegraphai.graphs import PDFScraperGraph
 
 load_dotenv()
-
 
 # ************************************************
 # Define the configuration for the graph

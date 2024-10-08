@@ -2,7 +2,6 @@
 """ 
 Basic example of scraping pipeline using ScriptCreatorGraph
 """
-
 from scrapegraphai.graphs import ScriptCreatorMultiGraph
 from scrapegraphai.utils import prettify_exec_info
 

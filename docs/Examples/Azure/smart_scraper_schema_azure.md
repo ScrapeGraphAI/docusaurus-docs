@@ -2,7 +2,6 @@
 """ 
 Basic example of scraping pipeline using SmartScraper with schema
 """
-
 import os
 import json
 from typing import List

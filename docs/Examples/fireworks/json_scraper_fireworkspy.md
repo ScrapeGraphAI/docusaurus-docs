@@ -2,7 +2,6 @@
 """
 Basic example of scraping pipeline using JSONScraperGraph from JSON documents
 """
-
 import os
 from dotenv import load_dotenv
 from scrapegraphai.graphs import JSONScraperGraph
