@@ -1,7 +1,17 @@
 import os
+import shutil
 
 source_dir = os.path.expanduser('~/github/Scrapegraph-ai/examples')
 target_dir = os.path.expanduser('~/github/Scrapegraph-ai-documentation/docs/Examples')
+
+def clear_directory(directory):
+    if os.path.exists(directory):
+        for item in os.listdir(directory):
+            item_path = os.path.join(directory, item)
+            if os.path.isfile(item_path):
+                os.remove(item_path)
+            elif os.path.isdir(item_path):
+                shutil.rmtree(item_path)
 
 def copy_and_modify_files(src, dst):
     if not os.path.exists(dst):
@@ -30,6 +40,9 @@ def copy_and_modify_files(src, dst):
 
         elif os.path.isdir(item_path):
             copy_and_modify_files(item_path, os.path.join(dst, item))
+
+# Clear the target directory before copying files
+clear_directory(target_dir)
 
 for folder in os.listdir(source_dir):
     if folder == 'inputs':

@@ -1,34 +1,29 @@
-# 🦭 Proxy rotation
-This is a Python script that demonstrates how to use the SmartScraperGraph class in the ScrapeGraphAI library for web scraping with rotating proxies. It shows the configuration of the graph, the creation of an instance of the SmartScraperGraph, and its execution with the specified prompt and source URL. The result of the scraping process is printed, as well as information about the execution of the graph.
-
-## Implementation
 ```python
 """ 
 Basic example of scraping pipeline using SmartScraper
 """
 
+import os
+from dotenv import load_dotenv
 from scrapegraphai.graphs import SmartScraperGraph
 from scrapegraphai.utils import prettify_exec_info
 
+load_dotenv()
 
 # ************************************************
 # Define the configuration for the graph
 # ************************************************
 
+groq_key = os.getenv("GROQ_APIKEY")
+
 graph_config = {
     "llm": {
-        "api_key": "API_KEY",
-        "model": "gpt-3.5-turbo",
+        "model": "groq/gemma-7b-it",
+        "api_key": groq_key,
+        "temperature": 0
     },
-    "loader_kwargs": {
-        "proxy" : {
-            "server": "http:/**********",
-            "username": "********",
-            "password": "***",
-        },
-     },
-    "verbose": True,
     "headless": False,
+    "backend": "undetected_chromedriver"
 }
 
 # ************************************************
@@ -36,7 +31,7 @@ graph_config = {
 # ************************************************
 
 smart_scraper_graph = SmartScraperGraph(
-    prompt="List me all the projects with their description",
+    prompt="List me all the projects with their description.",
     # also accepts a string with the already downloaded HTML code
     source="https://perinim.github.io/projects/",
     config=graph_config
@@ -51,4 +46,3 @@ print(result)
 
 graph_exec_info = smart_scraper_graph.get_execution_info()
 print(prettify_exec_info(graph_exec_info))
-```
