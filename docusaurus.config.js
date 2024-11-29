@@ -81,11 +81,6 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://scrapegraph-doc.onrender.com/docs/🐝 API/smartscraper-api-endpoints',
-            position: 'left',
-            label: 'API',
-          },
-          {
             href: 'https://github.com/VinciGit00/Scrapegraph-ai',
             label: 'GitHub',
             position: 'right',
@@ -141,25 +136,7 @@ const config = {
       `,
     },
     
-  ],
-  plugins: [
-    [
-      'docusaurus-plugin-openapi-docs',
-      {
-        id: "api", // plugin id
-        docsPluginId: "classic", // configured for preset-classic
-        config: {
-          petstore: {
-            specPath: "api/smart_scraper.yml",
-            outputDir: "docs/🐝 API",
-            sidebarOptions: {
-              groupPathsBy: "tag",
-            },
-          } 
-        }
-      },
-    ]
-  ],
+  ]
 };
 
 export default config;
