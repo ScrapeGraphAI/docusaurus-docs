@@ -2,6 +2,10 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+## News 📰
+
+- ScrapegraphAI has now his APIs! Check it out [here](https://scrapegraphai.com)!
+
 ### Installation
 
 ```
