@@ -30,10 +30,14 @@ playwright install
 
 **Note**: it is recommended to install the library in a virtual environment to avoid conflicts with other libraries 🐱
 
+## News 📰
+
+- ScrapegraphAI has now his APIs! Check it out [here](https://scrapegraphai.com)!
+
 ## 🔍 Demo
 Official streamlit demo:
 
-[![My Skills](https://skillicons.dev/icons?i=react)](https://scrapegraph-ai-demo.streamlit.app/)
+[![My Skills](https://skillicons.dev/icons?i=react)](https://scrapegraph-demo-demo.streamlit.app)
 
 Try it directly on the web using Google Colab:
 

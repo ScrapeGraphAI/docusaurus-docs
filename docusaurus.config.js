@@ -81,6 +81,11 @@ const config = {
             label: 'Documentation',
           },
           {
+            href: 'https://scrapegraphai.com',
+            label: 'Official APIs',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/VinciGit00/Scrapegraph-ai',
             label: 'GitHub',
             position: 'right',
