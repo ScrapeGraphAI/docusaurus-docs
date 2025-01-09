@@ -86,7 +86,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/VinciGit00/Scrapegraph-ai',
+            href: 'https://github.com/ScrapeGraphAI/Scrapegraph-ai',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,6 +102,10 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
+              {
+                label: 'Official website',
+                href: 'https://scrapegraphai.com',
+              },
             ],
           },
           {
@@ -114,7 +118,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}, Marco Perini, Lorenzo Padoan e Marco Vinciguerra. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}, ScrapegraphAI, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

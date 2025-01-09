@@ -1,10 +1,27 @@
-# 🤝 Contributing
-Scrapegraph-ai is [MIT LICENSED](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/LICENSE).
+# 🚀 Contributing guidelines
 
-Contributions are welcome! Please check out the todos below, and feel free to open a pull request.
+Hey there! Thanks for checking out **ScrapeGraphAI**! We're excited to have you here! 🎉
 
-For more information, please see the [contributing guidelines](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/CONTRIBUTING.md).
+## Quick Start Guide 🏃‍♂️
 
-Join our Discord server to discuss with us improvements and give us suggestions!
+1. Fork the repository from the **pre/beta branch** 🍴
+2. Clone your fork locally 💻
+3. Install uv (if you haven't):
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+4. Run `uv sync` (creates virtual env & installs dependencies) ⚡
+5. Run `uv run pre-commit install` 🔧
+6. Make your awesome changes ✨
+7. Test thoroughly 🧪
+8. Push & open a PR to the pre/beta branch 🎯
 
-[![Join Discord Server](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/gkxQDAjfeX)
+## Need Help? 🤔
+
+Found a bug or have a cool idea? Open an issue and let's chat! 💬
+
+## License 📜
+
+MIT Licensed. See [LICENSE](LICENSE) file for details.
+
+Let's build something amazing together! 🌟
