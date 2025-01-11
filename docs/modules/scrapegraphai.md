@@ -2,58 +2,49 @@
 sidebar_position: 1
 ---
 
-# ScrapegraphAI Package
+# scrapegraphai
 
-ScrapegraphAI is a Python library that provides a flexible and powerful framework for web scraping using Large Language Models (LLMs). The library is organized into several subpackages, each handling specific functionality:
+The main package containing all ScrapegraphAI functionality.
 
-## Core Packages
+## Overview
 
-### [Graphs](scrapegraphai.graphs.md)
-The main scraping pipelines and graph implementations:
-```python
-from scrapegraphai.graphs import SmartScraperGraph, SearchGraph
+ScrapegraphAI is organized into several submodules, each handling specific aspects of the scraping pipeline:
+
+### Core Functionality
+- [scrapegraphai.graphs](scrapegraphai.graphs.md) - Graph-based scraping pipelines
+- [scrapegraphai.models](scrapegraphai.models.md) - LLM and embedding model implementations
+- [scrapegraphai.nodes](scrapegraphai.nodes.md) - Building blocks for scraping graphs
+
+### Support Modules
+- [scrapegraphai.builders](scrapegraphai.builders.md) - Graph construction utilities
+- [scrapegraphai.docloaders](scrapegraphai.docloaders.md) - Document loading and processing
+- [scrapegraphai.helpers](scrapegraphai.helpers.md) - Helper functions and utilities
+- [scrapegraphai.integrations](scrapegraphai.integrations.md) - Third-party service integrations
+- [scrapegraphai.utils](scrapegraphai.utils.md) - General utility functions
+
+## Installation
+
+```bash
+pip install scrapegraphai
 ```
 
-### [Models](scrapegraphai.models.md)
-LLM, embedding, and TTS model implementations:
-```python
-from scrapegraphai.models import OpenAIChat, OllamaEmbeddings
-```
+## Basic Usage
 
-### [Nodes](scrapegraphai.nodes.md)
-Building blocks for creating scraping graphs:
 ```python
-from scrapegraphai.nodes import LLMNode, HTMLProcessingNode
-```
+from scrapegraphai.graphs import SmartScraperGraph
 
-## Support Packages
+# Create a scraper instance
+scraper = SmartScraperGraph(
+    prompt="Extract product information",
+    source="https://example.com/products",
+    config={
+        "llm": {
+            "model": "gpt-3.5-turbo"
+        }
+    }
+)
 
-### [Builders](scrapegraphai.builders.md)
-Helper functions for constructing graphs:
-```python
-from scrapegraphai.builders import build_basic_graph
-```
-
-### [DocLoaders](scrapegraphai.docloaders.md)
-Document loading and processing utilities:
-```python
-from scrapegraphai.docloaders import WebLoader, PDFLoader
-```
-
-### [Helpers](scrapegraphai.helpers.md)
-Various helper functions and utilities:
-```python
-from scrapegraphai.helpers import setup_logging, validate_config
-```
-
-### [Integrations](scrapegraphai.integrations.md)
-Third-party service integrations:
-```python
-from scrapegraphai.integrations import GoogleSearch, ProxyRotator
-```
-
-### [Utils](scrapegraphai.utils.md)
-General utility functions:
-```python
-from scrapegraphai.utils import clean_html, count_tokens
+# Run the scraper
+result = scraper.run()
+print(result)
 ``` 
