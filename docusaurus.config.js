@@ -49,7 +49,11 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ScrapeGraphAI/docusaurus-docs',
+          routeBasePath: '/', // Make docs the default landing page
+          path: 'docs',
+          sidebarCollapsed: false,
         },
+        blog: false, // Disable blog
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -79,6 +83,7 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Documentation',
+            to: '/',
           },
           {
             href: 'https://scrapegraphai.com',
@@ -100,7 +105,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/',
               },
               {
                 label: 'Official website',
