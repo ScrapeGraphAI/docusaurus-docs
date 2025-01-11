@@ -49,7 +49,11 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/ScrapeGraphAI/docusaurus-docs',
+          routeBasePath: '/', // Make docs the default landing page
+          path: 'docs',
+          sidebarCollapsed: false,
         },
+        blog: false, // Disable blog
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -79,6 +83,7 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Documentation',
+            to: '/',
           },
           {
             href: 'https://scrapegraphai.com',
@@ -86,7 +91,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/VinciGit00/Scrapegraph-ai',
+            href: 'https://github.com/ScrapeGraphAI/Scrapegraph-ai',
             label: 'GitHub',
             position: 'right',
           },
@@ -100,7 +105,11 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/',
+              },
+              {
+                label: 'Official website',
+                href: 'https://scrapegraphai.com',
               },
             ],
           },
@@ -114,7 +123,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()}, Marco Perini, Lorenzo Padoan e Marco Vinciguerra. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()}, ScrapegraphAI, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
