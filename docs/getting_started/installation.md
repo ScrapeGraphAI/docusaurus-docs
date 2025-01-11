@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Installation
@@ -21,22 +21,18 @@ The library is available on PyPI, so it can be installed using the following com
 pip install scrapegraphai
 ```
 
-:::important
-It is highly recommended to install the library in a virtual environment (conda, venv, etc.)
-:::
+> **Important**: It is highly recommended to install the library in a virtual environment (conda, venv, etc.)
 
-If you clone the repository, it is recommended to use a package manager like [rye](https://rye.astral.sh/).
-To install the library using rye, you can run the following command:
+If you clone the repository, it is recommended to use a package manager like [uv](https://github.com/astral-sh/uv).
+To install the library using uv, you can run the following command:
 
 ```bash
-rye pin 3.10
-rye sync
-rye build
+uv pin 3.10
+uv sync
+uv build
 ```
 
-:::caution
-**Rye** must be installed first by following the instructions on the [official website](https://rye.astral.sh/).
-:::
+> **Caution**: **uv** must be installed first by following the instructions on the [official website](https://github.com/astral-sh/uv).
 
 ## Additionally on Windows when using WSL
 

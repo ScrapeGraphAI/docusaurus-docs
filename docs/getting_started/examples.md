@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Examples
@@ -44,7 +44,7 @@ print(result)
 
 ## Local models
 
-Remember to have installed Ollama on your PC [ollama](https://ollama.com/)
+Remember to have installed in your pc [ollama](https://ollama.com/)
 Remember to pull the right model for LLM and for the embeddings, like:
 
 ```bash
